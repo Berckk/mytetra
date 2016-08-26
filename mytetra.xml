@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mytetradoc>
 <root>
- <format version="1" subversion="1" />
+ <format version="1" subversion="1"/>
  <content>
-  <node id="1" name="Rename me" >
+  <node id="1" name="1c">
    <recordtable>
-    <record dir="0000000001" url="" tags="MyTetra, Qt" author="" ctime="20081210124656" id="1" name="Welcome to MyTetra!" file="text.html" />
+    <record dir="0000000001" url="" tags="MyTetra, Qt" author="" id="1" ctime="20081210124656" name="Welcome to MyTetra!" file="text.html"/>
    </recordtable>
+   <node id="1472213955yrsufup5a9" name="oscript">
+    <node id="1472213973wcm2pb3d3a" name="libraries">
+     <node id="1472213980pu9yi678tr" name="cmdline">
+      <recordtable>
+       <record dir="1472214214zaaxszfay5" crypt="0" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="oscript-libs" author="pola" id="14722142143kknoovk27" ctime="20160826152334" name="readme" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
   </node>
+  <node id="1472213884v96sl021wy" name="bash"/>
+  <node id="14722138916iww5iozdw" name="books"/>
+  <node id="1472213902tavh2ct01k" name="cooking"/>
+  <node id="147221390662gvhcsh8m" name="educ"/>
+  <node id="1472213918mkeyi0rk7u" name="kill-the-mouse"/>
+  <node id="14722139241ap9kn7ust" name="sikuli"/>
+  <node id="1472213927yq7aydswbr" name="vim"/>
  </content>
 </root>
