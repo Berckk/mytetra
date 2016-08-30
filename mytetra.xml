@@ -33,6 +33,7 @@
      <node id="14725747245hgwt55csu" name="REST интерфейс">
       <recordtable>
        <record dir="1472574951f15zg53fte" crypt="0" url="http://v8.1c.ru/o7/201508odata/index.htm" tags="1c.integration" author="1с" id="1472574951m1wt1atrsy" ctime="20160830193551" name="Статья из Зазеркалья" file="text.html"/>
+       <record dir="1472575220cnrln09un7" crypt="0" url="https://pbazeliuk.com/2015/10/01/1c-enterprise-odata/" tags="1c.integration" author="pbazeliuk" id="1472575220fau4094mxc" ctime="20160830194020" name="7 причин, почему интеграция стала приятной" file="text.html"/>
       </recordtable>
      </node>
     </node>
