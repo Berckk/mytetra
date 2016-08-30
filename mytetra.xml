@@ -6,7 +6,7 @@
   <node id="1472471267l6nwgfjpj1" name="Программирование">
    <node id="1472471271ozfrf63iib" name="1с">
     <node id="1472471279cv1o2pnzuk" name="oscript">
-     <node id="147247129148akcqgdx8" name="lisraries">
+     <node id="147247129148akcqgdx8" name="libraries">
       <node id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
         <record dir="1472471343r7jbd4vcvf" crypt="0" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="oscript" author="Andrei Ovsiankin aka EvilBeaver" id="1472471343bdlvg8ukdz" ctime="20160829144903" name="readme" file="text.html"/>
