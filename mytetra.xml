@@ -19,6 +19,16 @@
       <record dir="1472537525y2lswh1ltb" crypt="0" url="http://its.1c.ru/db/v8std#content:2149184364:hdoc" tags="1c.ui" author="its" id="14725375252xkvkgz2ww" ctime="20160830091205" name="Как вместить большое количество команд" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1472562701f22c6zxned" name="Тестирование">
+     <node id="147256271464zni355qo" name="Автоматическое тестирование">
+      <recordtable>
+       <record dir="1472562912wsaoxytpjp" crypt="0" url="" tags="testing" author="artbear" id="1472562912dcfv53zfoc" ctime="20160830161512" name="Подключение тестового приложения" file="text.html"/>
+       <record dir="1472562991ov9ck7mjf3" crypt="0" url="" tags="testing" author="artbear" id="14725629910f8w4nve5t" ctime="20160830161631" name="Завершить все сеансы работы с тестовыми приложениями" file="text.html"/>
+       <record dir="1472563075o3o9z6z5m1" crypt="0" url="" tags="testing" author="pola" id="1472563075suzt2ag0ge" ctime="20160830161755" name="Открыть список задач исполнителя" file="text.html"/>
+       <record dir="1472563151urgyyeic03" crypt="0" url="" tags="testing" author="pola" id="147256315129jwzwbfh0" ctime="20160830161911" name="Найти по наименованию и открыть задачу исполнителя" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
   </node>
  </content>
