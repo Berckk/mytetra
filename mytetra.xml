@@ -20,12 +20,17 @@
      </recordtable>
     </node>
     <node id="1472562701f22c6zxned" name="Тестирование">
-     <node id="147256271464zni355qo" name="Автоматическое тестирование">
+     <node id="147256271464zni355qo" name="Интеграционное">
       <recordtable>
        <record dir="1472562912wsaoxytpjp" crypt="0" url="" tags="testing" author="artbear" id="1472562912dcfv53zfoc" ctime="20160830161512" name="Подключение тестового приложения" file="text.html"/>
        <record dir="1472562991ov9ck7mjf3" crypt="0" url="" tags="testing" author="artbear" id="14725629910f8w4nve5t" ctime="20160830161631" name="Завершить все сеансы работы с тестовыми приложениями" file="text.html"/>
        <record dir="1472563075o3o9z6z5m1" crypt="0" url="" tags="testing" author="pola" id="1472563075suzt2ag0ge" ctime="20160830161755" name="Открыть список задач исполнителя" file="text.html"/>
        <record dir="1472563151urgyyeic03" crypt="0" url="" tags="testing" author="pola" id="147256315129jwzwbfh0" ctime="20160830161911" name="Найти по наименованию и открыть задачу исполнителя" file="text.html"/>
+      </recordtable>
+     </node>
+     <node id="14726575359q9go55ytg" name="Функциональное">
+      <recordtable>
+       <record dir="1472658039sbfptnkusb" crypt="0" url="" tags="1c.testing" author="pola" id="1472658039kwlwy68639" ctime="20160831184039" name="Код модуля обычной формы тестовой обработки для отладки" file="text.html"/>
       </recordtable>
      </node>
     </node>
