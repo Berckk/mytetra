@@ -10,6 +10,7 @@
       <node id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
         <record dir="1472471343r7jbd4vcvf" crypt="0" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="oscript" author="Andrei Ovsiankin aka EvilBeaver" id="1472471343bdlvg8ukdz" ctime="20160829144903" name="readme" file="text.html"/>
+        <record dir="1472721070snol5zfef2" crypt="0" url="" tags="1c.oscript" author="pola" id="1472721070vgsmmml2lg" ctime="20160901121110" name="Пример работы с библиотекой" file="text.html"/>
        </recordtable>
       </node>
      </node>
