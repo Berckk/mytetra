@@ -28,6 +28,11 @@
        <record dir="1472563075o3o9z6z5m1" crypt="0" url="" tags="testing" author="pola" id="1472563075suzt2ag0ge" ctime="20160830161755" name="Открыть список задач исполнителя" file="text.html"/>
        <record dir="1472563151urgyyeic03" crypt="0" url="" tags="testing" author="pola" id="147256315129jwzwbfh0" ctime="20160830161911" name="Найти по наименованию и открыть задачу исполнителя" file="text.html"/>
       </recordtable>
+      <node id="1472797247x06uoeg5u6" name="AutoIt">
+       <recordtable>
+        <record dir="14727972928dz87s0qur" crypt="0" url="" tags="1c.testing.autoit" author="pola" id="1472797292hyndmlhgtm" ctime="20160902092132" name="Запустить bat-файл" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node id="14726575359q9go55ytg" name="Функциональное">
       <recordtable>
