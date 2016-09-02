@@ -45,6 +45,13 @@
      </node>
     </node>
    </node>
+   <node id="1472796198f3eale0cin" name="Администирование">
+    <node id="1472796208zuz953v5hv" name="bat-файлы">
+     <recordtable>
+      <record dir="1472796601l5dp9vgj61" crypt="0" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="adm.bat" author="pola" id="1472796601bpyd74djeq" ctime="20160902091001" name="Создание bat-файла с чтением кириллических символов" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
  </content>
 </root>
