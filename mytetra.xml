@@ -60,6 +60,15 @@
      </recordtable>
     </node>
    </node>
+   <node id="14728050856fzhn10avh" name="vim">
+    <node id="14728050934nvukmwnsy" name="plugins">
+     <node id="1472805099g8kfr847pf" name="NerdTree">
+      <recordtable>
+       <record dir="1472805133s9ctn5jl8e" crypt="0" url="docs" tags="vim.plugins" author="pola" id="1472805133fi351qy9tm" ctime="20160902113213" name="Hotkeys" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
   </node>
  </content>
 </root>
