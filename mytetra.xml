@@ -59,6 +59,11 @@
       <record dir="1472796601l5dp9vgj61" crypt="0" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="adm.bat" author="pola" id="1472796601bpyd74djeq" ctime="20160902091001" name="Создание bat-файла с чтением кириллических символов" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1472805528mbdadpctnt" name="shell">
+     <recordtable>
+      <record dir="1472805548fm2rynlqub" crypt="0" url="" tags="amd.shell" author="pola" id="1472805548oaul3glio8" ctime="20160902113908" name="bash how-to" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="14728050856fzhn10avh" name="vim">
     <node id="14728050934nvukmwnsy" name="plugins">
@@ -67,6 +72,19 @@
        <record dir="1472805133s9ctn5jl8e" crypt="0" url="docs" tags="vim.plugins" author="pola" id="1472805133fi351qy9tm" ctime="20160902113213" name="Hotkeys" file="text.html"/>
       </recordtable>
      </node>
+    </node>
+    <node id="147280523457x1450nzj" name="info">
+     <recordtable>
+      <record dir="1472805264c15fp0u2hq" crypt="0" url="" tags="vim.info" author="pola" id="1472805264iryrpen4gp" ctime="20160902113424" name="Аналоги стандартных клавиш" file="text.html"/>
+      <record dir="1472805293nj9y3ed49m" crypt="0" url="" tags="vim.info" author="pola" id="1472805293o4am0i3qfu" ctime="20160902113453" name="Визуальный режим" file="text.html"/>
+      <record dir="1472805328zg7xvuq7o6" crypt="0" url="" tags="vim.info" author="pola" id="1472805328pztpp1xzf8" ctime="20160902113528" name="Навигация в vim" file="text.html"/>
+      <record dir="1472805364mt43zpzrv3" crypt="0" url="" tags="vim.info" author="pola" id="14728053648x78w1l6gi" ctime="20160902113604" name="Поиск, замена" file="text.html"/>
+      <record dir="147280539464ku0zywnt" crypt="0" url="" tags="vim.info" author="pola" id="1472805394kauix24kp0" ctime="20160902113634" name="Работа с вкладками и окнами" file="text.html"/>
+      <record dir="1472805419rz5dh2rs5o" crypt="0" url="" tags="vim.info" author="pola" id="14728054191s2aqr6gnl" ctime="20160902113659" name="Работа с макросами" file="text.html"/>
+      <record dir="1472805451m64enmpu89" crypt="0" url="" tags="vim.info" author="pola" id="1472805451jdb5cfwz0b" ctime="20160902113731" name="Работа с метками" file="text.html"/>
+      <record dir="1472805470zobccr5xau" crypt="0" url="" tags="vim.info" author="pola" id="1472805470pd6q2c4px7" ctime="20160902113750" name="Работа с плагинами" file="text.html"/>
+      <record dir="14728054914acoz9xyr5" crypt="0" url="" tags="vim.info" author="pola" id="1472805491zx065jol41" ctime="20160902113811" name="Работа с регистрами" file="text.html"/>
+     </recordtable>
     </node>
    </node>
   </node>
