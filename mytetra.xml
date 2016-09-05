@@ -65,6 +65,11 @@
       <record dir="1472805548fm2rynlqub" crypt="0" url="" tags="amd.shell" author="pola" id="1472805548oaul3glio8" ctime="20160902113908" name="bash how-to" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1473087502rymp2zbc51" name="работа с реестром windows">
+     <recordtable>
+      <record dir="1473087681sn59ocjx1c" crypt="0" url="" tags="adm.regedit" author="pola" id="1473087681o2kdhmw91m" ctime="20160905180121" name="Автоматическое завершение программ при выключении компьютера" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="14728050856fzhn10avh" name="vim">
     <node id="14728050934nvukmwnsy" name="plugins">
