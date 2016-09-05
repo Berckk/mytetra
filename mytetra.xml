@@ -57,6 +57,7 @@
     <node id="1472796208zuz953v5hv" name="bat-файлы">
      <recordtable>
       <record dir="1472796601l5dp9vgj61" crypt="0" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="adm.bat" author="pola" id="1472796601bpyd74djeq" ctime="20160902091001" name="Создание bat-файла с чтением кириллических символов" file="text.html"/>
+      <record dir="1473077862yrbpi9rro6" crypt="0" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="adm.bat" author="pola" id="1473077862yh40grb61b" ctime="20160905151742" name="Изменение кодировки" file="text.html"/>
      </recordtable>
     </node>
     <node id="1472805528mbdadpctnt" name="shell">
