@@ -67,6 +67,15 @@
       </recordtable>
      </node>
     </node>
+    <node id="1473159844zbq4xs1jhw" name="Интеграция">
+     <node id="1473159849mc1k2u82rl" name="com">
+      <node id="14731598580lp7340k57" name="Готовые решения">
+       <recordtable>
+        <record dir="14731600691m9sjfxrhh" crypt="0" url="" tags="1c.integration.templates" author="pola" id="1473160069xvj28nsqou" ctime="20160906140749" name="Получить соединение с базой" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
