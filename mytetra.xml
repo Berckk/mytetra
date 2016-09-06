@@ -13,6 +13,11 @@
         <record dir="1472721070snol5zfef2" crypt="0" url="" tags="1c.oscript" author="pola" id="1472721070vgsmmml2lg" ctime="20160901121110" name="Пример работы с библиотекой" file="text.html"/>
        </recordtable>
       </node>
+      <node id="1473157395uex8cmrex3" name="Готовые решения">
+       <recordtable>
+        <record dir="14731575737onitu7pl8" crypt="0" url="" tags="" author="pola" id="1473157573her9q3g1g1" ctime="20160906132613" name="Работа с logos" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node id="1472537328mep6zcykbw" name="Интерфейс">
