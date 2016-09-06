@@ -17,6 +17,8 @@
        <recordtable>
         <record dir="14731575737onitu7pl8" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473157573her9q3g1g1" ctime="20160906132613" name="Работа с logos" file="text.html"/>
         <record dir="14731576870bcke216y9" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473157687kp6tfxrl07" ctime="20160906132807" name="Работа с парсером командной строки" file="text.html"/>
+        <record dir="147315840758lfq4rkxb" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473158407ixtx50k1sg" ctime="20160906134007" name="Работа с временными файлами" file="text.html"/>
+        <record dir="147315943857q9guunaa" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="14731594385lj47fckni" ctime="20160906135718" name="Шаблон script-test.os" file="text.html"/>
        </recordtable>
       </node>
      </node>
@@ -42,11 +44,18 @@
         <record dir="147280299813hhs5of15" crypt="0" url="" tags="1c.testing.autoit" author="pola" id="1472802998k4cmfo5yv4" ctime="20160902105638" name="links" file="text.html"/>
        </recordtable>
       </node>
+      <node id="1473158861mn5ati3hwf" name="features">
+       <recordtable>
+        <record dir="1473159015b44ywrw3zk" crypt="0" url="" tags="1c.testing.features" author="Nikita Gryzlov &lt;nixel2007@gmail.com" id="1473159015xe83vfstot" ctime="20160906135015" name="Шаблон фича-файла" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node id="14726575359q9go55ytg" name="Функциональное">
-      <recordtable>
-       <record dir="1472658039sbfptnkusb" crypt="0" url="" tags="1c.testing" author="pola" id="1472658039kwlwy68639" ctime="20160831184039" name="Код модуля обычной формы тестовой обработки для отладки" file="text.html"/>
-      </recordtable>
+      <node id="1473159069qebb5fiiij" name="xUnit">
+       <recordtable>
+        <record dir="1473159087cxqehl36uk" crypt="0" url="" tags="1c.testing.xunit" author="pola" id="14731590877r95snukst" ctime="20160906135127" name="Код модуля обычной формы тестовой обработки для отладки" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
