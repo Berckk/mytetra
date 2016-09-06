@@ -59,15 +59,13 @@
      </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
-		<node id="1473159844zbq4xs1jhw" name="Интеграция">
-     <node id="1473159849mc1k2u82rl" name="com">
-      <node id="14731598580lp7340k57" name="Готовые решения">
+     <node id="14731692907jqq1dqf86" name="com">
+      <node id="1473169290gmx84kxu2a" name="Готовые решения">
        <recordtable>
-        <record dir="14731600691m9sjfxrhh" crypt="0" url="" tags="1c.integration.templates" author="pola" id="1473160069xvj28nsqou" ctime="20160906140749" name="Получить соединение с базой" file="text.html"/>
+        <record dir="1473169290kjgy88s4dh" crypt="0" url="" tags="1c.integration.templates" author="pola" id="1473169290up6j8ect7r" ctime="20160906164130" name="Получить соединение с базой" file="text.html"/>
        </recordtable>
       </node>
      </node>
-    </node>
      <node id="14725747245hgwt55csu" name="REST интерфейс">
       <recordtable>
        <record dir="1472574951f15zg53fte" crypt="0" url="http://v8.1c.ru/o7/201508odata/index.htm" tags="1c.integration" author="1с" id="1472574951m1wt1atrsy" ctime="20160830193551" name="Статья из Зазеркалья" file="text.html"/>
