@@ -122,5 +122,14 @@
     </node>
    </node>
   </node>
+  <node id="1473256308xy5pnaa9zz" name="Музыка">
+   <node id="1473256313nxegh14s0d" name="Аккорды">
+    <node id="1473256321g1ltfocjx8" name="Арефьева">
+     <recordtable>
+      <record dir="1473256362xy4lcgjnyd" crypt="0" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" author="pola" id="1473256362ew5qkcgl3e" ctime="20160907165242" name="Что ты будешь делать?" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+  </node>
  </content>
 </root>
