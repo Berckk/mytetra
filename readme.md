@@ -1,4 +1,4 @@
 ### Проект накопления информации с использованием MyTetra (http://webhamster.ru/site/page/index/articles/projectcode/105).
 * Ссылка на мою базу знаний 
-	http://webhamster.ru/mytetrashare/index/https:~~bitbucket.org~anatolean~mytetra~raw~e7b6e9465104a366d71f756cbeda764093f3b593~mytetra.xml
+	http://webhamster.ru/mytetrashare/index/https:~~bitbucket.org~anatolean~mytetra~raw~17ea2b8c67c1939c90c5e3b70dc902120e70c9a3~mytetra.xml
 
