@@ -98,7 +98,8 @@
     <node id="14728050934nvukmwnsy" name="plugins">
      <node id="1472805099g8kfr847pf" name="NerdTree">
       <recordtable>
-       <record dir="1472805133s9ctn5jl8e" crypt="0" url="" tags="vim.plugins" author="pola" id="1472805133fi351qy9tm" ctime="20160902113213" name="Hotkeys" file="text.html"/>
+       <record dir="1472805133s9ctn5jl8e" crypt="0" url="" tags="vim.plugins.nerdtree" author="pola" id="1472805133fi351qy9tm" ctime="20160902113213" name="Hotkeys" file="text.html"/>
+       <record dir="14732497446md6620yib" crypt="0" url="" tags="vim.plugins.nerdtree" author="pola" id="1473249744825stkgrt0" ctime="20160907150224" name="Работа с метками" file="text.html"/>
       </recordtable>
      </node>
     </node>
