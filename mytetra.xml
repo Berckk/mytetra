@@ -19,6 +19,7 @@
         <record dir="14731576870bcke216y9" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473157687kp6tfxrl07" ctime="20160906132807" name="Работа с парсером командной строки" file="text.html"/>
         <record dir="147315840758lfq4rkxb" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473158407ixtx50k1sg" ctime="20160906134007" name="Работа с временными файлами" file="text.html"/>
         <record dir="147315943857q9guunaa" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="14731594385lj47fckni" ctime="20160906135718" name="Шаблон script-test.os" file="text.html"/>
+        <record dir="1473235897e2lple1yxv" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="14732358971m0ezqqhuu" ctime="20160907111137" name="Шаблон скрипта" file="text.html"/>
        </recordtable>
       </node>
      </node>
