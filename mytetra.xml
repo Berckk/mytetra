@@ -119,6 +119,11 @@
       <record dir="1473087681sn59ocjx1c" crypt="0" url="" tags="adm.regedit" author="pola" id="1473087681o2kdhmw91m" ctime="20160905180121" name="Автоматическое завершение программ при выключении компьютера" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1473342713sw9wspytnz" name="Articles">
+     <recordtable>
+      <record dir="1473343351yi693f67s1" crypt="0" url="http://infostart.ru/public/327893/" tags="1c.admin.info" author="Евгений Сосна aka pumbaE" id="1473343351wz5wss9abe" ctime="20160908170231" name="Использование service discovery в 1С" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="14728050856fzhn10avh" name="vim">
     <node id="14728050934nvukmwnsy" name="plugins">
