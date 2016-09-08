@@ -67,6 +67,9 @@
      </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
+     <recordtable>
+      <record dir="14733457836rvilrarr0" crypt="0" url="https://habrahabr.ru/company/1c/blog/308420/" tags="1c.integration" author="1с" id="1473345783mx280p7tup" ctime="20160908174303" name="Способы интеграции с 1С" file="text.html"/>
+     </recordtable>
      <node id="14731692907jqq1dqf86" name="com">
       <node id="1473169290gmx84kxu2a" name="Готовые решения">
        <recordtable>
