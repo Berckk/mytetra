@@ -67,6 +67,11 @@
         <record dir="1473169290kjgy88s4dh" crypt="0" url="" tags="1c.integration.templates" author="pola" id="1473169290up6j8ect7r" ctime="20160906164130" name="Получить соединение с базой" file="text.html"/>
        </recordtable>
       </node>
+      <node id="14733369470ye6ehaps5" name="Статьи">
+       <recordtable>
+        <record dir="1473337347r1lmt386ov" crypt="0" url="http://infostart.ru/public/387577/" tags="1c.integration.com.info" author="Старых Сергей aka tormozit " id="14733373478n8a5mc054" ctime="20160908152227" name="Взаимодействие между базами 1С через COM" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node id="14725747245hgwt55csu" name="REST интерфейс">
       <recordtable>
@@ -120,6 +125,7 @@
    <node id="1473311033k32kv0xvmy" name="tricks">
     <recordtable>
      <record dir="14733125629vfcx8n4fs" crypt="0" url="" tags="vim.scripts.tricks" author="pola" id="1473312562nd4tvbl2m5" ctime="20160908082922" name="Получить пути файла" file="text.html"/>
+     <record dir="1473337659c93xrr2yp8" crypt="0" url="" tags="vim.tricks" author="pola" id="1473337659yevlhg2hrr" ctime="20160908152739" name="Изменить фон html-документа с черного на белый" file="text.html"/>
     </recordtable>
    </node>
    <node id="1473311047hecfs116du" name="common info">
