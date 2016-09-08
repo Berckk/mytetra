@@ -90,6 +90,11 @@
        <record dir="1473336502tb564mxt8u" crypt="0" url="http://infostart.ru/public/538808/" tags="1c.integration.http" author="serg_infostart" id="14733365023j2k3bej2v" ctime="20160908150822" name="Cоздание и отладка HTTP-сервиса" file="text.html"/>
       </recordtable>
      </node>
+     <node id="1473340435rhd1pwr7tx" name="WEB-сервисы">
+      <recordtable>
+       <record dir="147334080484c3eh5epj" crypt="0" url="http://tf21.ru/public/327963/" tags="1c.integration.web-services" author="AXIOMLAB24 " id="1473340804tg2mplwm2d" ctime="20160908162004" name="Практическое применение механизма WEB-сервисов в системе «1С:Предприятие»" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
