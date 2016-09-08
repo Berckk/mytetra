@@ -109,6 +109,9 @@
       <recordtable>
        <record dir="1473313648tih44vkabn" crypt="0" url="" tags="vim.scripts.maping" author="pola" id="14733136483gg2sr9os9" ctime="20160908084728" name="Копирование имени и пути файла" file="text.html"/>
        <record dir="1473314585zz85ualtft" crypt="0" url="" tags="vim.scripts.maping" author="pola" id="1473314585bg81s9kfbc" ctime="20160908090305" name="На клавишу F3 назначить вставку пути директории, содержащей файл" file="text.html"/>
+       <record dir="1473315345nl9uh4qjdo" crypt="0" url="" tags="" author="pola" id="147331534569b01v5wgw" ctime="20160908091545" name="На комбинацию &lt;C-Insert> назначить вставку имени файла" file="text.html"/>
+       <record dir="1473315833x575xm5iif" crypt="0" url="" tags="" author="pola" id="1473315833csytarek0z" ctime="20160908092353" name="На комбинацию &lt;C-Insert> назначить копирование имени файла" file="text.html"/>
+       <record dir="1473315905gg2syq33bw" crypt="0" url="" tags="" author="pola" id="1473315905vrkxpsn3o9" ctime="20160908092505" name="На комбинацию &lt;C-A-Insert> назначить копирование в буфер полного имени файла" file="text.html"/>
       </recordtable>
      </node>
     </node>
