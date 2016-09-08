@@ -22,6 +22,11 @@
         <record dir="1473235897e2lple1yxv" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="14732358971m0ezqqhuu" ctime="20160907111137" name="Шаблон скрипта" file="text.html"/>
        </recordtable>
       </node>
+      <node id="1473339768r5dq5ypygo" name="oscript-simple-gui">
+       <recordtable>
+        <record dir="1473339927508iroyopn" crypt="0" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1c.oscript.ui" author="ret-Phoenix" id="1473339927i93aipblju" ctime="20160908160527" name="readme" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node id="1472537328mep6zcykbw" name="Интерфейс">
@@ -72,6 +77,8 @@
        <recordtable>
         <record dir="1473337347r1lmt386ov" crypt="0" url="http://infostart.ru/public/387577/" tags="1c.integration.com.info" author="Старых Сергей aka tormozit " id="14733373478n8a5mc054" ctime="20160908152227" name="Взаимодействие между базами 1С через COM" file="text.html"/>
         <record dir="1473338836urgaze3dl3" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2263/hdoc" tags="" author="its" id="14733388369e182956rc" ctime="20160908154716" name="Особенности использования COM-объектов" file="text.html"/>
+        <record dir="1473339195xzxen8rn6d" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2261/hdoc" tags="" author="its" id="1473339195k2ehyiaky6" ctime="20160908155315" name="Получение значений перечислений через внешнее соединение или Automation сервер" file="text.html"/>
+        <record dir="1473339238xoaq6y0a6r" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2262/hdoc" tags="" author="its" id="1473339238svbyljfvgb" ctime="20160908155358" name="Передача объектов 1С:Предприятия через COM" file="text.html"/>
        </recordtable>
       </node>
      </node>
