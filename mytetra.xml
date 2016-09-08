@@ -104,6 +104,16 @@
       </recordtable>
      </node>
     </node>
+    <node id="1473345828ac5gra5a3k" name="Blogs">
+     <recordtable>
+      <record dir="1473345889q9397tygft" crypt="0" url="https://pbazeliuk.com" tags="1c.blogs" author="" id="1473345889010p6u8cod" ctime="20160908174449" name="Блог Базелюка Петра" file="text.html"/>
+     </recordtable>
+    </node>
+    <node id="1473345925ji2r7rpdtx" name="Enterprice Development Tools">
+     <recordtable>
+      <record dir="14733462003rs22q0kpa" crypt="0" url="http://infostart.ru/public/344802/" tags="1c.edt" author="DitriX" id="14733462009avxzdfhxm" ctime="20160908175000" name="1C:Enterprise Development tools или кодим в Eclipse" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
