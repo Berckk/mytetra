@@ -95,6 +95,11 @@
        <record dir="147334080484c3eh5epj" crypt="0" url="http://tf21.ru/public/327963/" tags="1c.integration.web-services" author="AXIOMLAB24 " id="1473340804tg2mplwm2d" ctime="20160908162004" name="Практическое применение механизма WEB-сервисов в системе «1С:Предприятие»" file="text.html"/>
       </recordtable>
      </node>
+     <node id="1473342405g9033mk6wi" name="virtualization">
+      <recordtable>
+       <record dir="14733426408y03d4qwd4" crypt="0" url="http://infostart.ru/public/542836/" tags="1c.integration.virtual" author="Евгений Сосна aka pumbaE" id="1473342640lgnqla6ibr" ctime="20160908165040" name="Использование Vagrant и Docker при разработке в 1С" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
