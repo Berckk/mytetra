@@ -104,10 +104,18 @@
       </recordtable>
      </node>
     </node>
+    <node id="1473312718za41avn2bz" name="scripts">
+     <node id="1473312728r2kl9ncw6w" name="maping">
+      <recordtable>
+       <record dir="1473313648tih44vkabn" crypt="0" url="" tags="vim.scripts.maping" author="pola" id="14733136483gg2sr9os9" ctime="20160908084728" name="Копирование имени и пути файла" file="text.html"/>
+       <record dir="1473314585zz85ualtft" crypt="0" url="" tags="vim.scripts.maping" author="pola" id="1473314585bg81s9kfbc" ctime="20160908090305" name="На клавишу F3 назначить вставку пути директории, содержащей файл" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node id="1473311033k32kv0xvmy" name="tricks">
     <recordtable>
-     <record dir="14733125629vfcx8n4fs" crypt="0" url="" tags="" author="pola" id="1473312562nd4tvbl2m5" ctime="20160908082922" name="Получить пути файла" file="text.html"/>
+     <record dir="14733125629vfcx8n4fs" crypt="0" url="" tags="vim.scripts.tricks" author="pola" id="1473312562nd4tvbl2m5" ctime="20160908082922" name="Получить пути файла" file="text.html"/>
     </recordtable>
    </node>
    <node id="1473311047hecfs116du" name="common info">
