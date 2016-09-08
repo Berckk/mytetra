@@ -71,6 +71,7 @@
       <node id="14733369470ye6ehaps5" name="Статьи">
        <recordtable>
         <record dir="1473337347r1lmt386ov" crypt="0" url="http://infostart.ru/public/387577/" tags="1c.integration.com.info" author="Старых Сергей aka tormozit " id="14733373478n8a5mc054" ctime="20160908152227" name="Взаимодействие между базами 1С через COM" file="text.html"/>
+        <record dir="1473338836urgaze3dl3" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2263/hdoc" tags="" author="its" id="14733388369e182956rc" ctime="20160908154716" name="Особенности использования COM-объектов" file="text.html"/>
        </recordtable>
       </node>
      </node>
