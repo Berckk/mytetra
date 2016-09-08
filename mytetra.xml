@@ -122,6 +122,7 @@
     <node id="1473346660x1fljjvgyk" name="develop process">
      <recordtable>
       <record dir="1473346801lpvobfwzyj" crypt="0" url="http://infostart.ru/public/340186/" tags="1c.dev-process" author="Казьмин Василий aka awk" id="1473346801sokij5uuvn" ctime="20160908180001" name="Обзор opensource-инструментов управления проектами" file="text.html"/>
+      <record dir="1473347035i0s9e7kdsz" crypt="0" url="http://infostart.ru/public/65526/" tags="1c.dev-process" author="Артур Аюханов aka artbear" id="1473347035hbkg5tun1u" ctime="20160908180355" name="Повышение удобства разработки в среде 1С:Предприятие 8" file="text.html"/>
      </recordtable>
     </node>
    </node>
