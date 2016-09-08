@@ -168,5 +168,11 @@
     </node>
    </node>
   </node>
+  <node id="14733421542glvhruftk" name="Найти">
+   <recordtable>
+    <record dir="1473342211jla706l89z" crypt="0" url="" tags="" author="" id="147334221182d9v0g2uf" ctime="20160908164331" name="Метод Таблиц-двойников" file="text.html"/>
+    <record dir="1473342260a0r18y5l9a" crypt="0" url="" tags="" author="" id="1473342260e8c4exewvh" ctime="20160908164420" name="Отношения в рмд" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
