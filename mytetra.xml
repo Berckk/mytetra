@@ -27,6 +27,7 @@
     <node id="1472537328mep6zcykbw" name="Интерфейс">
      <recordtable>
       <record dir="1472537525y2lswh1ltb" crypt="0" url="http://its.1c.ru/db/v8std#content:2149184364:hdoc" tags="1c.ui" author="its" id="14725375252xkvkgz2ww" ctime="20160830091205" name="Как вместить большое количество команд" file="text.html"/>
+      <record dir="14733387140p6wbsa5w0" crypt="0" url="http://infostart.ru/public/57223/" tags="" author="Сергей Старых aka tormozit" id="1473338714kc4b958yk3" ctime="20160908154514" name="Правильная индикация прогресса цикла на клиенте" file="text.html"/>
      </recordtable>
     </node>
     <node id="1472562701f22c6zxned" name="Тестирование">
