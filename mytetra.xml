@@ -63,6 +63,11 @@
         <record dir="1473159087cxqehl36uk" crypt="0" url="" tags="1c.testing.xunit" author="pola" id="14731590877r95snukst" ctime="20160906135127" name="Код модуля обычной формы тестовой обработки для отладки" file="text.html"/>
         <record dir="1473252687mij89ehpcm" crypt="0" url="" tags="1c.testing.xunit" author="artbear" id="14732526873nwr94k5v1" ctime="20160907155127" name="Удалить тестовые данные" file="text.html"/>
        </recordtable>
+       <node id="14734184918w76696m4y" name="functions">
+        <recordtable>
+         <record dir="1473418512cis9nnl5zf" crypt="0" url="" tags="1c.testing.xunit.functions" author="" id="1473418512kbhge3j0u0" ctime="20160909135512" name="Получить данные из тестового макета" file="text.html"/>
+        </recordtable>
+       </node>
       </node>
      </node>
     </node>
