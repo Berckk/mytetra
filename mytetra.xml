@@ -218,6 +218,11 @@
       <record dir="147339727138q15li5a0" crypt="0" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" author="guru99" id="14733972711be2q4tnv5" ctime="20160909080111" name="Software Testing Tutorial: Free Course" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1473429495idh1qq36pi" name="books (notes)">
+     <recordtable>
+      <record dir="14734295455gz6xvx51h" crypt="0" url="" tags="testing.books" author="" id="147342954585alptr30r" ctime="20160909165905" name="Шаблоны тестирования" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="14734030081jgkf265ud" name="git">
     <recordtable>
