@@ -203,6 +203,11 @@
       <record dir="1473396891r1dard10dz" crypt="0" url="http://w-bf.livejournal.com" tags="program.testing.blogs" author="Йети подземелья" id="1473396891yo6hn6r54v" ctime="20160909075451" name="Хроники тестировщика" file="text.html"/>
      </recordtable>
     </node>
+    <node id="14733972404ihsjkpi9d" name="Courses">
+     <recordtable>
+      <record dir="147339727138q15li5a0" crypt="0" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" author="guru99" id="14733972711be2q4tnv5" ctime="20160909080111" name="Software Testing Tutorial: Free Course" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node id="1473256308xy5pnaa9zz" name="Музыка">
