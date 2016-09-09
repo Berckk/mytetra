@@ -135,6 +135,11 @@
       <record dir="14733472891wxgihvj3k" crypt="0" url="http://infostart.ru/public/427180/" tags="1c.quiries" author="m..adm " id="1473347289zdd1m9h3tk" ctime="20160908180809" name="Варианты построения выборки диапазона чисел или дат с помощью запроса" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1473420365g259t2umz0" name="Debbuging">
+     <recordtable>
+      <record dir="1473420385xysqo6y7mo" crypt="0" url="" tags="1c.debbuging" author="pola" id="1473420385erqliaehjc" ctime="20160909142625" name="Контекст отладчика портативной ир" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
