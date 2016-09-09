@@ -197,6 +197,13 @@
      <record dir="1473311047atx4g3xxos" crypt="0" url="" tags="vim.info" author="pola" id="1473311047racz14o6jo" ctime="20160908080407" name="Навигация в справке" file="text.html"/>
     </recordtable>
    </node>
+   <node id="14733968501cjyxh41ll" name="Testing">
+    <node id="1473396856s4fq4krin2" name="Blogs">
+     <recordtable>
+      <record dir="1473396891r1dard10dz" crypt="0" url="http://w-bf.livejournal.com" tags="program.testing.blogs" author="Йети подземелья" id="1473396891yo6hn6r54v" ctime="20160909075451" name="Хроники тестировщика" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node id="1473256308xy5pnaa9zz" name="Музыка">
    <node id="1473256313nxegh14s0d" name="Аккорды">
