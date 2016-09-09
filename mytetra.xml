@@ -209,6 +209,11 @@
      </recordtable>
     </node>
    </node>
+   <node id="14734030081jgkf265ud" name="git">
+    <recordtable>
+     <record dir="1473403075dl9x9jokz9" crypt="0" url="https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html" tags="git.info" author="pola" id="1473403075dlzbd6ntqc" ctime="20160909093755" name="Настройка SSH" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node id="1473256308xy5pnaa9zz" name="Музыка">
    <node id="1473256313nxegh14s0d" name="Аккорды">
