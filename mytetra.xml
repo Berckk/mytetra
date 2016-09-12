@@ -66,6 +66,7 @@
        <node id="14734184918w76696m4y" name="functions">
         <recordtable>
          <record dir="1473418512cis9nnl5zf" crypt="0" url="" tags="1c.testing.xunit.functions" author="" id="1473418512kbhge3j0u0" ctime="20160909135512" name="Получить данные из тестового макета" file="text.html"/>
+         <record dir="14736748436g6ek6dcho" crypt="0" url="" tags="" author="pola" id="14736748439w4a8q2oah" ctime="20160912130723" name="Получить тестовый объект" file="text.html"/>
         </recordtable>
        </node>
       </node>
