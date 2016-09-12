@@ -245,5 +245,14 @@
     <record dir="1473342260a0r18y5l9a" crypt="0" url="" tags="" author="" id="1473342260e8c4exewvh" ctime="20160908164420" name="Отношения в рмд" file="text.html"/>
    </recordtable>
   </node>
+  <node id="14736549736dbbiywbm6" name="math">
+   <node id="1473654988njxmft3tvm" name="geo">
+    <node id="1473654994d4d4x4gvet" name="problems">
+     <recordtable>
+      <record dir="14736550797104oczlte" crypt="0" url="http://www.sciteclibrary.ru/cgi-bin/yabb2/YaBB.pl?num=1024985973" tags="math.problems.got" author="Трифонов Роман" id="1473655079trx74kbr0o" ctime="20160912073759" name="Объем дырявого шара" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+  </node>
  </content>
 </root>
