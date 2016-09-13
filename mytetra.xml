@@ -37,6 +37,7 @@
      <node id="14736954509b1blkewxz" name="Вопросы разработки интерфейса">
       <recordtable>
        <record dir="1473695579qtg1xgp55a" crypt="0" url="" tags="1c.ui.tricks" author="pola" id="1473695579jnqux2eccc" ctime="20160912185259" name="Формы для обычного клиента и для управляемого клиента" file="text.html"/>
+       <record dir="1473787452z55kfbmig6" crypt="0" url="http://forum.aeroion.ru/topic625.html" tags="1c.ui.tricks" author="Sergey aka Porutchik" id="1473787452oo4pymfuau" ctime="20160913202412" name="Получить из формы объекта другую форму объекта" file="text.html"/>
       </recordtable>
      </node>
     </node>
