@@ -76,6 +76,11 @@
        </node>
       </node>
      </node>
+     <node id="1473756871b4cfvz9cqt" name="Blogs">
+      <recordtable>
+       <record dir="147375699591f85hq9yt" crypt="0" url="http://okiseleva.blogspot.ru" tags="testing.blogs" author="" id="1473756995y7t6wgzkqn" ctime="20160913115635" name="Блог Назиной Ольги" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
      <recordtable>
