@@ -238,6 +238,7 @@
     <node id="1473760107t8dll9jdm8" name="articles">
      <recordtable>
       <record dir="1473760225te2c4h76wz" crypt="0" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" author="studopedia" id="1473760225miyw4zn40i" ctime="20160913125025" name="Основные принципы тестирования ПО" file="text.html"/>
+      <record dir="1473760356n8us1v1p7z" crypt="0" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" author="studopedia" id="14737603563b7goi7k13" ctime="20160913125236" name="Алгоритм тестирования базового пути." file="text.html"/>
      </recordtable>
     </node>
    </node>
