@@ -76,11 +76,6 @@
        </node>
       </node>
      </node>
-     <node id="1473756871b4cfvz9cqt" name="Blogs">
-      <recordtable>
-       <record dir="147375699591f85hq9yt" crypt="0" url="http://okiseleva.blogspot.ru" tags="testing.blogs" author="" id="1473756995y7t6wgzkqn" ctime="20160913115635" name="Блог Назиной Ольги" file="text.html"/>
-      </recordtable>
-     </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
      <recordtable>
@@ -122,7 +117,7 @@
     </node>
     <node id="1473345828ac5gra5a3k" name="Blogs">
      <recordtable>
-      <record dir="1473345889q9397tygft" crypt="0" url="https://pbazeliuk.com" tags="1c.blogs" author="" id="1473345889010p6u8cod" ctime="20160908174449" name="Блог Базелюка Петра" file="text.html"/>
+      <record dir="14737570430ltyhctz4g" crypt="0" url="https://pbazeliuk.com" tags="1c.blogs" author="" id="1473757043c9bbldc3pd" ctime="20160913115723" name="Блог Базелюка Петра" file="text.html"/>
      </recordtable>
     </node>
     <node id="1473345925ji2r7rpdtx" name="Enterprice Development Tools">
@@ -222,6 +217,7 @@
     <node id="1473396856s4fq4krin2" name="Blogs">
      <recordtable>
       <record dir="1473396891r1dard10dz" crypt="0" url="http://w-bf.livejournal.com" tags="program.testing.blogs" author="Йети подземелья" id="1473396891yo6hn6r54v" ctime="20160909075451" name="Хроники тестировщика" file="text.html"/>
+      <record dir="1473757051a2sqfhoibb" crypt="0" url="http://okiseleva.blogspot.ru" tags="program.testing.blogs" author="" id="14737570516ohlcrxx8d" ctime="20160913115731" name="Блог Назиной Ольги" file="text.html"/>
      </recordtable>
     </node>
     <node id="14733972404ihsjkpi9d" name="Courses">
