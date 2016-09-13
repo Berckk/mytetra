@@ -235,6 +235,11 @@
       <record dir="14734295455gz6xvx51h" crypt="0" url="" tags="testing.books" author="" id="147342954585alptr30r" ctime="20160909165905" name="Шаблоны тестирования" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1473760107t8dll9jdm8" name="articles">
+     <recordtable>
+      <record dir="1473760225te2c4h76wz" crypt="0" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" author="studopedia" id="1473760225miyw4zn40i" ctime="20160913125025" name="Основные принципы тестирования ПО" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="14734030081jgkf265ud" name="git">
     <recordtable>
