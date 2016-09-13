@@ -143,12 +143,17 @@
     </node>
     <node id="1473420365g259t2umz0" name="Debbuging">
      <recordtable>
-      <record dir="1473420385xysqo6y7mo" crypt="0" url="" tags="1c.debbuging" author="pola" id="1473420385erqliaehjc" ctime="20160909142625" name="Контекст отладчика портативной ир" file="text.html"/>
+      <record dir="1473420385xysqo6y7mo" crypt="0" url="" tags="1c.debugging" author="pola" id="1473420385erqliaehjc" ctime="20160909142625" name="Контекст отладчика портативной ир" file="text.html"/>
      </recordtable>
     </node>
     <node id="1473757767uodiji3d24" name="practice">
      <recordtable>
       <record dir="1473758325jdkjj9m7b6" crypt="0" url="" tags="1c.practice" author="pola" id="1473758325y47ujzpk4r" ctime="20160913121845" name="Время на разработку" file="text.html"/>
+     </recordtable>
+    </node>
+    <node id="147378512495dj5qzmt0" name="client-server">
+     <recordtable>
+      <record dir="1473785165bhhbsikk6w" crypt="0" url="http://its.1c.ru/db/metod8dev#content:3556:hdoc" tags="1c.client_server" author="its" id="14737851658pygay3gzl" ctime="20160913194605" name="Программно открыть внешнюю обработку" file="text.html"/>
      </recordtable>
     </node>
    </node>
