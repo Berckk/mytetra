@@ -146,6 +146,11 @@
       <record dir="1473420385xysqo6y7mo" crypt="0" url="" tags="1c.debbuging" author="pola" id="1473420385erqliaehjc" ctime="20160909142625" name="Контекст отладчика портативной ир" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1473757767uodiji3d24" name="practice">
+     <recordtable>
+      <record dir="1473758325jdkjj9m7b6" crypt="0" url="" tags="1c.practice" author="pola" id="1473758325y47ujzpk4r" ctime="20160913121845" name="Время на разработку" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
