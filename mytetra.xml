@@ -160,6 +160,11 @@
       <record dir="1473785165bhhbsikk6w" crypt="0" url="http://its.1c.ru/db/metod8dev#content:3556:hdoc" tags="1c.client_server" author="its" id="14737851658pygay3gzl" ctime="20160913194605" name="Программно открыть внешнюю обработку" file="text.html"/>
      </recordtable>
     </node>
+    <node id="147378880499uex86qwf" name="code">
+     <recordtable>
+      <record dir="1473788882t2uag8r2ka" crypt="0" url="" tags="1c.code" author="1с" id="1473788882wa17snzyrv" ctime="20160913204802" name="Выполнить процедуру модуля объекта обработки" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
