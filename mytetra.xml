@@ -64,15 +64,16 @@
         <record dir="1473159087cxqehl36uk" crypt="0" url="" tags="1c.testing.xunit" author="pola" id="14731590877r95snukst" ctime="20160906135127" name="Код модуля обычной формы тестовой обработки для отладки" file="text.html"/>
         <record dir="1473252687mij89ehpcm" crypt="0" url="" tags="1c.testing.xunit" author="artbear" id="14732526873nwr94k5v1" ctime="20160907155127" name="Удалить тестовые данные" file="text.html"/>
        </recordtable>
-       <node id="14734184918w76696m4y" name="functions">
-        <recordtable>
-         <record dir="1473418512cis9nnl5zf" crypt="0" url="" tags="1c.testing.xunit.functions" author="" id="1473418512kbhge3j0u0" ctime="20160909135512" name="Получить данные из тестового макета" file="text.html"/>
-         <record dir="14736748436g6ek6dcho" crypt="0" url="" tags="" author="pola" id="14736748439w4a8q2oah" ctime="20160912130723" name="Получить тестовый объект" file="text.html"/>
-        </recordtable>
-       </node>
        <node id="14738424680dkf3fibel" name="plugins">
         <recordtable>
          <record dir="1473843761zm6ibreqtp" crypt="0" url="" tags="1c.testing.xunit.plugins" author="Аюханов Артур aka artbear" id="1473843761j4qxe1dnu4" ctime="20160914120241" name="Утверждения проверки таблиц" file="text.html"/>
+        </recordtable>
+       </node>
+       <node id="1473852521rfrafz307t" name="my lib">
+        <recordtable>
+         <record dir="14738525439jeh71y5po" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852543hervzwo89u" ctime="20160914142903" name="Получить данные из тестового макета" file="text.html"/>
+         <record dir="14738525494j03jk4cgi" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852549vxn4nohy1y" ctime="20160914142909" name="Получить таблицу значений из макета" file="text.html"/>
+         <record dir="1473852556ppfftykqz9" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852556zr1d1txqiw" ctime="20160914142916" name="Получить тестовый объект" file="text.html"/>
         </recordtable>
        </node>
       </node>
