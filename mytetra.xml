@@ -158,6 +158,7 @@
     <node id="147378512495dj5qzmt0" name="client-server">
      <recordtable>
       <record dir="1473785165bhhbsikk6w" crypt="0" url="http://its.1c.ru/db/metod8dev#content:3556:hdoc" tags="1c.client_server" author="its" id="14737851658pygay3gzl" ctime="20160913194605" name="Программно открыть внешнюю обработку" file="text.html"/>
+      <record dir="14738389628aqfrpd0hs" crypt="0" url="https://helpf.pro/faq83/view/1605.html" tags="" author="" id="1473838962ib8gpt0qlz" ctime="20160914104242" name="Передать таблицу значений с сервера на клиент" file="text.html"/>
      </recordtable>
     </node>
     <node id="147378880499uex86qwf" name="code">
