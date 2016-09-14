@@ -76,6 +76,11 @@
         </recordtable>
        </node>
       </node>
+      <node id="14738451416su8iborle" name="Мысли">
+       <recordtable>
+        <record dir="14738452123lxvedzfpw" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="pola" id="14738452129vzcg8afex" ctime="20160914122652" name="По поводу тестирования клиента и сервера" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
