@@ -70,6 +70,11 @@
          <record dir="14736748436g6ek6dcho" crypt="0" url="" tags="" author="pola" id="14736748439w4a8q2oah" ctime="20160912130723" name="Получить тестовый объект" file="text.html"/>
         </recordtable>
        </node>
+       <node id="14738424680dkf3fibel" name="plugins">
+        <recordtable>
+         <record dir="1473843761zm6ibreqtp" crypt="0" url="" tags="1c.testing.xunit.plugins" author="Аюханов Артур aka artbear" id="1473843761j4qxe1dnu4" ctime="20160914120241" name="Утверждения проверки таблиц" file="text.html"/>
+        </recordtable>
+       </node>
       </node>
      </node>
     </node>
@@ -158,6 +163,7 @@
     <node id="147378880499uex86qwf" name="code">
      <recordtable>
       <record dir="1473788882t2uag8r2ka" crypt="0" url="" tags="1c.code" author="1с" id="1473788882wa17snzyrv" ctime="20160913204802" name="Выполнить процедуру модуля объекта обработки" file="text.html"/>
+      <record dir="1473844346xq1m3wqwgu" crypt="0" url="" tags="1c.code" author="pola" id="14738443461g8dd948eh" ctime="20160914121226" name="Таблицу значений в табличный документ с помощью СКД" file="text.html"/>
      </recordtable>
     </node>
     <node id="1473840626v9jn3tant3" name="forms">
