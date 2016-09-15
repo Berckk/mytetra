@@ -172,6 +172,7 @@
       <record dir="1473788882t2uag8r2ka" crypt="0" url="" tags="1c.code" author="1с" id="1473788882wa17snzyrv" ctime="20160913204802" name="Выполнить процедуру модуля объекта обработки" file="text.html"/>
       <record dir="1473844346xq1m3wqwgu" crypt="0" url="" tags="1c.code" author="pola" id="14738443461g8dd948eh" ctime="20160914121226" name="Таблицу значений в табличный документ с помощью СКД" file="text.html"/>
       <record dir="1473860511iupp1u4z7w" crypt="0" url="" tags="1c.code" author="pola" id="1473860511i8f0hux3i5" ctime="20160914164151" name="Проверить, что не копия рабочей базы" file="text.html"/>
+      <record dir="1473956528w8lt9wkijs" crypt="0" url="" tags="1c.code" author="" id="147395652849vv50bjf7" ctime="20160915192208" name="Краткое описание ошибки" file="text.html"/>
      </recordtable>
     </node>
     <node id="1473840626v9jn3tant3" name="forms">
