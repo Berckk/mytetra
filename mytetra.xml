@@ -55,6 +55,7 @@
       <node id="1473158861mn5ati3hwf" name="features">
        <recordtable>
         <record dir="1473159015b44ywrw3zk" crypt="0" url="" tags="1c.testing.features" author="Nikita Gryzlov &lt;nixel2007@gmail.com" id="1473159015xe83vfstot" ctime="20160906135015" name="Шаблон фича-файла" file="text.html"/>
+        <record dir="1474006215in107bgmxb" crypt="0" url="" tags="1c.testing.features" author="" id="14740062159ckc2ud4ly" ctime="20160916091015" name="Получение состояния формы на языке gherkin" file="text.html"/>
        </recordtable>
       </node>
      </node>
