@@ -78,6 +78,12 @@
          <record dir="1473853731bjliyupry1" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473853731u6fih73kbp" ctime="20160914144851" name="Подключить плагин на сервере" file="text.html"/>
         </recordtable>
        </node>
+       <node id="147400862012a19jui7f" name="Мои изменения в обработке xUnitFor1c">
+        <recordtable>
+         <record dir="1474008670mmspvsoeyr" crypt="0" url="" tags="" author="" id="14740086703zdfjccsp2" ctime="20160916095110" name="Не открыть отчет о тестировании" file="text.html"/>
+         <record dir="1474008746hu118we666" crypt="0" url="" tags="" author="" id="1474008746rdn6dr4zmx" ctime="20160916095226" name="Установка своих комбинаций клавиш" file="text.html"/>
+        </recordtable>
+       </node>
       </node>
       <node id="14738451416su8iborle" name="Мысли">
        <recordtable>
