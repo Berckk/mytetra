@@ -76,6 +76,7 @@
          <record dir="14738525494j03jk4cgi" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852549vxn4nohy1y" ctime="20160914142909" name="Получить таблицу значений из макета" file="text.html"/>
          <record dir="1473852556ppfftykqz9" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852556zr1d1txqiw" ctime="20160914142916" name="Получить тестовый объект" file="text.html"/>
          <record dir="1473853731bjliyupry1" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473853731u6fih73kbp" ctime="20160914144851" name="Подключить плагин на сервере" file="text.html"/>
+         <record dir="1474039269dzxdif2yu9" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1474039269lfpqo6pg17" ctime="20160916182109" name="Изменить свойство регистра сведений и откатиться" file="text.html"/>
         </recordtable>
        </node>
        <node id="147400862012a19jui7f" name="Мои изменения в обработке xUnitFor1c">
