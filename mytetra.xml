@@ -195,6 +195,7 @@
     <node id="1474348381sbnpgzvl2p" name="multitasking">
      <recordtable>
       <record dir="1474348435gpmj7esjv6" crypt="0" url="" tags="1c.multitasking" author="Бурмистров Андрей" id="1474348435licl95lgve" ctime="20160920081355" name="Как ускорить 1С – Многопоточная обработка данных" file="text.html"/>
+      <record dir="1474349286ejmjhcdp5z" crypt="0" url="" tags="1c.multitasking" author="Старых Сергей aka tormozit" id="1474349286wgxbe2u4h7" ctime="20160920082806" name="Приемы обработки больших данных в 1С. На пути к big data" file="text.html"/>
      </recordtable>
     </node>
    </node>
