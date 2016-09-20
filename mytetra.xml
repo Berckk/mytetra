@@ -192,6 +192,11 @@
       <record dir="14738546788ienz8uwa7" crypt="0" url="" tags="1c.forms" author="pola" id="1473854678t30xy9h3yu" ctime="20160914150438" name="Создать таблицу на форме" file="text.html"/>
      </recordtable>
     </node>
+    <node id="1474348381sbnpgzvl2p" name="multitasking">
+     <recordtable>
+      <record dir="1474348435gpmj7esjv6" crypt="0" url="" tags="1c.multitasking" author="Бурмистров Андрей" id="1474348435licl95lgve" ctime="20160920081355" name="Как ускорить 1С – Многопоточная обработка данных" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
