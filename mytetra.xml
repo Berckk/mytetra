@@ -302,6 +302,18 @@
      </recordtable>
     </node>
    </node>
+   <node id="1474433447rs65x5ttzg" name="deploy">
+    <node id="1474433452uyfciyhu0j" name="docker">
+     <recordtable>
+      <record dir="14744338300puw7u0pl2" crypt="0" url="https://habrahabr.ru/post/310460/?utm_content=buffer693a9&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="program.deploy.docker" author="Рахим Довлеткаев перевел" id="1474433830q7zn4jsb1t" ctime="20160921075710" name="Полное практическое руководство по Docker: с нуля до кластера на AWS" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node id="1474434490qezdvad6ml" name="translates">
+    <recordtable>
+     <record dir="1474434631flh0jy7szs" crypt="0" url="https://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests/" tags="program.translates" author="Pawel Olesiejuk from Goyello Blog" id="1474434631cfpvlu7s0f" ctime="20160921081031" name="THREE PILLARS OF UNIT TESTS" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node id="1473256308xy5pnaa9zz" name="Музыка">
    <node id="1473256313nxegh14s0d" name="Аккорды">
