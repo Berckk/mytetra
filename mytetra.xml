@@ -184,6 +184,7 @@
       <record dir="1473844346xq1m3wqwgu" crypt="0" url="" tags="1c.code" author="pola" id="14738443461g8dd948eh" ctime="20160914121226" name="Таблицу значений в табличный документ с помощью СКД" file="text.html"/>
       <record dir="1473860511iupp1u4z7w" crypt="0" url="" tags="1c.code" author="pola" id="1473860511i8f0hux3i5" ctime="20160914164151" name="Проверить, что не копия рабочей базы" file="text.html"/>
       <record dir="1473956528w8lt9wkijs" crypt="0" url="" tags="1c.code" author="" id="147395652849vv50bjf7" ctime="20160915192208" name="Краткое описание ошибки" file="text.html"/>
+      <record dir="14744630011qw4hu15xr" crypt="0" url="upp" tags="1c.code.upp" author="" id="1474463001q70outljlg" ctime="20160921160321" name="Прибавить период" file="text.html"/>
      </recordtable>
     </node>
     <node id="1473840626v9jn3tant3" name="forms">
