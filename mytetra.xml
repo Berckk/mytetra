@@ -86,6 +86,11 @@
          <record dir="1474044561fvtm0xfghg" crypt="0" url="" tags="" author="" id="1474044561hc4j6d3opk" ctime="20160916194921" name="Индикация упавшего по неизвестной причине тест" file="text.html"/>
         </recordtable>
        </node>
+       <node id="14745292182vu2udq258" name="code">
+        <recordtable>
+         <record dir="1474529334jemzwfa6nh" crypt="0" url="" tags="1c.xunit.code" author="" id="1474529334o47kxkwle8" ctime="20160922102854" name="Создать тестируюмую обработку на сервере" file="text.html"/>
+        </recordtable>
+       </node>
       </node>
       <node id="14738451416su8iborle" name="Мысли">
        <recordtable>
