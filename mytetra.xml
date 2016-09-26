@@ -109,6 +109,7 @@
       <node id="1473169290gmx84kxu2a" name="Готовые решения">
        <recordtable>
         <record dir="1473169290kjgy88s4dh" crypt="0" url="" tags="1c.integration.templates" author="pola" id="1473169290up6j8ect7r" ctime="20160906164130" name="Получить соединение с базой" file="text.html"/>
+        <record dir="1474879763jlupbziozb" crypt="0" url="" tags="1c.integration.templates" author="" id="1474879763v61grp8dt8" ctime="20160926114923" name="Получить уникальный идентификатор строкой" file="text.html"/>
        </recordtable>
       </node>
       <node id="14733369470ye6ehaps5" name="Статьи">
