@@ -192,6 +192,7 @@
       <record dir="1473956528w8lt9wkijs" crypt="0" url="" tags="1c.code" author="" id="147395652849vv50bjf7" ctime="20160915192208" name="Краткое описание ошибки" file="text.html"/>
       <record dir="14744630011qw4hu15xr" crypt="0" url="upp" tags="1c.code.upp" author="" id="1474463001q70outljlg" ctime="20160921160321" name="Прибавить период" file="text.html"/>
       <record dir="1474605320b4t61apzkz" crypt="0" url="" tags="1c.code.upp" author="" id="1474605320r5rovnljji" ctime="20160923073520" name="Асинхронное выполнение кода" file="text.html"/>
+      <record dir="1474963023nxg3zenc8p" crypt="0" url="" tags="1c.code.upp" author="" id="14749630237rhn9gyc1j" ctime="20160927105703" name="Получить таблицу значений из макета" file="text.html"/>
      </recordtable>
     </node>
     <node id="1473840626v9jn3tant3" name="forms">
