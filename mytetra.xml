@@ -211,6 +211,11 @@
      </recordtable>
     </node>
     <node id="1474905128ow90ksgjuk" name="roles"/>
+    <node id="1475147185kbhuanzpp9" name="snegopat">
+     <recordtable>
+      <record dir="14751472458l0fvm3g9k" crypt="0" url="" tags="1c.snegopat" author="" id="14751472450ctkwm25cr" ctime="20160929140725" name="Сохранение настроек" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
