@@ -95,8 +95,9 @@
       <node id="14738451416su8iborle" name="Мысли">
        <recordtable>
         <record dir="14738452123lxvedzfpw" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="pola" id="14738452129vzcg8afex" ctime="20160914122652" name="По поводу тестирования клиента и сервера" file="text.html"/>
-        <record dir="1474371578hdlfvqrlxw" crypt="0" url="" tags="" author="" id="1474371578o1bqjefsqp" ctime="20160920143938" name="По поводу скорости разработки логики формы через тестирование" file="text.html"/>
-        <record dir="1474388731obvexijbwi" crypt="0" url="" tags="" author="" id="1474388731580m5xswf3" ctime="20160920192531" name="О целесообразности" file="text.html"/>
+        <record dir="1474371578hdlfvqrlxw" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="" id="1474371578o1bqjefsqp" ctime="20160920143938" name="По поводу скорости разработки логики формы через тестирование" file="text.html"/>
+        <record dir="1474388731obvexijbwi" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="" id="1474388731580m5xswf3" ctime="20160920192531" name="О целесообразности" file="text.html"/>
+        <record dir="1475226770sdw7xj7u4p" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="" id="14752267702ab20iixir" ctime="20160930121250" name="О необходимости как ручного, так и автоматического тестирования" file="text.html"/>
        </recordtable>
       </node>
       <node id="1475155299uhh5ld3w7h" name="lib">
