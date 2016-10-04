@@ -265,6 +265,11 @@
        <record dir="1473315905gg2syq33bw" crypt="0" url="" tags="" author="pola" id="1473315905vrkxpsn3o9" ctime="20160908092505" name="На комбинацию &lt;C-A-Insert> назначить копирование в буфер полного имени файла" file="text.html"/>
       </recordtable>
      </node>
+     <node id="1475607792fhqzmf1r1j" name="script-writing">
+      <recordtable>
+       <record dir="1475607842lojpygokvq" crypt="0" url="https://habrahabr.ru/post/210930/" tags="" author="Delphinum" id="1475607842macyokcd39" ctime="20161004220402" name="Как я классы в Vim писал" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node id="1473311033k32kv0xvmy" name="tricks">
@@ -335,6 +340,11 @@
    <node id="1474434490qezdvad6ml" name="translates">
     <recordtable>
      <record dir="1474434631flh0jy7szs" crypt="0" url="https://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests/" tags="program.translates" author="Pawel Olesiejuk from Goyello Blog" id="1474434631cfpvlu7s0f" ctime="20160921081031" name="THREE PILLARS OF UNIT TESTS" file="text.html"/>
+    </recordtable>
+   </node>
+   <node id="1475603248lfx7tr1i39" name="electronics">
+    <recordtable>
+     <record dir="1475603283xuqzblsqyo" crypt="0" url="" tags="Circuit Skills" author="http://narbotic.com/video/MakePresents/MakePresents.html" id="1475603283psyoutjzzg" ctime="20161004204803" name="Circuit board etching" file="text.html"/>
     </recordtable>
    </node>
   </node>
