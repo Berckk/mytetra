@@ -196,10 +196,15 @@
       <record dir="1473844346xq1m3wqwgu" crypt="0" url="" tags="1c.code" author="pola" id="14738443461g8dd948eh" ctime="20160914121226" name="Таблицу значений в табличный документ с помощью СКД" file="text.html"/>
       <record dir="1473860511iupp1u4z7w" crypt="0" url="" tags="1c.code" author="pola" id="1473860511i8f0hux3i5" ctime="20160914164151" name="Проверить, что не копия рабочей базы" file="text.html"/>
       <record dir="1473956528w8lt9wkijs" crypt="0" url="" tags="1c.code" author="" id="147395652849vv50bjf7" ctime="20160915192208" name="Краткое описание ошибки" file="text.html"/>
-      <record dir="14744630011qw4hu15xr" crypt="0" url="upp" tags="1c.code.upp" author="" id="1474463001q70outljlg" ctime="20160921160321" name="Прибавить период" file="text.html"/>
-      <record dir="1474605320b4t61apzkz" crypt="0" url="" tags="1c.code.upp" author="" id="1474605320r5rovnljji" ctime="20160923073520" name="Асинхронное выполнение кода" file="text.html"/>
-      <record dir="1474963023nxg3zenc8p" crypt="0" url="" tags="1c.code.upp" author="" id="14749630237rhn9gyc1j" ctime="20160927105703" name="Получить таблицу значений из макета" file="text.html"/>
      </recordtable>
+     <node id="14756856493h3kr4vwte" name="upp">
+      <recordtable>
+       <record dir="1475685672v5lp4978ki" crypt="0" url="" tags="" author="pola" id="1475685672w953n3gxft" ctime="20161005194112" name="Получение данных из макета объекта" file="text.html"/>
+       <record dir="1475685684cc5g10byeq" crypt="0" url="upp" tags="1c.code.upp" author="" id="1475685684i9py27yslf" ctime="20161005194124" name="Прибавить период" file="text.html"/>
+       <record dir="1475685690kk47egsw4w" crypt="0" url="" tags="1c.code.upp" author="" id="1475685690dt7cn0i79q" ctime="20161005194130" name="Получить таблицу значений из макета" file="text.html"/>
+       <record dir="1475685699exji8yi83q" crypt="0" url="" tags="1c.code.upp" author="" id="1475685699092khklerq" ctime="20161005194139" name="Асинхронное выполнение кода" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node id="1473840626v9jn3tant3" name="forms">
      <recordtable>
