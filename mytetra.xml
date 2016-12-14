@@ -40,14 +40,14 @@
      </recordtable>
     </node>
     <node crypt="" id="1472562701f22c6zxned" name="Тестирование">
-     <node id="147256271464zni355qo" name="Интеграционное">
+     <node crypt="" id="147256271464zni355qo" name="Функциональное">
       <recordtable>
        <record id="1472562912dcfv53zfoc" name="Подключение тестового приложения" author="artbear" url="" tags="testing" ctime="20160830161512" dir="1472562912wsaoxytpjp" file="text.html" crypt="0"/>
        <record id="14725629910f8w4nve5t" name="Завершить все сеансы работы с тестовыми приложениями" author="artbear" url="" tags="testing" ctime="20160830161631" dir="1472562991ov9ck7mjf3" file="text.html" crypt="0"/>
        <record id="1472563075suzt2ag0ge" name="Открыть список задач исполнителя" author="pola" url="" tags="testing" ctime="20160830161755" dir="1472563075o3o9z6z5m1" file="text.html" crypt="0"/>
        <record id="147256315129jwzwbfh0" name="Найти по наименованию и открыть задачу исполнителя" author="pola" url="" tags="testing" ctime="20160830161911" dir="1472563151urgyyeic03" file="text.html" crypt="0"/>
       </recordtable>
-      <node id="1472797247x06uoeg5u6" name="AutoIt">
+      <node crypt="" id="1472797247x06uoeg5u6" name="AutoIt">
        <recordtable>
         <record id="1472797292hyndmlhgtm" name="Запустить bat-файл" author="pola" url="" tags="1c.testing.autoit" ctime="20160902092132" dir="14727972928dz87s0qur" file="text.html" crypt="0"/>
         <record id="1472801107s1wcjx1206" name="Проверить, что окно активно" author="pola" url="help AutoIt" tags="1c.testing.autoit" ctime="20160902102507" dir="1472801107shtu9te9js" file="text.html" crypt="0"/>
@@ -55,15 +55,15 @@
         <record id="1472802998k4cmfo5yv4" name="links" author="pola" url="" tags="1c.testing.autoit" ctime="20160902105638" dir="147280299813hhs5of15" file="text.html" crypt="0"/>
        </recordtable>
       </node>
-      <node id="1473158861mn5ati3hwf" name="features">
+      <node crypt="" id="1473158861mn5ati3hwf" name="features">
        <recordtable>
         <record id="1473159015xe83vfstot" name="Шаблон фича-файла" author="Nikita Gryzlov &lt;nixel2007@gmail.com" url="" tags="1c.testing.features" ctime="20160906135015" dir="1473159015b44ywrw3zk" file="text.html" crypt="0"/>
         <record id="14740062159ckc2ud4ly" name="Получение состояния формы на языке gherkin" author="" url="" tags="1c.testing.features" ctime="20160916091015" dir="1474006215in107bgmxb" file="text.html" crypt="0"/>
        </recordtable>
       </node>
      </node>
-     <node id="14726575359q9go55ytg" name="Функциональное">
-      <node id="1473159069qebb5fiiij" name="xUnit">
+     <node crypt="" id="14726575359q9go55ytg" name="Модульное">
+      <node crypt="" id="1473159069qebb5fiiij" name="xUnit">
        <recordtable>
         <record id="14731590877r95snukst" name="Код модуля обычной формы тестовой обработки для отладки" author="pola" url="" tags="1c.testing.xunit" ctime="20160906135127" dir="1473159087cxqehl36uk" file="text.html" crypt="0"/>
         <record id="14732526873nwr94k5v1" name="Удалить тестовые данные" author="artbear" url="" tags="1c.testing.xunit" ctime="20160907155127" dir="1473252687mij89ehpcm" file="text.html" crypt="0"/>
@@ -95,7 +95,7 @@
         </recordtable>
        </node>
       </node>
-      <node id="14738451416su8iborle" name="Мысли">
+      <node crypt="" id="14738451416su8iborle" name="Мысли">
        <recordtable>
         <record id="14738452129vzcg8afex" name="По поводу тестирования клиента и сервера" author="pola" url="" tags="1c.testign.xUnit.thoughts" ctime="20160914122652" dir="14738452123lxvedzfpw" file="text.html" crypt="0"/>
         <record id="1474371578o1bqjefsqp" name="По поводу скорости разработки логики формы через тестирование" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20160920143938" dir="1474371578hdlfvqrlxw" file="text.html" crypt="0"/>
@@ -103,7 +103,7 @@
         <record id="14752267702ab20iixir" name="О необходимости как ручного, так и автоматического тестирования" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20160930121250" dir="1475226770sdw7xj7u4p" file="text.html" crypt="0"/>
        </recordtable>
       </node>
-      <node id="1475155299uhh5ld3w7h" name="lib">
+      <node crypt="" id="1475155299uhh5ld3w7h" name="lib">
        <recordtable>
         <record id="14751553159ateqg06if" name="ЗаписатьДанныеИзМакетаВнешнейОбработки" author="" url="" tags="1c.xunit.lib" ctime="20160929162155" dir="1475155315pi1dum67k6" file="text.html" crypt="0"/>
        </recordtable>
