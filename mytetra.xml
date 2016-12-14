@@ -393,38 +393,38 @@
     </node>
    </node>
   </node>
-  <node crypt="" id="14733421542glvhruftk" name="Найти">
+  <node crypt="1" icon="" id="14733421542glvhruftk" name="UkM1U0lNUAOiW4AXdGUmE3OCIswJ/W+6KmzcK36zkS1HoyGkrkyysWE/U8UvCL83Jaf3h+QjvPM=">
    <recordtable>
-    <record id="147334221182d9v0g2uf" name="Метод Таблиц-двойников" author="" url="" tags="" ctime="20160908164331" dir="1473342211jla706l89z" file="text.html" crypt="0"/>
-    <record id="1473342260e8c4exewvh" name="Отношения в рмд" author="" url="" tags="" ctime="20160908164420" dir="1473342260a0r18y5l9a" file="text.html" crypt="0"/>
+    <record id="147334221182d9v0g2uf" name="UkM1U0lNUAPcK2zMOHyFmwrVR1HJD4gv1OAkuNHdYuf6BaHahatXuUwYCxq97mAxXlJqS4HVB6yAMZOFLeGV5PoIQpnS7wPMYL2sPy57tIBiKHFaiWbNUg==" author="" url="" tags="" ctime="20160908164331" dir="1473342211jla706l89z" file="text.html" crypt="1"/>
+    <record id="1473342260e8c4exewvh" name="UkM1U0lNUAPJmluniEjOHNPV9OJy8CdVavEoJPKaB0ClYpe8HnPoysXvqW+fehnlgCkHrNB7I5NbNYSJDLm/pvxBCvkWvq2G" author="" url="" tags="" ctime="20160908164420" dir="1473342260a0r18y5l9a" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="14736549736dbbiywbm6" name="math">
-   <node crypt="" id="1473654988njxmft3tvm" name="geo">
-    <node id="1473654994d4d4x4gvet" name="problems">
+  <node crypt="1" icon="" id="14736549736dbbiywbm6" name="UkM1U0lNUAMmqLJWzyMbyqy12qD5voQQMpSx7A6q4cTH9SHqyOlyudb3snc5SD9O">
+   <node crypt="1" icon="" id="1473654988njxmft3tvm" name="UkM1U0lNUAMkkQfiTQYeeEtwlTejHXUlhbpoZZe1oyw0CqcPTqrH96yX6uNIv3s3">
+    <node crypt="1" icon="" id="1473654994d4d4x4gvet" name="UkM1U0lNUAN40sOi5LEDj3rB8Jmt/fIAhrmVpSwNPXv5QV7Zse9i5eaYbrpHiyeo">
      <recordtable>
-      <record id="1473655079trx74kbr0o" name="Объем дырявого шара" author="Трифонов Роман" url="http://www.sciteclibrary.ru/cgi-bin/yabb2/YaBB.pl?num=1024985973" tags="math.problems.got" ctime="20160912073759" dir="14736550797104oczlte" file="text.html" crypt="0"/>
+      <record id="1473655079trx74kbr0o" name="UkM1U0lNUANrUU3Eymit7p9eJXbFusmm5Z4ZiNC/wx67Gv2wA0tjmddNWW2T/4d4iywFuNNq/a4N1tI4mspPyvUJfLiBHD+F/7HMopZ5ue0=" author="UkM1U0lNUAMh+boLCyS8vQob/l1k69PAjBhwjXHf7xbi58h6DSUTraLHKHXqvpEXL6qw+xTr7xIF1MYhluL7fELOM3E/WDxx" url="UkM1U0lNUANCcukauH6/8xGnRr3YDcxL1dquxnMDLJ3meBKzsYQNvhXdVvOr/XDlcEZg1W59WT+FPCV2Ii5Vxxo79mSxtZtDMM6f7YbPMEoHHsVGXSEVqrCoqruA8nhVEoMN5W+IzM8=" tags="UkM1U0lNUANSp52GX0mVR5+KEVbqHCI3VC29Uds+ZNRhcJv8iqi3o9r+GUxQZdQm38uqeSkSTJT4KJt6gw0CqA==" ctime="20160912073759" dir="14736550797104oczlte" file="text.html" crypt="1"/>
      </recordtable>
     </node>
    </node>
   </node>
-  <node crypt="" id="1474218192ktqtk64lqc" name="health">
+  <node crypt="1" icon="" id="1474218192ktqtk64lqc" name="UkM1U0lNUAMy6dAmdzjC7miN/dvDXANr2Uquc9G1zVCectmfCFl14YQ+3Jxa/hSI">
    <recordtable>
-    <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20160918200548" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
+    <record id="14742183488ukcn1a123" name="UkM1U0lNUAOJ2rlco2m2o98XMAlO7S1FwrYZMPI0Hd2xB1KXk7VFCwtMq1Nwmema6QLQQubT3lEF2diFfNZyfpag6ivjFYv/" author="UkM1U0lNUAM6Lr668DxDXD+KSZRyot1dBmDRoaxkSQmtHNSlYtQzFMLGnUgOVCiY09Rj6ocvgT0SS+c2ena+3Q==" url="UkM1U0lNUAPM2AqgyUD9jg5H1iOMzB1beIqrfoyLQQb/tZXOJX0u1lF5fMYTeYtLFuG9LeNX3t9lt1YikRrjkKo8GZWaUTKt+BgUCGXqPT+UtH2OoOoZhw==" tags="UkM1U0lNUAPNDa8UtFgOdoEGY4pd2q51RMEv35eJkOOZ72xdLOREvjwYosAZnlCi" ctime="20160918200548" dir="14742183486vqz73mson" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="1481697670a98i4nsyzf" name="mytetra">
+  <node crypt="1" icon="" id="1481697670a98i4nsyzf" name="UkM1U0lNUAOl3rUZ4p5V3Qb7TWEIRXRzh4/5Gy3rWD6ZSgDOCqEx53aV5O9MusBq">
    <recordtable>
-    <record id="14816978083hnc2yj5om" name="Исправление ошибки автоматической синхронизации с github" author="" url="" tags="" ctime="20161214094328" dir="1481697808jkk72ubt7f" file="text.html"/>
+    <record id="14816978083hnc2yj5om" name="UkM1U0lNUAP/ohScnzFWR40H/mKZ3VZ0brE0Mm0EYZxltn+47JF2kdH/w+Hs3AEnjKC4kiEP4MWFl7WRZ2I9uKikhYWePqQrV75dnxP76JzPBoicIdI3w76oU+icHLcSXgPMaKEDlZ+YO6SSrkEuKb4+tW5J+MSIyY3RfOfp9rkXv0HarkpiVwdwPTB4109M" author="" url="" tags="" ctime="20161214094328" dir="1481697808jkk72ubt7f" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="1481722010j3fxf7lv6f" name="Прочитать">
-   <node crypt="" id="1481722019b4byz3ytys" name="Про тестирование">
+  <node crypt="1" icon="" id="1481722010j3fxf7lv6f" name="UkM1U0lNUAOtO0R8ijL25H0wG+rAFS+Xd30E+4Tz3QXvlhBIPMgWmzJpHynfIUa6+R29604tGs5G+NBgT7Ni0Q==">
+   <node crypt="1" icon="" id="1481722019b4byz3ytys" name="UkM1U0lNUANALU0jK+XzB+bBVrRTzjhQbGftOVaFq6zml9HcJgp95s4Pr1+QgIxQu3znnjZmCgvD5EKDHldzMlkUbKS2QyZM">
     <recordtable>
-     <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html"/>
+     <record id="14817221473xy379muf6" name="UkM1U0lNUAM3DnXuJoKTY0tzLg8+3E5z5tPYxP+gd1aPsAaM/1OCLmR5FY7n79hURIlnIlHBu0QNWrrVbNjKUzgXdk8MrlwOI+pqlQSKHU0o6G2HRaFqtxDMBsCdQvYNPD5H27HAibjDlbl+4VCZZQOy7S1Cf05t42YhwWilPD6eSeFfyKRgz0nZ8EVbsA90008if3dcDhglvB01qZtPyahRFViPCW4L" author="UkM1U0lNUANZcdCsWv29b7VeU5QMHB0HW8xsHu8SoQiVAv61E45NdacCRTSlzV3KaHiAktDSg3ZbCB4ndy5TXRG7dM89NJIJ" url="UkM1U0lNUAOrWipUdt0xy5QoDJSOb+NOcVC0awAc/AQeBnsLO4qLvgBi4ewGQTAVw40Ib6X6vKC6Zslbt27C4vUDwb1DhTZvRf1LouEeJQ0rzfY2oZ/crsB+EPKv/I0q" tags="UkM1U0lNUAOllsQnbbsf/MLbrD09foqaetvIbDlB0qYoIIT6yRIVWRsHEX5YA3ccZJxC+PtSTMs=" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html" crypt="1"/>
     </recordtable>
    </node>
   </node>
-  <node crypt="" id="1481722160ohhcof85x3" name="Прочитано"/>
+  <node crypt="1" icon="" id="1481722160ohhcof85x3" name="UkM1U0lNUAPDdOZu7xDv+z4EQBsyGtJhYUTAN5xfd3xhgrEhb7oqYt2dn+JkQVkh6T2C9Ln59c2cHmO3S31UAQ=="/>
  </content>
 </root>
