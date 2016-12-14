@@ -315,23 +315,24 @@
     </recordtable>
    </node>
    <node crypt="" id="14733968501cjyxh41ll" name="Testing">
-    <node id="1473396856s4fq4krin2" name="Blogs">
+    <node crypt="" id="1473396856s4fq4krin2" name="Blogs">
      <recordtable>
       <record id="1473396891yo6hn6r54v" name="Хроники тестировщика" author="Йети подземелья" url="http://w-bf.livejournal.com" tags="program.testing.blogs" ctime="20160909075451" dir="1473396891r1dard10dz" file="text.html" crypt="0"/>
       <record id="14737570516ohlcrxx8d" name="Блог Назиной Ольги" author="" url="http://okiseleva.blogspot.ru" tags="program.testing.blogs" ctime="20160913115731" dir="1473757051a2sqfhoibb" file="text.html" crypt="0"/>
+      <record id="1481719944hir014tlfk" name="Блог Артема Кошелева" author="" url="http://artkoshelev.github.io" tags="program.testing.blogs" ctime="20161214155224" dir="14817199447p9mczoeot" file="text.html"/>
      </recordtable>
     </node>
-    <node id="14733972404ihsjkpi9d" name="Courses">
+    <node crypt="" id="14733972404ihsjkpi9d" name="Courses">
      <recordtable>
       <record id="14733972711be2q4tnv5" name="Software Testing Tutorial: Free Course" author="guru99" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" ctime="20160909080111" dir="147339727138q15li5a0" file="text.html" crypt="0"/>
      </recordtable>
     </node>
-    <node id="1473429495idh1qq36pi" name="books (notes)">
+    <node crypt="" id="1473429495idh1qq36pi" name="books (notes)">
      <recordtable>
       <record id="147342954585alptr30r" name="Шаблоны тестирования" author="" url="" tags="testing.books" ctime="20160909165905" dir="14734295455gz6xvx51h" file="text.html" crypt="0"/>
      </recordtable>
     </node>
-    <node id="1473760107t8dll9jdm8" name="articles">
+    <node crypt="" id="1473760107t8dll9jdm8" name="articles">
      <recordtable>
       <record id="1473760225miyw4zn40i" name="Основные принципы тестирования ПО" author="studopedia" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" ctime="20160913125025" dir="1473760225te2c4h76wz" file="text.html" crypt="0"/>
       <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
