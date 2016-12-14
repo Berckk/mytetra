@@ -334,11 +334,6 @@
       <record id="1474353676ptmb1kz6qj" name="Undoing Things" author="proGit" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git.undoing" ctime="20160920094116" dir="1474353676z58rwaryyr" file="text.html" crypt="0"/>
      </recordtable>
     </node>
-    <node crypt="" id="1481691747uwjyljf0nz" name="sync test">
-     <recordtable>
-      <record id="1481691760yko3dfjp9h" name="sync test" author="" url="" tags="sync test" ctime="20161214080240" dir="1481691760p9omia5b6a" file="text.html"/>
-     </recordtable>
-    </node>
    </node>
    <node crypt="" id="1474433447rs65x5ttzg" name="deploy">
     <node crypt="" id="1474433452uyfciyhu0j" name="docker">
