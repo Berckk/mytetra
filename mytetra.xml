@@ -233,6 +233,7 @@
     <node crypt="" id="1481716281jbyv08vk82" name="tools">
      <recordtable>
       <record id="1481716481mrm06h0q5y" name="КопиПастаМер" author=" Сергей (ildarovich)" url="http://infostart.ru/public/294285/" tags="1c.tools" ctime="20161214145441" dir="1481716481yfkw1shrfd" file="text.html"/>
+      <record id="1481716808h6ts3phvv0" name="Анализ цикломатической сложности кода" author="Андрей Костенко (Spitfire)" url="http://infostart.ru/public/166182/" tags="1c.tools" ctime="20161214150008" dir="14817168085hh3m42j8j" file="text.html"/>
      </recordtable>
     </node>
    </node>
