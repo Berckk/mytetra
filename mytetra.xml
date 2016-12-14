@@ -1,385 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mytetradoc>
 <root>
- <format version="1" subversion="1"/>
+ <format version="1" subversion="2"/>
  <content>
-  <node id="1472471267l6nwgfjpj1" name="Программирование">
-   <node id="1472471271ozfrf63iib" name="1с">
+  <node crypt="" id="1472471267l6nwgfjpj1" name="Программирование">
+   <node crypt="" id="1472471271ozfrf63iib" name="1с">
     <node id="1472471279cv1o2pnzuk" name="oscript">
      <node id="147247129148akcqgdx8" name="libraries">
       <node id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
-        <record dir="1472471343r7jbd4vcvf" crypt="0" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="1c.oscript" author="Andrei Ovsiankin aka EvilBeaver" id="1472471343bdlvg8ukdz" ctime="20160829144903" name="readme" file="text.html"/>
-        <record dir="1472721070snol5zfef2" crypt="0" url="" tags="1c.oscript" author="pola" id="1472721070vgsmmml2lg" ctime="20160901121110" name="Пример работы с библиотекой" file="text.html"/>
+        <record id="1472471343bdlvg8ukdz" name="readme" author="Andrei Ovsiankin aka EvilBeaver" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="1c.oscript" ctime="20160829144903" dir="1472471343r7jbd4vcvf" file="text.html" crypt="0"/>
+        <record id="1472721070vgsmmml2lg" name="Пример работы с библиотекой" author="pola" url="" tags="1c.oscript" ctime="20160901121110" dir="1472721070snol5zfef2" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node id="1473157395uex8cmrex3" name="Готовые решения">
        <recordtable>
-        <record dir="14731575737onitu7pl8" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473157573her9q3g1g1" ctime="20160906132613" name="Работа с logos" file="text.html"/>
-        <record dir="14731576870bcke216y9" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473157687kp6tfxrl07" ctime="20160906132807" name="Работа с парсером командной строки" file="text.html"/>
-        <record dir="147315840758lfq4rkxb" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="1473158407ixtx50k1sg" ctime="20160906134007" name="Работа с временными файлами" file="text.html"/>
-        <record dir="147315943857q9guunaa" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="14731594385lj47fckni" ctime="20160906135718" name="Шаблон script-test.os" file="text.html"/>
-        <record dir="1473235897e2lple1yxv" crypt="0" url="" tags="1c.oscript.templates" author="pola" id="14732358971m0ezqqhuu" ctime="20160907111137" name="Шаблон скрипта" file="text.html"/>
+        <record id="1473157573her9q3g1g1" name="Работа с logos" author="pola" url="" tags="1c.oscript.templates" ctime="20160906132613" dir="14731575737onitu7pl8" file="text.html" crypt="0"/>
+        <record id="1473157687kp6tfxrl07" name="Работа с парсером командной строки" author="pola" url="" tags="1c.oscript.templates" ctime="20160906132807" dir="14731576870bcke216y9" file="text.html" crypt="0"/>
+        <record id="1473158407ixtx50k1sg" name="Работа с временными файлами" author="pola" url="" tags="1c.oscript.templates" ctime="20160906134007" dir="147315840758lfq4rkxb" file="text.html" crypt="0"/>
+        <record id="14731594385lj47fckni" name="Шаблон script-test.os" author="pola" url="" tags="1c.oscript.templates" ctime="20160906135718" dir="147315943857q9guunaa" file="text.html" crypt="0"/>
+        <record id="14732358971m0ezqqhuu" name="Шаблон скрипта" author="pola" url="" tags="1c.oscript.templates" ctime="20160907111137" dir="1473235897e2lple1yxv" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node id="1473339768r5dq5ypygo" name="oscript-simple-gui">
        <recordtable>
-        <record dir="1473339927508iroyopn" crypt="0" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1c.oscript.ui" author="ret-Phoenix" id="1473339927i93aipblju" ctime="20160908160527" name="readme" file="text.html"/>
+        <record id="1473339927i93aipblju" name="readme" author="ret-Phoenix" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1c.oscript.ui" ctime="20160908160527" dir="1473339927508iroyopn" file="text.html" crypt="0"/>
        </recordtable>
       </node>
      </node>
     </node>
     <node id="1472537328mep6zcykbw" name="Интерфейс">
      <recordtable>
-      <record dir="1472537525y2lswh1ltb" crypt="0" url="http://its.1c.ru/db/v8std#content:2149184364:hdoc" tags="1c.ui" author="its" id="14725375252xkvkgz2ww" ctime="20160830091205" name="Как вместить большое количество команд" file="text.html"/>
-      <record dir="14733387140p6wbsa5w0" crypt="0" url="http://infostart.ru/public/57223/" tags="1c.ui" author="Сергей Старых aka tormozit" id="1473338714kc4b958yk3" ctime="20160908154514" name="Правильная индикация прогресса цикла на клиенте" file="text.html"/>
-      <record dir="1473788479zhjyive85e" crypt="0" url="http://infostart.ru/public/195003/" tags="1c.ui" author="Чистов Павел aka GROOVY" id="1473788479dfe3rdnl7q" ctime="20160913204119" name="Работа с файлами (картинками) в интерфейсе Такси" file="text.html"/>
+      <record id="14725375252xkvkgz2ww" name="Как вместить большое количество команд" author="its" url="http://its.1c.ru/db/v8std#content:2149184364:hdoc" tags="1c.ui" ctime="20160830091205" dir="1472537525y2lswh1ltb" file="text.html" crypt="0"/>
+      <record id="1473338714kc4b958yk3" name="Правильная индикация прогресса цикла на клиенте" author="Сергей Старых aka tormozit" url="http://infostart.ru/public/57223/" tags="1c.ui" ctime="20160908154514" dir="14733387140p6wbsa5w0" file="text.html" crypt="0"/>
+      <record id="1473788479dfe3rdnl7q" name="Работа с файлами (картинками) в интерфейсе Такси" author="Чистов Павел aka GROOVY" url="http://infostart.ru/public/195003/" tags="1c.ui" ctime="20160913204119" dir="1473788479zhjyive85e" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1472562701f22c6zxned" name="Тестирование">
      <node id="147256271464zni355qo" name="Интеграционное">
       <recordtable>
-       <record dir="1472562912wsaoxytpjp" crypt="0" url="" tags="testing" author="artbear" id="1472562912dcfv53zfoc" ctime="20160830161512" name="Подключение тестового приложения" file="text.html"/>
-       <record dir="1472562991ov9ck7mjf3" crypt="0" url="" tags="testing" author="artbear" id="14725629910f8w4nve5t" ctime="20160830161631" name="Завершить все сеансы работы с тестовыми приложениями" file="text.html"/>
-       <record dir="1472563075o3o9z6z5m1" crypt="0" url="" tags="testing" author="pola" id="1472563075suzt2ag0ge" ctime="20160830161755" name="Открыть список задач исполнителя" file="text.html"/>
-       <record dir="1472563151urgyyeic03" crypt="0" url="" tags="testing" author="pola" id="147256315129jwzwbfh0" ctime="20160830161911" name="Найти по наименованию и открыть задачу исполнителя" file="text.html"/>
+       <record id="1472562912dcfv53zfoc" name="Подключение тестового приложения" author="artbear" url="" tags="testing" ctime="20160830161512" dir="1472562912wsaoxytpjp" file="text.html" crypt="0"/>
+       <record id="14725629910f8w4nve5t" name="Завершить все сеансы работы с тестовыми приложениями" author="artbear" url="" tags="testing" ctime="20160830161631" dir="1472562991ov9ck7mjf3" file="text.html" crypt="0"/>
+       <record id="1472563075suzt2ag0ge" name="Открыть список задач исполнителя" author="pola" url="" tags="testing" ctime="20160830161755" dir="1472563075o3o9z6z5m1" file="text.html" crypt="0"/>
+       <record id="147256315129jwzwbfh0" name="Найти по наименованию и открыть задачу исполнителя" author="pola" url="" tags="testing" ctime="20160830161911" dir="1472563151urgyyeic03" file="text.html" crypt="0"/>
       </recordtable>
       <node id="1472797247x06uoeg5u6" name="AutoIt">
        <recordtable>
-        <record dir="14727972928dz87s0qur" crypt="0" url="" tags="1c.testing.autoit" author="pola" id="1472797292hyndmlhgtm" ctime="20160902092132" name="Запустить bat-файл" file="text.html"/>
-        <record dir="1472801107shtu9te9js" crypt="0" url="help AutoIt" tags="1c.testing.autoit" author="pola" id="1472801107s1wcjx1206" ctime="20160902102507" name="Проверить, что окно активно" file="text.html"/>
-        <record dir="1472801703bdinuiniin" crypt="0" url="help AutoIt" tags="1c.testing.autoit" author="pola" id="1472801703d3014c0hti" ctime="20160902103503" name="Активировать указанное окно" file="text.html"/>
-        <record dir="147280299813hhs5of15" crypt="0" url="" tags="1c.testing.autoit" author="pola" id="1472802998k4cmfo5yv4" ctime="20160902105638" name="links" file="text.html"/>
+        <record id="1472797292hyndmlhgtm" name="Запустить bat-файл" author="pola" url="" tags="1c.testing.autoit" ctime="20160902092132" dir="14727972928dz87s0qur" file="text.html" crypt="0"/>
+        <record id="1472801107s1wcjx1206" name="Проверить, что окно активно" author="pola" url="help AutoIt" tags="1c.testing.autoit" ctime="20160902102507" dir="1472801107shtu9te9js" file="text.html" crypt="0"/>
+        <record id="1472801703d3014c0hti" name="Активировать указанное окно" author="pola" url="help AutoIt" tags="1c.testing.autoit" ctime="20160902103503" dir="1472801703bdinuiniin" file="text.html" crypt="0"/>
+        <record id="1472802998k4cmfo5yv4" name="links" author="pola" url="" tags="1c.testing.autoit" ctime="20160902105638" dir="147280299813hhs5of15" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node id="1473158861mn5ati3hwf" name="features">
        <recordtable>
-        <record dir="1473159015b44ywrw3zk" crypt="0" url="" tags="1c.testing.features" author="Nikita Gryzlov &lt;nixel2007@gmail.com" id="1473159015xe83vfstot" ctime="20160906135015" name="Шаблон фича-файла" file="text.html"/>
-        <record dir="1474006215in107bgmxb" crypt="0" url="" tags="1c.testing.features" author="" id="14740062159ckc2ud4ly" ctime="20160916091015" name="Получение состояния формы на языке gherkin" file="text.html"/>
+        <record id="1473159015xe83vfstot" name="Шаблон фича-файла" author="Nikita Gryzlov &lt;nixel2007@gmail.com" url="" tags="1c.testing.features" ctime="20160906135015" dir="1473159015b44ywrw3zk" file="text.html" crypt="0"/>
+        <record id="14740062159ckc2ud4ly" name="Получение состояния формы на языке gherkin" author="" url="" tags="1c.testing.features" ctime="20160916091015" dir="1474006215in107bgmxb" file="text.html" crypt="0"/>
        </recordtable>
       </node>
      </node>
      <node id="14726575359q9go55ytg" name="Функциональное">
       <node id="1473159069qebb5fiiij" name="xUnit">
        <recordtable>
-        <record dir="1473159087cxqehl36uk" crypt="0" url="" tags="1c.testing.xunit" author="pola" id="14731590877r95snukst" ctime="20160906135127" name="Код модуля обычной формы тестовой обработки для отладки" file="text.html"/>
-        <record dir="1473252687mij89ehpcm" crypt="0" url="" tags="1c.testing.xunit" author="artbear" id="14732526873nwr94k5v1" ctime="20160907155127" name="Удалить тестовые данные" file="text.html"/>
+        <record id="14731590877r95snukst" name="Код модуля обычной формы тестовой обработки для отладки" author="pola" url="" tags="1c.testing.xunit" ctime="20160906135127" dir="1473159087cxqehl36uk" file="text.html" crypt="0"/>
+        <record id="14732526873nwr94k5v1" name="Удалить тестовые данные" author="artbear" url="" tags="1c.testing.xunit" ctime="20160907155127" dir="1473252687mij89ehpcm" file="text.html" crypt="0"/>
        </recordtable>
        <node id="14738424680dkf3fibel" name="plugins">
         <recordtable>
-         <record dir="1473843761zm6ibreqtp" crypt="0" url="" tags="1c.testing.xunit.plugins" author="Аюханов Артур aka artbear" id="1473843761j4qxe1dnu4" ctime="20160914120241" name="Утверждения проверки таблиц" file="text.html"/>
+         <record id="1473843761j4qxe1dnu4" name="Утверждения проверки таблиц" author="Аюханов Артур aka artbear" url="" tags="1c.testing.xunit.plugins" ctime="20160914120241" dir="1473843761zm6ibreqtp" file="text.html" crypt="0"/>
         </recordtable>
        </node>
        <node id="1473852521rfrafz307t" name="my lib">
         <recordtable>
-         <record dir="14738525439jeh71y5po" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852543hervzwo89u" ctime="20160914142903" name="Получить данные из тестового макета" file="text.html"/>
-         <record dir="14738525494j03jk4cgi" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852549vxn4nohy1y" ctime="20160914142909" name="Получить таблицу значений из макета" file="text.html"/>
-         <record dir="1473852556ppfftykqz9" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473852556zr1d1txqiw" ctime="20160914142916" name="Получить тестовый объект" file="text.html"/>
-         <record dir="1473853731bjliyupry1" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1473853731u6fih73kbp" ctime="20160914144851" name="Подключить плагин на сервере" file="text.html"/>
-         <record dir="1474039269dzxdif2yu9" crypt="0" url="" tags="1c.testing.xunit.mylib" author="pola" id="1474039269lfpqo6pg17" ctime="20160916182109" name="Изменить свойство регистра сведений и откатиться" file="text.html"/>
+         <record id="1473852543hervzwo89u" name="Получить данные из тестового макета" author="pola" url="" tags="1c.testing.xunit.mylib" ctime="20160914142903" dir="14738525439jeh71y5po" file="text.html" crypt="0"/>
+         <record id="1473852549vxn4nohy1y" name="Получить таблицу значений из макета" author="pola" url="" tags="1c.testing.xunit.mylib" ctime="20160914142909" dir="14738525494j03jk4cgi" file="text.html" crypt="0"/>
+         <record id="1473852556zr1d1txqiw" name="Получить тестовый объект" author="pola" url="" tags="1c.testing.xunit.mylib" ctime="20160914142916" dir="1473852556ppfftykqz9" file="text.html" crypt="0"/>
+         <record id="1473853731u6fih73kbp" name="Подключить плагин на сервере" author="pola" url="" tags="1c.testing.xunit.mylib" ctime="20160914144851" dir="1473853731bjliyupry1" file="text.html" crypt="0"/>
+         <record id="1474039269lfpqo6pg17" name="Изменить свойство регистра сведений и откатиться" author="pola" url="" tags="1c.testing.xunit.mylib" ctime="20160916182109" dir="1474039269dzxdif2yu9" file="text.html" crypt="0"/>
         </recordtable>
        </node>
        <node id="147400862012a19jui7f" name="Мои изменения в обработке xUnitFor1c">
         <recordtable>
-         <record dir="1474008670mmspvsoeyr" crypt="0" url="" tags="" author="" id="14740086703zdfjccsp2" ctime="20160916095110" name="Не открыть отчет о тестировании" file="text.html"/>
-         <record dir="1474008746hu118we666" crypt="0" url="" tags="" author="" id="1474008746rdn6dr4zmx" ctime="20160916095226" name="Установка своих комбинаций клавиш" file="text.html"/>
-         <record dir="1474044561fvtm0xfghg" crypt="0" url="" tags="" author="" id="1474044561hc4j6d3opk" ctime="20160916194921" name="Индикация упавшего по неизвестной причине тест" file="text.html"/>
+         <record id="14740086703zdfjccsp2" name="Не открыть отчет о тестировании" author="" url="" tags="" ctime="20160916095110" dir="1474008670mmspvsoeyr" file="text.html" crypt="0"/>
+         <record id="1474008746rdn6dr4zmx" name="Установка своих комбинаций клавиш" author="" url="" tags="" ctime="20160916095226" dir="1474008746hu118we666" file="text.html" crypt="0"/>
+         <record id="1474044561hc4j6d3opk" name="Индикация упавшего по неизвестной причине тест" author="" url="" tags="" ctime="20160916194921" dir="1474044561fvtm0xfghg" file="text.html" crypt="0"/>
         </recordtable>
        </node>
        <node id="14745292182vu2udq258" name="code">
         <recordtable>
-         <record dir="1474529334jemzwfa6nh" crypt="0" url="" tags="1c.xunit.code" author="" id="1474529334o47kxkwle8" ctime="20160922102854" name="Создать тестируюмую обработку на сервере" file="text.html"/>
+         <record id="1474529334o47kxkwle8" name="Создать тестируюмую обработку на сервере" author="" url="" tags="1c.xunit.code" ctime="20160922102854" dir="1474529334jemzwfa6nh" file="text.html" crypt="0"/>
         </recordtable>
        </node>
       </node>
       <node id="14738451416su8iborle" name="Мысли">
        <recordtable>
-        <record dir="14738452123lxvedzfpw" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="pola" id="14738452129vzcg8afex" ctime="20160914122652" name="По поводу тестирования клиента и сервера" file="text.html"/>
-        <record dir="1474371578hdlfvqrlxw" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="" id="1474371578o1bqjefsqp" ctime="20160920143938" name="По поводу скорости разработки логики формы через тестирование" file="text.html"/>
-        <record dir="1474388731obvexijbwi" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="" id="1474388731580m5xswf3" ctime="20160920192531" name="О целесообразности" file="text.html"/>
-        <record dir="1475226770sdw7xj7u4p" crypt="0" url="" tags="1c.testign.xUnit.thoughts" author="" id="14752267702ab20iixir" ctime="20160930121250" name="О необходимости как ручного, так и автоматического тестирования" file="text.html"/>
+        <record id="14738452129vzcg8afex" name="По поводу тестирования клиента и сервера" author="pola" url="" tags="1c.testign.xUnit.thoughts" ctime="20160914122652" dir="14738452123lxvedzfpw" file="text.html" crypt="0"/>
+        <record id="1474371578o1bqjefsqp" name="По поводу скорости разработки логики формы через тестирование" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20160920143938" dir="1474371578hdlfvqrlxw" file="text.html" crypt="0"/>
+        <record id="1474388731580m5xswf3" name="О целесообразности" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20160920192531" dir="1474388731obvexijbwi" file="text.html" crypt="0"/>
+        <record id="14752267702ab20iixir" name="О необходимости как ручного, так и автоматического тестирования" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20160930121250" dir="1475226770sdw7xj7u4p" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node id="1475155299uhh5ld3w7h" name="lib">
        <recordtable>
-        <record dir="1475155315pi1dum67k6" crypt="0" url="" tags="1c.xunit.lib" author="" id="14751553159ateqg06if" ctime="20160929162155" name="ЗаписатьДанныеИзМакетаВнешнейОбработки" file="text.html"/>
+        <record id="14751553159ateqg06if" name="ЗаписатьДанныеИзМакетаВнешнейОбработки" author="" url="" tags="1c.xunit.lib" ctime="20160929162155" dir="1475155315pi1dum67k6" file="text.html" crypt="0"/>
        </recordtable>
       </node>
      </node>
     </node>
     <node id="1472574703nmb68td77f" name="Интеграция">
      <recordtable>
-      <record dir="14733457836rvilrarr0" crypt="0" url="https://habrahabr.ru/company/1c/blog/308420/" tags="1c.integration" author="1с" id="1473345783mx280p7tup" ctime="20160908174303" name="Способы интеграции с 1С" file="text.html"/>
+      <record id="1473345783mx280p7tup" name="Способы интеграции с 1С" author="1с" url="https://habrahabr.ru/company/1c/blog/308420/" tags="1c.integration" ctime="20160908174303" dir="14733457836rvilrarr0" file="text.html" crypt="0"/>
      </recordtable>
      <node id="14731692907jqq1dqf86" name="com">
       <node id="1473169290gmx84kxu2a" name="Готовые решения">
        <recordtable>
-        <record dir="1473169290kjgy88s4dh" crypt="0" url="" tags="1c.integration.templates" author="pola" id="1473169290up6j8ect7r" ctime="20160906164130" name="Получить соединение с базой" file="text.html"/>
-        <record dir="1474879763jlupbziozb" crypt="0" url="" tags="1c.integration.templates" author="" id="1474879763v61grp8dt8" ctime="20160926114923" name="Получить уникальный идентификатор строкой" file="text.html"/>
+        <record id="1473169290up6j8ect7r" name="Получить соединение с базой" author="pola" url="" tags="1c.integration.templates" ctime="20160906164130" dir="1473169290kjgy88s4dh" file="text.html" crypt="0"/>
+        <record id="1474879763v61grp8dt8" name="Получить уникальный идентификатор строкой" author="" url="" tags="1c.integration.templates" ctime="20160926114923" dir="1474879763jlupbziozb" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node id="14733369470ye6ehaps5" name="Статьи">
        <recordtable>
-        <record dir="1473337347r1lmt386ov" crypt="0" url="http://infostart.ru/public/387577/" tags="1c.integration.com.info" author="Старых Сергей aka tormozit " id="14733373478n8a5mc054" ctime="20160908152227" name="Взаимодействие между базами 1С через COM" file="text.html"/>
-        <record dir="1473338836urgaze3dl3" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2263/hdoc" tags="" author="its" id="14733388369e182956rc" ctime="20160908154716" name="Особенности использования COM-объектов" file="text.html"/>
-        <record dir="1473339195xzxen8rn6d" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2261/hdoc" tags="" author="its" id="1473339195k2ehyiaky6" ctime="20160908155315" name="Получение значений перечислений через внешнее соединение или Automation сервер" file="text.html"/>
-        <record dir="1473339238xoaq6y0a6r" crypt="0" url="http://its.1c.ru/db/metod8dev/content/2262/hdoc" tags="" author="its" id="1473339238svbyljfvgb" ctime="20160908155358" name="Передача объектов 1С:Предприятия через COM" file="text.html"/>
+        <record id="14733373478n8a5mc054" name="Взаимодействие между базами 1С через COM" author="Старых Сергей aka tormozit " url="http://infostart.ru/public/387577/" tags="1c.integration.com.info" ctime="20160908152227" dir="1473337347r1lmt386ov" file="text.html" crypt="0"/>
+        <record id="14733388369e182956rc" name="Особенности использования COM-объектов" author="its" url="http://its.1c.ru/db/metod8dev/content/2263/hdoc" tags="" ctime="20160908154716" dir="1473338836urgaze3dl3" file="text.html" crypt="0"/>
+        <record id="1473339195k2ehyiaky6" name="Получение значений перечислений через внешнее соединение или Automation сервер" author="its" url="http://its.1c.ru/db/metod8dev/content/2261/hdoc" tags="" ctime="20160908155315" dir="1473339195xzxen8rn6d" file="text.html" crypt="0"/>
+        <record id="1473339238svbyljfvgb" name="Передача объектов 1С:Предприятия через COM" author="its" url="http://its.1c.ru/db/metod8dev/content/2262/hdoc" tags="" ctime="20160908155358" dir="1473339238xoaq6y0a6r" file="text.html" crypt="0"/>
        </recordtable>
       </node>
      </node>
      <node id="14725747245hgwt55csu" name="REST интерфейс">
       <recordtable>
-       <record dir="1472574951f15zg53fte" crypt="0" url="http://v8.1c.ru/o7/201508odata/index.htm" tags="1c.integration.OData" author="1с" id="1472574951m1wt1atrsy" ctime="20160830193551" name="Статья из Зазеркалья" file="text.html"/>
-       <record dir="1472575220cnrln09un7" crypt="0" url="https://pbazeliuk.com/2015/10/01/1c-enterprise-odata/" tags="1c.integration.OData" author="pbazeliuk" id="1472575220fau4094mxc" ctime="20160830194020" name="7 причин, почему интеграция стала приятной" file="text.html"/>
-       <record dir="1472577217beowhh74u8" crypt="0" url="http://its.1c.ru/db/v837doc#bookmark:dev:TI000001357" tags="1c.integration.http" author="its" id="1472577217o3jfv2ydn4" ctime="20160830201337" name="HTTP-сервисы" file="text.html"/>
-       <record dir="1473336502tb564mxt8u" crypt="0" url="http://infostart.ru/public/538808/" tags="1c.integration.http" author="serg_infostart" id="14733365023j2k3bej2v" ctime="20160908150822" name="Cоздание и отладка HTTP-сервиса" file="text.html"/>
+       <record id="1472574951m1wt1atrsy" name="Статья из Зазеркалья" author="1с" url="http://v8.1c.ru/o7/201508odata/index.htm" tags="1c.integration.OData" ctime="20160830193551" dir="1472574951f15zg53fte" file="text.html" crypt="0"/>
+       <record id="1472575220fau4094mxc" name="7 причин, почему интеграция стала приятной" author="pbazeliuk" url="https://pbazeliuk.com/2015/10/01/1c-enterprise-odata/" tags="1c.integration.OData" ctime="20160830194020" dir="1472575220cnrln09un7" file="text.html" crypt="0"/>
+       <record id="1472577217o3jfv2ydn4" name="HTTP-сервисы" author="its" url="http://its.1c.ru/db/v837doc#bookmark:dev:TI000001357" tags="1c.integration.http" ctime="20160830201337" dir="1472577217beowhh74u8" file="text.html" crypt="0"/>
+       <record id="14733365023j2k3bej2v" name="Cоздание и отладка HTTP-сервиса" author="serg_infostart" url="http://infostart.ru/public/538808/" tags="1c.integration.http" ctime="20160908150822" dir="1473336502tb564mxt8u" file="text.html" crypt="0"/>
       </recordtable>
      </node>
      <node id="1473340435rhd1pwr7tx" name="WEB-сервисы">
       <recordtable>
-       <record dir="147334080484c3eh5epj" crypt="0" url="http://tf21.ru/public/327963/" tags="1c.integration.web-services" author="AXIOMLAB24 " id="1473340804tg2mplwm2d" ctime="20160908162004" name="Практическое применение механизма WEB-сервисов в системе «1С:Предприятие»" file="text.html"/>
+       <record id="1473340804tg2mplwm2d" name="Практическое применение механизма WEB-сервисов в системе «1С:Предприятие»" author="AXIOMLAB24 " url="http://tf21.ru/public/327963/" tags="1c.integration.web-services" ctime="20160908162004" dir="147334080484c3eh5epj" file="text.html" crypt="0"/>
       </recordtable>
      </node>
      <node id="1473342405g9033mk6wi" name="virtualization">
       <recordtable>
-       <record dir="14733426408y03d4qwd4" crypt="0" url="http://infostart.ru/public/542836/" tags="1c.integration.virtual" author="Евгений Сосна aka pumbaE" id="1473342640lgnqla6ibr" ctime="20160908165040" name="Использование Vagrant и Docker при разработке в 1С" file="text.html"/>
+       <record id="1473342640lgnqla6ibr" name="Использование Vagrant и Docker при разработке в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/542836/" tags="1c.integration.virtual" ctime="20160908165040" dir="14733426408y03d4qwd4" file="text.html" crypt="0"/>
       </recordtable>
      </node>
     </node>
     <node id="1473345828ac5gra5a3k" name="Blogs">
      <recordtable>
-      <record dir="14737570430ltyhctz4g" crypt="0" url="https://pbazeliuk.com" tags="1c.blogs" author="" id="1473757043c9bbldc3pd" ctime="20160913115723" name="Блог Базелюка Петра" file="text.html"/>
-      <record dir="1473786471dapvnv98i0" crypt="0" url="https://homyaks1c.blogspot.ru" tags="1c.blogs" author="Александ Хомяк" id="1473786471vjwl6krrdu" ctime="20160913200751" name="Блог Хомяка Александра" file="text.html"/>
-      <record dir="1473788547zrhkjaofl2" crypt="0" url="http://1c.chistov.pro" tags="" author="" id="1473788547l3ypiqcin8" ctime="20160913204227" name="Блог Чистова Павла" file="text.html"/>
+      <record id="1473757043c9bbldc3pd" name="Блог Базелюка Петра" author="" url="https://pbazeliuk.com" tags="1c.blogs" ctime="20160913115723" dir="14737570430ltyhctz4g" file="text.html" crypt="0"/>
+      <record id="1473786471vjwl6krrdu" name="Блог Хомяка Александра" author="Александ Хомяк" url="https://homyaks1c.blogspot.ru" tags="1c.blogs" ctime="20160913200751" dir="1473786471dapvnv98i0" file="text.html" crypt="0"/>
+      <record id="1473788547l3ypiqcin8" name="Блог Чистова Павла" author="" url="http://1c.chistov.pro" tags="" ctime="20160913204227" dir="1473788547zrhkjaofl2" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473345925ji2r7rpdtx" name="Enterprice Development Tools">
      <recordtable>
-      <record dir="14733462003rs22q0kpa" crypt="0" url="http://infostart.ru/public/344802/" tags="1c.edt" author="Шерстобитов Дмитрий aka DitriX" id="14733462009avxzdfhxm" ctime="20160908175000" name="1C:Enterprise Development tools или кодим в Eclipse" file="text.html"/>
+      <record id="14733462009avxzdfhxm" name="1C:Enterprise Development tools или кодим в Eclipse" author="Шерстобитов Дмитрий aka DitriX" url="http://infostart.ru/public/344802/" tags="1c.edt" ctime="20160908175000" dir="14733462003rs22q0kpa" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473346509iw114wc907" name="Documentation">
      <recordtable>
-      <record dir="1473346576xbd5durnov" crypt="0" url="http://infostart.ru/public/181935/" tags="1c.documentation" author="Казьмин Василий aka awk" id="1473346576vfgf9g1oss" ctime="20160908175616" name="Документирование 1С через комментарии" file="text.html"/>
+      <record id="1473346576vfgf9g1oss" name="Документирование 1С через комментарии" author="Казьмин Василий aka awk" url="http://infostart.ru/public/181935/" tags="1c.documentation" ctime="20160908175616" dir="1473346576xbd5durnov" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473346660x1fljjvgyk" name="develop process">
      <recordtable>
-      <record dir="1473346801lpvobfwzyj" crypt="0" url="http://infostart.ru/public/340186/" tags="1c.dev-process" author="Казьмин Василий aka awk" id="1473346801sokij5uuvn" ctime="20160908180001" name="Обзор opensource-инструментов управления проектами" file="text.html"/>
-      <record dir="1473347035i0s9e7kdsz" crypt="0" url="http://infostart.ru/public/65526/" tags="1c.dev-process" author="Артур Аюханов aka artbear" id="1473347035hbkg5tun1u" ctime="20160908180355" name="Повышение удобства разработки в среде 1С:Предприятие 8" file="text.html"/>
+      <record id="1473346801sokij5uuvn" name="Обзор opensource-инструментов управления проектами" author="Казьмин Василий aka awk" url="http://infostart.ru/public/340186/" tags="1c.dev-process" ctime="20160908180001" dir="1473346801lpvobfwzyj" file="text.html" crypt="0"/>
+      <record id="1473347035hbkg5tun1u" name="Повышение удобства разработки в среде 1С:Предприятие 8" author="Артур Аюханов aka artbear" url="http://infostart.ru/public/65526/" tags="1c.dev-process" ctime="20160908180355" dir="1473347035i0s9e7kdsz" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473347086h48tjskaz5" name="queries">
      <recordtable>
-      <record dir="14733472891wxgihvj3k" crypt="0" url="http://infostart.ru/public/427180/" tags="1c.quiries" author="m..adm " id="1473347289zdd1m9h3tk" ctime="20160908180809" name="Варианты построения выборки диапазона чисел или дат с помощью запроса" file="text.html"/>
+      <record id="1473347289zdd1m9h3tk" name="Варианты построения выборки диапазона чисел или дат с помощью запроса" author="m..adm " url="http://infostart.ru/public/427180/" tags="1c.quiries" ctime="20160908180809" dir="14733472891wxgihvj3k" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473420365g259t2umz0" name="Debbuging">
      <recordtable>
-      <record dir="1473420385xysqo6y7mo" crypt="0" url="" tags="1c.debugging" author="pola" id="1473420385erqliaehjc" ctime="20160909142625" name="Контекст отладчика портативной ир" file="text.html"/>
+      <record id="1473420385erqliaehjc" name="Контекст отладчика портативной ир" author="pola" url="" tags="1c.debugging" ctime="20160909142625" dir="1473420385xysqo6y7mo" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473757767uodiji3d24" name="practice">
      <recordtable>
-      <record dir="1473758325jdkjj9m7b6" crypt="0" url="" tags="1c.practice" author="pola" id="1473758325y47ujzpk4r" ctime="20160913121845" name="Время на разработку" file="text.html"/>
+      <record id="1473758325y47ujzpk4r" name="Время на разработку" author="pola" url="" tags="1c.practice" ctime="20160913121845" dir="1473758325jdkjj9m7b6" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="147378512495dj5qzmt0" name="client-server">
      <recordtable>
-      <record dir="1473785165bhhbsikk6w" crypt="0" url="http://its.1c.ru/db/metod8dev#content:3556:hdoc" tags="1c.client_server" author="its" id="14737851658pygay3gzl" ctime="20160913194605" name="Программно открыть внешнюю обработку" file="text.html"/>
-      <record dir="14738389628aqfrpd0hs" crypt="0" url="https://helpf.pro/faq83/view/1605.html" tags="" author="" id="1473838962ib8gpt0qlz" ctime="20160914104242" name="Передать таблицу значений с сервера на клиент" file="text.html"/>
+      <record id="14737851658pygay3gzl" name="Программно открыть внешнюю обработку" author="its" url="http://its.1c.ru/db/metod8dev#content:3556:hdoc" tags="1c.client_server" ctime="20160913194605" dir="1473785165bhhbsikk6w" file="text.html" crypt="0"/>
+      <record id="1473838962ib8gpt0qlz" name="Передать таблицу значений с сервера на клиент" author="" url="https://helpf.pro/faq83/view/1605.html" tags="" ctime="20160914104242" dir="14738389628aqfrpd0hs" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="147378880499uex86qwf" name="code">
      <recordtable>
-      <record dir="1473788882t2uag8r2ka" crypt="0" url="" tags="1c.code" author="1с" id="1473788882wa17snzyrv" ctime="20160913204802" name="Выполнить процедуру модуля объекта обработки" file="text.html"/>
-      <record dir="1473844346xq1m3wqwgu" crypt="0" url="" tags="1c.code" author="pola" id="14738443461g8dd948eh" ctime="20160914121226" name="Таблицу значений в табличный документ с помощью СКД" file="text.html"/>
-      <record dir="1473860511iupp1u4z7w" crypt="0" url="" tags="1c.code" author="pola" id="1473860511i8f0hux3i5" ctime="20160914164151" name="Проверить, что не копия рабочей базы" file="text.html"/>
-      <record dir="1473956528w8lt9wkijs" crypt="0" url="" tags="1c.code" author="" id="147395652849vv50bjf7" ctime="20160915192208" name="Краткое описание ошибки" file="text.html"/>
+      <record id="1473788882wa17snzyrv" name="Выполнить процедуру модуля объекта обработки" author="1с" url="" tags="1c.code" ctime="20160913204802" dir="1473788882t2uag8r2ka" file="text.html" crypt="0"/>
+      <record id="14738443461g8dd948eh" name="Таблицу значений в табличный документ с помощью СКД" author="pola" url="" tags="1c.code" ctime="20160914121226" dir="1473844346xq1m3wqwgu" file="text.html" crypt="0"/>
+      <record id="1473860511i8f0hux3i5" name="Проверить, что не копия рабочей базы" author="pola" url="" tags="1c.code" ctime="20160914164151" dir="1473860511iupp1u4z7w" file="text.html" crypt="0"/>
+      <record id="147395652849vv50bjf7" name="Краткое описание ошибки" author="" url="" tags="1c.code" ctime="20160915192208" dir="1473956528w8lt9wkijs" file="text.html" crypt="0"/>
      </recordtable>
      <node id="14756856493h3kr4vwte" name="upp">
       <recordtable>
-       <record dir="1475685672v5lp4978ki" crypt="0" url="" tags="" author="pola" id="1475685672w953n3gxft" ctime="20161005194112" name="Получение данных из макета объекта" file="text.html"/>
-       <record dir="1475685684cc5g10byeq" crypt="0" url="upp" tags="1c.code.upp" author="" id="1475685684i9py27yslf" ctime="20161005194124" name="Прибавить период" file="text.html"/>
-       <record dir="1475685690kk47egsw4w" crypt="0" url="" tags="1c.code.upp" author="" id="1475685690dt7cn0i79q" ctime="20161005194130" name="Получить таблицу значений из макета" file="text.html"/>
-       <record dir="1475685699exji8yi83q" crypt="0" url="" tags="1c.code.upp" author="" id="1475685699092khklerq" ctime="20161005194139" name="Асинхронное выполнение кода" file="text.html"/>
+       <record id="1475685672w953n3gxft" name="Получение данных из макета объекта" author="pola" url="" tags="" ctime="20161005194112" dir="1475685672v5lp4978ki" file="text.html" crypt="0"/>
+       <record id="1475685684i9py27yslf" name="Прибавить период" author="" url="upp" tags="1c.code.upp" ctime="20161005194124" dir="1475685684cc5g10byeq" file="text.html" crypt="0"/>
+       <record id="1475685690dt7cn0i79q" name="Получить таблицу значений из макета" author="" url="" tags="1c.code.upp" ctime="20161005194130" dir="1475685690kk47egsw4w" file="text.html" crypt="0"/>
+       <record id="1475685699092khklerq" name="Асинхронное выполнение кода" author="" url="" tags="1c.code.upp" ctime="20161005194139" dir="1475685699exji8yi83q" file="text.html" crypt="0"/>
       </recordtable>
      </node>
     </node>
     <node id="1473840626v9jn3tant3" name="forms">
      <recordtable>
-      <record dir="1473840654c682w9qkbx" crypt="0" url="" tags="1c.forms" author="pola" id="1473840654lj78brkb6b" ctime="20160914111054" name="Создать таблицу на форме" file="text.html"/>
-      <record dir="1473840677fltb0nk22c" crypt="0" url="" tags="1c.forms" author="pola" id="147384067715kwwlkvy4" ctime="20160914111117" name="Формы для обычного клиента и для управляемого клиента" file="text.html"/>
-      <record dir="14738407142c5rr3ah19" crypt="0" url="http://forum.aeroion.ru/topic625.html" tags="1c.forms" author="Sergey aka Porutchik" id="1473840714rl3frwe0gg" ctime="20160914111154" name="Получить из формы объекта другую форму объекта" file="text.html"/>
-      <record dir="14738546788ienz8uwa7" crypt="0" url="" tags="1c.forms" author="pola" id="1473854678t30xy9h3yu" ctime="20160914150438" name="Создать таблицу на форме" file="text.html"/>
-      <record dir="1475055872f4y714u7bv" crypt="0" url="" tags="1c.forms" author="" id="1475055872kr9tse0dte" ctime="20160928124432" name="Произвольный список выбора поля ввода в управляемой форме" file="text.html"/>
+      <record id="1473840654lj78brkb6b" name="Создать таблицу на форме" author="pola" url="" tags="1c.forms" ctime="20160914111054" dir="1473840654c682w9qkbx" file="text.html" crypt="0"/>
+      <record id="147384067715kwwlkvy4" name="Формы для обычного клиента и для управляемого клиента" author="pola" url="" tags="1c.forms" ctime="20160914111117" dir="1473840677fltb0nk22c" file="text.html" crypt="0"/>
+      <record id="1473840714rl3frwe0gg" name="Получить из формы объекта другую форму объекта" author="Sergey aka Porutchik" url="http://forum.aeroion.ru/topic625.html" tags="1c.forms" ctime="20160914111154" dir="14738407142c5rr3ah19" file="text.html" crypt="0"/>
+      <record id="1473854678t30xy9h3yu" name="Создать таблицу на форме" author="pola" url="" tags="1c.forms" ctime="20160914150438" dir="14738546788ienz8uwa7" file="text.html" crypt="0"/>
+      <record id="1475055872kr9tse0dte" name="Произвольный список выбора поля ввода в управляемой форме" author="" url="" tags="1c.forms" ctime="20160928124432" dir="1475055872f4y714u7bv" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1474348381sbnpgzvl2p" name="multitasking">
      <recordtable>
-      <record dir="1474348435gpmj7esjv6" crypt="0" url="" tags="1c.multitasking" author="Бурмистров Андрей" id="1474348435licl95lgve" ctime="20160920081355" name="Как ускорить 1С – Многопоточная обработка данных" file="text.html"/>
-      <record dir="1474349286ejmjhcdp5z" crypt="0" url="" tags="1c.multitasking" author="Старых Сергей aka tormozit" id="1474349286wgxbe2u4h7" ctime="20160920082806" name="Приемы обработки больших данных в 1С. На пути к big data" file="text.html"/>
+      <record id="1474348435licl95lgve" name="Как ускорить 1С – Многопоточная обработка данных" author="Бурмистров Андрей" url="" tags="1c.multitasking" ctime="20160920081355" dir="1474348435gpmj7esjv6" file="text.html" crypt="0"/>
+      <record id="1474349286wgxbe2u4h7" name="Приемы обработки больших данных в 1С. На пути к big data" author="Старых Сергей aka tormozit" url="" tags="1c.multitasking" ctime="20160920082806" dir="1474349286ejmjhcdp5z" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1474905128ow90ksgjuk" name="roles"/>
     <node id="1475147185kbhuanzpp9" name="snegopat">
      <recordtable>
-      <record dir="14751472458l0fvm3g9k" crypt="0" url="" tags="1c.snegopat" author="" id="14751472450ctkwm25cr" ctime="20160929140725" name="Сохранение настроек" file="text.html"/>
+      <record id="14751472450ctkwm25cr" name="Сохранение настроек" author="" url="" tags="1c.snegopat" ctime="20160929140725" dir="14751472458l0fvm3g9k" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
-   <node id="1472796198f3eale0cin" name="Администирование">
+   <node crypt="" id="1472796198f3eale0cin" name="Администирование">
     <node id="1472796208zuz953v5hv" name="bat-файлы">
      <recordtable>
-      <record dir="1472796601l5dp9vgj61" crypt="0" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="adm.bat" author="pola" id="1472796601bpyd74djeq" ctime="20160902091001" name="Создание bat-файла с чтением кириллических символов" file="text.html"/>
-      <record dir="1473077862yrbpi9rro6" crypt="0" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="adm.bat" author="pola" id="1473077862yh40grb61b" ctime="20160905151742" name="Изменение кодировки" file="text.html"/>
+      <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="adm.bat" ctime="20160902091001" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
+      <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="adm.bat" ctime="20160905151742" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1472805528mbdadpctnt" name="shell">
      <recordtable>
-      <record dir="1472805548fm2rynlqub" crypt="0" url="" tags="amd.shell" author="pola" id="1472805548oaul3glio8" ctime="20160902113908" name="bash how-to" file="text.html"/>
+      <record id="1472805548oaul3glio8" name="bash how-to" author="pola" url="" tags="amd.shell" ctime="20160902113908" dir="1472805548fm2rynlqub" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473087502rymp2zbc51" name="работа с реестром windows">
      <recordtable>
-      <record dir="1473087681sn59ocjx1c" crypt="0" url="" tags="adm.regedit" author="pola" id="1473087681o2kdhmw91m" ctime="20160905180121" name="Автоматическое завершение программ при выключении компьютера" file="text.html"/>
+      <record id="1473087681o2kdhmw91m" name="Автоматическое завершение программ при выключении компьютера" author="pola" url="" tags="adm.regedit" ctime="20160905180121" dir="1473087681sn59ocjx1c" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473342713sw9wspytnz" name="Articles">
      <recordtable>
-      <record dir="1473343351yi693f67s1" crypt="0" url="http://infostart.ru/public/327893/" tags="1c.admin.info" author="Евгений Сосна aka pumbaE" id="1473343351wz5wss9abe" ctime="20160908170231" name="Использование service discovery в 1С" file="text.html"/>
+      <record id="1473343351wz5wss9abe" name="Использование service discovery в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/327893/" tags="1c.admin.info" ctime="20160908170231" dir="1473343351yi693f67s1" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
-   <node id="14728050856fzhn10avh" name="vim">
+   <node crypt="" id="14728050856fzhn10avh" name="vim">
     <node id="14728050934nvukmwnsy" name="plugins">
      <node id="1472805099g8kfr847pf" name="NerdTree">
       <recordtable>
-       <record dir="1472805133s9ctn5jl8e" crypt="0" url="" tags="vim.plugins.nerdtree" author="pola" id="1472805133fi351qy9tm" ctime="20160902113213" name="Hotkeys" file="text.html"/>
-       <record dir="14732497446md6620yib" crypt="0" url="" tags="vim.plugins.nerdtree" author="pola" id="1473249744825stkgrt0" ctime="20160907150224" name="Работа с метками" file="text.html"/>
+       <record id="1472805133fi351qy9tm" name="Hotkeys" author="pola" url="" tags="vim.plugins.nerdtree" ctime="20160902113213" dir="1472805133s9ctn5jl8e" file="text.html" crypt="0"/>
+       <record id="1473249744825stkgrt0" name="Работа с метками" author="pola" url="" tags="vim.plugins.nerdtree" ctime="20160907150224" dir="14732497446md6620yib" file="text.html" crypt="0"/>
       </recordtable>
      </node>
     </node>
     <node id="1473312718za41avn2bz" name="scripts">
      <node id="1473312728r2kl9ncw6w" name="maping">
       <recordtable>
-       <record dir="1473313648tih44vkabn" crypt="0" url="" tags="vim.scripts.maping" author="pola" id="14733136483gg2sr9os9" ctime="20160908084728" name="Копирование имени и пути файла" file="text.html"/>
-       <record dir="1473314585zz85ualtft" crypt="0" url="" tags="vim.scripts.maping" author="pola" id="1473314585bg81s9kfbc" ctime="20160908090305" name="На клавишу F3 назначить вставку пути директории, содержащей файл" file="text.html"/>
-       <record dir="1473315345nl9uh4qjdo" crypt="0" url="" tags="" author="pola" id="147331534569b01v5wgw" ctime="20160908091545" name="На комбинацию &lt;C-Insert> назначить вставку имени файла" file="text.html"/>
-       <record dir="1473315833x575xm5iif" crypt="0" url="" tags="" author="pola" id="1473315833csytarek0z" ctime="20160908092353" name="На комбинацию &lt;C-Insert> назначить копирование имени файла" file="text.html"/>
-       <record dir="1473315905gg2syq33bw" crypt="0" url="" tags="" author="pola" id="1473315905vrkxpsn3o9" ctime="20160908092505" name="На комбинацию &lt;C-A-Insert> назначить копирование в буфер полного имени файла" file="text.html"/>
+       <record id="14733136483gg2sr9os9" name="Копирование имени и пути файла" author="pola" url="" tags="vim.scripts.maping" ctime="20160908084728" dir="1473313648tih44vkabn" file="text.html" crypt="0"/>
+       <record id="1473314585bg81s9kfbc" name="На клавишу F3 назначить вставку пути директории, содержащей файл" author="pola" url="" tags="vim.scripts.maping" ctime="20160908090305" dir="1473314585zz85ualtft" file="text.html" crypt="0"/>
+       <record id="147331534569b01v5wgw" name="На комбинацию &lt;C-Insert&gt; назначить вставку имени файла" author="pola" url="" tags="" ctime="20160908091545" dir="1473315345nl9uh4qjdo" file="text.html" crypt="0"/>
+       <record id="1473315833csytarek0z" name="На комбинацию &lt;C-Insert&gt; назначить копирование имени файла" author="pola" url="" tags="" ctime="20160908092353" dir="1473315833x575xm5iif" file="text.html" crypt="0"/>
+       <record id="1473315905vrkxpsn3o9" name="На комбинацию &lt;C-A-Insert&gt; назначить копирование в буфер полного имени файла" author="pola" url="" tags="" ctime="20160908092505" dir="1473315905gg2syq33bw" file="text.html" crypt="0"/>
       </recordtable>
      </node>
      <node id="1475607792fhqzmf1r1j" name="script-writing">
       <recordtable>
-       <record dir="1475607842lojpygokvq" crypt="0" url="https://habrahabr.ru/post/210930/" tags="" author="Delphinum" id="1475607842macyokcd39" ctime="20161004220402" name="Как я классы в Vim писал" file="text.html"/>
+       <record id="1475607842macyokcd39" name="Как я классы в Vim писал" author="Delphinum" url="https://habrahabr.ru/post/210930/" tags="" ctime="20161004220402" dir="1475607842lojpygokvq" file="text.html" crypt="0"/>
       </recordtable>
      </node>
     </node>
    </node>
-   <node id="1473311033k32kv0xvmy" name="tricks">
+   <node crypt="" id="1473311033k32kv0xvmy" name="tricks">
     <recordtable>
-     <record dir="14733125629vfcx8n4fs" crypt="0" url="" tags="vim.scripts.tricks" author="pola" id="1473312562nd4tvbl2m5" ctime="20160908082922" name="Получить пути файла" file="text.html"/>
-     <record dir="1473337659c93xrr2yp8" crypt="0" url="" tags="vim.tricks" author="pola" id="1473337659yevlhg2hrr" ctime="20160908152739" name="Изменить фон html-документа с черного на белый" file="text.html"/>
-     <record dir="147419618958fklgbnwp" crypt="0" url="" tags="vim.tricks" author="pola" id="1474196189nt3bjvza4b" ctime="20160918135629" name="Поиск по слову под курсором" file="text.html"/>
-     <record dir="1475478766uzejbll1fm" crypt="0" url="" tags="vim.tricks" author="" id="1475478766qw8ef14vzn" ctime="20161003101246" name="Напечатать часть текста" file="text.html"/>
+     <record id="1473312562nd4tvbl2m5" name="Получить пути файла" author="pola" url="" tags="vim.scripts.tricks" ctime="20160908082922" dir="14733125629vfcx8n4fs" file="text.html" crypt="0"/>
+     <record id="1473337659yevlhg2hrr" name="Изменить фон html-документа с черного на белый" author="pola" url="" tags="vim.tricks" ctime="20160908152739" dir="1473337659c93xrr2yp8" file="text.html" crypt="0"/>
+     <record id="1474196189nt3bjvza4b" name="Поиск по слову под курсором" author="pola" url="" tags="vim.tricks" ctime="20160918135629" dir="147419618958fklgbnwp" file="text.html" crypt="0"/>
+     <record id="1475478766qw8ef14vzn" name="Напечатать часть текста" author="" url="" tags="vim.tricks" ctime="20161003101246" dir="1475478766uzejbll1fm" file="text.html" crypt="0"/>
     </recordtable>
    </node>
-   <node id="1473311047hecfs116du" name="common info">
+   <node crypt="" id="1473311047hecfs116du" name="common info">
     <recordtable>
-     <record dir="1473311047qmt0zx9q0j" crypt="0" url="" tags="vim.info" author="pola" id="1473311047isukp32sni" ctime="20160908080407" name="Аналоги стандартных клавиш" file="text.html"/>
-     <record dir="147331104713s7oekwi7" crypt="0" url="" tags="vim.info" author="pola" id="1473311047ibg0seonib" ctime="20160908080407" name="Визуальный режим" file="text.html"/>
-     <record dir="1473311047ytiv60o92h" crypt="0" url="" tags="vim.info" author="pola" id="14733110477hziomts6l" ctime="20160908080407" name="Навигация в vim" file="text.html"/>
-     <record dir="14733110475dhr5bz0mo" crypt="0" url="" tags="vim.info" author="pola" id="1473311047j5lto3u9ip" ctime="20160908080407" name="Поиск, замена" file="text.html"/>
-     <record dir="1473311047mcvwe7xlcm" crypt="0" url="" tags="vim.info" author="pola" id="1473311047i7u7w1uo52" ctime="20160908080407" name="Работа с вкладками и окнами" file="text.html"/>
-     <record dir="14733110478ge3yegt3i" crypt="0" url="" tags="vim.info" author="pola" id="1473311047z4twjnmvzd" ctime="20160908080407" name="Работа с макросами" file="text.html"/>
-     <record dir="1473311047960rih2ny2" crypt="0" url="" tags="vim.info" author="pola" id="147331104744bdqvgxat" ctime="20160908080407" name="Работа с метками" file="text.html"/>
-     <record dir="14733110470gkige3e20" crypt="0" url="" tags="vim.info" author="pola" id="1473311047funucldby3" ctime="20160908080407" name="Работа с плагинами" file="text.html"/>
-     <record dir="1473311047txvez1rz0w" crypt="0" url="" tags="vim.info" author="pola" id="14733110472bjlrqzpzh" ctime="20160908080407" name="Работа с регистрами" file="text.html"/>
-     <record dir="1473311047jonz72qxim" crypt="0" url="" tags="vim.info" author="pola" id="1473311047q2tmyb37k4" ctime="20160908080407" name="Навигация в файле" file="text.html"/>
-     <record dir="1473311047pi9vsz1atd" crypt="0" url="" tags="vim.info" author="pola" id="1473311047b7kz06gp3y" ctime="20160908080407" name="Работа с свертками текста" file="text.html"/>
-     <record dir="1473311047atx4g3xxos" crypt="0" url="" tags="vim.info" author="pola" id="1473311047racz14o6jo" ctime="20160908080407" name="Навигация в справке" file="text.html"/>
+     <record id="1473311047isukp32sni" name="Аналоги стандартных клавиш" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047qmt0zx9q0j" file="text.html" crypt="0"/>
+     <record id="1473311047ibg0seonib" name="Визуальный режим" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="147331104713s7oekwi7" file="text.html" crypt="0"/>
+     <record id="14733110477hziomts6l" name="Навигация в vim" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047ytiv60o92h" file="text.html" crypt="0"/>
+     <record id="1473311047j5lto3u9ip" name="Поиск, замена" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="14733110475dhr5bz0mo" file="text.html" crypt="0"/>
+     <record id="1473311047i7u7w1uo52" name="Работа с вкладками и окнами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047mcvwe7xlcm" file="text.html" crypt="0"/>
+     <record id="1473311047z4twjnmvzd" name="Работа с макросами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="14733110478ge3yegt3i" file="text.html" crypt="0"/>
+     <record id="147331104744bdqvgxat" name="Работа с метками" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047960rih2ny2" file="text.html" crypt="0"/>
+     <record id="1473311047funucldby3" name="Работа с плагинами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="14733110470gkige3e20" file="text.html" crypt="0"/>
+     <record id="14733110472bjlrqzpzh" name="Работа с регистрами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047txvez1rz0w" file="text.html" crypt="0"/>
+     <record id="1473311047q2tmyb37k4" name="Навигация в файле" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047jonz72qxim" file="text.html" crypt="0"/>
+     <record id="1473311047b7kz06gp3y" name="Работа с свертками текста" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047pi9vsz1atd" file="text.html" crypt="0"/>
+     <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
     </recordtable>
    </node>
-   <node id="14733968501cjyxh41ll" name="Testing">
+   <node crypt="" id="14733968501cjyxh41ll" name="Testing">
     <node id="1473396856s4fq4krin2" name="Blogs">
      <recordtable>
-      <record dir="1473396891r1dard10dz" crypt="0" url="http://w-bf.livejournal.com" tags="program.testing.blogs" author="Йети подземелья" id="1473396891yo6hn6r54v" ctime="20160909075451" name="Хроники тестировщика" file="text.html"/>
-      <record dir="1473757051a2sqfhoibb" crypt="0" url="http://okiseleva.blogspot.ru" tags="program.testing.blogs" author="" id="14737570516ohlcrxx8d" ctime="20160913115731" name="Блог Назиной Ольги" file="text.html"/>
+      <record id="1473396891yo6hn6r54v" name="Хроники тестировщика" author="Йети подземелья" url="http://w-bf.livejournal.com" tags="program.testing.blogs" ctime="20160909075451" dir="1473396891r1dard10dz" file="text.html" crypt="0"/>
+      <record id="14737570516ohlcrxx8d" name="Блог Назиной Ольги" author="" url="http://okiseleva.blogspot.ru" tags="program.testing.blogs" ctime="20160913115731" dir="1473757051a2sqfhoibb" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="14733972404ihsjkpi9d" name="Courses">
      <recordtable>
-      <record dir="147339727138q15li5a0" crypt="0" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" author="guru99" id="14733972711be2q4tnv5" ctime="20160909080111" name="Software Testing Tutorial: Free Course" file="text.html"/>
+      <record id="14733972711be2q4tnv5" name="Software Testing Tutorial: Free Course" author="guru99" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" ctime="20160909080111" dir="147339727138q15li5a0" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473429495idh1qq36pi" name="books (notes)">
      <recordtable>
-      <record dir="14734295455gz6xvx51h" crypt="0" url="" tags="testing.books" author="" id="147342954585alptr30r" ctime="20160909165905" name="Шаблоны тестирования" file="text.html"/>
+      <record id="147342954585alptr30r" name="Шаблоны тестирования" author="" url="" tags="testing.books" ctime="20160909165905" dir="14734295455gz6xvx51h" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node id="1473760107t8dll9jdm8" name="articles">
      <recordtable>
-      <record dir="1473760225te2c4h76wz" crypt="0" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" author="studopedia" id="1473760225miyw4zn40i" ctime="20160913125025" name="Основные принципы тестирования ПО" file="text.html"/>
-      <record dir="1473760356n8us1v1p7z" crypt="0" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" author="studopedia" id="14737603563b7goi7k13" ctime="20160913125236" name="Алгоритм тестирования базового пути." file="text.html"/>
+      <record id="1473760225miyw4zn40i" name="Основные принципы тестирования ПО" author="studopedia" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" ctime="20160913125025" dir="1473760225te2c4h76wz" file="text.html" crypt="0"/>
+      <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
-   <node id="14734030081jgkf265ud" name="git">
+   <node crypt="" id="14734030081jgkf265ud" name="git">
     <recordtable>
-     <record dir="1473403075dl9x9jokz9" crypt="0" url="https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html" tags="git.info" author="pola" id="1473403075dlzbd6ntqc" ctime="20160909093755" name="Настройка SSH" file="text.html"/>
+     <record id="1473403075dlzbd6ntqc" name="Настройка SSH" author="pola" url="https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html" tags="git.info" ctime="20160909093755" dir="1473403075dl9x9jokz9" file="text.html" crypt="0"/>
     </recordtable>
-    <node id="1474353313d4i2eymvmf" name="Отмена изменений">
+    <node crypt="" id="1474353313d4i2eymvmf" name="Отмена изменений">
      <recordtable>
-      <record dir="1474353676z58rwaryyr" crypt="0" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git.undoing" author="proGit" id="1474353676ptmb1kz6qj" ctime="20160920094116" name="Undoing Things" file="text.html"/>
+      <record id="1474353676ptmb1kz6qj" name="Undoing Things" author="proGit" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git.undoing" ctime="20160920094116" dir="1474353676z58rwaryyr" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
-   <node id="1474433447rs65x5ttzg" name="deploy">
-    <node id="1474433452uyfciyhu0j" name="docker">
+   <node crypt="" id="1474433447rs65x5ttzg" name="deploy">
+    <node crypt="" id="1474433452uyfciyhu0j" name="docker">
      <recordtable>
-      <record dir="14744338300puw7u0pl2" crypt="0" url="https://habrahabr.ru/post/310460/?utm_content=buffer693a9&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="program.deploy.docker" author="Рахим Довлеткаев перевел" id="1474433830q7zn4jsb1t" ctime="20160921075710" name="Полное практическое руководство по Docker: с нуля до кластера на AWS" file="text.html"/>
+      <record id="1474433830q7zn4jsb1t" name="Полное практическое руководство по Docker: с нуля до кластера на AWS" author="Рахим Довлеткаев перевел" url="https://habrahabr.ru/post/310460/?utm_content=buffer693a9&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="program.deploy.docker" ctime="20160921075710" dir="14744338300puw7u0pl2" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
-   <node id="1474434490qezdvad6ml" name="translates">
+   <node crypt="" id="1474434490qezdvad6ml" name="translates">
     <recordtable>
-     <record dir="1474434631flh0jy7szs" crypt="0" url="https://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests/" tags="program.translates" author="Pawel Olesiejuk from Goyello Blog" id="1474434631cfpvlu7s0f" ctime="20160921081031" name="THREE PILLARS OF UNIT TESTS" file="text.html"/>
+     <record id="1474434631cfpvlu7s0f" name="THREE PILLARS OF UNIT TESTS" author="Pawel Olesiejuk from Goyello Blog" url="https://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests/" tags="program.translates" ctime="20160921081031" dir="1474434631flh0jy7szs" file="text.html" crypt="0"/>
     </recordtable>
    </node>
-   <node id="1475603248lfx7tr1i39" name="electronics">
+   <node crypt="" id="1475603248lfx7tr1i39" name="electronics">
     <recordtable>
-     <record dir="1475603283xuqzblsqyo" crypt="0" url="" tags="Circuit Skills" author="http://narbotic.com/video/MakePresents/MakePresents.html" id="1475603283psyoutjzzg" ctime="20161004204803" name="Circuit board etching" file="text.html"/>
+     <record id="1475603283psyoutjzzg" name="Circuit board etching" author="http://narbotic.com/video/MakePresents/MakePresents.html" url="" tags="Circuit Skills" ctime="20161004204803" dir="1475603283xuqzblsqyo" file="text.html" crypt="0"/>
     </recordtable>
    </node>
   </node>
-  <node id="1473256308xy5pnaa9zz" name="Музыка">
-   <node id="1473256313nxegh14s0d" name="Аккорды">
+  <node crypt="" id="1473256308xy5pnaa9zz" name="Музыка">
+   <node crypt="" id="1473256313nxegh14s0d" name="Аккорды">
     <node id="1473256321g1ltfocjx8" name="Арефьева">
      <recordtable>
-      <record dir="1473256362xy4lcgjnyd" crypt="0" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" author="pola" id="1473256362ew5qkcgl3e" ctime="20160907165242" name="Что ты будешь делать?" file="text.html"/>
+      <record id="1473256362ew5qkcgl3e" name="Что ты будешь делать?" author="pola" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" ctime="20160907165242" dir="1473256362xy4lcgjnyd" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
   </node>
-  <node id="14733421542glvhruftk" name="Найти">
+  <node crypt="" id="14733421542glvhruftk" name="Найти">
    <recordtable>
-    <record dir="1473342211jla706l89z" crypt="0" url="" tags="" author="" id="147334221182d9v0g2uf" ctime="20160908164331" name="Метод Таблиц-двойников" file="text.html"/>
-    <record dir="1473342260a0r18y5l9a" crypt="0" url="" tags="" author="" id="1473342260e8c4exewvh" ctime="20160908164420" name="Отношения в рмд" file="text.html"/>
+    <record id="147334221182d9v0g2uf" name="Метод Таблиц-двойников" author="" url="" tags="" ctime="20160908164331" dir="1473342211jla706l89z" file="text.html" crypt="0"/>
+    <record id="1473342260e8c4exewvh" name="Отношения в рмд" author="" url="" tags="" ctime="20160908164420" dir="1473342260a0r18y5l9a" file="text.html" crypt="0"/>
    </recordtable>
   </node>
-  <node id="14736549736dbbiywbm6" name="math">
+  <node crypt="" id="14736549736dbbiywbm6" name="math">
    <node id="1473654988njxmft3tvm" name="geo">
     <node id="1473654994d4d4x4gvet" name="problems">
      <recordtable>
-      <record dir="14736550797104oczlte" crypt="0" url="http://www.sciteclibrary.ru/cgi-bin/yabb2/YaBB.pl?num=1024985973" tags="math.problems.got" author="Трифонов Роман" id="1473655079trx74kbr0o" ctime="20160912073759" name="Объем дырявого шара" file="text.html"/>
+      <record id="1473655079trx74kbr0o" name="Объем дырявого шара" author="Трифонов Роман" url="http://www.sciteclibrary.ru/cgi-bin/yabb2/YaBB.pl?num=1024985973" tags="math.problems.got" ctime="20160912073759" dir="14736550797104oczlte" file="text.html" crypt="0"/>
      </recordtable>
     </node>
    </node>
   </node>
-  <node id="1474218192ktqtk64lqc" name="health">
+  <node crypt="" id="1474218192ktqtk64lqc" name="health">
    <recordtable>
-    <record dir="14742183486vqz73mson" crypt="0" url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" author="Загатина А.В." id="14742183488ukcn1a123" ctime="20160918200548" name="Формула здоровья" file="text.html"/>
+    <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20160918200548" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
    </recordtable>
   </node>
  </content>
