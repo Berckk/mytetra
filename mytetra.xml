@@ -418,7 +418,12 @@
    </recordtable>
   </node>
   <node crypt="" id="1481722010j3fxf7lv6f" name="Прочитать">
-   <node crypt="" id="1481722019b4byz3ytys" name="Про тестирование"/>
+   <node crypt="" id="1481722019b4byz3ytys" name="Про тестирование">
+    <recordtable>
+     <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
+  <node crypt="" id="1481722160ohhcof85x3" name="Прочитано"/>
  </content>
 </root>
