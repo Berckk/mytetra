@@ -385,7 +385,7 @@
   </node>
   <node crypt="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="" id="1473256313nxegh14s0d" name="Аккорды">
-    <node id="1473256321g1ltfocjx8" name="Арефьева">
+    <node crypt="" id="1473256321g1ltfocjx8" name="Арефьева">
      <recordtable>
       <record id="1473256362ew5qkcgl3e" name="Что ты будешь делать?" author="pola" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" ctime="20160907165242" dir="1473256362xy4lcgjnyd" file="text.html" crypt="0"/>
      </recordtable>
@@ -416,6 +416,9 @@
    <recordtable>
     <record id="14816978083hnc2yj5om" name="Исправление ошибки автоматической синхронизации с github" author="" url="" tags="" ctime="20161214094328" dir="1481697808jkk72ubt7f" file="text.html"/>
    </recordtable>
+  </node>
+  <node crypt="" id="1481722010j3fxf7lv6f" name="Прочитать">
+   <node crypt="" id="1481722019b4byz3ytys" name="Про тестирование"/>
   </node>
  </content>
 </root>
