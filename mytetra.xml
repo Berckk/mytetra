@@ -6,14 +6,17 @@
   <node crypt="" id="1472471267l6nwgfjpj1" name="Программирование">
    <node crypt="" id="1472471271ozfrf63iib" name="1с">
     <node crypt="" id="1472471279cv1o2pnzuk" name="oscript">
-     <node id="147247129148akcqgdx8" name="libraries">
-      <node id="1472471296z7zyyw7pyd" name="cmdline">
+     <recordtable>
+      <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="oscript.common" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="147247129148akcqgdx8" name="libraries">
+      <node crypt="" id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
         <record id="1472471343bdlvg8ukdz" name="readme" author="Andrei Ovsiankin aka EvilBeaver" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="1c.oscript" ctime="20160829144903" dir="1472471343r7jbd4vcvf" file="text.html" crypt="0"/>
         <record id="1472721070vgsmmml2lg" name="Пример работы с библиотекой" author="pola" url="" tags="1c.oscript" ctime="20160901121110" dir="1472721070snol5zfef2" file="text.html" crypt="0"/>
        </recordtable>
       </node>
-      <node id="1473157395uex8cmrex3" name="Готовые решения">
+      <node crypt="" id="1473157395uex8cmrex3" name="Готовые решения">
        <recordtable>
         <record id="1473157573her9q3g1g1" name="Работа с logos" author="pola" url="" tags="1c.oscript.templates" ctime="20160906132613" dir="14731575737onitu7pl8" file="text.html" crypt="0"/>
         <record id="1473157687kp6tfxrl07" name="Работа с парсером командной строки" author="pola" url="" tags="1c.oscript.templates" ctime="20160906132807" dir="14731576870bcke216y9" file="text.html" crypt="0"/>
@@ -22,7 +25,7 @@
         <record id="14732358971m0ezqqhuu" name="Шаблон скрипта" author="pola" url="" tags="1c.oscript.templates" ctime="20160907111137" dir="1473235897e2lple1yxv" file="text.html" crypt="0"/>
        </recordtable>
       </node>
-      <node id="1473339768r5dq5ypygo" name="oscript-simple-gui">
+      <node crypt="" id="1473339768r5dq5ypygo" name="oscript-simple-gui">
        <recordtable>
         <record id="1473339927i93aipblju" name="readme" author="ret-Phoenix" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1c.oscript.ui" ctime="20160908160527" dir="1473339927508iroyopn" file="text.html" crypt="0"/>
        </recordtable>
