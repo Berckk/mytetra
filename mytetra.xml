@@ -7,7 +7,7 @@
    <node crypt="" id="1472471271ozfrf63iib" name="1с">
     <node crypt="" id="1472471279cv1o2pnzuk" name="oscript">
      <recordtable>
-      <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="oscript.common" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html"/>
+      <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="1c.oscript" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html"/>
      </recordtable>
      <node crypt="" id="147247129148akcqgdx8" name="libraries">
       <node crypt="" id="1472471296z7zyyw7pyd" name="cmdline">
@@ -228,6 +228,11 @@
     <node crypt="" id="1475147185kbhuanzpp9" name="snegopat">
      <recordtable>
       <record id="14751472450ctkwm25cr" name="Сохранение настроек" author="" url="" tags="1c.snegopat" ctime="20160929140725" dir="14751472458l0fvm3g9k" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1481716281jbyv08vk82" name="tools">
+     <recordtable>
+      <record id="1481716481mrm06h0q5y" name="КопиПастаМер" author=" Сергей (ildarovich)" url="http://infostart.ru/public/294285/" tags="1c.tools" ctime="20161214145441" dir="1481716481yfkw1shrfd" file="text.html"/>
      </recordtable>
     </node>
    </node>
