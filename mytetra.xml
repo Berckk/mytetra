@@ -271,7 +271,7 @@
    </node>
    <node crypt="" id="14728050856fzhn10avh" name="vim">
     <node crypt="" id="14728050934nvukmwnsy" name="plugins">
-     <node id="1472805099g8kfr847pf" name="NerdTree">
+     <node crypt="" id="1472805099g8kfr847pf" name="NerdTree">
       <recordtable>
        <record id="1472805133fi351qy9tm" name="Hotkeys" author="pola" url="" tags="vim.plugins.nerdtree" ctime="20160902113213" dir="1472805133s9ctn5jl8e" file="text.html" crypt="0"/>
        <record id="1473249744825stkgrt0" name="Работа с метками" author="pola" url="" tags="vim.plugins.nerdtree" ctime="20160907150224" dir="14732497446md6620yib" file="text.html" crypt="0"/>
@@ -279,7 +279,7 @@
      </node>
     </node>
     <node crypt="" id="1473312718za41avn2bz" name="scripts">
-     <node id="1473312728r2kl9ncw6w" name="maping">
+     <node crypt="" id="1473312728r2kl9ncw6w" name="maping">
       <recordtable>
        <record id="14733136483gg2sr9os9" name="Копирование имени и пути файла" author="pola" url="" tags="vim.scripts.maping" ctime="20160908084728" dir="1473313648tih44vkabn" file="text.html" crypt="0"/>
        <record id="1473314585bg81s9kfbc" name="На клавишу F3 назначить вставку пути директории, содержащей файл" author="pola" url="" tags="vim.scripts.maping" ctime="20160908090305" dir="1473314585zz85ualtft" file="text.html" crypt="0"/>
@@ -288,20 +288,20 @@
        <record id="1473315905vrkxpsn3o9" name="На комбинацию &lt;C-A-Insert&gt; назначить копирование в буфер полного имени файла" author="pola" url="" tags="" ctime="20160908092505" dir="1473315905gg2syq33bw" file="text.html" crypt="0"/>
       </recordtable>
      </node>
-     <node id="1475607792fhqzmf1r1j" name="script-writing">
+     <node crypt="" id="1475607792fhqzmf1r1j" name="script-writing">
       <recordtable>
        <record id="1475607842macyokcd39" name="Как я классы в Vim писал" author="Delphinum" url="https://habrahabr.ru/post/210930/" tags="" ctime="20161004220402" dir="1475607842lojpygokvq" file="text.html" crypt="0"/>
       </recordtable>
      </node>
     </node>
-   </node>
-   <node crypt="" id="1473311033k32kv0xvmy" name="tricks">
-    <recordtable>
-     <record id="1473312562nd4tvbl2m5" name="Получить пути файла" author="pola" url="" tags="vim.scripts.tricks" ctime="20160908082922" dir="14733125629vfcx8n4fs" file="text.html" crypt="0"/>
-     <record id="1473337659yevlhg2hrr" name="Изменить фон html-документа с черного на белый" author="pola" url="" tags="vim.tricks" ctime="20160908152739" dir="1473337659c93xrr2yp8" file="text.html" crypt="0"/>
-     <record id="1474196189nt3bjvza4b" name="Поиск по слову под курсором" author="pola" url="" tags="vim.tricks" ctime="20160918135629" dir="147419618958fklgbnwp" file="text.html" crypt="0"/>
-     <record id="1475478766qw8ef14vzn" name="Напечатать часть текста" author="" url="" tags="vim.tricks" ctime="20161003101246" dir="1475478766uzejbll1fm" file="text.html" crypt="0"/>
-    </recordtable>
+    <node crypt="" id="1481720875q6gqif7z4h" name="tricks">
+     <recordtable>
+      <record id="1473312562nd4tvbl2m5" name="Получить пути файла" author="pola" url="" tags="vim.scripts.tricks" ctime="20161214160755" dir="14733125629vfcx8n4fs" file="text.html" crypt="0"/>
+      <record id="1473337659yevlhg2hrr" name="Изменить фон html-документа с черного на белый" author="pola" url="" tags="vim.tricks" ctime="20161214160755" dir="1473337659c93xrr2yp8" file="text.html" crypt="0"/>
+      <record id="1474196189nt3bjvza4b" name="Поиск по слову под курсором" author="pola" url="" tags="vim.tricks" ctime="20161214160755" dir="147419618958fklgbnwp" file="text.html" crypt="0"/>
+      <record id="1475478766qw8ef14vzn" name="Напечатать часть текста" author="" url="" tags="vim.tricks" ctime="20161214160755" dir="1475478766uzejbll1fm" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1473311047hecfs116du" name="common info">
     <recordtable>
@@ -375,6 +375,11 @@
    <node crypt="" id="1481717037gvjptn6vq6" name="code complite">
     <recordtable>
      <record id="1481717157anjoz9m2wb" name="Метрики кода программного обеспечения" author="Anton Milutin " url="http://www.viva64.com/ru/a/0045/" tags="codecomplite" ctime="20161214150557" dir="148171715793ug9d9hqd" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1481720937hhthmguxg2" name="Cheat Sheets">
+    <recordtable>
+     <record id="1481721001g82kwv62xc" name="The Developer Cheat Sheet Compilation" author="stark" url="http://www.fuzzyopinions.com/article/technology/the-developer-cheat-sheet-compilation/" tags="programming.cheatsheet" ctime="20161214161001" dir="1481721001lwjs3dxual" file="text.html"/>
     </recordtable>
    </node>
   </node>
