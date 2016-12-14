@@ -317,7 +317,7 @@
    <node crypt="" id="14733968501cjyxh41ll" name="Testing">
     <node crypt="" id="1473396856s4fq4krin2" name="Blogs">
      <recordtable>
-      <record id="1473396891yo6hn6r54v" name="Хроники тестировщика" author="Йети подземелья" url="http://w-bf.livejournal.com" tags="program.testing.blogs" ctime="20160909075451" dir="1473396891r1dard10dz" file="text.html" crypt="0"/>
+      <record id="1473396891yo6hn6r54v" name="Хроники тестировщика" author="Йети подземелья" url="http://wolonter.blogspot.ru/" tags="program.testing.blogs" ctime="20160909075451" dir="1473396891r1dard10dz" file="text.html" crypt="0"/>
       <record id="14737570516ohlcrxx8d" name="Блог Назиной Ольги" author="" url="http://okiseleva.blogspot.ru" tags="program.testing.blogs" ctime="20160913115731" dir="1473757051a2sqfhoibb" file="text.html" crypt="0"/>
       <record id="1481719944hir014tlfk" name="Блог Артема Кошелева" author="" url="http://artkoshelev.github.io" tags="program.testing.blogs" ctime="20161214155224" dir="14817199447p9mczoeot" file="text.html"/>
      </recordtable>
