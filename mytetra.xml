@@ -383,5 +383,10 @@
     <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20160918200548" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
    </recordtable>
   </node>
+  <node crypt="" id="1481697670a98i4nsyzf" name="mytetra">
+   <recordtable>
+    <record id="14816978083hnc2yj5om" name="Исправление ошибки автоматической синхронизации с github" author="" url="" tags="" ctime="20161214094328" dir="1481697808jkk72ubt7f" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
