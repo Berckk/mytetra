@@ -409,7 +409,11 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1481801284oqiyonx8ux" name="online editors"/>
+   <node crypt="" id="1481801284oqiyonx8ux" name="online editors">
+    <recordtable>
+     <record id="14818014784o53wrydvr" name="Динамический конвертор из C в ассебмлер" author="" url="http://godbolt.org/?utm_content=bufferd021f&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="" ctime="20161215143118" dir="1481801478kj5xy4s54z" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
