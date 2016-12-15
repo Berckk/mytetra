@@ -394,7 +394,11 @@
         <record id="14817831928dradniit3" name="05 Арифметика" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/arithmetic/theory_unit" tags="" ctime="20161215092632" dir="1481783192ju6t4sivga" file="text.html"/>
        </recordtable>
       </node>
-      <node crypt="1" icon="" id="148178197367nqnkrxvj" name="UkM1U0lNUANHGyK6X9YuHk4YSotB0vhWdXxOdEY84/6ITPo5KI8CdZeyMuz7eXsTONiMUn0gfnUFGOocdcDwhb6SsCSnL1Sz"/>
+      <node crypt="1" icon="" id="148178197367nqnkrxvj" name="UkM1U0lNUANHGyK6X9YuHk4YSotB0vhWdXxOdEY84/6ITPo5KI8CdZeyMuz7eXsTONiMUn0gfnUFGOocdcDwhb6SsCSnL1Sz">
+       <recordtable>
+        <record id="1481784287nbg4jl3422" name="UkM1U0lNUAMjtF84UIsGAi4c+EqVUJC65+GXIVXgZ3D/HtMJy4SV3TEM1a8EOgEBhks9QZ6bs2RvLNzETxw2K+htql5YiNTTh9RaFwmM1/6Jkk2E5CSa/g==" author="" url="" tags="" ctime="20161215094447" dir="1481784287iyjsgj4s6v" file="text.html" crypt="1"/>
+       </recordtable>
+      </node>
      </node>
     </node>
    </node>
