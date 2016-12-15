@@ -388,6 +388,7 @@
       <node crypt="" id="1481777386yn8crho18w" name="Основы программирования">
        <recordtable>
         <record id="1481779609e98a2xpday" name="01 Введение" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/intro/theory_unit" tags="" ctime="20161215082649" dir="1481779609y65cv9i8k5" file="text.html"/>
+        <record id="14817805900agtt7zh6z" name="02 Идеальная программа" author="" url="" tags="" ctime="20161215084310" dir="1481780590vlpdqyc52i" file="text.html"/>
        </recordtable>
       </node>
      </node>
