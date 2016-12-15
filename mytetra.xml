@@ -382,6 +382,13 @@
      <record id="1481721001g82kwv62xc" name="The Developer Cheat Sheet Compilation" author="stark" url="http://www.fuzzyopinions.com/article/technology/the-developer-cheat-sheet-compilation/" tags="programming.cheatsheet" ctime="20161214161001" dir="1481721001lwjs3dxual" file="text.html" crypt="0"/>
     </recordtable>
    </node>
+   <node crypt="" id="1481777201vv0jv3jx3j" name="hexlet">
+    <node crypt="" id="1481777210k0mt3wb7oa" name="Профессии">
+     <node crypt="" id="148177722073rmqsx0f8" name="js backend">
+      <node crypt="" id="1481777386yn8crho18w" name="Основы программирования"/>
+     </node>
+    </node>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
