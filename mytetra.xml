@@ -273,8 +273,13 @@
     <node crypt="0" icon="" id="14728050934nvukmwnsy" name="plugins">
      <node crypt="0" icon="" id="1472805099g8kfr847pf" name="NerdTree">
       <recordtable>
-       <record id="1472805133fi351qy9tm" name="Hotkeys" author="pola" url="" tags="vim.plugins.nerdtree" ctime="20160902113213" dir="1472805133s9ctn5jl8e" file="text.html" crypt="0"/>
-       <record id="1473249744825stkgrt0" name="Работа с метками" author="pola" url="" tags="vim.plugins.nerdtree" ctime="20160907150224" dir="14732497446md6620yib" file="text.html" crypt="0"/>
+       <record id="1472805133fi351qy9tm" name="Hotkeys" author="pola" url="" tags="vim.nerdtree" ctime="20160902113213" dir="1472805133s9ctn5jl8e" file="text.html" crypt="0"/>
+       <record id="1473249744825stkgrt0" name="Работа с метками" author="pola" url="" tags="vim.nerdtree" ctime="20160907150224" dir="14732497446md6620yib" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1481802371f612f9hxyn" name="vundle">
+      <recordtable>
+       <record id="1481802497tq4j3yp97y" name="Основные команды" author="" url="http://jenyay.net/Programming/VimPlugins2" tags="vim.vundl" ctime="20161215144817" dir="14818024971oflxgev8f" file="text.html"/>
       </recordtable>
      </node>
     </node>
