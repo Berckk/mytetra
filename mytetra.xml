@@ -302,22 +302,22 @@
       <record id="1475478766qw8ef14vzn" name="Напечатать часть текста" author="" url="" tags="vim.tricks" ctime="20161214160755" dir="1475478766uzejbll1fm" file="text.html" crypt="0"/>
      </recordtable>
     </node>
-   </node>
-   <node crypt="0" icon="" id="1473311047hecfs116du" name="common info">
-    <recordtable>
-     <record id="1473311047isukp32sni" name="Аналоги стандартных клавиш" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047qmt0zx9q0j" file="text.html" crypt="0"/>
-     <record id="1473311047ibg0seonib" name="Визуальный режим" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="147331104713s7oekwi7" file="text.html" crypt="0"/>
-     <record id="14733110477hziomts6l" name="Навигация в vim" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047ytiv60o92h" file="text.html" crypt="0"/>
-     <record id="1473311047j5lto3u9ip" name="Поиск, замена" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="14733110475dhr5bz0mo" file="text.html" crypt="0"/>
-     <record id="1473311047i7u7w1uo52" name="Работа с вкладками и окнами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047mcvwe7xlcm" file="text.html" crypt="0"/>
-     <record id="1473311047z4twjnmvzd" name="Работа с макросами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="14733110478ge3yegt3i" file="text.html" crypt="0"/>
-     <record id="147331104744bdqvgxat" name="Работа с метками" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047960rih2ny2" file="text.html" crypt="0"/>
-     <record id="1473311047funucldby3" name="Работа с плагинами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="14733110470gkige3e20" file="text.html" crypt="0"/>
-     <record id="14733110472bjlrqzpzh" name="Работа с регистрами" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047txvez1rz0w" file="text.html" crypt="0"/>
-     <record id="1473311047q2tmyb37k4" name="Навигация в файле" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047jonz72qxim" file="text.html" crypt="0"/>
-     <record id="1473311047b7kz06gp3y" name="Работа с свертками текста" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047pi9vsz1atd" file="text.html" crypt="0"/>
-     <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20160908080407" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
-    </recordtable>
+    <node crypt="" icon="" id="1481784637s1m4psfv8e" name="common info">
+     <recordtable>
+      <record id="1473311047isukp32sni" name="Аналоги стандартных клавиш" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047qmt0zx9q0j" file="text.html" crypt="0"/>
+      <record id="1473311047ibg0seonib" name="Визуальный режим" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="147331104713s7oekwi7" file="text.html" crypt="0"/>
+      <record id="14733110477hziomts6l" name="Навигация в vim" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047ytiv60o92h" file="text.html" crypt="0"/>
+      <record id="1473311047j5lto3u9ip" name="Поиск, замена" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110475dhr5bz0mo" file="text.html" crypt="0"/>
+      <record id="1473311047i7u7w1uo52" name="Работа с вкладками и окнами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047mcvwe7xlcm" file="text.html" crypt="0"/>
+      <record id="1473311047z4twjnmvzd" name="Работа с макросами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110478ge3yegt3i" file="text.html" crypt="0"/>
+      <record id="147331104744bdqvgxat" name="Работа с метками" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047960rih2ny2" file="text.html" crypt="0"/>
+      <record id="1473311047funucldby3" name="Работа с плагинами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110470gkige3e20" file="text.html" crypt="0"/>
+      <record id="14733110472bjlrqzpzh" name="Работа с регистрами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047txvez1rz0w" file="text.html" crypt="0"/>
+      <record id="1473311047q2tmyb37k4" name="Навигация в файле" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047jonz72qxim" file="text.html" crypt="0"/>
+      <record id="1473311047b7kz06gp3y" name="Работа с свертками текста" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047pi9vsz1atd" file="text.html" crypt="0"/>
+      <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
     <node crypt="0" icon="" id="1473396856s4fq4krin2" name="Blogs">
