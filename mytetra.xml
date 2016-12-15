@@ -385,7 +385,11 @@
    <node crypt="" id="1481777201vv0jv3jx3j" name="hexlet">
     <node crypt="" id="1481777210k0mt3wb7oa" name="Профессии">
      <node crypt="" id="148177722073rmqsx0f8" name="js backend">
-      <node crypt="" id="1481777386yn8crho18w" name="Основы программирования"/>
+      <node crypt="" id="1481777386yn8crho18w" name="Основы программирования">
+       <recordtable>
+        <record id="1481779609e98a2xpday" name="01 Введение" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/intro/theory_unit" tags="" ctime="20161215082649" dir="1481779609y65cv9i8k5" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
    </node>
