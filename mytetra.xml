@@ -544,6 +544,9 @@
    </recordtable>
   </node>
   <node crypt="0" icon="" id="1481722010j3fxf7lv6f" name="Прочитать">
+   <recordtable>
+    <record id="14818964302p7u63j5cy" name="Общее про программирование" author="" url="http://blogerator.ru/page/evangelie-ot-myshhha-kris-kasperski-intervju-1" tags="" ctime="20161216165350" dir="14818964309h4pmkqq5z" file="text.html"/>
+   </recordtable>
    <node crypt="0" icon="" id="1481722019b4byz3ytys" name="Про тестирование">
     <recordtable>
      <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html" crypt="0"/>
