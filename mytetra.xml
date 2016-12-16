@@ -147,6 +147,7 @@
        <record id="1473342640lgnqla6ibr" name="Использование Vagrant и Docker при разработке в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/542836/" tags="1c.integration.virtual" ctime="20160908165040" dir="14733426408y03d4qwd4" file="text.html" crypt="0"/>
       </recordtable>
      </node>
+     <node crypt="" id="1481863354br8xx4qts7" name="json"/>
     </node>
     <node crypt="0" icon="" id="1473345828ac5gra5a3k" name="Blogs">
      <recordtable>
