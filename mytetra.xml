@@ -71,6 +71,7 @@
        <node crypt="0" icon="" id="14738424680dkf3fibel" name="plugins">
         <recordtable>
          <record id="1473843761j4qxe1dnu4" name="Утверждения проверки таблиц" author="Аюханов Артур aka artbear" url="" tags="1c.testing.xunit.plugins" ctime="20160914120241" dir="1473843761zm6ibreqtp" file="text.html" crypt="0"/>
+         <record id="148186434198y9oa7re0" name="Сверка таблиц при разработке через тестирование" author=" Пишу код как картины (yurii_host)" url="http://infostart.ru/public/553837/" tags="1c.testing.xunit.plugins" ctime="20161216075901" dir="1481864341er13cej0i7" file="text.html"/>
         </recordtable>
        </node>
        <node crypt="0" icon="" id="1473852521rfrafz307t" name="my lib">
