@@ -172,7 +172,11 @@
      </recordtable>
      <node crypt="" id="1481862775sdixrbo0m8" name="1c2git">
       <recordtable>
-       <record id="1481862795y8pxsdfjb9" name="Использование git для доработки типовых конфигураций 1С" author="Евгений Сосна (pumbaE)" url="http://infostart.ru/public/553119/" tags="1c.dev-process" ctime="20161216073315" dir="1481862795b78dvvqu9r" file="text.html"/>
+       <record id="1481862795y8pxsdfjb9" name="Использование git для доработки типовых конфигураций 1С" author="Евгений Сосна (pumbaE)" url="http://infostart.ru/public/553119/" tags="1c.dev-process" ctime="20161216073315" dir="1481862795b78dvvqu9r" file="text.html">
+        <files>
+         <file id="1481862871c85ip280n4" fileName="eprpatch-master.zip" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
     </node>
