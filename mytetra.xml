@@ -233,6 +233,7 @@
      <node crypt="" id="1481863745afcm1nmno8" name="common">
       <recordtable>
        <record id="1481863772bft1mlkivo" name="Вычитание рабочих дней от текущей даты" author=" Семен Буханов (semenich_b)" url="http://infostart.ru/public/547820/" tags="1c.code.common" ctime="20161216074932" dir="14818637726wtucjk7f9" file="text.html"/>
+       <record id="1481863915ljntfh3iee" name="Создание кода 1С на основании html документа" author="Makc *** (makc2k)" url="http://infostart.ru/public/554022/" tags="1c.code.common" ctime="20161216075155" dir="1481863915ryfukgbfb6" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -273,6 +274,7 @@
       <record id="14818629337febfm29fe" name="Расширения конфигурации. Полезные советы для разработки" author=" Яковлевич Никита (mrXoxot)" url="http://infostart.ru/public/442003/" tags="1c.extensions" ctime="20161216073533" dir="1481862933cri3v9c49u" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1481863936mqiv6l96p2" name="postgres"/>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
