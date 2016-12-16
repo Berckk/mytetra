@@ -289,6 +289,11 @@
       <record id="148186419992ziyk5bny" name="Альтернативный способ введения пароля в пользовательском режиме" author="Денис Ан (Denis_CFO) " url="http://infostart.ru/public/554131/" tags="1c.sequrity" ctime="20161216075639" dir="1481864199uywd7bxx4h" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14818646177v5zj5hyjj" name="requirements">
+     <recordtable>
+      <record id="14818646801vwyk84r0x" name="Методика постановки задачи" author="Пишу код как картины (yurii_host)" url="http://infostart.ru/public/375499/" tags="1сюrequirements" ctime="20161216080440" dir="1481864680pabil3hm3x" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">

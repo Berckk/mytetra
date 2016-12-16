@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Метод из моей практики. Он позволяет кратко, но детально описать задачу по программированию. Не требует специальных навыков. Может выполняться на листочке формата А4 или в подходящем редакторе.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Очень часто бывает, что тебе присылают ТЗ на многих страницах. Слов написано много, но важные детали, необходимые для реализации, пропущены. Или другая ситуация: общаешься с заказчиком и пытаешься записать его слова, а потом сам не понимаешь, что написал. Или еще вот: делал задачу два месяца назад, но все детали уже выветрились из головы, и нужно лезть в код, чтобы освежить в памяти детали. Еще периодически требуется объяснить другому программисту, что от него требуется, и хочется быть уверенным, что он тебя правильно понял.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Для всех этих ситуаций я выработал универсальный метод описания задачи. Точнее сказать, это способ описания связей между данными. Но он подходит в большинстве случаев.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Метод состоит из двух этапов:</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">1. Описание ожидаемого результата в виде таблицы. При этом нужно нарисовать таблицу с заголовками полей.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">2. Перечисление всех источников данных. При описании данных нужно параллельно заполнять таблицу ожидаемого результата.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Описание задачи считаем законченным, когда все поля ожидаемой таблицы заполнены.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"> Продемонстрирую суть методики на примере.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Пример. Задача расчета себестоимости.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Пусть нам нужно описать алгоритм списания по ФИФО при реализации товара.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Шаг 1: в качестве ожидаемого результата хотим получить движения в регистре Остатки после проведения документа Расходная накладная. Рисуем заголовки полей регистра:</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Регистр Остатки</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Регистратор  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Период  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Нарисуем одну строку под шапкой, но не заполняем ее</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Шаг 2.1: Заполняем поля в ожидаемом результате и параллельно рисуем источники данных.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Поля Регистратор, Период и Склад нужно взять из документа Расходная накладная, поэтому нарисуем эту табличку и параллельно заполним соответствующие поля в ожидаемом результате.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Регистр Остатки (ожидаемый результат)</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Регистратор  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Период  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> Д10</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> С1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br /></span><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Документ Расходная накладная</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Ссылка  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Дата  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> Д10</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> С1</span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Шаг 2.2: Связь с первым источником данных описали, переходим к следующим полям.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">Поле Товар заполняем из табличной части Товары документа Расходная накладная. Количество указываем в табличной части, но не заносим в конечный результат, потому что оно участвует в расчетах, но не переносится напрямую</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Регистр Остатки (ожидаемый результат)</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Регистратор  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Период  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Д10 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> С1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> Т1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> </span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br /></span><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Документ Расходная накладная</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Ссылка  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Дата  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Д10 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> С1 </span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br /></span><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Документ Расходная накладная (табличная часть)</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Ссылка  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> Т1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> 20</span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br />Шаг 2.3: Описываем заполнение последнего поля.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;">В качестве источника данных будут выступать записи регистра Остатки. При этом нужно отразить, что важен порядок приходов.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Регистр Остатки (ожидаемый результат)</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Регистратор  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Период  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Д10 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> С1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Т1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> - 3 </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> Д10</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> С1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> Т1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> - 17</span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br /></span><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Документ Расходная накладная</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Ссылка  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Дата  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Д10 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> С1 </span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br /></span><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Документ Расходная накладная (табличная часть)</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Ссылка  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> РН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Т1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> 20</span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"><br /></span><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; font-weight:600; color:#333333;">Регистр Остатки</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Регистратор  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Период  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Склад  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Товар  </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">  Количество  </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> ПН1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Д1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> С1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Т1 </span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> 3 </span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> ПН2</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Д2</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> С1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> Т1</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;"> 30</span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"> </span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"> В результате получили детальное описание задачи. При этом оно содержит только важные детали.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;"><span style=" font-family:'Verdana,sans-serif'; font-size:10pt; color:#333333;"> Этот способ я использую при постановке задач по проведению документов и написанию отчетов.</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  </p></body></html>
