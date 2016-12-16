@@ -170,6 +170,11 @@
       <record id="1473346801sokij5uuvn" name="Обзор opensource-инструментов управления проектами" author="Казьмин Василий aka awk" url="http://infostart.ru/public/340186/" tags="1c.dev-process" ctime="20160908180001" dir="1473346801lpvobfwzyj" file="text.html" crypt="0"/>
       <record id="1473347035hbkg5tun1u" name="Повышение удобства разработки в среде 1С:Предприятие 8" author="Артур Аюханов aka artbear" url="http://infostart.ru/public/65526/" tags="1c.dev-process" ctime="20160908180355" dir="1473347035i0s9e7kdsz" file="text.html" crypt="0"/>
      </recordtable>
+     <node crypt="" id="1481862775sdixrbo0m8" name="1c2git">
+      <recordtable>
+       <record id="1481862795y8pxsdfjb9" name="Использование git для доработки типовых конфигураций 1С" author="Евгений Сосна (pumbaE)" url="http://infostart.ru/public/553119/" tags="1c.dev-process" ctime="20161216073315" dir="1481862795b78dvvqu9r" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473347086h48tjskaz5" name="queries">
      <recordtable>
