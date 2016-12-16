@@ -254,6 +254,11 @@
       <record id="1481732722uuh09bhcyp" name="Цветовые схемы для конфигуратора 1С" author="Дмитрий Чернов (Chernov_Dmitriy)" url="http://infostart.ru/public/202980/" tags="1c.tools" ctime="20161214192522" dir="1481732722csoskh3dkr" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14818629077qxthekbyu" name="extensions">
+     <recordtable>
+      <record id="14818629337febfm29fe" name="Расширения конфигурации. Полезные советы для разработки" author=" Яковлевич Никита (mrXoxot)" url="http://infostart.ru/public/442003/" tags="1c.extensions" ctime="20161216073533" dir="1481862933cri3v9c49u" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
