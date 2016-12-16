@@ -498,6 +498,11 @@
      <record id="1481893691yeegllctdh" name="План обучения" author="" url="https://github.com/miloyip/game-programmer" tags="" ctime="20161216160811" dir="1481893691ef4mym5381" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="14818958125623ojvnfh" name="sql">
+    <recordtable>
+     <record id="1481895853mge3ek4335" name="Иерархические (рекурсивные) запросы" author="&#10;maovrn @maovrn" url="https://habrahabr.ru/post/43955/" tags="" ctime="20161216164413" dir="1481895853hlg3d92chf" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
