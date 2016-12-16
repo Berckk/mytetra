@@ -145,6 +145,7 @@
      <node crypt="0" icon="" id="1473342405g9033mk6wi" name="virtualization">
       <recordtable>
        <record id="1473342640lgnqla6ibr" name="Использование Vagrant и Docker при разработке в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/542836/" tags="1c.integration.virtual" ctime="20160908165040" dir="14733426408y03d4qwd4" file="text.html" crypt="0"/>
+       <record id="14818636927wt1vcgiid" name="Создаем Docker-контейнер с 1C-клиентом для Linux" author=" b00t b00t (b00t)" url="http://infostart.ru/public/548179/" tags="1c.integration.virtual" ctime="20161216074812" dir="14818636928ho1ers4ao" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1481863354br8xx4qts7" name="json">
@@ -227,6 +228,11 @@
      <node crypt="0" icon="" id="14817205812jeu4zwue1" name="examples">
       <recordtable>
        <record id="1481720683sy4aox4zkn" name="Заметочки про 1С:Предприятие 8" author="Алексей Константинов (alexk-is)" url="http://infostart.ru/public/71130/?ID=71130&amp;PAGEN_1=5" tags="1c.code.examples" ctime="20161214160443" dir="148172068382qewv3p9d" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1481863745afcm1nmno8" name="common">
+      <recordtable>
+       <record id="1481863772bft1mlkivo" name="Вычитание рабочих дней от текущей даты" author=" Семен Буханов (semenich_b)" url="http://infostart.ru/public/547820/" tags="1c.code.common" ctime="20161216074932" dir="14818637726wtucjk7f9" file="text.html"/>
       </recordtable>
      </node>
     </node>
