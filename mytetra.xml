@@ -274,7 +274,16 @@
       <record id="14818629337febfm29fe" name="Расширения конфигурации. Полезные советы для разработки" author=" Яковлевич Никита (mrXoxot)" url="http://infostart.ru/public/442003/" tags="1c.extensions" ctime="20161216073533" dir="1481862933cri3v9c49u" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="" id="1481863936mqiv6l96p2" name="postgres"/>
+    <node crypt="" id="1481863936mqiv6l96p2" name="postgres">
+     <recordtable>
+      <record id="1481863978vtqrqj6t31" name="Настройка PostgreSQL для работы в связке с 1С 8.х на платформе Windows Server 2012, объём БД более 200 Гб" author=" Сергей Власов (vsasav)" url="http://infostart.ru/public/554213/" tags="1c.postgres" ctime="20161216075258" dir="1481863978uj16ihee5q" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1481864037ugfi60j1r0" name="sequrity">
+     <recordtable>
+      <record id="148186419992ziyk5bny" name="Альтернативный способ введения пароля в пользовательском режиме" author="Денис Ан (Denis_CFO) " url="http://infostart.ru/public/554131/" tags="1c.sequrity" ctime="20161216075639" dir="1481864199uywd7bxx4h" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
