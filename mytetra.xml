@@ -492,10 +492,14 @@
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
     <node crypt="0" icon="" id="1473256321g1ltfocjx8" name="Арефьева">
      <recordtable>
-      <record id="1473256362ew5qkcgl3e" name="Что ты будешь делать?" author="pola" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" ctime="20160907165242" dir="1473256362xy4lcgjnyd" file="text.html" crypt="0"/>
+      <record id="1473256362ew5qkcgl3e" name="Что ты будешь делать?" author="" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" ctime="20160907165242" dir="1473256362xy4lcgjnyd" file="text.html" crypt="0"/>
      </recordtable>
     </node>
-    <node crypt="" id="1481888278qcxo4hclzw" name="eng"/>
+    <node crypt="" id="1481888278qcxo4hclzw" name="eng">
+     <recordtable>
+      <record id="1481888336nqryfe4kbn" name="In these arms" author="Bon Jovi" url="https://youtu.be/1-95s1AHgNY" tags="" ctime="20161216143856" dir="1481888336fkqaffgtk0" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="0" icon="" id="14733421542glvhruftk" name="Найти">
