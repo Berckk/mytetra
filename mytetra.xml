@@ -552,7 +552,11 @@
      <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html" crypt="0"/>
     </recordtable>
    </node>
-   <node crypt="" id="14818966443kwxxsqr7d" name="blogs"/>
+   <node crypt="" id="14818966443kwxxsqr7d" name="blogs">
+    <recordtable>
+     <record id="1481896688eyeioue4y1" name="blogitator" author="Игорь Блогератор" url="http://blogerator.ru/" tags="blogs" ctime="20161216165808" dir="1481896688d3mwih6kvh" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1481722160ohhcof85x3" name="Прочитано"/>
  </content>
