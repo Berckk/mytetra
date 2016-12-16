@@ -190,6 +190,7 @@
       <record id="1473347289zdd1m9h3tk" name="Варианты построения выборки диапазона чисел или дат с помощью запроса" author="m..adm " url="http://infostart.ru/public/427180/" tags="1c.quiries" ctime="20160908180809" dir="14733472891wxgihvj3k" file="text.html" crypt="0"/>
       <record id="1481863220m1dg6xdot7" name="Уровни, глубина, прародители, циклы и аналоги запросом" author="Сергей (ildarovich)" url="http://infostart.ru/public/160707/" tags="1c.queries" ctime="20161216074020" dir="1481863220z7d738xz2d" file="text.html"/>
       <record id="1481863314tu44nrmm7l" name="Транзитивное замыкание запросом" author="Сергей (ildarovich)" url="http://infostart.ru/public/158512/" tags="1c.queries" ctime="20161216074154" dir="14818633147lzzlfexgr" file="text.html"/>
+      <record id="1481863519k4y384cr5x" name="Разбиение текста запроса на функции" author=" Пишу код как картины (yurii_host)" url="http://infostart.ru/public/548407/" tags="1c.queries" ctime="20161216074519" dir="1481863519fh3kc1yz47" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1473420365g259t2umz0" name="Debbuging">
