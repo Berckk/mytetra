@@ -451,6 +451,7 @@
         <record id="1481781550nrms4p14ei" name="UkM1U0lNUAMdTAnlQ8cTmCGtM3b9BmL+QTajAAYFhRCp+LZBUUep4be3s4OpZ4fm486/0qIG6vWXXe/vluQP9AqCKtIoSOWGsYaVJNAWlKQ=" author="UkM1U0lNUAOe9Wz9GkVrdpydewFFDgyaHCc9DdGo/h+8qzSPeG77qA37eL8LeqCS" url="UkM1U0lNUAMLUQ0mI8a+Hgevx2+DlhZSTBImEg4+1TkN9Q0iN6q+NPiIW8OcQjzYnUdHhYPcup9ukUJbKaaQE4CPtY31y2B2cBki3ek2e0KGdSzBplMsvjL2PsCAeSnpsSvkhXbcMfhrDTNUYCaWnMlZ2ZtyudeYhTmkhbSzH0s=" tags="" ctime="20161215085910" dir="14817815503tvmdrpe2h" file="text.html" crypt="1"/>
         <record id="1481782176f41av647s6" name="UkM1U0lNUANkfPvaFga9r82C40FNJcpXmcnpbcnOvh0StVXnWVoZYwuqVovR4DUvsdNVQkJH8chOQZhcYyOo4ER9C7CEOHcEtnsIZW8dXTQ=" author="UkM1U0lNUAN1LcsVeXU4N2Pd9EvcLYup0wZIf2/wnU2Uk0jBX9c6teBY7hwMG955" url="" tags="" ctime="20161215090936" dir="14817821763l7iq149k2" file="text.html" crypt="1"/>
         <record id="14817831928dradniit3" name="UkM1U0lNUAO3BB91cLqeXkp4r3WqGsGXCU88WA2TTF7Vdim8z0O9P3go4tMx65n4LC6Eq/rg4CG+Un/8kn2Xcg==" author="UkM1U0lNUAOuMJxv4jjWCItHPKlxoUTT0I2w5tklqrxm3UxL3BxkR7+Eg5OkWKwY" url="UkM1U0lNUAOMdsUkzm3q2poyn1BgAInW1qCQohgZdPtYDlBv3YHVZYvquUnfW1gkbddTxmUXmiWTiC7BDd+Bkj5aNKxBpwgNaL/6aToLIQDDr1Xku0xEcTbx5JRTRwTUqNpyAAvwh7DmvjURx+ReqWkfFRGn+qvX" tags="" ctime="20161215092632" dir="1481783192ju6t4sivga" file="text.html" crypt="1"/>
+        <record id="1481865580ncshuxw6fr" name="UkM1U0lNUANMFeE3eo2udPBE4YOsgsPnOBnRWRwKqrQxSavZidoBo/66j60yv5gEn+Apmc+EtXI=" author="UkM1U0lNUAN8kSeTtVDudF+wjQOZxdHcWPrRyC+/hbvE/F3x/hrVEFAio0okRS++" url="UkM1U0lNUANKRZ+jkExA2b2ZZuQZIFLpJJ+lV4EdcdhDrBE2bHMGdPQpmfy+WDI9k5iKMvzArw5bkhspgW9OQOzpUn8GyXH+uKxM8mdLTJD5JOZYD8eEMU6jehKW/p7P4hhzLHKq8GLTd+mstyUWYSaOLkOtYiN2" tags="" ctime="20161216081940" dir="1481865580j7ziv8lnxs" file="text.html" crypt="1"/>
        </recordtable>
       </node>
       <node crypt="1" icon="" id="148178197367nqnkrxvj" name="UkM1U0lNUANz+/3UqkeGNlPJi59lJCEwBFUe+prhw8aKfwuJpDEZ8gV76pEcclUf0SVrtvXQ9X90ds0sRgmiR5SwGG/LoSGi">
@@ -473,7 +474,11 @@
      <record id="14818014784o53wrydvr" name="Динамический конвертор из C в ассебмлер" author="" url="http://godbolt.org/?utm_content=bufferd021f&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="" ctime="20161215143118" dir="1481801478kj5xy4s54z" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1481865439k9n9r419c1" name="Сбор требований"/>
+   <node crypt="" id="1481865439k9n9r419c1" name="Сбор требований">
+    <recordtable>
+     <record id="14818655007q4v4t8rld" name="Пример написания функциональных требований к Enterprise-системе" author="&#10;@anton_stasevic" url="https://habrahabr.ru/post/245625/" tags="requiments" ctime="20161216081820" dir="1481865500zylx6g31v4" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
