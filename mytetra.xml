@@ -277,7 +277,11 @@
     </node>
     <node crypt="" id="1481863936mqiv6l96p2" name="postgres">
      <recordtable>
-      <record id="1481863978vtqrqj6t31" name="Настройка PostgreSQL для работы в связке с 1С 8.х на платформе Windows Server 2012, объём БД более 200 Гб" author=" Сергей Власов (vsasav)" url="http://infostart.ru/public/554213/" tags="1c.postgres" ctime="20161216075258" dir="1481863978uj16ihee5q" file="text.html"/>
+      <record id="1481863978vtqrqj6t31" name="Настройка PostgreSQL для работы в связке с 1С 8.х на платформе Windows Server 2012, объём БД более 200 Гб" author=" Сергей Власов (vsasav)" url="http://infostart.ru/public/554213/" tags="1c.postgres" ctime="20161216075258" dir="1481863978uj16ihee5q" file="text.html">
+       <files>
+        <file id="14818645011j2rtuwwjr" fileName="postgresql.conf" type="file"/>
+       </files>
+      </record>
      </recordtable>
     </node>
     <node crypt="" id="1481864037ugfi60j1r0" name="sequrity">
