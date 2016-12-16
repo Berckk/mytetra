@@ -441,21 +441,21 @@
      <record id="1481721001g82kwv62xc" name="The Developer Cheat Sheet Compilation" author="stark" url="http://www.fuzzyopinions.com/article/technology/the-developer-cheat-sheet-compilation/" tags="programming.cheatsheet" ctime="20161214161001" dir="1481721001lwjs3dxual" file="text.html" crypt="0"/>
     </recordtable>
    </node>
-   <node crypt="" id="1481777201vv0jv3jx3j" name="hexlet">
-    <node crypt="" id="1481777210k0mt3wb7oa" name="Профессии">
-     <node crypt="" id="148177722073rmqsx0f8" name="js backend">
-      <node crypt="" id="1481777386yn8crho18w" name="Основы программирования">
+   <node crypt="1" icon="" id="1481777201vv0jv3jx3j" name="UkM1U0lNUAOLS9VLXbkaBayGG4ZCfXpZhrOmyx4FTG5kli7+tGCiTtG1OIlfvgn+">
+    <node crypt="1" icon="" id="1481777210k0mt3wb7oa" name="UkM1U0lNUANoHcZh/0msqUlaYr0vVSszWrbSeg1Gdv3QUZxiXAWDQsQATy5ode1+nWnr9WesML/dRp1U93oVew==">
+     <node crypt="1" icon="" id="148177722073rmqsx0f8" name="UkM1U0lNUANf7BeXxR2aBGfo+Xuts+UYREyzNsdzlIGdqfX7dgX02XHq5n7UPix6zrthuNL3Maw=">
+      <node crypt="1" icon="" id="1481777386yn8crho18w" name="UkM1U0lNUAPgmWUPFl8aGsh4lVHuHsi8UTvbpV4uvihwVfY/VJT3LKstzkABf9e6zQ7reMwPdDEBRjwyVO6Md6GAB6+eIBVw2xc9CYZSwek6w6scYM2yQQ==">
        <recordtable>
-        <record id="1481779609e98a2xpday" name="01 Введение" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/intro/theory_unit" tags="" ctime="20161215082649" dir="1481779609y65cv9i8k5" file="text.html"/>
-        <record id="14817805900agtt7zh6z" name="02 Идеальная программа" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/ideal_program/quiz_unit" tags="" ctime="20161215084310" dir="1481780590vlpdqyc52i" file="text.html"/>
-        <record id="1481781550nrms4p14ei" name="03 Первая программа" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/first_program/theory_unit" tags="" ctime="20161215085910" dir="14817815503tvmdrpe2h" file="text.html"/>
-        <record id="1481782176f41av647s6" name="04 Онлайн-среда hexlet" author="hexlet" url="" tags="" ctime="20161215090936" dir="14817821763l7iq149k2" file="text.html"/>
-        <record id="14817831928dradniit3" name="05 Арифметика" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/arithmetic/theory_unit" tags="" ctime="20161215092632" dir="1481783192ju6t4sivga" file="text.html"/>
+        <record id="1481779609e98a2xpday" name="UkM1U0lNUAO9/RrcPFfCAbSCdalOoylC7NGZVGQihLQ0fLx5X1tk8dxP45BBjyCCtEJOuMsqq0mvpfwkIbLLIA==" author="UkM1U0lNUAOk/mTHD1Hp9lTp7Z97e+ngdi37bynuiT4Ca5++RquCgsloiotvtVdf" url="UkM1U0lNUAMuRXvZa6VYh43QznkAL/0Y5zyk7uk4PGmPtgGSNLblEd3zWw3heVNg0swGtbW8x2nw1IwIfZSNzy5tQ/NptcHYZWxMxpmj9Pesa6/U0NOisfzFXX+JD80m94FGCT3Xc6EVrN8w3egm1tILSQ122800" tags="" ctime="20161215082649" dir="1481779609y65cv9i8k5" file="text.html" crypt="1"/>
+        <record id="14817805900agtt7zh6z" name="UkM1U0lNUAOPUoP1Ql8twO725GPS7azxMhGEq3EPp79o/7eWyUNicKynX93b7wtxDnEjwa+S6G74/nw7vfHWMA0/gJcVcsmF4AkTutYf6Uk=" author="UkM1U0lNUAPVLW87zxlZrpr861qmmNvQNfwlNGDPgUe6NrIt0zF6XlKobHg48ZrN" url="UkM1U0lNUAOBlJjDy4xqXurjz2VGAY1aUN8KYE3s7LDyemXV8xJRq8Mx0xEq54TZB60EoPx+SfiGmOq1zYLg1+za0OjoQVCnqU6F69uZlMuboLRTik2j5vnpfhLv13w9vOsO6aCVnFH9nb6P5Fr4lWo74DDqwWuC" tags="" ctime="20161215084310" dir="1481780590vlpdqyc52i" file="text.html" crypt="1"/>
+        <record id="1481781550nrms4p14ei" name="UkM1U0lNUAMdTAnlQ8cTmCGtM3b9BmL+QTajAAYFhRCp+LZBUUep4be3s4OpZ4fm486/0qIG6vWXXe/vluQP9AqCKtIoSOWGsYaVJNAWlKQ=" author="UkM1U0lNUAOe9Wz9GkVrdpydewFFDgyaHCc9DdGo/h+8qzSPeG77qA37eL8LeqCS" url="UkM1U0lNUAMLUQ0mI8a+Hgevx2+DlhZSTBImEg4+1TkN9Q0iN6q+NPiIW8OcQjzYnUdHhYPcup9ukUJbKaaQE4CPtY31y2B2cBki3ek2e0KGdSzBplMsvjL2PsCAeSnpsSvkhXbcMfhrDTNUYCaWnMlZ2ZtyudeYhTmkhbSzH0s=" tags="" ctime="20161215085910" dir="14817815503tvmdrpe2h" file="text.html" crypt="1"/>
+        <record id="1481782176f41av647s6" name="UkM1U0lNUANkfPvaFga9r82C40FNJcpXmcnpbcnOvh0StVXnWVoZYwuqVovR4DUvsdNVQkJH8chOQZhcYyOo4ER9C7CEOHcEtnsIZW8dXTQ=" author="UkM1U0lNUAN1LcsVeXU4N2Pd9EvcLYup0wZIf2/wnU2Uk0jBX9c6teBY7hwMG955" url="" tags="" ctime="20161215090936" dir="14817821763l7iq149k2" file="text.html" crypt="1"/>
+        <record id="14817831928dradniit3" name="UkM1U0lNUAO3BB91cLqeXkp4r3WqGsGXCU88WA2TTF7Vdim8z0O9P3go4tMx65n4LC6Eq/rg4CG+Un/8kn2Xcg==" author="UkM1U0lNUAOuMJxv4jjWCItHPKlxoUTT0I2w5tklqrxm3UxL3BxkR7+Eg5OkWKwY" url="UkM1U0lNUAOMdsUkzm3q2poyn1BgAInW1qCQohgZdPtYDlBv3YHVZYvquUnfW1gkbddTxmUXmiWTiC7BDd+Bkj5aNKxBpwgNaL/6aToLIQDDr1Xku0xEcTbx5JRTRwTUqNpyAAvwh7DmvjURx+ReqWkfFRGn+qvX" tags="" ctime="20161215092632" dir="1481783192ju6t4sivga" file="text.html" crypt="1"/>
        </recordtable>
       </node>
-      <node crypt="1" icon="" id="148178197367nqnkrxvj" name="UkM1U0lNUANHGyK6X9YuHk4YSotB0vhWdXxOdEY84/6ITPo5KI8CdZeyMuz7eXsTONiMUn0gfnUFGOocdcDwhb6SsCSnL1Sz">
+      <node crypt="1" icon="" id="148178197367nqnkrxvj" name="UkM1U0lNUANz+/3UqkeGNlPJi59lJCEwBFUe+prhw8aKfwuJpDEZ8gV76pEcclUf0SVrtvXQ9X90ds0sRgmiR5SwGG/LoSGi">
        <recordtable>
-        <record id="1481784287nbg4jl3422" name="UkM1U0lNUAMjtF84UIsGAi4c+EqVUJC65+GXIVXgZ3D/HtMJy4SV3TEM1a8EOgEBhks9QZ6bs2RvLNzETxw2K+htql5YiNTTh9RaFwmM1/6Jkk2E5CSa/g==" author="" url="" tags="" ctime="20161215094447" dir="1481784287iyjsgj4s6v" file="text.html" crypt="1"/>
+        <record id="1481784287nbg4jl3422" name="UkM1U0lNUANbrq42tuGMdBUrzGK0U6pxuGhGtxYZn40WJw2YWJ8AyCaq9nOMqQrcKRATUbwTiivijH4D6gcwWAeyKkStIJhFi/yRFP037JaAsTwkvQyJTA==" author="" url="" tags="" ctime="20161215094447" dir="1481784287iyjsgj4s6v" file="text.html" crypt="1"/>
        </recordtable>
       </node>
      </node>
@@ -473,6 +473,7 @@
      <record id="14818014784o53wrydvr" name="Динамический конвертор из C в ассебмлер" author="" url="http://godbolt.org/?utm_content=bufferd021f&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="" ctime="20161215143118" dir="1481801478kj5xy4s54z" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1481865439k9n9r419c1" name="Сбор требований"/>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
