@@ -488,7 +488,11 @@
      <record id="14818655007q4v4t8rld" name="Пример написания функциональных требований к Enterprise-системе" author="&#10;@anton_stasevic" url="https://habrahabr.ru/post/245625/" tags="requiments" ctime="20161216081820" dir="1481865500zylx6g31v4" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="148189367882fvtu14pl" name="game coding"/>
+   <node crypt="" id="148189367882fvtu14pl" name="game coding">
+    <recordtable>
+     <record id="1481893691yeegllctdh" name="План обучения" author="" url="https://github.com/miloyip/game-programmer" tags="" ctime="20161216160811" dir="1481893691ef4mym5381" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
