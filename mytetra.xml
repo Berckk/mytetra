@@ -530,6 +530,11 @@
      <record id="1481895853mge3ek4335" name="Иерархические (рекурсивные) запросы" author="&#10;maovrn @maovrn" url="https://habrahabr.ru/post/43955/" tags="" ctime="20161216164413" dir="1481895853hlg3d92chf" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1482248559e7ivft0oje" name="develop">
+    <recordtable>
+     <record id="1482248608iqrtjajykw" name="Подборка бесплатных инструментов для разработчиков" author="ИТ-ГРАД&#10;vmware iaas provider" url="https://habrahabr.ru/company/it-grad/blog/270589/" tags="" ctime="20161220184328" dir="14822486083yax4erwb1" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
