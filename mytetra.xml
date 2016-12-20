@@ -96,6 +96,17 @@
          <record id="1481723784vrie2ilffl" name="Проверка среды выполнения" author="pola" url="" tags="1c.xunit.code" ctime="20161214165624" dir="1481723784lst39po59m" file="text.html" crypt="0"/>
         </recordtable>
        </node>
+       <node crypt="" id="14822469123gpsrg691r" name="Генерация данных">
+        <recordtable>
+         <record id="1482246991aw02pnerv6" name="Генератор данных от Юрия Хоста" author="Пишу код как картины (yurii_host) " url="http://infostart.ru/public/530507/" tags="" ctime="20161220181631" dir="1482246991v38y6ip5k9" file="text.html">
+          <files>
+           <file id="1482247090219xacffrp" fileName="Генератор данных.epf" type="file"/>
+           <file id="1482247093p4vg1iqxmp" fileName="Выгрузка данных.epf" type="file"/>
+           <file id="1482247095rcpiv74sr2" fileName="README.md" type="file"/>
+          </files>
+         </record>
+        </recordtable>
+       </node>
       </node>
       <node crypt="0" icon="" id="14738451416su8iborle" name="Мысли">
        <recordtable>
