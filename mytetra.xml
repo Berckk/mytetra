@@ -248,6 +248,7 @@
        <record id="1481863772bft1mlkivo" name="Вычитание рабочих дней от текущей даты" author=" Семен Буханов (semenich_b)" url="http://infostart.ru/public/547820/" tags="1c.code.common" ctime="20161216074932" dir="14818637726wtucjk7f9" file="text.html"/>
        <record id="1481863915ljntfh3iee" name="Создание кода 1С на основании html документа" author="Makc *** (makc2k)" url="http://infostart.ru/public/554022/" tags="1c.code.common" ctime="20161216075155" dir="1481863915ryfukgbfb6" file="text.html"/>
        <record id="1482233476qajrx76ciu" name="Создать внешнюю обработку из макета" author="pola" url="" tags="1c.code.common" ctime="20161220143116" dir="148223347603fhn9zy67" file="text.html"/>
+       <record id="1482247681nmjvgdkeyq" name="Несколько шаблонов для доработки типовых конфигураций" author="Пишу код как картины (yurii_host)" url="http://infostart.ru/public/552536/" tags="1c.code" ctime="20161220182801" dir="14822476819xlrgrjoh5" file="text.html"/>
       </recordtable>
      </node>
     </node>
