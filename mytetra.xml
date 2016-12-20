@@ -167,7 +167,11 @@
        <record id="1481863389hfzx3ethhr" name="Парсер JSON (Штатные средства 1С 8.3.6)" author="{ÐƦǑƝȊ} mx (dour-dead)" url="http://infostart.ru/public/551972/" tags="1c.integration.json" ctime="20161216074309" dir="1481863389k5km1iaxsi" file="text.html"/>
       </recordtable>
      </node>
-     <node crypt="" id="1482248290nnere360oj" name="XDTO"/>
+     <node crypt="" id="1482248290nnere360oj" name="XDTO">
+      <recordtable>
+       <record id="1482248327ndbj9vqv1c" name="1С магия XDTO-пакетов на примере интеграций с ГИС ЖКХ" author="ejsmile @ejsmile" url="https://habrahabr.ru/post/313910/" tags="" ctime="20161220183847" dir="1482248327uvtdkq84tb" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473345828ac5gra5a3k" name="Blogs">
      <recordtable>
