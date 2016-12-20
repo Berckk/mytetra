@@ -569,6 +569,10 @@
     </recordtable>
    </node>
   </node>
-  <node crypt="" id="14822447083otjftcvwx" name="latex"/>
+  <node crypt="" id="14822447083otjftcvwx" name="latex">
+   <recordtable>
+    <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20161220173839" dir="1482244719pls0yybkyz" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
