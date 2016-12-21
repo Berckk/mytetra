@@ -438,7 +438,11 @@
       <record id="1474353676ptmb1kz6qj" name="Undoing Things" author="proGit" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git.undoing" ctime="20160920094116" dir="1474353676z58rwaryyr" file="text.html" crypt="0"/>
      </recordtable>
     </node>
-    <node crypt="" id="1482331578jbn49tpxe6" name="git-сервисы"/>
+    <node crypt="" id="1482331578jbn49tpxe6" name="git-сервисы">
+     <recordtable>
+      <record id="1482332068bnl8nnucfw" name="Gogs: легковесный git-сервис" author="&#10;Селектел" url="https://habrahabr.ru/company/selectel/blog/305422/" tags="" ctime="20161221175428" dir="1482332068frfssgi177" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1474433447rs65x5ttzg" name="deploy">
     <node crypt="0" icon="" id="1474433452uyfciyhu0j" name="docker">
