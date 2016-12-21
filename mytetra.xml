@@ -242,6 +242,7 @@
        <record id="1475685684i9py27yslf" name="Прибавить период" author="" url="upp" tags="1c.code.upp" ctime="20161005194124" dir="1475685684cc5g10byeq" file="text.html" crypt="0"/>
        <record id="1475685690dt7cn0i79q" name="Получить таблицу значений из макета" author="" url="" tags="1c.code.upp" ctime="20161005194130" dir="1475685690kk47egsw4w" file="text.html" crypt="0"/>
        <record id="1475685699092khklerq" name="Асинхронное выполнение кода" author="" url="" tags="1c.code.upp" ctime="20161005194139" dir="1475685699exji8yi83q" file="text.html" crypt="0"/>
+       <record id="1482333918xgj4aqrivs" name="Отключить проверку границ закрытого периода" author="" url="" tags="1c.code.upp" ctime="20161221182518" dir="1482333918dacam5sl1d" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="0" icon="" id="14817205812jeu4zwue1" name="examples">
