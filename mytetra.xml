@@ -622,5 +622,12 @@
     </node>
    </node>
   </node>
+  <node crypt="" id="1482341641yg7cz3mi9i" name="guitar">
+   <node crypt="" id="1482341649kzgrjbz6st" name="Табачников">
+    <recordtable>
+     <record id="1482341674gc1fma6p1q" name="Тривиум" author="" url="https://www.youtube.com/watch?v=etdynx8nFhI" tags="" ctime="20161221203434" dir="1482341674r5b4d9nfp7" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
  </content>
 </root>
