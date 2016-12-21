@@ -558,6 +558,15 @@
       <record id="1481888336nqryfe4kbn" name="In these arms" author="Bon Jovi" url="https://youtu.be/1-95s1AHgNY" tags="" ctime="20161216143856" dir="1481888336fkqaffgtk0" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1482344661oxm1sgdxvh" name="Ария">
+     <recordtable>
+      <record id="1482344672ok27ptxzz6" name="Сборник" author="" url="" tags="" ctime="20161221212432" dir="1482344672w2nef08q38" file="text.html">
+       <files>
+        <file id="1482344680o99wmk3d2m" fileName="Ария, аккорды.odt" type="file"/>
+       </files>
+      </record>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="0" icon="" id="14733421542glvhruftk" name="Найти">
