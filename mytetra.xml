@@ -215,7 +215,7 @@
     </node>
     <node crypt="0" icon="" id="1473420365g259t2umz0" name="Debbuging">
      <recordtable>
-      <record id="1473420385erqliaehjc" name="Контекст отладчика портативной ир" author="pola" url="" tags="1c.debugging" ctime="20160909142625" dir="1473420385xysqo6y7mo" file="text.html" crypt="0"/>
+      <record id="1473420385erqliaehjc" name="Контекст отладчика портативной ир" author="pola" url="" tags="1c.debug" ctime="20160909142625" dir="1473420385xysqo6y7mo" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1473757767uodiji3d24" name="practice">
