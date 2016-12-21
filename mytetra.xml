@@ -438,6 +438,7 @@
       <record id="1474353676ptmb1kz6qj" name="Undoing Things" author="proGit" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git.undoing" ctime="20160920094116" dir="1474353676z58rwaryyr" file="text.html" crypt="0"/>
      </recordtable>
     </node>
+    <node crypt="" id="1482331578jbn49tpxe6" name="git-сервисы"/>
    </node>
    <node crypt="0" icon="" id="1474433447rs65x5ttzg" name="deploy">
     <node crypt="0" icon="" id="1474433452uyfciyhu0j" name="docker">
