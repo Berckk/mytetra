@@ -607,6 +607,14 @@
     <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20161220173839" dir="1482244719pls0yybkyz" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="14823252902l7cmo4n2l" name="linux"/>
+  <node crypt="" id="14823252902l7cmo4n2l" name="linux">
+   <node crypt="" id="1482325720dgnohtztxe" name="bush">
+    <node crypt="" id="1482325733oolcre9asn" name="Команды и скрипты">
+     <recordtable>
+      <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="bush" ctime="20161221161103" dir="1482325863o221q05q52" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+  </node>
  </content>
 </root>
