@@ -638,6 +638,11 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="1482471288cdw6tlsy02" name="Шрифты">
+    <recordtable>
+     <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="" ctime="20161223083513" dir="1482471313bwz9sckdnw" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1482341641yg7cz3mi9i" name="guitar">
    <node crypt="" id="1482341649kzgrjbz6st" name="Табачников">
