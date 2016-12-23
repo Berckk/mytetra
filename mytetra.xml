@@ -433,6 +433,7 @@
     <recordtable>
      <record id="1473403075dlzbd6ntqc" name="Настройка SSH для bitbucket" author="pola" url="https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html" tags="git.info" ctime="20160909093755" dir="1473403075dl9x9jokz9" file="text.html" crypt="0"/>
      <record id="1481697576ovk6ov41mw" name="Настройка alias удобного лога" author="" url="" tags="" ctime="20161214093936" dir="148169757621v1itbawm" file="text.html" crypt="0"/>
+     <record id="1482477229dp0m22bz5b" name="Настройка alias статуса" author="" url="" tags="" ctime="20161223101349" dir="14824772292b1dxt35ep" file="text.html" crypt="0"/>
     </recordtable>
     <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
      <recordtable>
