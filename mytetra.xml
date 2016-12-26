@@ -428,6 +428,11 @@
       <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
      </recordtable>
     </node>
+    <node crypt="" id="1482763183913pqmw4tp" name="gherkin">
+     <recordtable>
+      <record id="14827632035v55by7nrn" name="Кто вы, пишущие на Gherkin?" author="&#10;Evgeniy Pavlyuk @wizi4d" url="https://habrahabr.ru/post/275013/" tags="" ctime="20161226174003" dir="1482763203b3b39g2igz" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
     <recordtable>
