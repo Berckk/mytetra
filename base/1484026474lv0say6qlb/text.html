@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Consolas'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Приходя на проекты, где необходимы серьезные архитектурные решения, в прошлом году я столкнулся… Скажем, так - с завышенными ожиданиями от компетенций. То есть если вкратце – некоторые вещи, которые для нас представляют собой «базовые», для наших партнеров и друзей оказывались «открытием Америки». Почему так складывается? Лично моё предположение, что за счет огромного количества рутины – у большинства специалистов не хватает времени поднять голову и взглянуть на свою деятельность системно </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Одним из таких моментов – является процесс «владения СУБД для 1С. Данная статья преследует своей целью: </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Подготовить слушателей платного вебинара</span> - <a href="http://infostart.ru/webinars/569490"><span style=" text-decoration: underline; color:#0000ff;">http://infostart.ru/webinars/569490</span></a>, на прошлом вебинаре по PostgreSQL подобный документ мы подготовили после вибинара, в этот раз хотим поступить по-другому. Базовая документация – раньше самого вебинара . </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Повысить уровень компетенции «группы владения» <span style=" font-weight:600;">1С+MSSQL</span> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Познакомить <span style=" font-weight:600;">сообщество Infostart с коллекцией скриптов от PFE инженеров MS</span> – на последней конференции Infostart Event в секции Highload почему то оказалось, что большинство экспертов 1С почему-то даже не слышали про эти скрипты </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Структура статьи будет иметь цветовую дифференциацию порядка работ. </span></p>
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Итак, начнем - предположим у Вас есть сервер MSSQL на котором у Вас размещена база 1С. Соответственно вы обязаны выполнить 4 последовательных этапа</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#b22222;">Бордовый</span><span style=" color:#b22222;"> </span>– настройка «инстанса» SQL сервера </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#ff0000;">Красный</span><span style=" color:#ff0000;"> </span>– ежедневный мониторинг и исправление </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#ffd700;">Желтый</span><span style=" color:#ffd700;"> </span>– еженедельный анализ и рефакторинг </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#008000;">Зеленый</span><span style=" color:#008000;"> </span>– исследование и развитие контура </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Я преполагаю что:  </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вы знакомы с настольной книгой эксперта 1С <a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly8xYy5ydS9uZXdzL2luZm8uanNwP2lkPTE3OTcz"><span style=" text-decoration: underline; color:#0000ff;">https://1c.ru/news/info.jsp?id=17973</span></a> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вы умееете нажимать кнопку &quot;Скачать на Github&quot; </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вы умеете немного читать код SQL </li></ul>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Бордовые дни</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Все что написано ниже – воспринимайте как чеклист. То есть правило следующее – сделать надо обязательно, если не доказано обратное. То есть это не рекомендация, которой можно следовать, а можно не следовать. Это прямые указания, отказаться от которых можно только в особых случаях </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Что</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Как</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Объяснение</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Лимитирование лога ошибок </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Запись в реестре NumErrorLogs </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Предназначено для сокращения количества файлов «лога ошибок», чтобы исключить в продуктиве ошибки типа </span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">SQL Error Log Handle To Big</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Ограничение административных подключений только одним соединением </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Вызов хранимой процедуры с установкой параметра remote admin connections = 1 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Убираем вероятность администрирования несколькими экспертами одного сервера, что чаще всего приводит к разрушению баз данных </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Включение сжатия по умолчанию для архивных копий если сервер не лимитирован по CPU </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Установка параметра backup compression default = 1, если версия MSSQL сервера не оптимизирована под лимитацию CPU </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Для версий старше 10-той, то есть </span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">SQL Server 2008 R2 – использование компрессии для архивный копий отличной от «по умолчанию» не рекомендуется. Попытка управлять этим значением может привести к артефактам в части блокировкам на уровне ресурсов CPU.</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Оптимизация под OLTP нагрузку </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Установка параметра optimize for ad hoc workloads = 1 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Для OLTP и гибридных систем в которых идет постоянная вставка, этот параметр позволяет разделить построение планов запросов на 2 этапа – построение заглушки при первом вызове, и перекомпилирование реального плана при повторном вызове. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Отключение параметров автоматического сжатия, автоматического закрытия соединений и способа проверки страницы данных </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Установка параметров </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">SET AUTO_CLOSE OFF WITH NO_WAIT </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">SET AUTO_SHRINK OFF WITH NO_WAIT </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">SET PAGE_VERIFY CHECKSUM WITH NO_WAIT </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Чаще всего автоматическое сокращение базы и автоматическое закрытие соединений приводит к снижению производительности базы данных. Использование отличного от «CHECKSUM» способа проверки страниц, также ведет к снижению производительности. При наличии встроенных средств в 1С – другой вариант проверки считается избыточным </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Автоматическое создание и обновление статистики </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Установка параметров </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">SET AUTO_CREATE_STATISTICS ON </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">SET AUTO_UPDATE_STATISTICS ON </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">В 2016 году признано всеми вендорами включая SAP – что ни одна из попыток ручного управления «статистикой» для оптимизации поиска не дала результатов. Поэтому по умолчанию всегда включаем ее автоматическое обновление. В купе с параметром оптимизации под OLTP нагрузку приводит к отсутствию артефактов связанным с избыточным чтением, при неправильно построенных запросах. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Использование параллелизма </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Установка </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">max degree of parallelism = 1 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Самый холиварный параметр. Для 1С устанавливаем в «единицу», включение распараллеливания запросов возможно только если доказано наличие оптимального кода для управления блокировками и согласно мониторингу не было обнаружено «дедлоков». </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Использование памяти </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Установка параметра </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">max server memory (MB) </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Используем </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL01pY3Jvc29mdC90aWdlcnRvb2xib3gvYmxvYi9tYXN0ZXIvTWFpbnRlbmFuY2VTb2x1dGlvbi8wX2RhdGFiYXNlX3NlcnZlcl9vcHRpb25zLnNxbCNMNjM="><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">этот скрипт</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> – если коротко: максимальная память зависит от архитектуры процессоров, их количества, от количества рабочих процессов </span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Ссылка на SQL скрипт: </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL01pY3Jvc29mdC90aWdlcnRvb2xib3gvYmxvYi9tYXN0ZXIvTWFpbnRlbmFuY2VTb2x1dGlvbi8wX2RhdGFiYXNlX3NlcnZlcl9vcHRpb25z"><span style=" text-decoration: underline; color:#0000ff;">https://github.com/Microsoft/tigertoolbox/blob/master/MaintenanceSolution/0_database_server_options</span></a> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для удобства определения своей версии SQL сервера используйте эту табличку <a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9zcWxzZXJ2ZXJidWlsZHMuYmxvZ3Nwb3QucnUv"><span style=" text-decoration: underline; color:#0000ff;">https://sqlserverbuilds.blogspot.ru/</span></a>  </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Дополнительно – для перехода к ежедневному наблюдению за СУБД необходимо: </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Что сделать </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Скрипт настройки </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Настроить агента рассылки, чтобы получать письма напрямую с SQL сервера, не дожидаясь оповещения с систем мониторинга </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Используем </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL01pY3Jvc29mdC90aWdlcnRvb2xib3gvYmxvYi9tYXN0ZXIvTWFpbnRlbmFuY2VTb2x1dGlvbi8xX0RhdGFiYXNlTWFpbF9Db25maWcuc3Fs"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">Вот этот SQL скрипт</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Заполняем параметры </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Доступа к SMTP </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Параметры единого ящика DBA администраторов (например у нас это группа рассылки <a href="http://infostart.ru/redirect.php?url=bWFpbHRvOmRiYS5hZG1pbnNAc2lsdmVyYnVsbGV0ZXJzLm9yZw=="><span style=" text-decoration: underline; color:#0000ff;">dba.admins@silverbulleters.org</span></a> с доступом на отправку только через SQL сервер. </li></ul></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Настроить специфичные ошибки SQL которые требуют немедленного реагирования </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Используем </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL01pY3Jvc29mdC90aWdlcnRvb2xib3gvYmxvYi9tYXN0ZXIvTWFpbnRlbmFuY2VTb2x1dGlvbi82X0FnZW50X0FsZXJ0cy5zcWw="><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">Вот этот скрипт</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Ошибки SQL сервера будут считаться со степенью важности – 10, то есть почти максимальные. </span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Красная зона</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Итак – вы настроили сервер СУБД и запустили в него пользователей. Чтобы перейти к сложным тюнингам, и сложным исследованиям – вам необходимо купировать массовые проблемы. Причем крайне желательно делать это максимально автоматизировано, чтобы больше никогда в «красную зону не возвращаться» </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Обязательная скорость реакции DBA в течении 5 минут на следующие типы ошибок </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Код ошибки </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Простое описание </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">825 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Проблемы с дисковым оборудованием – вероятность потерять данные не равна 0. И скорее всего означает что физическое разрушение данные уже началось. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">833 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Низкая производительность дискового оборудования – фактически учитывая хорошее кеширование на стороне MSSQL означает что дисковая подсистема не справляется с той странной нагрузкой, которую вы дали своему серверу. Для 1С систем очень часто появляется в момент массовых загрузок в момент интеграции, когда загружаемые данные записываются массово. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">855 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Очистка запланированных заданий не удалась – фактически для администратора это означает что кто-то изменил настройки его планов обслуживания. Ошибка связана с разделением прав на администрирование сервера. Требует внимания, так как если кто-то еще администрирует сервер – вероятность коллизий возрастает </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">856 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Нет возможности подключиться к административным представлениям, на основе которых сейчас чаще всего строится мониторинг. Это может быть вызвано проблемой с правами, а также нарушением работы самих административных представлений. Чаще всего, как и предыдущая – происходит, когда кто-то кроме Вас поковырялся в системных настройках. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">3452 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">При проверке архивной копии выявились некосистетные данные в таблице. Фактически вы должны понимать – что у Вас нет правильной архивной копии. И вы нормально не восстановите данные. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">3619 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Кончилось место для лога транзакций.  Обычно возникает когда неверно спланировали «усечение» лога транзакций» и выделенное под него место. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17119 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Выход за пределы лицензий на SQL сервер, связанная с количеством соединений. Фактически часть пользовательский соединений у вас не может прочитать данные. Очень похоже на превышение количества лицензий на 1С </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17883 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Ошибка в SQL когда SQL не справляется с нагрузкой в части распределения между потоками и процессорным временем. Может быть багом SQL сервера, а может требовать снижения нагрузки и рефакторинга кода, вызывающего максимальную нагрузку на CPU </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17884 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Дедлоки… Пошли дедлоки. Фактически показывает что ваша СУБД периодически встает в ступор. Очень часто связано с ошибкой установки MAX_DOP = 0. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17887 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Явный проблемы при работе с дисковой полкой. То есть когда у вас наблюдаются проблемы с низкоуровневым доступом к подсистеме ввода\вывода. Обычно возникает, когда неверные настройки проходят на уровне инфраструктуры. Microsoft рекомендует сразу обращаться на линию поддержки, потому как чаще всего это сложная проблема и требует исследования. В моем опыте почти всегда связана с не обновлённым BIOS на устройствах. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17888 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Еще дедлоки, обычно возникает рядом с 17883. Группа ошибок типа 17xxx вообще достаточно низкоуровневая, но на продуктивах в 1С возникает почти всегда. Мы используем </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly90ZWNobmV0Lm1pY3Jvc29mdC5jb20vZW4tdXMvbGlicmFyeS9jYzkxNzY4NC5hc3B4"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">для исправления вот эту статью</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17890 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Проблемы с памятью на инстансе MSSQL </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">28036 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Не работает репликация AlwaysOn – фактически означает что у вас нет сейчас высокодостпного кластера. Мы обычно называем эту ошибку</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600; font-style:italic;"> «отказоустойчивый кластер отказал»</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Итак, если на Вашу почту не приходит оповещение об ошибках, указанных выше, теперь можно переходить к ежедневной проверке и контролю красных проблем. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Вообще в мире MSQL принято каждое событие нормировать параметром Severity (Серьезность) </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Красная зона –<span style=" font-weight:600;"> это серьезность от 0 до 50 включительно</span> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Желтая зона – <span style=" font-weight:600;">это от 51 до 150 включительно</span> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Зеленая зона – <span style=" font-weight:600;">от 150 и до 999.</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Указанные выше ошибки считаются самыми серьёзными, однако – PFE инженеры и мы, подключаем еще одну группу ошибок к рассылке SQL агентом </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Серьезность </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Коды ошибок </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">16 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">2508, 2511, 3271, 5228, 5229, 5242, 5243, 5250, 5901, 17130, 17300 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">17 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">802, 845, 1101, 1105, 1121, 1214, 9002 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">19 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">701 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">20 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">3624 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">21 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">605 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">22 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">5180, 8966 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">23 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">5572, 9100 </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">24 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">823, 824, 832 </span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Описание ошибок – доступны в интернете, в том числе и на русском. Но чтобы вы могли искать описание этих ошибок автоматически, </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL01pY3Jvc29mdC90aWdlcnRvb2xib3gvYmxvYi9tYXN0ZXIvTWFpbnRlbmFuY2VTb2x1dGlvbi82X0FnZW50X0FsZXJ0cy5zcWw="><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">помимо автоматического скрипта создания рассылки email</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">, нам понадобится автоматический определитель проблем, который покажет ссылки на описание ошибки и способа ее устранения. - </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL0JyZW50T3phclVMVEQvU1FMLVNlcnZlci1GaXJzdC1SZXNwb25kZXItS2l0I3NwX2JsaXR6LW92ZXJhbGwtaGVhbHRoLWNoZWNr"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">скрипт берется отсюда</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_Blitz @IgnorePrioritiesAbove = 50  </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Описание колонок вывода на русском: </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Колонка</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Описание</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Priority </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Приоритет исправления </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Finding Group </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Группа ошибок </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Finding Name </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Наименование проверки </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Database Name </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Наименование базы данных </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">URL </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Адрес описания проблемы </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Details </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Расшифровка проблемы </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">QueryPlan </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">План запроса подтверждающий проблему </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">QueryPlanFilterd </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Плана запроса попавший в параметр отбора </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">CheckID </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Идентификатор правила </span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Смотреть вручную список проблем глупо – поэтому раз в сутки результат вывода направляется получателям на почту через вызов: </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_Blitz @IgnorePrioritiesAbove = 50, @EmailRecipients = ‘dba.admins@ВашДомен.ру’ </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Вообще вам будет удобно понять параметры данный хранимой процедуры </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Параметр </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Тип и назначение </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">@IgnorePrioritiesAbove = X </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Число от 0 до 999, фильтрует проблемы по важности. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">@CheckUserDatabaseObjects = 0 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Проверка осуществляется в контексте системной базы данных, а не пользовательской, что быстрей. Тип – маленькое число 1 или 0. </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">@BringThePain = 0 </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">«Причинять боль серверу» Тип – маленькое число 1 или 0. Предназначен для оценки сервера, на котором находятся более 50 баз данных, тогда выполнять анализ в контексте мастер базы может привести к деградации системных таблиц.  </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">@EmailRecipients = ‘…’ </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Список получателей результатов проверки, разделенный запятыми </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">@EmailProfile = ‘’ </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Имя профиля SMTP для отправки оповещений </span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Остальные параметры </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL0JyZW50T3phclVMVEQvU1FMLVNlcnZlci1GaXJzdC1SZXNwb25kZXItS2l0L2Jsb2IvZGV2L3NwX0JsaXR6LnNxbCNMNg=="><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">описаны тут и необходимы уже чаще всего в сложных анализах</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Кстати </span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">– </span><a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly93d3cuYnJlbnRvemFyLmNvbS9ibGl0ei90ZW1wZGItZGF0YS1maWxlcy8="><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">Как вы думаете сколько tempdb должно быть по умолчанию?</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">А вы знаете что если ответить «одна», то это считается проблемой ;-).</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Желтая зона</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Итак – если вы уже НЕ получаете оповещений о проблемах серьезности выше чем 50. Кстати внимательный пользователь – запустивший у себя скрипты уже, наверное, знает, что проблемы отсутствующих индексов – это проблемы уровня 50. То есть если вы настроили правильно рассылку, то уже увидели то что у вас на продуктивной базе 1С их около 300 ;-). Это кстати классическое среднее число на активной базу 1С. Надеюсь вы уже воспользовались обработкой </span><a href="http://infostart.ru/public/439778/"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">http://infostart.ru/public/439778/</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> для определения где и почему у вас отсутствующие индексы. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">А мы вернемся к желтой зоне, она состоит из 5 этапов которые необходимо выполнить </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Этап </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Способ осуществления </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Оценка состояния индексов </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">USE &lt;вашаБаза&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_BlitzIndex @Mode = 4 </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Оценка состояния статистики </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">	</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec view_Stats_Last_Update.sql </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Выявление главной проблемы по CPU </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'CPU' </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Выявление главное проблемы по RAM </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">' </span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">	</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'memory grant' </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Выявление главной проблемы по чтению </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">	</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'reads' </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Выявление главной проблемы по записи </span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'writes' </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;"><br /></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Вам понадобится следующий комплект скриптов: </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Индексы</span> - <a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL0JyZW50T3phclVMVEQvU1FMLVNlcnZlci1GaXJzdC1SZXNwb25kZXItS2l0L2Jsb2IvZGV2L3NwX0JsaXR6SW5kZXguc3Fs"><span style=" text-decoration: underline; color:#0000ff;">https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/blob/dev/sp_BlitzIndex.sql</span></a> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Работа с «кэшем»</span> - <a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL0JyZW50T3phclVMVEQvU1FMLVNlcnZlci1GaXJzdC1SZXNwb25kZXItS2l0L2Jsb2IvZGV2L3NwX0JsaXR6Q2FjaGUuc3Fs"><span style=" text-decoration: underline; color:#0000ff;">https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/blob/dev/sp_BlitzCache.sql</span></a> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Статистика</span> - <a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly9naXRodWIuY29tL01pY3Jvc29mdC90aWdlcnRvb2xib3gvYmxvYi9tYXN0ZXIvU3RhdGlzdGljcy92aWV3X1N0YXRzX0xhc3RfVXBkYXRlLnNxbA=="><span style=" text-decoration: underline; color:#0000ff;">https://github.com/Microsoft/tigertoolbox/blob/master/Statistics/view_Stats_Last_Update.sql</span></a> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Методика выявления желтых проблем следующая: </span></p>
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Статистика</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вначале делаем так чтобы статистика была актуальной и объем измененных записей не превышал 20000 между обновлением статистики и текущим значением модификации. </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Откуда взялось значение 20000? Эмпирическое число от Microsoft для систем типа 1С, SAP, Dynamics </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для версий MSSQL младше не забываем включить флаги трассировки </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1118  </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1117 </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2371 </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4199 </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">8048 </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Визуально это выглядит так: </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="image21236.png" /><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">То есть если у вас есть таблицы с объемом модификаций выше 20.000 где статистика не обновлялась автоматически – эти таблицы добавляются в принудительное обновление статистики чаще чем раз в день. Планы обслуживания СУБД – тема отдельной статьи, однако для базовых вещей достаточно этой статьи на ИТС </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://infostart.ru/redirect.php?url=aHR0cDovL2l0cy4xYy5ydS9kYi9tZXRvZDhkZXYjY29udGVudDpzcmMvZGV2ZWxvcGVycy9zY2FsYWJpbGl0eS9pbnN0cnVjdGlvbnMvaTgxMDU4MzcuaHRt"><span style=" text-decoration: underline; color:#0000ff;">http://its.1c.ru/db/metod8dev#content:src/developers/scalability/instructions/i8105837.htm</span></a> _ </li></ul>
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Индексы – проблемы от 51 до 150 считаются желтыми».</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Классические проблемы индексов: </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Дубликаты индексов (Multiple Index Personalities: Borderline duplicate keys) </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отображение – много записей, мало чтений </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Например - <span style=" font-weight:600;">Reads: 6 (6 seek) Writes:142,319</span> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Способ исправления – сравнить индексы на таблице с помощью </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style=" font-family:'Courier New,courier'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">EXEC dbo.sp_BlitzIndex @DatabaseName='yourdb', @SchemaName='dbo', @TableName='_TableName'; </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Найти дубликат индекса </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Зайти в метаданные и оставьте только один индекс. Как это сделать – изучите настольную книжку 1С:Эксперт. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Слишком много индексов (Index Hoarder: Many NC indexes on a single table) </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отображение – много записей, мало чтений </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Например - <span style=" font-weight:600;">25,534 reads (ALL); 1,551,717 writes (ALL);</span> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Способ исправление </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style=" font-family:'Courier New,courier'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">EXEC dbo.sp_BlitzIndex @DatabaseName='yourdb', @SchemaName='dbo', @TableName='_TableName'; </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Сравнить все столбцы поиска </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 4;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Исправлять только когда удалены дубликаты </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Оптимизировать состав индексов </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Зайти в метаданные – поставить нормальные индексные выражения </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Зайти в код – найти выражения поиска по таблице в запросах, проверить что выражения поиска используют новый индекс </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отрефакторить код </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">После рефакторинга убедиться, что не появилось «отсутствующих индексов» </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Неиспользуемые индексы (Index Hoarder: Unused NC index) </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отображение – нет чтений совсем, нет записи </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Например -  <span style=" font-weight:600;">Reads: 0 Writes: 0</span> </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Способ исправления </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Зайти в метаданные </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Убрать индексацию </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Исправлять только когда нет отсутствующих и дубликатов </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Есть еще несколько классических проблем – но в целом подход к исправлению один и тот же. </span></p>
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Проблемы кэша</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Последнее, но самое сложно по пониманию – это «желтые» проблемы работы с ресурсами. Вы должны понять следующее: </span></p>
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">«Ни один запрос к СУБД не должен<br />превышать 25% от общей нагрузки на ресурс инфраструктуры»</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Поэтому выполните следующие команды в консоле SQL: </span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-style:italic;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'CPU'</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'memory grant' </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'reads' </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">exec sp_BlitzCache @ExpertMode = 1, @SortOrder = 'writes' </span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Найдите запрос который выполняет максимальную нагрузку по указанному ресурсу: </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="image15370.png" /><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">В колонке «План запроса» вы увидите главного «нагибателя» Вашей СУБД. Используя </span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">Инструменты разработчика</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> - </span><a href="http://infostart.ru/public/15126/"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; text-decoration: underline; color:#0000ff;">http://infostart.ru/public/15126/</span></a><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> вы быстро найдете примерный код в 1С который является проблемой. Рефакторинг 1С решений – это также тема отдельной статьи, но как показывает наша практика на 2016 год основными проблемами являются </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Неумением писать запросы на языке 1С с применением ключевого слова СОЕДИНЕНИЕ</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Большинство разработчиков не понимают, что соединять нужно таблицы в порядке увеличения записей – то есть вначале с меньшим количество, а уже к ней с большим. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">НЕ индексирование временных таблиц</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Временная таблица должна индексировать всегда, если не доказано обратное, а не наоборот. Поля индексации временной таблицы выбираются так, чтобы СОЕДИНЕНИЕ строилось только по индексированным полям </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Работа «с двумя точками»</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Выборка данных НИКОГДА не должна делаться через 2 точки, а явно подразумевает необходимые внутренние соединения внутри запроса. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Незнание поведения конструкции В(&amp;СписокИлиТаблица)</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">При использовании конструкции .УложитьСписокОбъектов(КакойТоСписок) если значений больше чем 128 – то на SQL это будет выглядитель как созданием временной таблицы, а не как конструкция IN(Params) </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Неверное использование конструкции ПОДОБНО</span> </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В запросе использование конструкции ПОДОБНО «%ЧтоТо%» еще со времен FoxPro вызывает полное сканирование всей таблицы и не индексируется почти никогда.  Для проверки на вхождение в строку её части в любом месте – должен применятся специализированный алгоритм «Полнотекстовый поиск», либо внутренний в 1С, либо внешний с помощью например ElasticSearch </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Обычно, в 95% случае оценка кэша – выдает именно эти проблемы в запросах 1С. Ну и конечно массовая, не гранулярная вставка значений в регистры. </span></p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">«После красно-желтых дней»</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;">Если подытожить, то порядок работы следующий </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Настроить сервер </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Память, SMTP и параллелизм </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включить Email рассылку для ключевых проблем </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Подключить 2 SQL скрипта Microsoft и BrentOzar </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Купировать проблемы от «нуля» до «50» </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Оценить </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отсутствующие индексы </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Затратные индексы </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Неиспользуемые индексы </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Деградацию статистики </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Зафиксировать наиболее проблемные </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы по CPU </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы по RAM </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы по READS </li>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы по WRITES </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Сформировать план по рефакторингу кода и метаданных </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включить в работы по проекту план по оптимизации исходя из следующего правила </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Одна проблема «желтой» зоны за 2 недели должна быть исправлена </li></ul>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600;">В качестве заключения небольшой FAQ</span><span style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;"> </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Есть ли какие-нибудь другие скрипты у PFE инженеров?</span>   </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">- Да конечно. Тысячи их. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Как всегда быть в курсе, что новенького у PFE инженеров? </span></li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Обычно делается так: создается email <a href="http://infostart.ru/redirect.php?url=bWFpbHRvOnNxbGV4cGVydEBleGFtcGxlLmNvbQ=="><span style=" text-decoration: underline; color:#0000ff;">sqlexpert@example.com</span></a> и на него делается регистрация списка рассылки. Если знаешь английский – то используется способ подачи Issue через репозитории GitHub. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Можно ли исправлять красные и желтые проблемы только на уровне MSSQL ?</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">НЕТ. Если в Вашем продуктиве есть такие проблемы, то 99% случаев – это проблемы некачественного кода в вашей конфигурации или в Ваших доработках типовой. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">А где же ЦУП и остальное?</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">По нашему скромному мнению – внедрять ЦУП или другие средства, специализированные для 1С, стоит только после применения инструментов MSSQL для купирования первичных классических проблем. А уже потом заниматься тонким тюнингом. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Можно ли создавать индексы средствами СУБД?</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">На сегодняшний день рекомендации компании Microsoft следующие – для купирования проблем: да можно, но, если индексы созданы на уровне СУБД – обязательна фаза рефакторинга кода приложения. В нашем случае (применительно к 1С) – создание индексов средствами СУБД является нарушением лицензионного соглашения и фактически снимает Вас с поддержки. Поэтому если объединить обе рекомендации – то получается. Создавать индексы средствами СУБД можно только в одном случае, если вы обязуетесь после этого исправить код приложения – точнее 1С конфигурации. Если вы этого не сделаете – Вы подставились. Если бизнес не готов согласовывать доработку и рефакторинг – с таким бизнесом лучше работать «жестоко» и напрямую указывать, что их действия по несогласованию рефакторинг ведут к непредсказуемым последствиям в части потери данных или выхода из строя всего контура. </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Вы с чем то в статье не согласны?</span> </li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Предполагаю что к подобной статье будет множество комментариев формата &quot;Я не согласен&quot;, поэтому заранее прошу всех не согласных не рефлексировать, а писать свои статьи, в которых отражать свой подход к владению конутром 1С+MSSQL </li></ul>
+<li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">А как же сервисы Гилева ?</span> </li></ul>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Я думаю Вячеслав с командой давно изучил указанные скрипты и имплементировал в своих сервисах наиболее интересные решения. За что ему наш почет и уважение. Нам же просто удобней использовать именно эти скрипты на процессах аудита - так как компания BrentOzar специализируется именно на MSSQL решениях <a href="http://infostart.ru/redirect.php?url=aHR0cHM6Ly93d3cuYnJlbnRvemFyLmNvbS8="><span style=" text-decoration: underline; color:#0000ff;">https://www.brentozar.com/</span></a> </li></ul></body></html>
