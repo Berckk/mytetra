@@ -683,6 +683,7 @@
    <node crypt="" id="1484041527ts61atc9jj" name="remapping">
     <recordtable>
      <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="" ctime="20170110124555" dir="1484041555b1ka00yt6g" file="text.html"/>
+     <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="linux.remap" ctime="20170110124644" dir="14840416041xz30cgnsu" file="text.html"/>
     </recordtable>
    </node>
   </node>
