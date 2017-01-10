@@ -698,6 +698,10 @@
     <record id="1482990095axg108ibn8" name="Автозамена" author="" url="" tags="libre" ctime="20161229084135" dir="1482990095c4e9raidpr" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1484026574i6zi8vg43j" name="Редакторы"/>
+  <node crypt="" id="1484026574i6zi8vg43j" name="Редакторы">
+   <recordtable>
+    <record id="1484026733kg3dkzm8me" name="jrnl" author="" url="http://jrnl.sh/installation.html" tags="edits" ctime="20170110083853" dir="1484026733u4mwsa7bvd" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
