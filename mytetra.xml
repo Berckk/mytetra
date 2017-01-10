@@ -680,6 +680,11 @@
      <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="" ctime="20161223083513" dir="1482471313bwz9sckdnw" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1484041527ts61atc9jj" name="remapping">
+    <recordtable>
+     <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="" ctime="20170110124555" dir="1484041555b1ka00yt6g" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1482341641yg7cz3mi9i" name="guitar">
    <node crypt="" id="1482341649kzgrjbz6st" name="Табачников">
