@@ -733,6 +733,10 @@
     </recordtable>
    </node>
   </node>
-  <node crypt="" id="1484226003caic3d4wtf" name="hotkeys"/>
+  <node crypt="" id="1484226003caic3d4wtf" name="hotkeys">
+   <recordtable>
+    <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys" ctime="20170112160505" dir="14842263057dh0kxmy5e" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
