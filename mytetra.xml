@@ -440,6 +440,7 @@
      <recordtable>
       <record id="1473760225miyw4zn40i" name="Основные принципы тестирования ПО" author="studopedia" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" ctime="20160913125025" dir="1473760225te2c4h76wz" file="text.html" crypt="0"/>
       <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
+      <record id="1484211633ulocm8zg5b" name="Как внедрить у себя back-to-back-тестирование. Опыт Яндекса" author="Яндекс" url="https://habrahabr.ru/company/yandex/blog/233455/" tags="" ctime="20170112120033" dir="14842116331q0mx2xem2" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1482763183913pqmw4tp" name="gherkin">
@@ -718,6 +719,11 @@
   <node crypt="" id="1484026574i6zi8vg43j" name="Редакторы">
    <recordtable>
     <record id="1484026733kg3dkzm8me" name="jrnl" author="" url="http://jrnl.sh/installation.html" tags="edits" ctime="20170110083853" dir="1484026733u4mwsa7bvd" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1484211685fufti3wr16" name="readme">
+   <recordtable>
+    <record id="14842118453x9lhswao7" name="Как быстро копипастить статьи" author="" url="" tags="myTetra.readme" ctime="20170112120405" dir="14842118453or9hdh1ei" file="text.html"/>
    </recordtable>
   </node>
  </content>
