@@ -726,5 +726,12 @@
     <record id="14842118453x9lhswao7" name="Как быстро копипастить статьи" author="" url="" tags="myTetra.readme" ctime="20170112120405" dir="14842118453or9hdh1ei" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1484212988h7udoq3foe" name="math">
+   <node crypt="" id="1484213000oootxdqkf3" name="Кобминаторика">
+    <recordtable>
+     <record id="1484213073qe6mgy6eq0" name="Как посчитать перестановки. Лекция в Яндексе" author="yandex" url="https://habrahabr.ru/company/yandex/blog/311480/" tags="math" ctime="20170112122433" dir="1484213073pw0alqe8nb" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
  </content>
 </root>
