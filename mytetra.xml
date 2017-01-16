@@ -331,6 +331,13 @@
       <record id="1484026474ubj7m4r8cn" name="Всем нужен эксперт" author=" Алексей Лустин (lustin) " url="http://infostart.ru/public/574078/" tags="" ctime="20170110083434" dir="1484026474lv0say6qlb" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1484549972ttmkpjaasy" name="devtools">
+     <node crypt="" id="1484549990k7ue0iut3s" name="Исправления в коде подсистемы">
+      <recordtable>
+       <record id="14845500472y6kiigkdm" name="ДО" author="" url="" tags="" ctime="20170116100047" dir="14845500473ov4rcu5nd" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
