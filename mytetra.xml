@@ -328,9 +328,12 @@
     </node>
     <node crypt="" id="1484549972ttmkpjaasy" name="devtools">
      <node crypt="" id="1484549990k7ue0iut3s" name="Исправления в коде подсистемы">
-      <recordtable>
-       <record id="14845500472y6kiigkdm" name="ДО" author="" url="" tags="" ctime="20170116100047" dir="14845500473ov4rcu5nd" file="text.html"/>
-      </recordtable>
+      <node crypt="" id="1484550855ojzxo3dr04" name="ДО">
+       <recordtable>
+        <record id="14845500472y6kiigkdm" name="Ошибка при открытии мобильной подсистемы" author="" url="" tags="" ctime="20170116101421" dir="14845500473ov4rcu5nd" file="text.html"/>
+        <record id="1484550933ig8qkk27gy" name="Ошибка при выполнении запроса из консоли запросов" author="" url="" tags="" ctime="20170116101533" dir="1484550933haymy27au7" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" icon="" id="1484550199gd0x1fp8pj" name="Debbuging">
       <recordtable>
