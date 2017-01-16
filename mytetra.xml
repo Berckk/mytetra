@@ -745,13 +745,13 @@
   </node>
   <node crypt="" id="1484226003caic3d4wtf" name="hotkeys">
    <recordtable>
-    <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys" ctime="20170112160505" dir="14842263057dh0kxmy5e" file="text.html">
+    <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys.1c" ctime="20170112160505" dir="14842263057dh0kxmy5e" file="text.html">
      <files>
       <file id="148422668161nbizpy75" fileName="HOT KEYS 1C.txt" type="file"/>
       <file id="1484226686svqx5l8wdb" fileName="Hotkeys41C.md" type="file"/>
      </files>
     </record>
-    <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="" ctime="20170112170622" dir="1484229982009breobxk" file="text.html"/>
+    <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170112170622" dir="1484229982009breobxk" file="text.html"/>
    </recordtable>
   </node>
  </content>
