@@ -213,11 +213,6 @@
       <record id="1481863519k4y384cr5x" name="Разбиение текста запроса на функции" author=" Пишу код как картины (yurii_host)" url="http://infostart.ru/public/548407/" tags="1c.queries" ctime="20161216074519" dir="1481863519fh3kc1yz47" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="0" icon="" id="1473420365g259t2umz0" name="Debbuging">
-     <recordtable>
-      <record id="1473420385erqliaehjc" name="Контекст отладчика портативной ир" author="pola" url="" tags="1c.debug" ctime="20160909142625" dir="1473420385xysqo6y7mo" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
     <node crypt="0" icon="" id="1473757767uodiji3d24" name="practice">
      <recordtable>
       <record id="1473758325y47ujzpk4r" name="Время на разработку" author="pola" url="" tags="1c.practice" ctime="20160913121845" dir="1473758325jdkjj9m7b6" file="text.html" crypt="0"/>
@@ -335,6 +330,11 @@
      <node crypt="" id="1484549990k7ue0iut3s" name="Исправления в коде подсистемы">
       <recordtable>
        <record id="14845500472y6kiigkdm" name="ДО" author="" url="" tags="" ctime="20170116100047" dir="14845500473ov4rcu5nd" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" icon="" id="1484550199gd0x1fp8pj" name="Debbuging">
+      <recordtable>
+       <record id="1473420385erqliaehjc" name="Контекст отладчика портативной ир" author="pola" url="" tags="1c.debug" ctime="20170116100319" dir="1473420385xysqo6y7mo" file="text.html" crypt="0"/>
       </recordtable>
      </node>
     </node>
