@@ -611,6 +611,32 @@
       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin.win" ctime="20170120084940" dir="1484891380zebmse2r0o" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1484891806gt2c9bzbyf" name="linux">
+     <node crypt="" id="1484891806tekuo4ku9x" name="bush">
+      <node crypt="" id="1484891806culhloidi6" name="Команды и скрипты">
+       <recordtable>
+        <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="bush" ctime="20170120085646" dir="1482325863o221q05q52" file="text.html"/>
+        <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="" ctime="20170120085646" dir="14840424562yfjhc2ys5" file="text.html">
+         <files>
+          <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
+         </files>
+        </record>
+        <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="" ctime="20170120085646" dir="1484042574fztnd9k26m" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
+     <node crypt="" id="1484891806gbh2fiwqly" name="Шрифты">
+      <recordtable>
+       <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="" ctime="20170120085646" dir="1482471313bwz9sckdnw" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="14848918063k7ooxdxj4" name="remapping">
+      <recordtable>
+       <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="" ctime="20170120085646" dir="1484041555b1ka00yt6g" file="text.html"/>
+       <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="linux.remap" ctime="20170120085646" dir="14840416041xz30cgnsu" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
@@ -693,32 +719,6 @@
    <recordtable>
     <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20161220173839" dir="1482244719pls0yybkyz" file="text.html"/>
    </recordtable>
-  </node>
-  <node crypt="" id="14823252902l7cmo4n2l" name="linux">
-   <node crypt="" id="1482325720dgnohtztxe" name="bush">
-    <node crypt="" id="1482325733oolcre9asn" name="Команды и скрипты">
-     <recordtable>
-      <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="bush" ctime="20161221161103" dir="1482325863o221q05q52" file="text.html"/>
-      <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="" ctime="20170110130056" dir="14840424562yfjhc2ys5" file="text.html">
-       <files>
-        <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
-       </files>
-      </record>
-      <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="" ctime="20170110130254" dir="1484042574fztnd9k26m" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1482471288cdw6tlsy02" name="Шрифты">
-    <recordtable>
-     <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="" ctime="20161223083513" dir="1482471313bwz9sckdnw" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1484041527ts61atc9jj" name="remapping">
-    <recordtable>
-     <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="" ctime="20170110124555" dir="1484041555b1ka00yt6g" file="text.html"/>
-     <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="linux.remap" ctime="20170110124644" dir="14840416041xz30cgnsu" file="text.html"/>
-    </recordtable>
-   </node>
   </node>
   <node crypt="" id="1482341641yg7cz3mi9i" name="guitar">
    <node crypt="" id="1482341649kzgrjbz6st" name="Табачников">
