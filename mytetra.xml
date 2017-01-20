@@ -605,6 +605,13 @@
      <record id="1482763374el8ae29xnt" name="Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живёте" author="Евгений Врублевский @VEG" url="https://habrahabr.ru/post/302570/" tags="" ctime="20161226174254" dir="1482763374hxufcnw9na" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1484891338p7vjc61gum" name="admin">
+    <node crypt="" id="14848913459598dcmh4y" name="windows">
+     <recordtable>
+      <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin.win" ctime="20170120084940" dir="1484891380zebmse2r0o" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
