@@ -63,11 +63,13 @@
       </node>
       <node crypt="" id="1484889901b87kx2jdnn" name="ТЕСТЕР">
        <recordtable>
-        <record id="1484889910dejf0o5rr8" name="Справка" author="" url="" tags="" ctime="20170120082510" dir="1484889910bewyp9zi2d" file="text.html">
+        <record id="1484893804ysk9m97oaq" name="Общее описание" author="Решитко Дмитрий (grumagargler)" url="https://habrahabr.ru/post/307808/" tags="1c.tester" ctime="20170120093004" dir="1484893804y5j8aazc8o" file="text.html"/>
+        <record id="1484889910dejf0o5rr8" name="Справка" author="Решитко Дмитрий (grumagargler)" url="" tags="1c.tester" ctime="20170120082510" dir="1484889910bewyp9zi2d" file="text.html">
          <files>
           <file id="14848903911ujd5fbq68" fileName="helpTester.rar" type="file"/>
          </files>
         </record>
+        <record id="1484893901ztl7sq2afq" name="Репозитории" author="Решитко Дмитрий @grumegargler" url="" tags="" ctime="20170120093141" dir="1484893901ealyc97j84" file="text.html"/>
        </recordtable>
       </node>
      </node>
