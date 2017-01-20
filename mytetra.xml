@@ -61,6 +61,11 @@
         <record id="14740062159ckc2ud4ly" name="Получение состояния формы на языке gherkin" author="" url="" tags="1c.testing.features" ctime="20160916091015" dir="1474006215in107bgmxb" file="text.html" crypt="0"/>
        </recordtable>
       </node>
+      <node crypt="" id="1484889901b87kx2jdnn" name="ТЕСТЕР">
+       <recordtable>
+        <record id="1484889910dejf0o5rr8" name="Справка" author="" url="" tags="" ctime="20170120082510" dir="1484889910bewyp9zi2d" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="0" icon="" id="14726575359q9go55ytg" name="Модульное">
       <node crypt="0" icon="" id="1473159069qebb5fiiij" name="xUnit">
