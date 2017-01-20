@@ -642,25 +642,39 @@
    </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
-   <node crypt="0" icon="" id="1473256313nxegh14s0d" name="Аккорды">
-    <node crypt="0" icon="" id="1473256321g1ltfocjx8" name="Арефьева">
+   <node crypt="" id="1484895000wifrpa3hkx" name="guitar">
+    <node crypt="" id="1484895000drcmnr5p62" name="Табачников">
      <recordtable>
-      <record id="1473256362ew5qkcgl3e" name="Что ты будешь делать?" author="" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" ctime="20160907165242" dir="1473256362xy4lcgjnyd" file="text.html" crypt="0"/>
+      <record id="1482341674gc1fma6p1q" name="Тривиум" author="" url="https://www.youtube.com/watch?v=etdynx8nFhI" tags="" ctime="20170120095000" dir="1482341674r5b4d9nfp7" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="" id="1481888278qcxo4hclzw" name="eng">
-     <recordtable>
-      <record id="1481888336nqryfe4kbn" name="In these arms" author="Bon Jovi" url="https://youtu.be/1-95s1AHgNY" tags="" ctime="20161216143856" dir="1481888336fkqaffgtk0" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1482344661oxm1sgdxvh" name="Ария">
-     <recordtable>
-      <record id="1482344672ok27ptxzz6" name="Сборник" author="" url="" tags="" ctime="20161221212432" dir="1482344672w2nef08q38" file="text.html">
-       <files>
-        <file id="1482344680o99wmk3d2m" fileName="Ария, аккорды.odt" type="file"/>
-       </files>
-      </record>
-     </recordtable>
+    <node crypt="" id="1484895000mkuuvjv4xx" name="chords"/>
+    <node crypt="" icon="" id="1484895013n94bo3952u" name="Аккорды">
+     <node crypt="" icon="" id="1484895013584208baed" name="Арефьева">
+      <recordtable>
+       <record id="1473256362ew5qkcgl3e" name="Что ты будешь делать?" author="" url="http://hm6.ru/arefyeva/3909-arefeva-olga-chto-ty-budesh-delat.html" tags="music.chords.arefieva" ctime="20170120095013" dir="1473256362xy4lcgjnyd" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1484895013ohsrrzipq2" name="eng">
+      <recordtable>
+       <record id="1481888336nqryfe4kbn" name="In these arms" author="Bon Jovi" url="https://youtu.be/1-95s1AHgNY" tags="" ctime="20170120095013" dir="1481888336fkqaffgtk0" file="text.html"/>
+       <record id="1484147631kaldyfdv79" name="Wonderful life" author="Black" url="https://www.youtube.com/watch?v=Jk3EGyMVmVA" tags="" ctime="20170120095047" dir="14841476318a7ah5n7bm" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1484895013sj1eo4vxfz" name="Ария">
+      <recordtable>
+       <record id="1482344672ok27ptxzz6" name="Сборник" author="" url="" tags="" ctime="20170120095013" dir="1482344672w2nef08q38" file="text.html">
+        <files>
+         <file id="1482344680o99wmk3d2m" fileName="Ария, аккорды.odt" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+     <node crypt="" id="1484895029riqzkjvpxd" name="ДДТ">
+      <recordtable>
+       <record id="1484644015e96w4le4gq" name="Когда ты была здесь" author="" url="" tags="" ctime="20170120095029" dir="1484644015rm92g41g4s" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
   </node>
@@ -721,23 +735,6 @@
    <recordtable>
     <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20161220173839" dir="1482244719pls0yybkyz" file="text.html"/>
    </recordtable>
-  </node>
-  <node crypt="" id="1482341641yg7cz3mi9i" name="guitar">
-   <node crypt="" id="1482341649kzgrjbz6st" name="Табачников">
-    <recordtable>
-     <record id="1482341674gc1fma6p1q" name="Тривиум" author="" url="https://www.youtube.com/watch?v=etdynx8nFhI" tags="" ctime="20161221203434" dir="1482341674r5b4d9nfp7" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14841476055xerdz6jgd" name="chords">
-    <recordtable>
-     <record id="1484147631kaldyfdv79" name="unsort" author="Black" url="https://www.youtube.com/watch?v=Jk3EGyMVmVA" tags="" ctime="20170111181351" dir="14841476318a7ah5n7bm" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="1484644020ul9xkicbw9" name="ДДТ">
-     <recordtable>
-      <record id="1484644015e96w4le4gq" name="Когда ты была здесь" author="" url="" tags="" ctime="20170117120707" dir="1484644015rm92g41g4s" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
   </node>
   <node crypt="" id="1482934895e4psvdq6hh" name="Культура работы">
    <recordtable>
