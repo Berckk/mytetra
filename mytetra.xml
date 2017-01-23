@@ -352,6 +352,11 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1485183359xzk49aqvnh" name="База ошибок">
+     <recordtable>
+      <record id="1485183407nld99u5519" name="Поле не уникально при записи" author="pola" url="" tags="1c.err" ctime="20170123175647" dir="1485183407y95vx0i4ns" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
