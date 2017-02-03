@@ -72,6 +72,11 @@
         <record id="1484893901ztl7sq2afq" name="Репозитории" author="Решитко Дмитрий @grumegargler" url="" tags="" ctime="20170120093141" dir="1484893901ealyc97j84" file="text.html"/>
        </recordtable>
       </node>
+      <node crypt="" id="1486128691hlq8wt4znz" name="xUnit">
+       <recordtable>
+        <record id="1486128763c4ceaibqzu" name="Получить тестируемую форму" author="" url="" tags="1c.testing.func.xUnit" ctime="20170203163243" dir="1486128763mzc570ty74" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="0" icon="" id="14726575359q9go55ytg" name="Модульное">
       <node crypt="0" icon="" id="1473159069qebb5fiiij" name="xUnit">
