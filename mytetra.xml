@@ -481,6 +481,11 @@
       <record id="14827632035v55by7nrn" name="Кто вы, пишущие на Gherkin?" author="&#10;Evgeniy Pavlyuk @wizi4d" url="https://habrahabr.ru/post/275013/" tags="" ctime="20161226174003" dir="1482763203b3b39g2igz" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14865644694jc5o603lu" name="To find books">
+     <recordtable>
+      <record id="1486564495wwyrymb09l" name="A Tester's Syllabus" author="" url="http://www.satisfice.com/bibliography.shtml" tags="testing.books" ctime="20170208173455" dir="1486564495vf27m7tlur" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
     <recordtable>
