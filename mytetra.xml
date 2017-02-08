@@ -453,6 +453,7 @@
       <record id="1481719944hir014tlfk" name="Блог Артема Кошелева" author="" url="http://artkoshelev.github.io" tags="program.testing.blogs" ctime="20161214155224" dir="14817199447p9mczoeot" file="text.html" crypt="0"/>
       <record id="1486532314aimtsll8pm" name="Блог Максима Шульги" author="Максим Шульга" url="http://www.maxshulga.ru" tags="" ctime="20170208083834" dir="1486532314xwuysohzbz" file="text.html"/>
       <record id="1486532484jjvdpespyz" name="255 ступеней" author="" url="" tags="" ctime="20170208084124" dir="1486532484iai43fjpgn" file="text.html"/>
+      <record id="1486532570ect4f8knuc" name="Разрабатываем, тестируем, наблюдаем" author="" url="http://test-failed.blogspot.ru" tags="testing.blog" ctime="20170208084250" dir="1486532570mxm9czf6tc" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="14733972404ihsjkpi9d" name="Courses">
