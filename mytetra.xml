@@ -267,7 +267,11 @@
        <record id="1482248184mgw75o80n3" name="Концепция асинхронного программирования" author="Чистов Павел" url="http://expert.chistov.pro/print/341698/" tags="1с.асинхронность" ctime="20161220183624" dir="1482248184vxue1yup4d" file="text.html"/>
        <record id="1482927458b9sosuict9" name="Добавить новую строку дерева на форму и активизировать ее" author="" url="" tags="1с.дерево" ctime="20161228151738" dir="14829274584owjrk6k3x" file="text.html"/>
        <record id="1486449266zekmrilo3r" name="Создать xml документ" author="" url="" tags="1c.xmldocument" ctime="20170207093426" dir="1486449266qil4wvnmgh" file="text.html"/>
-       <record id="14866311004d32u826u4" name="Сохранение файлов с сервера на клиент" author="pola" url="" tags="Передача файлов с клиента на сервер" ctime="20170209120500" dir="1486631100mhfpolxds3" file="text.html"/>
+       <record id="14866311004d32u826u4" name="Сохранение файлов с сервера на клиент" author="pola" url="" tags="Передача файлов с клиента на сервер" ctime="20170209120500" dir="1486631100mhfpolxds3" file="text.html">
+        <files>
+         <file id="1486648149642fmjmlsp" fileName="Сохранить файл.rar" type="file"/>
+        </files>
+       </record>
        <record id="1486631179sjceu19by6" name="Создать временный каталог" author="upp" url="" tags="Временный файл" ctime="20170209120619" dir="1486631179xxbp4ps6ps" file="text.html"/>
       </recordtable>
      </node>
