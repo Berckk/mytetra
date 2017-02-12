@@ -407,6 +407,11 @@
        <record id="1481802954byzklbn9sv" name="Плагины для сниппетов" author="" url="http://jenyay.net/Programming/VimPlugins2" tags="" ctime="20161215145554" dir="148180295427so2u35o2" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="14868833297atv51waa8" name="tagbar">
+      <recordtable>
+       <record id="1486883389c7mk17htyn" name="Просмотр списка процедур модуля и перехода к нужной" author="andreevlex" url="" tags="" ctime="20170212100949" dir="1486883389a03i75bf2k" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473312718za41avn2bz" name="scripts">
      <node crypt="0" icon="" id="1473312728r2kl9ncw6w" name="maping">
