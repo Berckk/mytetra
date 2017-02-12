@@ -390,6 +390,9 @@
     </node>
    </node>
    <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
+    <recordtable>
+     <record id="1486886918s52m9z210p" name="vim help" author="" url="" tags="" ctime="20170212110838" dir="14868869180a9p0s4vso" file="text.html"/>
+    </recordtable>
     <node crypt="0" icon="" id="14728050934nvukmwnsy" name="plugins">
      <node crypt="0" icon="" id="1472805099g8kfr847pf" name="NerdTree">
       <recordtable>
