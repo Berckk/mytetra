@@ -461,6 +461,11 @@
       <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
      </recordtable>
     </node>
+    <node crypt="" id="1486900070zg3dl30n3p" name="blogs">
+     <recordtable>
+      <record id="14869001039cj2q0pj8p" name="vimcasts.org" author="" url="http://vimcasts.org/" tags="vim.blog" ctime="20170212144823" dir="14869001038bpzep7xdr" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
     <recordtable>
