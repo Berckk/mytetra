@@ -291,7 +291,8 @@
       <record id="1473840714rl3frwe0gg" name="Получить из формы объекта другую форму объекта" author="Sergey aka Porutchik" url="http://forum.aeroion.ru/topic625.html" tags="1c.forms" ctime="20160914111154" dir="14738407142c5rr3ah19" file="text.html" crypt="0"/>
       <record id="1473854678t30xy9h3yu" name="Создать таблицу на форме" author="pola" url="" tags="1c.forms" ctime="20160914150438" dir="14738546788ienz8uwa7" file="text.html" crypt="0"/>
       <record id="1475055872kr9tse0dte" name="Произвольный список выбора поля ввода в управляемой форме" author="" url="" tags="1c.forms" ctime="20160928124432" dir="1475055872f4y714u7bv" file="text.html" crypt="0"/>
-      <record id="1486557680wct0o4lmtk" name="Только просмотр значения поля таблицы в управляемой форме" author="" url="" tags="" ctime="20170208154120" dir="1486557680m6tbxegda7" file="text.html"/>
+      <record id="1486557680wct0o4lmtk" name="Только просмотр значения поля таблицы в управляемой форме" author="" url="" tags="1c.forms" ctime="20170208154120" dir="1486557680m6tbxegda7" file="text.html"/>
+      <record id="1487599456qmz243v8i8" name="Программно установить текущую страницу управляемой формы" author="" url="" tags="1c.forms" ctime="20170220170416" dir="1487599456hpmvcp04j1" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1474348381sbnpgzvl2p" name="multitasking">
