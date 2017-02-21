@@ -830,5 +830,10 @@
     <record id="148670599773j223rwzn" name="UkM1U0lNUAMTTK8OTa2iN2UmfcYII3jkQVXRwgRLIZ2DUBXrKyP6wYciLcaoWGOi7/MIV632nHE=" author="" url="" tags="" ctime="20170210085317" dir="14867059972egwu4l5mg" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1487661197ak8vrw084v" name="Cooking">
+   <recordtable>
+    <record id="1487661289zlph0h4hv9" name="Пироги a-la Фыджин" author="Гурова Татьяна" url="https://plus.google.com/u/0/collection/k5N5Z" tags="cook" ctime="20170221101449" dir="1487661289f8bfy9td49" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
