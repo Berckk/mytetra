@@ -125,12 +125,6 @@
         </recordtable>
        </node>
       </node>
-      <node crypt="0" icon="" id="14738451416su8iborle" name="Мысли">
-       <recordtable>
-        <record id="14752267702ab20iixir" name="О необходимости как ручного, так и автоматического тестирования" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20160930121250" dir="1475226770sdw7xj7u4p" file="text.html" crypt="0"/>
-        <record id="14817260951x1ex979h4" name="Защита от дурака" author="" url="" tags="1c.testign.xUnit.thoughts" ctime="20161214173455" dir="148172609526kya17lfr" file="text.html"/>
-       </recordtable>
-      </node>
       <node crypt="0" icon="" id="1475155299uhh5ld3w7h" name="lib">
        <recordtable>
         <record id="14751553159ateqg06if" name="ЗаписатьДанныеИзМакетаВнешнейОбработки" author="" url="" tags="1c.xunit.lib" ctime="20160929162155" dir="1475155315pi1dum67k6" file="text.html" crypt="0"/>
