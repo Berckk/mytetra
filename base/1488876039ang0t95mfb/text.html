@@ -17,12 +17,15 @@ p, li { white-space: pre-wrap; }
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">			ИнформацияОбОшибке = ИнформацияОбОшибке();</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">			ТекстОшибки = ПодробноеПредставлениеОшибки(ИнформацияОбОшибке);</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">			КраткийТекстОшибки = КраткоеПредставлениеОшибки(ИнформацияОбОшибке);</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">		<span style=" font-weight:600;">	Если СтрНайти(ТекстОшибки, &quot;ВызватьИсключение Префикс + &quot;&quot; &quot;&quot; + СообщениеОшибки;&quot;) &gt; 0 Тогда</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">				ТекстОшибки = КраткийТекстОшибки;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">			КонецЕсли;</span></p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">			Если ЕстьОшибка_МетодОбъектаНеОбнаружен(КраткийТекстОшибки, ЭлементДереваТестов.ИмяМетода) Тогда</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				РезультатТестирования.Состояние = СостоянияТестов.НеРеализован;</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				Сообщение = НСтр(&quot;ru = 'Отсутствует реализация тестового метода (%1).'&quot;);</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				РезультатТестирования.Сообщение = СтрЗаменить(Сообщение, &quot;%1&quot;, ЭлементДереваТестов.ИмяМетода);</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">			Иначе</p>
-<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				РезультатТестирования.Сообщение = <span style=" font-weight:600;">КраткийТекстОшибки</span>;</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				РезультатТестирования.Сообщение = ТекстОшибки;</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				Если ЭтоОшибкаПроверки(КраткийТекстОшибки) Тогда</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">					РезультатТестирования.Состояние = СостоянияТестов.Сломан;</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">				ИначеЕсли ЭтоПропущенныйТест(КраткийТекстОшибки) Тогда</p>
