@@ -253,6 +253,7 @@
      <node crypt="0" icon="" id="14817205812jeu4zwue1" name="examples">
       <recordtable>
        <record id="1481720683sy4aox4zkn" name="Заметочки про 1С:Предприятие 8" author="Алексей Константинов (alexk-is)" url="http://infostart.ru/public/71130/?ID=71130&amp;PAGEN_1=5" tags="1c.code.examples" ctime="20161214160443" dir="148172068382qewv3p9d" file="text.html" crypt="0"/>
+       <record id="1490529162ct6b74dxrc" name="Вопрос о записи перед обработкой в форме" author="" url="" tags="1c.code.examples" ctime="20170326145242" dir="1490529162wciqzwzk0j" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1481863745afcm1nmno8" name="common">
