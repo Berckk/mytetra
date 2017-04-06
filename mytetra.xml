@@ -892,7 +892,15 @@
    </node>
   </node>
   <node crypt="" id="1491458266ifw04hck4d" name="health">
-   <node crypt="" id="1491458359w7ry7ji1ef" name="ticks"/>
+   <node crypt="" id="1491458359w7ry7ji1ef" name="ticks">
+    <recordtable>
+     <record id="1491458716v24b7uoiv9" name="Как правильно выбирать и применять репелленты" author="" url="http://www.niid.ru/s/210/files/info/kleschi/129904_482.pdf" tags="" ctime="20170406090516" dir="1491458716eb8mcvvatw" file="text.html">
+      <files>
+       <file id="1491458725kksqdpedqw" fileName="Как правильно выбирать и применять репелленты.pdf" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
