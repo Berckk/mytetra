@@ -282,7 +282,11 @@
        <record id="1483025628i718zpvitj" name="Записать и прочитать из ЖР" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229183348" dir="1483025628igvh7bwhvw" file="text.html"/>
       </recordtable>
      </node>
-     <node crypt="" id="14915652910q6x36eit0" name="do"/>
+     <node crypt="" id="14915652910q6x36eit0" name="do">
+      <recordtable>
+       <record id="1491565378pw4lk4bbdo" name="Связи ДО с подсистемой интеграции в УПП 1.3" author="" url="" tags="do_upp" ctime="20170407144258" dir="1491565378g7s3l7ubml" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473840626v9jn3tant3" name="forms">
      <recordtable>
