@@ -373,6 +373,12 @@
       <record id="1485183407nld99u5519" name="Поле не уникально при записи" author="pola" url="" tags="1c.err" ctime="20170123175647" dir="1485183407y95vx0i4ns" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14919225742arrb46vf7" name="articles">
+     <recordtable>
+      <record id="1491922612fkep2najzp" name="Плюсы и минусы архитектуры 1с" author="Дмитрий Воробьев (vde69)" url="http://infostart.ru/public/190375/" tags="1c.articles" ctime="20170411175652" dir="1491922612g6ruyjxu3c" file="text.html"/>
+      <record id="14919226337vunynkl4e" name="Как я восстанавливал базу 1CD" author="Дмитрий Воробьев (vde69)" url="http://infostart.ru/public/158034/" tags="1c.articles" ctime="20170411175713" dir="1491922633u5ltcy9akj" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
