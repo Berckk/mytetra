@@ -291,7 +291,7 @@
     </node>
     <node crypt="0" icon="" id="1473840626v9jn3tant3" name="forms">
      <recordtable>
-      <record id="1473840654lj78brkb6b" name="Создать таблицу на форме" author="pola" url="" tags="1c.forms" ctime="20160914111054" dir="1473840654c682w9qkbx" file="text.html" crypt="0"/>
+      <record id="1473840654lj78brkb6b" name="Управляемое приложение: правильное программное открытие форм" author="Андрей Волин (kser87)" url="http://infostart.ru/public/236382/" tags="1c.forms" ctime="20160914111054" dir="1473840654c682w9qkbx" file="text.html" crypt="0"/>
       <record id="147384067715kwwlkvy4" name="Формы для обычного клиента и для управляемого клиента" author="pola" url="" tags="1c.forms" ctime="20160914111117" dir="1473840677fltb0nk22c" file="text.html" crypt="0"/>
       <record id="1473840714rl3frwe0gg" name="Получить из формы объекта другую форму объекта" author="Sergey aka Porutchik" url="http://forum.aeroion.ru/topic625.html" tags="1c.forms" ctime="20160914111154" dir="14738407142c5rr3ah19" file="text.html" crypt="0"/>
       <record id="1473854678t30xy9h3yu" name="Создать таблицу на форме" author="pola" url="" tags="1c.forms" ctime="20160914150438" dir="14738546788ienz8uwa7" file="text.html" crypt="0"/>
