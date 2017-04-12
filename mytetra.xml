@@ -379,6 +379,11 @@
       <record id="14919226337vunynkl4e" name="Как я восстанавливал базу 1CD" author="Дмитрий Воробьев (vde69)" url="http://infostart.ru/public/158034/" tags="1c.articles" ctime="20170411175713" dir="1491922633u5ltcy9akj" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="1" icon="" id="1491973912bdln5uj6l0" name="UkM1U0lNUANgfFJCTQb4vK7s18ZDW75OYWms3Zj3YVGs1nwQuOG6Rnr1WV6AOs8L">
+     <node crypt="1" icon="" id="1491973935scpcwpaxx4" name="UkM1U0lNUAOhi3xO2WO0okzVynbo3kt/9hWBhJ57/GA5XmgTMPvbf04lMXUoKgiK">
+      <node crypt="1" icon="" id="1491973941wtvuapgm3h" name="UkM1U0lNUAO1fK/xSNuPoFSbXEjb2LQkrp+nEHE8sManSvsmVN/ooM1vt46uGbv/"/>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
