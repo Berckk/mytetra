@@ -190,7 +190,8 @@
      <recordtable>
       <record id="1473757043c9bbldc3pd" name="Блог Базелюка Петра" author="" url="https://pbazeliuk.com" tags="1c.blogs" ctime="20160913115723" dir="14737570430ltyhctz4g" file="text.html" crypt="0"/>
       <record id="1473786471vjwl6krrdu" name="Блог Хомяка Александра" author="Александ Хомяк" url="https://homyaks1c.blogspot.ru" tags="1c.blogs" ctime="20160913200751" dir="1473786471dapvnv98i0" file="text.html" crypt="0"/>
-      <record id="1473788547l3ypiqcin8" name="Блог Чистова Павла" author="" url="http://1c.chistov.pro" tags="" ctime="20160913204227" dir="1473788547zrhkjaofl2" file="text.html" crypt="0"/>
+      <record id="1473788547l3ypiqcin8" name="Блог Чистова Павла" author="" url="http://1c.chistov.pro" tags="1c.blogs" ctime="20160913204227" dir="1473788547zrhkjaofl2" file="text.html" crypt="0"/>
+      <record id="1491974377e9jv29u3bx" name="Блок Пермитина" author="" url="" tags="1c.blogs" ctime="20170412081937" dir="14919743779b75iz1ozq" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1473345925ji2r7rpdtx" name="Enterprice Development Tools">
