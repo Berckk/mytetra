@@ -328,6 +328,7 @@
     <node crypt="" id="14818629077qxthekbyu" name="extensions">
      <recordtable>
       <record id="14818629337febfm29fe" name="Расширения конфигурации. Полезные советы для разработки" author=" Яковлевич Никита (mrXoxot)" url="http://infostart.ru/public/442003/" tags="1c.extensions" ctime="20161216073533" dir="1481862933cri3v9c49u" file="text.html"/>
+      <record id="1491986741n3532hylmx" name="Выполнение кода до и после основных обработчиков (до 8.3.10)" author="Денис Новосёлов (binex)" url="http://infostart.ru/public/369451/" tags="" ctime="20170412114541" dir="1491986741fpm57ofwb9" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1481863936mqiv6l96p2" name="postgres">
