@@ -113,6 +113,7 @@
         <recordtable>
          <record id="1474529334o47kxkwle8" name="Создать тестируемую обработку на сервере" author="pola" url="" tags="1c.xunit.code" ctime="20160922102854" dir="1474529334jemzwfa6nh" file="text.html" crypt="0"/>
          <record id="1481723784vrie2ilffl" name="Проверка среды выполнения" author="pola" url="" tags="1c.xunit.code" ctime="20161214165624" dir="1481723784lst39po59m" file="text.html" crypt="0"/>
+         <record id="1491992325in8c7z4kqn" name="Создать тестовые данные" author="" url="" tags="" ctime="20170412131845" dir="1491992325npmdjncccz" file="text.html"/>
         </recordtable>
        </node>
        <node crypt="" id="14822469123gpsrg691r" name="Генерация данных">
