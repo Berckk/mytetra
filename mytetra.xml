@@ -382,6 +382,17 @@
       <record id="14919226337vunynkl4e" name="Как я восстанавливал базу 1CD" author="Дмитрий Воробьев (vde69)" url="http://infostart.ru/public/158034/" tags="1c.articles" ctime="20170411175713" dir="1491922633u5ltcy9akj" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1492063036p58mj5l60o" name="БСП">
+     <node crypt="" id="1492063042i16lgl01xm" name="Интеграция с ДО">
+      <recordtable>
+       <record id="1492063052kjpwbt4ic8" name="readme" author="1c" url="" tags="" ctime="20170413085732" dir="149206305295jhlrxekq" file="text.html">
+        <files>
+         <file id="1492063058ed6f1l89un" fileName="Описание веб-сервисов.html" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
