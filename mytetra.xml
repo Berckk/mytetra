@@ -60,7 +60,15 @@
         <record id="1473159015xe83vfstot" name="Шаблон фича-файла" author="Nikita Gryzlov &lt;nixel2007@gmail.com" url="" tags="1c.testing.features" ctime="20160906135015" dir="1473159015b44ywrw3zk" file="text.html" crypt="0"/>
         <record id="14740062159ckc2ud4ly" name="Получение состояния формы на языке gherkin" author="" url="" tags="1c.testing.features" ctime="20160916091015" dir="1474006215in107bgmxb" file="text.html" crypt="0"/>
        </recordtable>
-       <node crypt="" id="1492069391rke9eiz8pg" name="problems"/>
+       <node crypt="" id="1492069391rke9eiz8pg" name="problems">
+        <recordtable>
+         <record id="1492069563jnlesc6jjr" name="При подлкючении к тест-клиенту под конкретным пользователем" author="" url="" tags="" ctime="20170413104603" dir="1492069563cgvrbtykr2" file="text.html">
+          <files>
+           <file id="1492069573gogxvv4576" fileName="test.feature" type="file"/>
+          </files>
+         </record>
+        </recordtable>
+       </node>
       </node>
       <node crypt="" id="1484889901b87kx2jdnn" name="ТЕСТЕР">
        <recordtable>
