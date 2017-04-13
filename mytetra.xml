@@ -4,7 +4,7 @@
  <format version="1" subversion="2"/>
  <content>
   <node crypt="0" icon="" id="1472471267l6nwgfjpj1" name="Программирование">
-   <node crypt="0" icon="" id="1472471271ozfrf63iib" name="1с">
+   <node crypt="0" icon="/Flat/color_icons8_flat_briefcase.svg" id="1472471271ozfrf63iib" name="1с">
     <node crypt="0" icon="" id="1472471279cv1o2pnzuk" name="oscript">
      <recordtable>
       <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="1c.oscript" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html" crypt="0"/>
@@ -382,7 +382,7 @@
       <record id="14919226337vunynkl4e" name="Как я восстанавливал базу 1CD" author="Дмитрий Воробьев (vde69)" url="http://infostart.ru/public/158034/" tags="1c.articles" ctime="20170411175713" dir="1491922633u5ltcy9akj" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="1" icon="" id="1491973912bdln5uj6l0" name="UkM1U0lNUANgfFJCTQb4vK7s18ZDW75OYWms3Zj3YVGs1nwQuOG6Rnr1WV6AOs8L">
+    <node crypt="1" icon="UkM1U0lNUANcPqRCJ60taQ66IYP5n+F1qP3OlnXo8A17SuTx9cG3902Qzmu+rLEsZsDUypnaX+e6gtuMD7oI6depZ7gKd2yV" id="1491973912bdln5uj6l0" name="UkM1U0lNUANgfFJCTQb4vK7s18ZDW75OYWms3Zj3YVGs1nwQuOG6Rnr1WV6AOs8L">
      <node crypt="1" icon="" id="1491973935scpcwpaxx4" name="UkM1U0lNUAOhi3xO2WO0okzVynbo3kt/9hWBhJ57/GA5XmgTMPvbf04lMXUoKgiK">
       <node crypt="1" icon="" id="1491973941wtvuapgm3h" name="UkM1U0lNUAO1fK/xSNuPoFSbXEjb2LQkrp+nEHE8sManSvsmVN/ooM1vt46uGbv/">
        <recordtable>
@@ -404,6 +404,11 @@
         </record>
        </recordtable>
       </node>
+     </node>
+    </node>
+    <node crypt="1" icon="UkM1U0lNUAN9mJPyUW5ZAxx5IZHvWIKvIjfaRzCfiGTFfyzlBJOfYwc/ARKdYsm8eh/7ohDhLsg4aUFys17vnYcJgy6SVDXF" id="1492058949zubp6wya1k" name="UkM1U0lNUAP/zYQsQYcSigVmVm6RlqDvEjESb6qc6wJqSld712fCrG+W1pZP7Ska">
+     <node crypt="1" icon="" id="1492058961gbeg7u9b8q" name="UkM1U0lNUAMdozFY3wBv4zwzc+eRUgVGU0olbKq1ULRF2Xk3NecJtozLMCBD8jpl">
+      <node crypt="1" icon="" id="1492058971iaputxifj4" name="UkM1U0lNUAMEHVbM9A95vYjSQ1o61z5oEghr/BM+s04loVOktTKsA7znw7GP4KUqm2C21vyTMGJgyruUcAOwijtQlrz/k9cb"/>
      </node>
     </node>
    </node>
@@ -816,7 +821,7 @@
     <record id="1487661289zlph0h4hv9" name="Пироги a-la Фыджин" author="Гурова Татьяна" url="https://plus.google.com/u/0/collection/k5N5Z" tags="cook" ctime="20170221101449" dir="1487661289f8bfy9td49" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="1" icon="" id="1489824681e45nlcd9ot" name="UkM1U0lNUAN+L48K+H6r3vUmfjYBZF9Rf577NmiaznuJtS2cGkQpMP4jP8Udqj6Q">
+  <node crypt="1" icon="UkM1U0lNUANAoWQUCFRp74Ptd1FKPxvSMD4lQoEjqdJbov5+J/SUuKM6WrdNWhEiMDxfSVgB8sVPdw+pEYxN//1qZxgKChbq" id="1489824681e45nlcd9ot" name="UkM1U0lNUAN+L48K+H6r3vUmfjYBZF9Rf577NmiaznuJtS2cGkQpMP4jP8Udqj6Q">
    <node crypt="1" icon="" id="1489824704rjoya32zdy" name="UkM1U0lNUAN9MtdF1sWCYnhySWEL0eghK4dCKeVX8XcB4dfrHPhvStrzSEzCUCij4aW9refvi58=">
     <recordtable>
      <record id="148670599773j223rwzn" name="UkM1U0lNUAMTTK8OTa2iN2UmfcYII3jkQVXRwgRLIZ2DUBXrKyP6wYciLcaoWGOi7/MIV632nHE=" author="" url="" tags="" ctime="20170318111144" dir="14867059972egwu4l5mg" file="text.html" crypt="1"/>
