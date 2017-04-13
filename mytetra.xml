@@ -956,5 +956,16 @@
     </recordtable>
    </node>
   </node>
+  <node crypt="" id="14920571921h3v34kksw" name="soft">
+   <node crypt="" id="1492057200loz35y5d83" name="every day">
+    <recordtable>
+     <record id="1492057287hwfj1vvuq9" name="Clip Angel" author="tormozit" url="https://sourceforge.net/projects/clip-angel/" tags="" ctime="20170413072127" dir="1492057287orfb7bgsqe" file="text.html">
+      <files>
+       <file id="1492057397m2ta36qcb7" fileName="Clip Angel 1.19.zip" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
+  </node>
  </content>
 </root>
