@@ -57,6 +57,10 @@ p, li { white-space: pre-wrap; }
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">* &lt;Имя&gt; (обязательный). Тип: Строка. Уникальное имя добавляемого элемента.</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">* &lt;ТипЭлемента&gt; (обязательный). Тип: Тип. Тип добавляемого элемента.</p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">* &lt;Родитель&gt; (необязательный). Тип: ГруппаФормы; ТаблицаФормы; УправляемаяФорма. Родитель для добавляемого элемента. Если не указан, то добавляется на верхний уровень.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">	Например, если есть форма группы &quot;РеквизитыПраво&quot;, тогда: </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">		ЭтаФорма.Элементы.Добавить(&quot;ПолеВводаСтроки&quot;, Тип(&quot;ПолеФормы&quot;), ЭтаФорма.Элементы[&quot;РеквизитыПраво&quot;]);	</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">* Возвращаемое значение: Тип: ДекорацияФормы; ГруппаФормы; КнопкаФормы; ТаблицаФормы; ПолеФормы.</p>
 <p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Настраиваем элемент формы</p>
