@@ -560,6 +560,7 @@
      <record id="1481697576ovk6ov41mw" name="Настройка alias удобного лога" author="" url="" tags="" ctime="20161214093936" dir="148169757621v1itbawm" file="text.html" crypt="0"/>
      <record id="1482477229dp0m22bz5b" name="Настройка alias статуса" author="" url="" tags="" ctime="20161223101349" dir="14824772292b1dxt35ep" file="text.html" crypt="0"/>
      <record id="1482478191emmmbpln2b" name="GITips &amp; GITricks" author="User Unknown @UUSER" url="https://habrahabr.ru/post/78058/" tags="" ctime="20161223102951" dir="1482478191xlteuz5ctz" file="text.html"/>
+     <record id="1492670053i2s64jh7q5" name="git и кириллица" author="" url="" tags="" ctime="20170420093413" dir="1492670053gi1fs0gfhc" file="text.html"/>
     </recordtable>
     <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
      <recordtable>
@@ -861,6 +862,12 @@
        <record id="149206060335c1vd6u8p" name="UkM1U0lNUAPLK6Czl0Mn8BNpHwovfJHFrRMW/LfpgP8fWiYwXjvoMExf34gfOlpe" author="UkM1U0lNUAMYPQvd5rsgNwDlfqR+jM0xp6xxqXPL/6O3akVw1wP1jg/AZg8jR0ZSj5ZbpAfE8LeReIuuK3FpI3FHT8X5chPG" url="UkM1U0lNUANPjs3Nh1ZgkHbeEZ74PWg31Kf6YD9K5v/AEzDZyKEBDF1e6vgGgYqnHh2hkVXNOcoIQBfq6dNad5XuH2KHGhA9q/oFSuAg3RKgtGYcBfOyA6Mo86RRQGM4ECUeRDIVAIhnefxCnSx8MoCpmceVVmeXprwH1iUPc1RS1H0JVX9b/UQQso3woLeE" tags="" ctime="20170414104638" dir="1492060603ywbqbic90o" file="text.html" crypt="1"/>
        <record id="1492156006km344k7zjy" name="UkM1U0lNUAPxJNWXvjGX2BwgdB/FqVrQ+nRHO4DP5BQ95ZwPenh+i9SS3YH6uT9lrqDznOS5AWw=" author="" url="" tags="" ctime="20170414104646" dir="14921560069kfjnyd2m7" file="text.html" crypt="1"/>
        <record id="1492156679jrmu4egi35" name="UkM1U0lNUAMkG03kSoa52x2zxhji2DgzW8Ivn4pp6aIKZ1SHT/qWhLd0AnVi39UmXscAbuZc5BbwG0AZdMGZJbtCrQEeMUvPrrmUl83o+k+oaFujcOUIryW8ZZ3+dbht" author="" url="UkM1U0lNUANah6xqGv1v9jtycBy//zoztobzTU3WOy1vNMpyy8+lTM1XVfzSoh7oQDzmtqfL8cF9dYqJRQ16xeQf7OZ1QrRH+rrXVFbwN8FzIcRDSbfcqYTfb38WxOQhJHopW+uQFaI=" tags="" ctime="20170414105759" dir="1492156679zc6t0968tq" file="text.html" crypt="1"/>
+       <record id="1492666261xbcgaz1a47" name="UkM1U0lNUAN8t4FfCHdcxNx/YssFCYnUDcyY0z2ZRvH+3kYjSoEXYzJeMROLwcG3" author="" url="" tags="" ctime="20170420083101" dir="149266626162a37svang" file="text.html" crypt="1">
+        <files>
+         <file id="1492666271je0iewcobg" fileName="UkM1U0lNUANuWHwYGcchlQMwGX+lTW8rufQM2mzBPq7IxhdsJifg6QuIW5tvO3oH" type="file" crypt="1"/>
+        </files>
+       </record>
+       <record id="1492752542wgwuf9u5x9" name="UkM1U0lNUANKihREOAYRQZyZZvw3OY1vs4p9wJuVn1BsBA/ABaqhOXbqPrKxzlDI" author="" url="" tags="" ctime="20170421082902" dir="149275254288b3pu9j6v" file="text.html" crypt="1"/>
       </recordtable>
      </node>
     </node>
