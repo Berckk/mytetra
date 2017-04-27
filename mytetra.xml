@@ -30,6 +30,11 @@
         <record id="1473339927i93aipblju" name="readme" author="ret-Phoenix" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1c.oscript.ui" ctime="20160908160527" dir="1473339927508iroyopn" file="text.html" crypt="0"/>
        </recordtable>
       </node>
+      <node crypt="" id="1493289393m8u67ues20" name="deployka">
+       <recordtable>
+        <record id="1493289422hq4ilqltq6" name="ci" author="" url="" tags="deployka" ctime="20170427133702" dir="1493289422n6j65n1aw8" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node crypt="0" icon="" id="1472537328mep6zcykbw" name="Интерфейс">
