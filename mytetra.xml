@@ -473,7 +473,11 @@
        </record>
       </recordtable>
      </node>
-     <node crypt="" id="1493793195vvdrzll9hl" name="LaTeX"/>
+     <node crypt="" id="1493793195vvdrzll9hl" name="LaTeX">
+      <recordtable>
+       <record id="14937933064a988iteg5" name="Установить плагин" author="" url="" tags="latex_vim" ctime="20170503093506" dir="14937933063pmgzk9hyz" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473312718za41avn2bz" name="scripts">
      <node crypt="0" icon="" id="1473312728r2kl9ncw6w" name="maping">
