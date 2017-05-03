@@ -572,6 +572,7 @@
       <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
       <record id="1484211633ulocm8zg5b" name="Как внедрить у себя back-to-back-тестирование. Опыт Яндекса" author="Яндекс" url="https://habrahabr.ru/company/yandex/blog/233455/" tags="" ctime="20170112120033" dir="14842116331q0mx2xem2" file="text.html"/>
       <record id="1486532165qa4sjso0ds" name="Пример автоматизации тестирования большой системы" author="Максим Шульга" url="http://www.slideshare.net/MaximShulga/ss-66919790" tags="testing.examples" ctime="20170208083605" dir="14865321654gpnz0nogk" file="text.html"/>
+      <record id="1493833876sve1alc6ii" name="Подход UniTesK к разработке тестов: достижения и перспективы" author="А.В. Баранцев и компания" url="http://citforum.ru/SE/testing/unitesk/" tags="" ctime="20170503205116" dir="1493833876dg772fjvk7" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1482763183913pqmw4tp" name="gherkin">
