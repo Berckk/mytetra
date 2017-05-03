@@ -419,6 +419,13 @@
       <record id="14920685594i7kgbcpvt" name="Параметры командной строки 1С:Предприятие" author="Виктория Коршанова (Chif13)" url="http://infostart.ru/public/104654/" tags="1c.cribs.cmd" ctime="20170413102919" dir="1492068559x8swatnlan" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1493818878uh5qczguxs" name="СКД">
+     <node crypt="" id="1493818883xv6mjgmr35" name="Функции">
+      <recordtable>
+       <record id="1493818926f5kwu1ergm" name="Накопительный итог по группировке с конца" author="" url="" tags="" ctime="20170503164206" dir="1493818926c2hli4b3e8" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
