@@ -476,7 +476,11 @@
      <node crypt="" id="1493793195vvdrzll9hl" name="LaTeX">
       <recordtable>
        <record id="14937933064a988iteg5" name="Установить плагин" author="" url="" tags="latex_vim" ctime="20170503093506" dir="14937933063pmgzk9hyz" file="text.html"/>
-       <record id="14937955970t5ft8jkap" name="Патч для PDFSumatra" author="" url="" tags="" ctime="20170503101317" dir="1493795597834psx33k6" file="text.html"/>
+       <record id="14937955970t5ft8jkap" name="Патч для PDFSumatra" author="" url="" tags="" ctime="20170503101317" dir="1493795597834psx33k6" file="text.html">
+        <files>
+         <file id="149379561198ebd523fb" fileName="vim-fwdsumatra.rar" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
     </node>
