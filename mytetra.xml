@@ -693,6 +693,15 @@
      </node>
     </node>
    </node>
+   <node crypt="" id="1493815680q0o17ljkk5" name="cheatsheets">
+    <recordtable>
+     <record id="1493815684so7t76g96c" name="cvim" author="" url="" tags="" ctime="20170503154804" dir="1493815684qj50v7zbvi" file="text.html">
+      <files>
+       <file id="14938157249arm1e31cn" fileName="cvim cheatsheet.pdf" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="" id="1484895000wifrpa3hkx" name="guitar">
