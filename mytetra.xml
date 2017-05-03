@@ -776,6 +776,7 @@
   <node crypt="0" icon="" id="1481697670a98i4nsyzf" name="mytetra">
    <recordtable>
     <record id="14816978083hnc2yj5om" name="Исправление ошибки автоматической синхронизации с github" author="" url="" tags="" ctime="20161214094328" dir="1481697808jkk72ubt7f" file="text.html" crypt="0"/>
+    <record id="14842118453x9lhswao7" name="Как быстро копипастить статьи" author="" url="" tags="myTetra.readme" ctime="20170503210314" dir="14842118453or9hdh1ei" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="0" icon="" id="1481722010j3fxf7lv6f" name="Прочитать">
@@ -829,11 +830,6 @@
   <node crypt="" id="1484026574i6zi8vg43j" name="Редакторы">
    <recordtable>
     <record id="1484026733kg3dkzm8me" name="jrnl" author="" url="http://jrnl.sh/installation.html" tags="edits" ctime="20170110083853" dir="1484026733u4mwsa7bvd" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1484211685fufti3wr16" name="readme">
-   <recordtable>
-    <record id="14842118453x9lhswao7" name="Как быстро копипастить статьи" author="" url="" tags="myTetra.readme" ctime="20170112120405" dir="14842118453or9hdh1ei" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1484212988h7udoq3foe" name="math">
