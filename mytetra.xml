@@ -427,7 +427,11 @@
     <node crypt="" id="1493818878uh5qczguxs" name="СКД">
      <node crypt="" id="1493818883xv6mjgmr35" name="Функции">
       <recordtable>
-       <record id="1493818926f5kwu1ergm" name="Накопительный итог по группировке с конца" author="" url="" tags="" ctime="20170503164206" dir="1493818926c2hli4b3e8" file="text.html"/>
+       <record id="1493818926f5kwu1ergm" name="Накопительный итог по группировке с конца" author="" url="" tags="" ctime="20170503164206" dir="1493818926c2hli4b3e8" file="text.html">
+        <files>
+         <file id="1493907932qm51od94z8" fileName="Функции языка выражений системы компоновки данных.pdf" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
     </node>
