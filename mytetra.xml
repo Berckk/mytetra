@@ -609,6 +609,11 @@
       <record id="1482332068bnl8nnucfw" name="Gogs: легковесный git-сервис" author="&#10;Селектел" url="https://habrahabr.ru/company/selectel/blog/305422/" tags="" ctime="20161221175428" dir="1482332068frfssgi177" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14938755219btbq2n4q6" name="errors&amp;resolves">
+     <recordtable>
+      <record id="1493875576fgpfho1vhs" name="Git Push error: refusing to update checked out branch" author="" url="http://stackoverflow.com/questions/11117823/git-push-error-refusing-to-update-checked-out-branch" tags="git.err" ctime="20170504082616" dir="1493875576ll9pmhs0kn" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1474433447rs65x5ttzg" name="deploy">
     <node crypt="0" icon="" id="1474433452uyfciyhu0j" name="docker">
