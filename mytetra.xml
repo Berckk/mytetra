@@ -751,7 +751,11 @@
    </node>
    <node crypt="" id="14939959635vai6o5ad7" name="converters">
     <recordtable>
-     <record id="1493995973hfr8ypgrl7" name="pandoc" author="" url="http://pandoc.org/getting-started.html" tags="" ctime="20170505175253" dir="14939959738lie4o933k" file="text.html"/>
+     <record id="1493995973hfr8ypgrl7" name="pandoc" author="" url="http://pandoc.org/getting-started.html" tags="" ctime="20170505175253" dir="14939959738lie4o933k" file="text.html">
+      <files>
+       <file id="1493997055fqq4jjbf75" fileName="pandoc-1.19.2.1-windows.msi" type="file"/>
+      </files>
+     </record>
     </recordtable>
    </node>
   </node>
