@@ -749,15 +749,6 @@
      <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170505174422" dir="1484229982009breobxk" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="14939959635vai6o5ad7" name="converters">
-    <recordtable>
-     <record id="1493995973hfr8ypgrl7" name="pandoc" author="" url="http://pandoc.org/getting-started.html" tags="" ctime="20170505175253" dir="14939959738lie4o933k" file="text.html">
-      <files>
-       <file id="1493997055fqq4jjbf75" fileName="pandoc-1.19.2.1-windows.msi" type="file"/>
-      </files>
-     </record>
-    </recordtable>
-   </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
    <node crypt="" id="1492057200loz35y5d83" name="every day">
