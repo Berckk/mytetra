@@ -555,6 +555,11 @@
       <record id="14869001039cj2q0pj8p" name="vimcasts.org" author="" url="http://vimcasts.org/" tags="vim.blog" ctime="20170212144823" dir="14869001038bpzep7xdr" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1493965536l4fqcqy7a9" name="links">
+     <recordtable>
+      <record id="14939655637smhel6t8q" name="vim tips and tricks" author="" url="https://www.cs.swarthmore.edu/help/vim/home.html" tags="" ctime="20170505092603" dir="1493965563oc3bt6862w" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
     <recordtable>
