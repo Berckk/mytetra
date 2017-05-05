@@ -1097,11 +1097,24 @@
        <file id="1492057397m2ta36qcb7" fileName="Clip Angel 1.19.zip" type="file"/>
       </files>
      </record>
+     <record id="14939951504gl4ofe0kw" name="Text Editor Anywhere" author="" url="http://www.listary.com/text-editor-anywhere" tags="textEditorAnywhere" ctime="20170505173910" dir="1493995150zm4bx2rm7f" file="text.html">
+      <files>
+       <file id="14939951648fry7pkoot" fileName="TEASetup.exe" type="file"/>
+      </files>
+     </record>
     </recordtable>
    </node>
-  </node>
-  <node crypt="" id="1493994800ctej8mn944" name="converters">
-   <node crypt="" id="1493994806oum9dt7uxe" name="pandoc"/>
+   <node crypt="" id="1493994998zr5x51qleq" name="converters">
+    <node crypt="" id="1493994998xn34c3bgg4" name="pandoc">
+     <recordtable>
+      <record id="14939949461vam4c6uko" name="readme" author="" url="http://pandoc.org/index.html" tags="" ctime="20170505173638" dir="1493994946p3mrfig7f6" file="text.html">
+       <files>
+        <file id="14939949791oehjrtvmo" fileName="pandoc-1.19.2.1-windows.msi" type="file"/>
+       </files>
+      </record>
+     </recordtable>
+    </node>
+   </node>
   </node>
  </content>
 </root>
