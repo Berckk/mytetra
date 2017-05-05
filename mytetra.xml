@@ -508,7 +508,7 @@
      </node>
      <node crypt="" id="14939756974ujvvcpts1" name="vimtex">
       <recordtable>
-       <record id="14939757053abfvebxwt" name="readme" author="" url="" tags="" ctime="20170505121505" dir="14939757059h9zvr07z3" file="text.html"/>
+       <record id="14939757053abfvebxwt" name="readme" author="" url="https://github.com/lervag/vimtex" tags="" ctime="20170505121505" dir="14939757059h9zvr07z3" file="text.html"/>
        <record id="14939757144uz88jy3dc" name="_vimrc" author="" url="" tags="" ctime="20170505121514" dir="149397571485pzthr7iu" file="text.html"/>
        <record id="1493978683hea6mkt1or" name="template" author="" url="" tags="" ctime="20170505130443" dir="1493978683jwfpd2kdr6" file="text.html">
         <files>
@@ -674,6 +674,7 @@
      <recordtable>
       <record id="1481782144s01kimnt5k" name="Вопросы и ответы в формате Маркдаун" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/hexlet/theory_unit" tags="" ctime="20161215090904" dir="1481782144qv2ixuocni" file="text.html"/>
       <record id="14938794817x6c9c6uv6" name="links" author="" url="" tags="" ctime="20170504093121" dir="1493879481pju3ep5y0g" file="text.html"/>
+      <record id="1493979454219z7ozx7n" name="Сделать конспект" author="" url="" tags="" ctime="20170505131734" dir="1493979454uhimwc0col" file="text.html"/>
      </recordtable>
     </node>
    </node>
