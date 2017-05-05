@@ -547,6 +547,7 @@
       <record id="1473311047q2tmyb37k4" name="Навигация в файле" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047jonz72qxim" file="text.html" crypt="0"/>
       <record id="1473311047b7kz06gp3y" name="Работа с свертками текста" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047pi9vsz1atd" file="text.html" crypt="0"/>
       <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
+      <record id="1493965507tprk7ttpnz" name="Просмотр значений переменных" author="" url="" tags="vim.variables" ctime="20170505092507" dir="1493965507t4oknsxy1f" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1486900070zg3dl30n3p" name="blogs">
