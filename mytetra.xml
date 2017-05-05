@@ -856,10 +856,16 @@
     </recordtable>
    </node>
   </node>
-  <node crypt="" id="14822447083otjftcvwx" name="latex">
+  <node crypt="" id="14822447083otjftcvwx" name="LaTeX">
    <recordtable>
     <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20161220173839" dir="1482244719pls0yybkyz" file="text.html"/>
+    <record id="14939805616mw1c36ng0" name="tutorial" author="" url="https://www.latex-tutorial.com/tutorials/beginners/" tags="" ctime="20170505133601" dir="1493980561742cm3bod8" file="text.html"/>
    </recordtable>
+   <node crypt="" id="14939805842p5aitpnz4" name="tutorial">
+    <recordtable>
+     <record id="14939806458gqu69bo2v" name="Первый документ" author="" url="https://www.latex-tutorial.com/tutorials/beginners/how-to-use-latex/" tags="latex.tutor" ctime="20170505133725" dir="1493980645zby5zs9mpd" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1482934895e4psvdq6hh" name="Культура работы">
    <recordtable>
