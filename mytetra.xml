@@ -768,7 +768,7 @@
    <node crypt="" id="1493994998zr5x51qleq" name="converters">
     <node crypt="" id="1493994998xn34c3bgg4" name="pandoc">
      <recordtable>
-      <record id="14939949461vam4c6uko" name="readme" author="" url="http://pandoc.org/index.html" tags="" ctime="20170505173638" dir="1493994946p3mrfig7f6" file="text.html">
+      <record id="14939949461vam4c6uko" name="readme" author="" url="http://pandoc.org/getting-started.html" tags="" ctime="20170505173638" dir="1493994946p3mrfig7f6" file="text.html">
        <files>
         <file id="14939949791oehjrtvmo" fileName="pandoc-1.19.2.1-windows.msi" type="file"/>
        </files>
