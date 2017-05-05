@@ -738,6 +738,121 @@
      </record>
     </recordtable>
    </node>
+   <node crypt="" id="1493995462w6lc3gri6t" name="hotkeys">
+    <recordtable>
+     <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys.1c" ctime="20170505174422" dir="14842263057dh0kxmy5e" file="text.html">
+      <files>
+       <file id="148422668161nbizpy75" fileName="HOT KEYS 1C.txt" type="file"/>
+       <file id="1484226686svqx5l8wdb" fileName="Hotkeys41C.md" type="file"/>
+      </files>
+     </record>
+     <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170505174422" dir="1484229982009breobxk" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="" id="14920571921h3v34kksw" name="soft">
+   <node crypt="" id="1492057200loz35y5d83" name="every day">
+    <recordtable>
+     <record id="1492057287hwfj1vvuq9" name="Clip Angel" author="tormozit" url="https://sourceforge.net/projects/clip-angel/" tags="" ctime="20170413072127" dir="1492057287orfb7bgsqe" file="text.html">
+      <files>
+       <file id="1492057397m2ta36qcb7" fileName="Clip Angel 1.19.zip" type="file"/>
+      </files>
+     </record>
+     <record id="14939951504gl4ofe0kw" name="Text Editor Anywhere" author="" url="http://www.listary.com/text-editor-anywhere" tags="textEditorAnywhere" ctime="20170505173910" dir="1493995150zm4bx2rm7f" file="text.html">
+      <files>
+       <file id="14939951648fry7pkoot" fileName="TEASetup.exe" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
+   <node crypt="" id="1493994998zr5x51qleq" name="converters">
+    <node crypt="" id="1493994998xn34c3bgg4" name="pandoc">
+     <recordtable>
+      <record id="14939949461vam4c6uko" name="readme" author="" url="http://pandoc.org/index.html" tags="" ctime="20170505173638" dir="1493994946p3mrfig7f6" file="text.html">
+       <files>
+        <file id="14939949791oehjrtvmo" fileName="pandoc-1.19.2.1-windows.msi" type="file"/>
+       </files>
+      </record>
+     </recordtable>
+    </node>
+   </node>
+  </node>
+  <node crypt="0" icon="" id="14736549736dbbiywbm6" name="math">
+   <node crypt="" id="1493995364pjc5jbximi" name="Кобминаторика">
+    <recordtable>
+     <record id="1484213073qe6mgy6eq0" name="Как посчитать перестановки. Лекция в Яндексе" author="yandex" url="https://habrahabr.ru/company/yandex/blog/311480/" tags="math" ctime="20170505174244" dir="1484213073pw0alqe8nb" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="0" icon="" id="1473654988njxmft3tvm" name="geo">
+    <node crypt="0" icon="" id="1473654994d4d4x4gvet" name="problems">
+     <recordtable>
+      <record id="1473655079trx74kbr0o" name="Объем дырявого шара" author="Трифонов Роман" url="http://www.sciteclibrary.ru/cgi-bin/yabb2/YaBB.pl?num=1024985973" tags="math.problems.got" ctime="20160912073759" dir="14736550797104oczlte" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+   </node>
+  </node>
+  <node crypt="0" icon="" id="1474218192ktqtk64lqc" name="health"/>
+  <node crypt="" id="1484026574i6zi8vg43j" name="Редакторы">
+   <node crypt="" id="1493995418jqcrg2sawf" name="LaTeX">
+    <recordtable>
+     <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20170505174338" dir="1482244719pls0yybkyz" file="text.html"/>
+     <record id="14939805616mw1c36ng0" name="tutorial" author="" url="https://www.latex-tutorial.com/tutorials/beginners/" tags="" ctime="20170505174338" dir="1493980561742cm3bod8" file="text.html"/>
+     <record id="1493985657rg6qpf7fx7" name="Шаблон" author="" url="" tags="latex шаблон" ctime="20170505174338" dir="1493985657yfwaxwpy3e" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="1493995418nonp4rqgpe" name="tutorial">
+     <recordtable>
+      <record id="14939806458gqu69bo2v" name="Первый документ" author="" url="https://www.latex-tutorial.com/tutorials/beginners/how-to-use-latex/" tags="latex.tutor" ctime="20170505174338" dir="1493980645zby5zs9mpd" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="149399542461w1wd2cna" name="LibreOffice">
+    <recordtable>
+     <record id="1482990095axg108ibn8" name="Автозамена" author="" url="" tags="libre" ctime="20170505174344" dir="1482990095c4e9raidpr" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="" id="1482217493smj296i7vt" name="Eng">
+   <node crypt="" id="14822175066nyvxx8mad" name="forums">
+    <recordtable>
+     <record id="14822175168l5991a25j" name="To sort" author="" url="" tags="" ctime="20161220100516" dir="1482217516yzhxued03w" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1483077778jtidkt34ew" name="Учить слова">
+    <recordtable>
+     <record id="1483077830ccldccx19j" name="Learn 10 times more vocabulary by using Word Webs" author="Sergey Teplyakov&#10;" url="https://youtu.be/e_aA-Hc74Ag" tags="eng.voc" ctime="20161230090350" dir="148307783082iiebunbe" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1490720148cue5tbpksr" name="vocabulary">
+    <recordtable>
+     <record id="1490720176ciwd3bil44" name="Idioms" author="" url="http://funkyenglish.com/category/idioms/" tags="" ctime="20170328195616" dir="1490720176sg89s0vc17" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="0" icon="" id="1481722010j3fxf7lv6f" name="Прочитать">
+   <recordtable>
+    <record id="14818964302p7u63j5cy" name="Общее про программирование" author="" url="http://blogerator.ru/page/evangelie-ot-myshhha-kris-kasperski-intervju-1" tags="" ctime="20161216165350" dir="14818964309h4pmkqq5z" file="text.html"/>
+   </recordtable>
+   <node crypt="0" icon="" id="1481722019b4byz3ytys" name="Про тестирование">
+    <recordtable>
+     <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html" crypt="0"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="14818966443kwxxsqr7d" name="blogs">
+    <recordtable>
+     <record id="1481896688eyeioue4y1" name="blogitator" author="Игорь Блогератор" url="http://blogerator.ru/" tags="blogs" ctime="20161216165808" dir="1481896688d3mwih6kvh" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="0" icon="" id="1481722160ohhcof85x3" name="Прочитано"/>
+  <node crypt="" id="1482934895e4psvdq6hh" name="Культура работы">
+   <recordtable>
+    <record id="1482935021xuxzgxxpoz" name="Как учиться новому после рабочего дня" author="Дмитрий @EvilsInterrupt" url="https://toster.ru/q/379946" tags="" ctime="20161228172341" dir="1482935021krhqcmhbk5" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1487661197ak8vrw084v" name="Cooking">
+   <recordtable>
+    <record id="1487661289zlph0h4hv9" name="Пироги a-la Фыджин" author="Гурова Татьяна" url="https://plus.google.com/u/0/collection/k5N5Z" tags="cook" ctime="20170221101449" dir="1487661289f8bfy9td49" file="text.html"/>
+   </recordtable>
   </node>
   <node crypt="0" icon="" id="1473256308xy5pnaa9zz" name="Музыка">
    <node crypt="" id="1484895000wifrpa3hkx" name="guitar">
@@ -781,25 +896,19 @@
     </node>
    </node>
   </node>
-  <node crypt="0" icon="" id="14733421542glvhruftk" name="Найти">
+  <node crypt="" id="1491458266ifw04hck4d" name="health">
    <recordtable>
-    <record id="147334221182d9v0g2uf" name="Метод Таблиц-двойников" author="" url="" tags="" ctime="20160908164331" dir="1473342211jla706l89z" file="text.html" crypt="0"/>
-    <record id="1473342260e8c4exewvh" name="Отношения в рмд" author="" url="" tags="" ctime="20160908164420" dir="1473342260a0r18y5l9a" file="text.html" crypt="0"/>
+    <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20170505174215" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
    </recordtable>
-  </node>
-  <node crypt="0" icon="" id="14736549736dbbiywbm6" name="math">
-   <node crypt="0" icon="" id="1473654988njxmft3tvm" name="geo">
-    <node crypt="0" icon="" id="1473654994d4d4x4gvet" name="problems">
-     <recordtable>
-      <record id="1473655079trx74kbr0o" name="Объем дырявого шара" author="Трифонов Роман" url="http://www.sciteclibrary.ru/cgi-bin/yabb2/YaBB.pl?num=1024985973" tags="math.problems.got" ctime="20160912073759" dir="14736550797104oczlte" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
+   <node crypt="" id="1491458359w7ry7ji1ef" name="ticks">
+    <recordtable>
+     <record id="1491458716v24b7uoiv9" name="Как правильно выбирать и применять репелленты" author="" url="http://www.niid.ru/s/210/files/info/kleschi/129904_482.pdf" tags="" ctime="20170406090516" dir="1491458716eb8mcvvatw" file="text.html">
+      <files>
+       <file id="1491458725kksqdpedqw" fileName="Как правильно выбирать и применять репелленты.pdf" type="file"/>
+      </files>
+     </record>
+    </recordtable>
    </node>
-  </node>
-  <node crypt="0" icon="" id="1474218192ktqtk64lqc" name="health">
-   <recordtable>
-    <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20160918200548" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
-   </recordtable>
   </node>
   <node crypt="0" icon="" id="1481697670a98i4nsyzf" name="mytetra">
    <recordtable>
@@ -812,87 +921,10 @@
     </recordtable>
    </node>
   </node>
-  <node crypt="0" icon="" id="1481722010j3fxf7lv6f" name="Прочитать">
+  <node crypt="0" icon="" id="14733421542glvhruftk" name="Найти">
    <recordtable>
-    <record id="14818964302p7u63j5cy" name="Общее про программирование" author="" url="http://blogerator.ru/page/evangelie-ot-myshhha-kris-kasperski-intervju-1" tags="" ctime="20161216165350" dir="14818964309h4pmkqq5z" file="text.html"/>
-   </recordtable>
-   <node crypt="0" icon="" id="1481722019b4byz3ytys" name="Про тестирование">
-    <recordtable>
-     <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html" crypt="0"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14818966443kwxxsqr7d" name="blogs">
-    <recordtable>
-     <record id="1481896688eyeioue4y1" name="blogitator" author="Игорь Блогератор" url="http://blogerator.ru/" tags="blogs" ctime="20161216165808" dir="1481896688d3mwih6kvh" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
-  <node crypt="0" icon="" id="1481722160ohhcof85x3" name="Прочитано"/>
-  <node crypt="" id="1482217493smj296i7vt" name="Eng">
-   <node crypt="" id="14822175066nyvxx8mad" name="forums">
-    <recordtable>
-     <record id="14822175168l5991a25j" name="To sort" author="" url="" tags="" ctime="20161220100516" dir="1482217516yzhxued03w" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1483077778jtidkt34ew" name="Учить слова">
-    <recordtable>
-     <record id="1483077830ccldccx19j" name="Learn 10 times more vocabulary by using Word Webs" author="Sergey Teplyakov&#10;" url="https://youtu.be/e_aA-Hc74Ag" tags="eng.voc" ctime="20161230090350" dir="148307783082iiebunbe" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1490720148cue5tbpksr" name="vocabulary">
-    <recordtable>
-     <record id="1490720176ciwd3bil44" name="Idioms" author="" url="http://funkyenglish.com/category/idioms/" tags="" ctime="20170328195616" dir="1490720176sg89s0vc17" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
-  <node crypt="" id="14822447083otjftcvwx" name="LaTeX">
-   <recordtable>
-    <record id="1482244719s8xes7ihzr" name="Ресурсы" author="" url="" tags="" ctime="20161220173839" dir="1482244719pls0yybkyz" file="text.html"/>
-    <record id="14939805616mw1c36ng0" name="tutorial" author="" url="https://www.latex-tutorial.com/tutorials/beginners/" tags="" ctime="20170505133601" dir="1493980561742cm3bod8" file="text.html"/>
-    <record id="1493985657rg6qpf7fx7" name="Шаблон" author="" url="" tags="latex шаблон" ctime="20170505150057" dir="1493985657yfwaxwpy3e" file="text.html"/>
-   </recordtable>
-   <node crypt="" id="14939805842p5aitpnz4" name="tutorial">
-    <recordtable>
-     <record id="14939806458gqu69bo2v" name="Первый документ" author="" url="https://www.latex-tutorial.com/tutorials/beginners/how-to-use-latex/" tags="latex.tutor" ctime="20170505133725" dir="1493980645zby5zs9mpd" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
-  <node crypt="" id="1482934895e4psvdq6hh" name="Культура работы">
-   <recordtable>
-    <record id="1482935021xuxzgxxpoz" name="Как учиться новому после рабочего дня" author="Дмитрий @EvilsInterrupt" url="https://toster.ru/q/379946" tags="" ctime="20161228172341" dir="1482935021krhqcmhbk5" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1482990055p2rwzubk50" name="LibreOffice">
-   <recordtable>
-    <record id="1482990095axg108ibn8" name="Автозамена" author="" url="" tags="libre" ctime="20161229084135" dir="1482990095c4e9raidpr" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1484026574i6zi8vg43j" name="Редакторы">
-   <recordtable>
-    <record id="1484026733kg3dkzm8me" name="jrnl" author="" url="http://jrnl.sh/installation.html" tags="edits" ctime="20170110083853" dir="1484026733u4mwsa7bvd" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1484212988h7udoq3foe" name="math">
-   <node crypt="" id="1484213000oootxdqkf3" name="Кобминаторика">
-    <recordtable>
-     <record id="1484213073qe6mgy6eq0" name="Как посчитать перестановки. Лекция в Яндексе" author="yandex" url="https://habrahabr.ru/company/yandex/blog/311480/" tags="math" ctime="20170112122433" dir="1484213073pw0alqe8nb" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
-  <node crypt="" id="1484226003caic3d4wtf" name="hotkeys">
-   <recordtable>
-    <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys.1c" ctime="20170112160505" dir="14842263057dh0kxmy5e" file="text.html">
-     <files>
-      <file id="148422668161nbizpy75" fileName="HOT KEYS 1C.txt" type="file"/>
-      <file id="1484226686svqx5l8wdb" fileName="Hotkeys41C.md" type="file"/>
-     </files>
-    </record>
-    <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170112170622" dir="1484229982009breobxk" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1487661197ak8vrw084v" name="Cooking">
-   <recordtable>
-    <record id="1487661289zlph0h4hv9" name="Пироги a-la Фыджин" author="Гурова Татьяна" url="https://plus.google.com/u/0/collection/k5N5Z" tags="cook" ctime="20170221101449" dir="1487661289f8bfy9td49" file="text.html"/>
+    <record id="147334221182d9v0g2uf" name="Метод Таблиц-двойников" author="" url="" tags="" ctime="20160908164331" dir="1473342211jla706l89z" file="text.html" crypt="0"/>
+    <record id="1473342260e8c4exewvh" name="Отношения в рмд" author="" url="" tags="" ctime="20160908164420" dir="1473342260a0r18y5l9a" file="text.html" crypt="0"/>
    </recordtable>
   </node>
   <node crypt="1" icon="UkM1U0lNUANAoWQUCFRp74Ptd1FKPxvSMD4lQoEjqdJbov5+J/SUuKM6WrdNWhEiMDxfSVgB8sVPdw+pEYxN//1qZxgKChbq" id="1489824681e45nlcd9ot" name="UkM1U0lNUAN+L48K+H6r3vUmfjYBZF9Rf577NmiaznuJtS2cGkQpMP4jP8Udqj6Q">
@@ -1076,44 +1108,6 @@
      </node>
     </node>
     <node crypt="1" icon="" id="1492059314juoasjzklu" name="UkM1U0lNUAMSxuORZn3nTJjW+JLuamUowqKc2YcljqGVANMdgLDBPU+dvJ7PXhXe"/>
-   </node>
-  </node>
-  <node crypt="" id="1491458266ifw04hck4d" name="health">
-   <node crypt="" id="1491458359w7ry7ji1ef" name="ticks">
-    <recordtable>
-     <record id="1491458716v24b7uoiv9" name="Как правильно выбирать и применять репелленты" author="" url="http://www.niid.ru/s/210/files/info/kleschi/129904_482.pdf" tags="" ctime="20170406090516" dir="1491458716eb8mcvvatw" file="text.html">
-      <files>
-       <file id="1491458725kksqdpedqw" fileName="Как правильно выбирать и применять репелленты.pdf" type="file"/>
-      </files>
-     </record>
-    </recordtable>
-   </node>
-  </node>
-  <node crypt="" id="14920571921h3v34kksw" name="soft">
-   <node crypt="" id="1492057200loz35y5d83" name="every day">
-    <recordtable>
-     <record id="1492057287hwfj1vvuq9" name="Clip Angel" author="tormozit" url="https://sourceforge.net/projects/clip-angel/" tags="" ctime="20170413072127" dir="1492057287orfb7bgsqe" file="text.html">
-      <files>
-       <file id="1492057397m2ta36qcb7" fileName="Clip Angel 1.19.zip" type="file"/>
-      </files>
-     </record>
-     <record id="14939951504gl4ofe0kw" name="Text Editor Anywhere" author="" url="http://www.listary.com/text-editor-anywhere" tags="textEditorAnywhere" ctime="20170505173910" dir="1493995150zm4bx2rm7f" file="text.html">
-      <files>
-       <file id="14939951648fry7pkoot" fileName="TEASetup.exe" type="file"/>
-      </files>
-     </record>
-    </recordtable>
-   </node>
-   <node crypt="" id="1493994998zr5x51qleq" name="converters">
-    <node crypt="" id="1493994998xn34c3bgg4" name="pandoc">
-     <recordtable>
-      <record id="14939949461vam4c6uko" name="readme" author="" url="http://pandoc.org/index.html" tags="" ctime="20170505173638" dir="1493994946p3mrfig7f6" file="text.html">
-       <files>
-        <file id="14939949791oehjrtvmo" fileName="pandoc-1.19.2.1-windows.msi" type="file"/>
-       </files>
-      </record>
-     </recordtable>
-    </node>
    </node>
   </node>
  </content>
