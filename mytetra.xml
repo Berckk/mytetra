@@ -760,11 +760,7 @@
        <file id="1492057397m2ta36qcb7" fileName="Clip Angel 1.19.zip" type="file"/>
       </files>
      </record>
-     <record id="14939951504gl4ofe0kw" name="Text Editor Anywhere" author="" url="http://www.listary.com/text-editor-anywhere" tags="textEditorAnywhere" ctime="20170505173910" dir="1493995150zm4bx2rm7f" file="text.html">
-      <files>
-       <file id="14939951648fry7pkoot" fileName="TEASetup.exe" type="file"/>
-      </files>
-     </record>
+     <record id="14939951504gl4ofe0kw" name="Text Editor Anywhere" author="" url="http://www.listary.com/text-editor-anywhere" tags="textEditorAnywhere" ctime="20170505173910" dir="1493995150zm4bx2rm7f" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1493994998zr5x51qleq" name="converters">
