@@ -751,6 +751,13 @@
      <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170505174422" dir="1484229982009breobxk" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="14940467418ow7j3x9iu" name="chrome">
+    <node crypt="" id="1494046747ae0xk8ycha" name="plugins">
+     <recordtable>
+      <record id="1494046794uzee0horo0" name="cVim" author="" url="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" tags="chrome.plugins.cvim" ctime="20170506075954" dir="1494046794lso3j5nnqu" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
    <node crypt="" id="1492057200loz35y5d83" name="every day">
