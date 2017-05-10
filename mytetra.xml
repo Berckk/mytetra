@@ -420,8 +420,8 @@
      </node>
      <node crypt="" id="1493908502f6qsgftyq5" name="Работа с файлами">
       <recordtable>
-       <record id="1493908519caahhcta60" name="Справка its" author="" url="https://its.1c.ru/db/bspdoc#content:457:1" tags="БСП:файлы" ctime="20170504173519" dir="1493908519nri2zfkfdm" file="text.html"/>
-       <record id="1494399784ur3vgvzcns" name="Как включить свой объект в состав подсистемы работы с файлами" author="" url="" tags="" ctime="20170510100304" dir="1494399784sxly3kga5y" file="text.html"/>
+       <record id="1493908519caahhcta60" name="Справка its" author="" url="https://its.1c.ru/db/bspdoc#content:457:1" tags="БСП.Файлы" ctime="20170504173519" dir="1493908519nri2zfkfdm" file="text.html"/>
+       <record id="1494399784ur3vgvzcns" name="Как включить свой объект в состав подсистемы работы с файлами" author="" url="https://help1c.by/podklyuchenie-novogo-obekta-konfiguratsii-k-podsisteme-po-rabote-s-faylami/" tags="БСП.Файлы" ctime="20170510100304" dir="1494399784sxly3kga5y" file="text.html"/>
       </recordtable>
      </node>
     </node>
