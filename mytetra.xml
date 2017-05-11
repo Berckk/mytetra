@@ -613,6 +613,13 @@
       <record id="1486564495wwyrymb09l" name="A Tester's Syllabus" author="" url="http://www.satisfice.com/bibliography.shtml" tags="testing.books" ctime="20170208173455" dir="1486564495vf27m7tlur" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1494509493m1vg104vol" name="tools">
+     <node crypt="" id="1494509499ah1zboh749" name="sikuli">
+      <recordtable>
+       <record id="1494509527mfcxq7lqcr" name="Метода" author="" url="http://automated-testing.info/t/sikuli-vs-eggplant/2057/4" tags="testing.tools.sikuli" ctime="20170511163207" dir="14945095275jrfj7eau8" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
     <recordtable>
