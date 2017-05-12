@@ -572,6 +572,7 @@
    <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
     <recordtable>
      <record id="1482248403xi7cei8x0w" name="Тестирование. Фундаментальная теория" author="Геннадий Мищевский @Gennadii_M&#10;Пользователь&#10;" url="https://habrahabr.ru/post/279535/" tags="" ctime="20161220184003" dir="14822484032ghyatfgvn" file="text.html"/>
+     <record id="1494568075ms1dlqggp8" name="Автоматическое тестирование (php)" author="" url="" tags="" ctime="20170512084755" dir="14945680756celo16eq5" file="text.html"/>
     </recordtable>
     <node crypt="0" icon="" id="1473396856s4fq4krin2" name="Blogs">
      <recordtable>
