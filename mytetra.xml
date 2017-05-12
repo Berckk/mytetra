@@ -690,7 +690,7 @@
     </node>
     <node crypt="" id="1494569884119m0vlpmf" name="html">
      <recordtable>
-      <record id="1494569902f1yetdtgj6" name="Шаблоны" author="" url="" tags="" ctime="20170512091822" dir="1494569902171z4iqegv" file="text.html"/>
+      <record id="1494569902f1yetdtgj6" name="Шаблоны" author="" url="" tags="html.templates" ctime="20170512091822" dir="1494569902171z4iqegv" file="text.html"/>
      </recordtable>
     </node>
    </node>
