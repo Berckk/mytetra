@@ -782,6 +782,12 @@
       <record id="14945684881cfyhx1u4c" name="Простые задачи на js" author="" url="https://gist.github.com/codedokode/ce30e7a036f18f416ae0" tags="js.edu.tasks" ctime="20170512085448" dir="1494568488kiqhy7unbe" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1494568557ecpncbot02" name="Учебники">
+     <recordtable>
+      <record id="1494568581ru40khpn4z" name="http://learn.javascript.ru/" author="" url="http://learn.javascript.ru/" tags="js.manuals" ctime="20170512085621" dir="1494568581zejuz96d6t" file="text.html"/>
+      <record id="1494568673nr5uu87rsy" name="http://archive-ipq-co.narod.ru/" author="" url="http://archive-ipq-co.narod.ru/" tags="js.manuals" ctime="20170512085753" dir="1494568673duby68z1s2" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
