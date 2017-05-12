@@ -267,6 +267,7 @@
       <record id="1473860511i8f0hux3i5" name="Проверить, что не копия рабочей базы" author="pola" url="" tags="1c.code" ctime="20160914164151" dir="1473860511iupp1u4z7w" file="text.html" crypt="0"/>
       <record id="147395652849vv50bjf7" name="Краткое описание ошибки" author="" url="" tags="1c.code" ctime="20160915192208" dir="1473956528w8lt9wkijs" file="text.html" crypt="0"/>
       <record id="1482925239ko23vfhd0b" name="Имитация нажатия клавиши" author="" url="" tags="" ctime="20161228144039" dir="1482925239kpssosfq40" file="text.html"/>
+      <record id="14945963632f9rgxzmwa" name="Проверить ЭтоНовый() в управляемом приложении" author="" url="" tags="1c.code.ЭтоНовый" ctime="20170512163923" dir="149459636373akumukkw" file="text.html"/>
      </recordtable>
      <node crypt="0" icon="" id="14756856493h3kr4vwte" name="upp">
       <recordtable>
