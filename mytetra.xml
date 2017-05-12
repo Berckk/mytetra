@@ -632,6 +632,7 @@
      <record id="1482478191emmmbpln2b" name="GITips &amp; GITricks" author="User Unknown @UUSER" url="https://habrahabr.ru/post/78058/" tags="" ctime="20161223102951" dir="1482478191xlteuz5ctz" file="text.html"/>
      <record id="1492670053i2s64jh7q5" name="git и кириллица" author="" url="" tags="" ctime="20170420093413" dir="1492670053gi1fs0gfhc" file="text.html"/>
      <record id="1493992926ha0tn7e1dv" name="Просмотреть изменения в файле между ветками" author="" url="" tags="git изменения в файле" ctime="20170505170206" dir="1493992926ng6shi29i5" file="text.html"/>
+     <record id="1494619706u96h7xn3kw" name="Удалить submodule" author="" url="" tags="git.submodule" ctime="20170512230826" dir="1494619706vgjntjyqwn" file="text.html"/>
     </recordtable>
     <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
      <recordtable>
