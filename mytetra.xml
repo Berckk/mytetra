@@ -785,7 +785,13 @@
     <node crypt="" id="1494568557ecpncbot02" name="Учебники">
      <recordtable>
       <record id="1494568581ru40khpn4z" name="http://learn.javascript.ru/" author="" url="http://learn.javascript.ru/" tags="js.manuals" ctime="20170512085621" dir="1494568581zejuz96d6t" file="text.html"/>
-      <record id="1494568673nr5uu87rsy" name="http://archive-ipq-co.narod.ru/" author="" url="http://archive-ipq-co.narod.ru/" tags="js.manuals" ctime="20170512085753" dir="1494568673duby68z1s2" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1494568716b4b95ujygh" name="web-programming">
+    <node crypt="" id="14945687364tyymfmisx" name="lessons">
+     <recordtable>
+      <record id="1494568673nr5uu87rsy" name="http://archive-ipq-co.narod.ru/" author="" url="http://archive-ipq-co.narod.ru/" tags="js.manuals" ctime="20170512085904" dir="1494568673duby68z1s2" file="text.html"/>
      </recordtable>
     </node>
    </node>
