@@ -449,6 +449,13 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1494830401iv83qtzkp3" name="Настройки конфигураций">
+     <node crypt="" id="1494830418x325jzrkm0" name="do">
+      <recordtable>
+       <record id="1494830504zj7rtpsdoc" name="Включить настройку синхронизации" author="" url="" tags="1c.settings.do.sync" ctime="20170515094144" dir="14948305046ekwjvuxui" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
