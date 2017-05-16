@@ -999,6 +999,11 @@
      <record id="1494914442k3funn449w" name="Ссылка на актуальную версию" author="" url="" tags="mytetra" ctime="20170516090042" dir="1494914442ce8rkn17ok" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1494920543ynxw5pnpn2" name="articles">
+    <recordtable>
+     <record id="1494920581trkfklpsr0" name="https://habrahabr.ru/post/321446/" author="webhamster" url="https://habrahabr.ru/post/321446/" tags="mytetra.articles" ctime="20170516104301" dir="1494920581irhz8nvteq" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="14733421542glvhruftk" name="Найти">
    <recordtable>
