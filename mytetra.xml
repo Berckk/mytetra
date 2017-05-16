@@ -456,6 +456,11 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1494909168rebs0p18r3" name="forms">
+     <recordtable>
+      <record id="1494909242ep1rqakjmz" name="Разработка конфигураций в режиме без использования модальности" author="1c" url="https://its.1c.ru/docs/v8nonmodal/#19" tags="forms.без модальности" ctime="20170516073402" dir="1494909242p9x66hurrr" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
