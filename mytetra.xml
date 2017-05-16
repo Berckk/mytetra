@@ -994,6 +994,11 @@
      <record id="1493910467ax1c96d8cr" name="Часть 1" author="Сергей Стрепанов" url="https://www.youtube.com/watch?v=Bmp_dk2LA6I" tags="mytetra.обзор" ctime="20170504180747" dir="1493910467faa5symoey" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="14949144325rv4i1oagv" name="Настройки">
+    <recordtable>
+     <record id="1494914442k3funn449w" name="Ссылка на актуальную версию" author="" url="" tags="mytetra" ctime="20170516090042" dir="1494914442ce8rkn17ok" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="14733421542glvhruftk" name="Найти">
    <recordtable>
