@@ -827,7 +827,11 @@
     </recordtable>
    </node>
    <node crypt="" id="1494927217sv2ozr8znn" name="web">
-    <node crypt="" id="1494927220ai6vogr3yj" name="libs"/>
+    <node crypt="" id="1494927220ai6vogr3yj" name="libs">
+     <recordtable>
+      <record id="1494927552n6qlhm8x42" name="mdn Mozzila Developer Network" author="" url="https://developer.mozilla.org/ru/" tags="" ctime="20170516123912" dir="1494927552qsy9o3uc5n" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
