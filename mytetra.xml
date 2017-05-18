@@ -194,6 +194,7 @@
      <node crypt="0" icon="" id="1473340435rhd1pwr7tx" name="WEB-сервисы">
       <recordtable>
        <record id="1473340804tg2mplwm2d" name="Практическое применение механизма WEB-сервисов в системе «1С:Предприятие»" author="AXIOMLAB24 " url="http://tf21.ru/public/327963/" tags="1c.integration.web-services" ctime="20160908162004" dir="147334080484c3eh5epj" file="text.html" crypt="0"/>
+       <record id="1495123377x8f4f66o52" name="Передача больших пакетов через веб-сервисы" author="" url="http://www.develplatform.ru/OneC/Stream/OneCBlog/2015/12/05/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D1%85-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B" tags="1c.ws.передача больших файлов" ctime="20170518190257" dir="1495123377qpl5uainif" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="0" icon="" id="1473342405g9033mk6wi" name="virtualization">
