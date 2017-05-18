@@ -468,6 +468,13 @@
       <record id="1494909242ep1rqakjmz" name="Разработка конфигураций в режиме без использования модальности" author="1c" url="https://its.1c.ru/docs/v8nonmodal/#19" tags="forms.без модальности" ctime="20170516073402" dir="1494909242p9x66hurrr" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1495122509otvpl3z7p7" name="Документация">
+     <node crypt="" id="1495122516khj1lrnbv8" name="Работа с файлами">
+      <recordtable>
+       <record id="14951225550zwyp21bbz" name="Механизм временного хранилища, работа с файлами и картинками " author="" url="" tags="1с.Документация.ВременноеХранилище.РаботаСФайлами" ctime="20170518184915" dir="1495122555oossxl8c5y" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
