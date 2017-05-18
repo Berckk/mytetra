@@ -195,6 +195,7 @@
       <recordtable>
        <record id="1473340804tg2mplwm2d" name="Практическое применение механизма WEB-сервисов в системе «1С:Предприятие»" author="AXIOMLAB24 " url="http://tf21.ru/public/327963/" tags="1c.integration.web-services" ctime="20160908162004" dir="147334080484c3eh5epj" file="text.html" crypt="0"/>
        <record id="1495123377x8f4f66o52" name="Передача больших пакетов через веб-сервисы" author="" url="http://www.develplatform.ru/OneC/Stream/OneCBlog/2015/12/05/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D1%85-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B" tags="1c.ws.передача больших файлов" ctime="20170518190257" dir="1495123377qpl5uainif" file="text.html"/>
+       <record id="1495123721uq2adthg71" name="Передать PDF файл через Web-сервис" author="" url="https://helpf.pro/faq/view/1566.html" tags="" ctime="20170518190841" dir="1495123721expqy7mjwq" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="0" icon="" id="1473342405g9033mk6wi" name="virtualization">
@@ -470,6 +471,9 @@
      </recordtable>
     </node>
     <node crypt="" id="1495122509otvpl3z7p7" name="Руководство разработчика">
+     <recordtable>
+      <record id="14951238773hzxmcuuyu" name="Link" author="" url="https://its.1c.ru/db/v8doc#browse:13:-1:50061" tags="" ctime="20170518191117" dir="1495123877sln8438d9v" file="text.html"/>
+     </recordtable>
      <node crypt="" id="1495122516khj1lrnbv8" name="Работа с файлами">
       <recordtable>
        <record id="14951225550zwyp21bbz" name="Механизм временного хранилища, работа с файлами и картинками " author="" url="https://its.1c.ru/db/v8doc#content:74:1" tags="1с.РуководствоРазработчика.ВременноеХранилище.РаботаСФайлами" ctime="20170518184915" dir="1495122555oossxl8c5y" file="text.html">
