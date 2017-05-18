@@ -435,6 +435,7 @@
       <node crypt="" id="1495115218h26jejldna" name="Подсистема ПрисоединенныеФайлы">
        <recordtable>
         <record id="1495115225ptvfjvdemh" name="Процедуры" author="" url="" tags="БСП.ПрисоединенныеФайлы" ctime="20170518164705" dir="149511522500w0v7ooyd" file="text.html"/>
+        <record id="1495115569gkk53sv237" name="Документация" author="" url="https://its.1c.ru/db/bspdoc#content:1833:hdoc" tags="БСП.ПрисоединенныеФайлы.Док" ctime="20170518165249" dir="14951155696ijttuora9" file="text.html"/>
        </recordtable>
       </node>
      </node>
