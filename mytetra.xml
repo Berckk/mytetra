@@ -329,6 +329,7 @@
       <record id="1486557680wct0o4lmtk" name="Только просмотр значения поля таблицы в управляемой форме" author="" url="" tags="1c.forms" ctime="20170208154120" dir="1486557680m6tbxegda7" file="text.html"/>
       <record id="1487599456qmz243v8i8" name="Программно установить текущую страницу управляемой формы" author="" url="" tags="1c.forms" ctime="20170220170416" dir="1487599456hpmvcp04j1" file="text.html"/>
       <record id="1491921981jgucwh50rb" name="Программное создание реквизита в управляемом приложении 1С" author="" url="http://forum1s.ru/read/programmnoe-sozdanie-rekvizita-v-upravliaemom-prilozhenii-1s/" tags="1c.forms" ctime="20170411174621" dir="1491921981e96s0ezh9z" file="text.html"/>
+      <record id="1495088373prniv7eklx" name="Индикация процесса" author="" url="http://infostart.ru/public/71407/?detail=Y" tags="1c.forms.indication" ctime="20170518091933" dir="14950883734lnpm55z3s" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1474348381sbnpgzvl2p" name="multitasking">
