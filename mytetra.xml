@@ -752,12 +752,12 @@
       <node crypt="" id="1484891806culhloidi6" name="Команды и скрипты">
        <recordtable>
         <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="bush" ctime="20170120085646" dir="1482325863o221q05q52" file="text.html"/>
-        <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="" ctime="20170120085646" dir="14840424562yfjhc2ys5" file="text.html">
+        <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="bush" ctime="20170120085646" dir="14840424562yfjhc2ys5" file="text.html">
          <files>
           <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
          </files>
         </record>
-        <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="" ctime="20170120085646" dir="1484042574fztnd9k26m" file="text.html"/>
+        <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="bush" ctime="20170120085646" dir="1484042574fztnd9k26m" file="text.html"/>
        </recordtable>
       </node>
      </node>
