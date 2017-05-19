@@ -5,6 +5,20 @@
  <content>
   <node crypt="0" icon="" id="1472471267l6nwgfjpj1" name="Программирование">
    <node crypt="0" icon="/Flat/color_icons8_flat_briefcase.svg" id="1472471271ozfrf63iib" name="1с">
+    <node crypt="" id="1495122509otvpl3z7p7" name="Руководство разработчика">
+     <recordtable>
+      <record id="14951238773hzxmcuuyu" name="Link" author="" url="https://its.1c.ru/db/v8doc#browse:13:-1:50061" tags="" ctime="20170518191117" dir="1495123877sln8438d9v" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1495122516khj1lrnbv8" name="Работа с файлами">
+      <recordtable>
+       <record id="14951225550zwyp21bbz" name="Механизм временного хранилища, работа с файлами и картинками " author="" url="https://its.1c.ru/db/v8doc#content:74:1" tags="1с.РуководствоРазработчика.ВременноеХранилище.РаботаСФайлами" ctime="20170518184915" dir="1495122555oossxl8c5y" file="text.html">
+        <files>
+         <file id="1495122901agfoyckiyt" fileName="ФайлыЗаказа.epf" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+    </node>
     <node crypt="0" icon="" id="1472471279cv1o2pnzuk" name="oscript">
      <recordtable>
       <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="1c.oscript" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html" crypt="0"/>
@@ -469,20 +483,6 @@
      <recordtable>
       <record id="1494909242ep1rqakjmz" name="Разработка конфигураций в режиме без использования модальности" author="1c" url="https://its.1c.ru/docs/v8nonmodal/#19" tags="forms.без модальности" ctime="20170516073402" dir="1494909242p9x66hurrr" file="text.html"/>
      </recordtable>
-    </node>
-    <node crypt="" id="1495122509otvpl3z7p7" name="Руководство разработчика">
-     <recordtable>
-      <record id="14951238773hzxmcuuyu" name="Link" author="" url="https://its.1c.ru/db/v8doc#browse:13:-1:50061" tags="" ctime="20170518191117" dir="1495123877sln8438d9v" file="text.html"/>
-     </recordtable>
-     <node crypt="" id="1495122516khj1lrnbv8" name="Работа с файлами">
-      <recordtable>
-       <record id="14951225550zwyp21bbz" name="Механизм временного хранилища, работа с файлами и картинками " author="" url="https://its.1c.ru/db/v8doc#content:74:1" tags="1с.РуководствоРазработчика.ВременноеХранилище.РаботаСФайлами" ctime="20170518184915" dir="1495122555oossxl8c5y" file="text.html">
-        <files>
-         <file id="1495122901agfoyckiyt" fileName="ФайлыЗаказа.epf" type="file"/>
-        </files>
-       </record>
-      </recordtable>
-     </node>
     </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
