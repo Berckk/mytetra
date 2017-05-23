@@ -788,6 +788,7 @@
     <node crypt="" id="14848913459598dcmh4y" name="windows">
      <recordtable>
       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin.win" ctime="20170120084940" dir="1484891380zebmse2r0o" file="text.html"/>
+      <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="" ctime="20170523171719" dir="1495549039wpszwfnq46" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1484891806gt2c9bzbyf" name="linux">
