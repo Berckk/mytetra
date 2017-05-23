@@ -878,6 +878,15 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="1495557254whpbbh1ifg" name="ГОСТ">
+    <recordtable>
+     <record id="14955573033b12zjwtnt" name="Виды испытаний автоматизированных систем" author="" url="" tags="gost" ctime="20170523193503" dir="1495557303hepffffkrf" file="text.html">
+      <files>
+       <file id="1495557311dxnn985ut5" fileName="gost 34.603.pdf" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
    <node crypt="" id="1492057200loz35y5d83" name="every day">
