@@ -660,6 +660,13 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1495518289eqwr6f29se" name="video">
+     <node crypt="" id="1495518293nnf75n7hk5" name="UI">
+      <recordtable>
+       <record id="1495518363y7rfkz10s9" name="The fast and the continuous" author="Андрей Солнцев" url="https://www.youtube.com/watch?v=bXlK680E3zQ" tags="testing.video.UI" ctime="20170523084603" dir="1495518363bmcr20qquq" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
     <recordtable>
