@@ -672,6 +672,11 @@
        <record id="1495520109ut6vocz0jj" name="10 years of Doing Behaviour-Driven Development All Wrong (part 1) by Liz Keogh" author="Liz Keogh" url="https://www.youtube.com/watch?v=2EM4itu7j7I" tags="testing.video.bdd" ctime="20170523091509" dir="1495520109ec2fugyccr" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="14955209714g4mq4z6l1" name="automating testing">
+      <recordtable>
+       <record id="14955210295u1ixejanv" name="ROI от автоматизации тестирования" author="Сергей Мартыненко" url="https://www.youtube.com/watch?v=-hH93nJq49Y&amp;feature=youtu.be" tags="" ctime="20170523093029" dir="1495521029jkg2l3wsmt" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
