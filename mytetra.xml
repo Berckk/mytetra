@@ -1358,5 +1358,14 @@
     </recordtable>
    </node>
   </node>
+  <node crypt="" id="14955212386l47hgmboz" name="edu">
+   <node crypt="" id="1495521242pb53ywqz8g" name="brain">
+    <node crypt="" id="1495521248xfdxjkp7wa" name="video">
+     <recordtable>
+      <record id="1495521351wuni7p4gnq" name="Почему мозгу нужны трудные задачи" author="Татьяна Черниговская" url="https://www.youtube.com/watch?v=vZsCSgWcX-A" tags="edu.brain.video.chernigov" ctime="20170523093551" dir="1495521351vcb3guyxjo" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+  </node>
  </content>
 </root>
