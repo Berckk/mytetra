@@ -669,6 +669,7 @@
      <node crypt="" id="1495519791p45yinefqc" name="BDD">
       <recordtable>
        <record id="14955198844k229ctybr" name="BullShit driven development" author="Андрей Солнцев" url="https://www.youtube.com/watch?v=JnoZbbYZeeI" tags="testing.video.bdd" ctime="20170523091124" dir="14955198847hck75otrc" file="text.html"/>
+       <record id="1495520109ut6vocz0jj" name="10 years of Doing Behaviour-Driven Development All Wrong (part 1) by Liz Keogh" author="Liz Keogh" url="https://www.youtube.com/watch?v=2EM4itu7j7I" tags="testing.video.bdd" ctime="20170523091509" dir="1495520109ec2fugyccr" file="text.html"/>
       </recordtable>
      </node>
     </node>
