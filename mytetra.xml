@@ -1136,7 +1136,7 @@
     <record id="1473342260e8c4exewvh" name="Отношения в рмд" author="" url="" tags="" ctime="20160908164420" dir="1473342260a0r18y5l9a" file="text.html" crypt="0"/>
    </recordtable>
   </node>
-  <node crypt="" id="14955212386l47hgmboz" name="edu">
+  <node crypt="" id="14955212386l47hgmboz" name="self-development">
    <node crypt="" id="1495521242pb53ywqz8g" name="brain">
     <node crypt="" id="1495521248xfdxjkp7wa" name="video">
      <recordtable>
@@ -1147,7 +1147,7 @@
    <node crypt="" id="1496034706hkit5887qs" name="gtd">
     <node crypt="" id="1496034712ltfvw1wfb4" name="dorofeev">
      <recordtable>
-      <record id="1496035016gu7kp3seqt" name="readme" author="" url="https://www.mindmeister.com/426089298/_" tags="" ctime="20170529081656" dir="1496035016wy68koe0nt" file="text.html"/>
+      <record id="1496035016gu7kp3seqt" name="readme" author="" url="https://www.mindmeister.com/426089298/_" tags="self-dev.dorofeev" ctime="20170529081656" dir="1496035016wy68koe0nt" file="text.html"/>
      </recordtable>
     </node>
    </node>
