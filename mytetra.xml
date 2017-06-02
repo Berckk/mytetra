@@ -350,6 +350,7 @@
       <record id="1495188538v5w4nb6ex2" name="Обработчики элементов формы" author="" url="" tags="1c.forms.Обработчики" ctime="20170519130858" dir="1495188538knlvd9tfwh" file="text.html"/>
       <record id="14956201040t70g4ic4j" name="Растянуть поле по всей управляемой форме" author="" url="" tags="1c.forms.элементы" ctime="20170524130144" dir="1495620104qfr19qqy53" file="text.html"/>
      </recordtable>
+     <node crypt="" id="14964108005aoiv9fz86" name="Обработчики событий формы"/>
     </node>
     <node crypt="0" icon="" id="1474348381sbnpgzvl2p" name="multitasking">
      <recordtable>
