@@ -496,6 +496,11 @@
       <record id="1494909242ep1rqakjmz" name="Разработка конфигураций в режиме без использования модальности" author="1c" url="https://its.1c.ru/docs/v8nonmodal/#19" tags="forms.без модальности" ctime="20170516073402" dir="1494909242p9x66hurrr" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1496658646038ilugo03" name="Настройки среды разработки">
+     <recordtable>
+      <record id="1496658731ty64i7i589" name="Редактирование" author="" url="" tags="" ctime="20170605133211" dir="1496658731tlskec4cpi" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
