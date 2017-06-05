@@ -698,6 +698,12 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="14966406495ms7purift" name="WhatIsGoodTest">
+     <recordtable>
+      <record id="14966406662qvbxfgb1p" name="GoodTests" author="" url="" tags="" ctime="20170605083106" dir="1496640666gstxmhgic9" file="text.html"/>
+      <record id="1496640690mdp0gzo8zg" name="BadTests" author="" url="" tags="" ctime="20170605083130" dir="14966406902okn2ny6cm" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
     <recordtable>
