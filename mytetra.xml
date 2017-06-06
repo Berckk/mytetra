@@ -182,6 +182,9 @@
       <record id="14822482594gruau16cq" name="Обмен сообщениями. Что это?" author="Петр Базелюк (pbazeliuk)" url="http://infostart.ru/public/558016/" tags="" ctime="20161220183739" dir="1482248259vwdh2yho0x" file="text.html"/>
      </recordtable>
      <node crypt="0" icon="" id="14731692907jqq1dqf86" name="com">
+      <recordtable>
+       <record id="1496732856zaopr6bm1u" name="Зарегистрировать компоненту comcntr.dll" author="" url="" tags="" ctime="20170606100736" dir="1496732856aupvouu0vw" file="text.html"/>
+      </recordtable>
       <node crypt="0" icon="" id="1473169290gmx84kxu2a" name="Готовые решения">
        <recordtable>
         <record id="1473169290up6j8ect7r" name="Получить соединение с базой" author="pola" url="" tags="1c.integration.templates" ctime="20160906164130" dir="1473169290kjgy88s4dh" file="text.html" crypt="0"/>
