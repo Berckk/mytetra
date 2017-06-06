@@ -284,6 +284,11 @@
       <record id="147395652849vv50bjf7" name="Краткое описание ошибки" author="" url="" tags="1c.code" ctime="20160915192208" dir="1473956528w8lt9wkijs" file="text.html" crypt="0"/>
       <record id="1482925239ko23vfhd0b" name="Имитация нажатия клавиши" author="" url="" tags="" ctime="20161228144039" dir="1482925239kpssosfq40" file="text.html"/>
       <record id="14945963632f9rgxzmwa" name="Проверить ЭтоНовый() в управляемом приложении" author="" url="" tags="1c.code.ЭтоНовый" ctime="20170512163923" dir="149459636373akumukkw" file="text.html"/>
+      <record id="1496726004xx6knie345" name="Индикаторы процессов" author="" url="http://infostart.ru/public/405368/" tags="1c индикатор" ctime="20170606081324" dir="1496726004l8jruqis8v" file="text.html">
+       <files>
+        <file id="1496726034w6t0qhcbpt" fileName="Асинхронная загрузка данных на УФ Прогресс бар.epf" type="file"/>
+       </files>
+      </record>
      </recordtable>
      <node crypt="0" icon="" id="14756856493h3kr4vwte" name="upp">
       <recordtable>
