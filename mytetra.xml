@@ -1189,7 +1189,7 @@
    </node>
    <node crypt="" id="14973623379g0e69wc9l" name="reading">
     <recordtable>
-     <record id="1497362456xrlux48yfe" name="Как эффективно читать профессиональную литературу" author="" url="" tags="reading" ctime="20170613170056" dir="1497362456lgfjspf62i" file="text.html"/>
+     <record id="1497362456xrlux48yfe" name="Как эффективно читать профессиональную литературу" author="Кирилл Мокевнин" url="https://ru.hexlet.io/blog/posts/how-to-read-books" tags="reading" ctime="20170613170056" dir="1497362456lgfjspf62i" file="text.html"/>
     </recordtable>
    </node>
   </node>
