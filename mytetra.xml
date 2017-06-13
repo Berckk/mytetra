@@ -511,16 +511,11 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="0" icon="" id="1472796198f3eale0cin" name="Администирование">
+   <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="0" icon="" id="1472796208zuz953v5hv" name="bat-файлы">
      <recordtable>
       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="adm.bat" ctime="20160902091001" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="adm.bat" ctime="20160905151742" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
-    <node crypt="0" icon="" id="1472805528mbdadpctnt" name="shell">
-     <recordtable>
-      <record id="1472805548oaul3glio8" name="bash how-to" author="pola" url="" tags="amd.shell" ctime="20160902113908" dir="1472805548fm2rynlqub" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1473087502rymp2zbc51" name="работа с реестром windows">
@@ -531,6 +526,47 @@
     <node crypt="0" icon="" id="1473342713sw9wspytnz" name="Articles">
      <recordtable>
       <record id="1473343351wz5wss9abe" name="Использование service discovery в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/327893/" tags="1c.admin.info" ctime="20160908170231" dir="1473343351yi693f67s1" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="14973309648znj8ddwmr" name="linux">
+     <node crypt="" id="1497330969yhw9ao48d2" name="bash">
+      <recordtable>
+       <record id="1497330976rus132ahgc" name="the-art-of-command-line" author="" url="https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md?utm_source=plus.google.com&amp;utm_medium=social&amp;utm_campaign=otlichnyy-gayd-po-komandnoy-stroke-unix&amp;utm_content=7281236" tags="linux bash" ctime="20170613081616" dir="1497330976jfgn6sgjpi" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" icon="" id="14973310840f81h5osaq" name="shell">
+      <recordtable>
+       <record id="1472805548oaul3glio8" name="bash how-to" author="pola" url="" tags="amd.shell" ctime="20170613081804" dir="1472805548fm2rynlqub" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="14973311420ohvgv0eav" name="Команды и скрипты">
+      <recordtable>
+       <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="linux.bash" ctime="20170613081902" dir="1482325863o221q05q52" file="text.html"/>
+       <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="linux.bash" ctime="20170613081902" dir="14840424562yfjhc2ys5" file="text.html">
+        <files>
+         <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
+        </files>
+       </record>
+       <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="linux.bash" ctime="20170613081902" dir="1484042574fztnd9k26m" file="text.html"/>
+       <record id="1495471446256fyhx6yj" name="Основные команды Linux или шпаргалка начинающего линуксойда" author="" url="http://www.k-max.name/linux/osnovnye-komandy-linux-ili-shpargalka-nachinayushhego-linuksojda/" tags="linux.bash" ctime="20170613081902" dir="1495471446j91dchtu3d" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1497331158233vhmatet" name="Шрифты">
+      <recordtable>
+       <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="" ctime="20170613081918" dir="1482471313bwz9sckdnw" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1497331177augy2vsjf2" name="remapping">
+      <recordtable>
+       <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="" ctime="20170613081937" dir="1484041555b1ka00yt6g" file="text.html"/>
+       <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="linux.remap" ctime="20170613081937" dir="14840416041xz30cgnsu" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="" id="1497331124z9wcw8ey68" name="windows">
+     <recordtable>
+      <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin.win" ctime="20170613081844" dir="1484891380zebmse2r0o" file="text.html"/>
+      <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="admin.win" ctime="20170613081844" dir="1495549039wpszwfnq46" file="text.html"/>
      </recordtable>
     </node>
    </node>
@@ -831,41 +867,6 @@
      <record id="14827632913rn814pnvr" name="Как научиться оценивать задачи, если не умеешь: 4 фактора сложности" author="&#10;Юрий Румега @Rumega" url="https://habrahabr.ru/post/307820/" tags="" ctime="20161226174131" dir="1482763291gee4vwn6w4" file="text.html"/>
      <record id="1482763374el8ae29xnt" name="Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живёте" author="Евгений Врублевский @VEG" url="https://habrahabr.ru/post/302570/" tags="" ctime="20161226174254" dir="1482763374hxufcnw9na" file="text.html"/>
     </recordtable>
-   </node>
-   <node crypt="" id="1484891338p7vjc61gum" name="admin">
-    <node crypt="" id="14848913459598dcmh4y" name="windows">
-     <recordtable>
-      <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin.win" ctime="20170120084940" dir="1484891380zebmse2r0o" file="text.html"/>
-      <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="admin.win" ctime="20170523171719" dir="1495549039wpszwfnq46" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1484891806gt2c9bzbyf" name="linux">
-     <node crypt="" id="1484891806tekuo4ku9x" name="bush">
-      <node crypt="" id="1484891806culhloidi6" name="Команды и скрипты">
-       <recordtable>
-        <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="linux.bash" ctime="20170120085646" dir="1482325863o221q05q52" file="text.html"/>
-        <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="linux.bash" ctime="20170120085646" dir="14840424562yfjhc2ys5" file="text.html">
-         <files>
-          <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
-         </files>
-        </record>
-        <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="linux.bash" ctime="20170120085646" dir="1484042574fztnd9k26m" file="text.html"/>
-        <record id="1495471446256fyhx6yj" name="Основные команды Linux или шпаргалка начинающего линуксойда" author="" url="http://www.k-max.name/linux/osnovnye-komandy-linux-ili-shpargalka-nachinayushhego-linuksojda/" tags="linux.bash" ctime="20170522194406" dir="1495471446j91dchtu3d" file="text.html"/>
-       </recordtable>
-      </node>
-     </node>
-     <node crypt="" id="1484891806gbh2fiwqly" name="Шрифты">
-      <recordtable>
-       <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="" ctime="20170120085646" dir="1482471313bwz9sckdnw" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="14848918063k7ooxdxj4" name="remapping">
-      <recordtable>
-       <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="" ctime="20170120085646" dir="1484041555b1ka00yt6g" file="text.html"/>
-       <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="linux.remap" ctime="20170120085646" dir="14840416041xz30cgnsu" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
    </node>
    <node crypt="" id="1493815680q0o17ljkk5" name="cheatsheets">
     <recordtable>
