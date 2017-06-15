@@ -552,8 +552,9 @@
     <node crypt="" id="1497331124z9wcw8ey68" name="windows">
      <node crypt="" icon="" id="1497331251ax4gmpxf15" name="bat-файлы">
       <recordtable>
-       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="admin windows" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
-       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="admin windows" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
+       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="admin windows bat" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
+       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="admin windows bat" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
+       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="admin windows bat" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" icon="" id="1497331262o96cwewq27" name="работа с реестром windows">
