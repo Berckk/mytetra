@@ -5,6 +5,22 @@
  <content>
   <node crypt="0" icon="" id="1472471267l6nwgfjpj1" name="Программирование">
    <node crypt="0" icon="/Flat/color_icons8_flat_briefcase.svg" id="1472471271ozfrf63iib" name="1с">
+    <node crypt="" id="1497597302z8mh9fi9pl" name="admin">
+     <node crypt="" icon="" id="1497597330wrkxlq0fui" name="Articles">
+      <recordtable>
+       <record id="1473343351wz5wss9abe" name="Использование service discovery в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/327893/" tags="1c.admin.info" ctime="20170616101530" dir="1473343351yi693f67s1" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1497597334p9wzjw6dwa" name="tools">
+      <recordtable>
+       <record id="1497597349qw3t45ntuc" name="Базапузомер" author="" url="" tags="1c admin tools" ctime="20170616101549" dir="1497597349usvnhv4c21" file="text.html">
+        <files>
+         <file id="1497597362wmrjaa8xim" fileName="БазаПузомер2016.erf" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+    </node>
     <node crypt="" id="1495122509otvpl3z7p7" name="Руководство разработчика">
      <recordtable>
       <record id="14951238773hzxmcuuyu" name="Link" author="" url="https://its.1c.ru/db/v8doc#browse:13:-1:50061" tags="" ctime="20170518191117" dir="1495123877sln8438d9v" file="text.html"/>
@@ -528,11 +544,6 @@
     </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
-    <node crypt="0" icon="" id="1473342713sw9wspytnz" name="Articles">
-     <recordtable>
-      <record id="1473343351wz5wss9abe" name="Использование service discovery в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/327893/" tags="1c.admin.info" ctime="20160908170231" dir="1473343351yi693f67s1" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
      <node crypt="" id="1497330969yhw9ao48d2" name="bash">
       <recordtable>
