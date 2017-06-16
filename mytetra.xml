@@ -542,6 +542,17 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="14975981516fxxynwi15" name="Качество кода">
+     <node crypt="" id="149759816288vuv7z3oh" name="tools">
+      <recordtable>
+       <record id="14975981740tm0rtiiyu" name="КопипастаМер" author="" url="" tags="" ctime="20170616102934" dir="149759817467xh0ionpm" file="text.html">
+        <files>
+         <file id="149759817900ftovizyr" fileName="КопиПастаМер.erf" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
