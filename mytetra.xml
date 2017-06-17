@@ -568,7 +568,9 @@
        </record>
        <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="admin linux bash" ctime="20170613082529" dir="1484042574fztnd9k26m" file="text.html"/>
        <record id="1495471446256fyhx6yj" name="Основные команды Linux или шпаргалка начинающего линуксойда" author="" url="http://www.k-max.name/linux/osnovnye-komandy-linux-ili-shpargalka-nachinayushhego-linuksojda/" tags="admin linux bash" ctime="20170613082533" dir="1495471446j91dchtu3d" file="text.html"/>
+       <record id="1497729501dtxa27bzyi" name="explainshell" author="Idan Kamara" url="https://explainshell.com/" tags="admin linux shell" ctime="20170617225821" dir="149772950175pp1yv1or" file="text.html"/>
       </recordtable>
+      <node crypt="" id="1497729453dpo03r80qd" name="explainshell"/>
      </node>
      <node crypt="" id="1497331158233vhmatet" name="Шрифты">
       <recordtable>
