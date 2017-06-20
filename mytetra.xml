@@ -942,6 +942,11 @@
       <record id="1494568581ru40khpn4z" name="http://learn.javascript.ru/" author="" url="http://learn.javascript.ru/" tags="js.manuals" ctime="20170512085621" dir="1494568581zejuz96d6t" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14979716936f7hm1w7gv" name="Статьи">
+     <recordtable>
+      <record id="1497971731gdsi8e3f6e" name="Эволюция асинхронного JavaScript" author="" url="https://tproger.ru/translations/asynchronous-javascript/" tags="" ctime="20170620181531" dir="1497971731xyy0znnj60" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1494568716b4b95ujygh" name="web-programming">
     <node crypt="" id="14945687364tyymfmisx" name="lessons">
