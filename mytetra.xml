@@ -411,6 +411,7 @@
       </record>
       <record id="1481716808h6ts3phvv0" name="Анализ цикломатической сложности кода" author="Андрей Костенко (Spitfire)" url="http://infostart.ru/public/166182/" tags="1c.tools" ctime="20161214150008" dir="14817168085hh3m42j8j" file="text.html" crypt="0"/>
       <record id="1481732722uuh09bhcyp" name="Цветовые схемы для конфигуратора 1С" author="Дмитрий Чернов (Chernov_Dmitriy)" url="http://infostart.ru/public/202980/" tags="1c.tools" ctime="20161214192522" dir="1481732722csoskh3dkr" file="text.html"/>
+      <record id="14980271984dw4x24mmc" name="Улучшенное форматирование кода в конфигураторе" author="" url="http://infostart.ru/public/635970/" tags="" ctime="20170621093958" dir="1498027198jqnlxjyd1g" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="14818629077qxthekbyu" name="extensions">
