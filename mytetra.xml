@@ -654,6 +654,11 @@
        <record id="14956058124lqtppz7au" name="help" author="" url="http://www.drchip.org/astronaut/vim/doc/DrawIt.txt.html" tags="" ctime="20170524090332" dir="1495605812v68voa89hr" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1498452251c5qtprzig5" name="plug">
+      <recordtable>
+       <record id="149845226539quwahuoe" name="vim-plug" author="" url="https://github.com/junegunn/vim-plug" tags="" ctime="20170626074425" dir="1498452265y40ety026j" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473312718za41avn2bz" name="scripts">
      <node crypt="0" icon="" id="1473312728r2kl9ncw6w" name="maping">
