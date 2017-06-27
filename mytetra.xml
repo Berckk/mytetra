@@ -1100,8 +1100,8 @@
   <node crypt="0" icon="" id="1481722160ohhcof85x3" name="Прочитано"/>
   <node crypt="" id="1482934895e4psvdq6hh" name="Культура работы">
    <recordtable>
-    <record id="1482935021xuxzgxxpoz" name="Как учиться новому после рабочего дня" author="Дмитрий @EvilsInterrupt" url="https://toster.ru/q/379946" tags="" ctime="20161228172341" dir="1482935021krhqcmhbk5" file="text.html"/>
-    <record id="1498574471rgmrouli1x" name="Девять советов по поддержанию продуктивности работы" author="tproger" url="https://tproger.ru/articles/9-productivity-advices/amp/" tags="" ctime="20170627174111" dir="1498574471o9w844ulj3" file="text.html"/>
+    <record id="1482935021xuxzgxxpoz" name="Как учиться новому после рабочего дня" author="Дмитрий @EvilsInterrupt" url="https://toster.ru/q/379946" tags="workProductivity" ctime="20161228172341" dir="1482935021krhqcmhbk5" file="text.html"/>
+    <record id="1498574471rgmrouli1x" name="Советы по поддержанию продуктивности работы" author="tproger" url="https://tproger.ru/articles/9-productivity-advices/amp/" tags="workProductivity" ctime="20170627174111" dir="1498574471o9w844ulj3" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1487661197ak8vrw084v" name="Cooking">
