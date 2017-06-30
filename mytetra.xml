@@ -609,6 +609,7 @@
      <node crypt="" id="1498832695t9dvawx6uf" name="choco">
       <recordtable>
        <record id="1498832793buexn4rpqi" name="installation" author="" url="https://chocolatey.org/install#install-with-cmdexe" tags="programming-admin-windows-choco" ctime="20170630172633" dir="1498832793vxk6jnm7a2" file="text.html"/>
+       <record id="1498833189hvd709onbt" name="docs" author="" url="https://chocolatey.org/docs/commands-reference" tags="" ctime="20170630173309" dir="149883318988k2qslqif" file="text.html"/>
       </recordtable>
      </node>
     </node>
