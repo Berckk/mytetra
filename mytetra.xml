@@ -606,6 +606,11 @@
        <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="admin windows" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1498832695t9dvawx6uf" name="choco">
+      <recordtable>
+       <record id="1498832793buexn4rpqi" name="installation" author="" url="https://chocolatey.org/install#install-with-cmdexe" tags="programming-admin-windows-choco" ctime="20170630172633" dir="1498832793vxk6jnm7a2" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
