@@ -732,6 +732,12 @@
       <record id="1498835953m2bcvr9m8t" name="how-to-install-plug-vim" author="" url="" tags="" ctime="20170630181913" dir="1498835953iwlzcaetts" file="text.html"/>
       <record id="14988378449h53eb676x" name="russion-language" author="" url="https://github.com/neovim/neovim/blob/master/runtime/doc/russian.txt" tags="" ctime="20170630185044" dir="149883784433fvzau4ed" file="text.html"/>
       <record id="14988380139emgxtb3ml" name="faq" author="" url="https://github.com/neovim/neovim/wiki/FAQ" tags="" ctime="20170630185333" dir="1498838013jfgx5lyp16" file="text.html"/>
+      <record id="1498838055zpjsuu8w6x" name="Building Neovim" author="" url="https://github.com/neovim/neovim/wiki/Building-Neovim" tags="" ctime="20170630185415" dir="14988380555nakese4hu" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1498838123dopw601ulq" name="blogs-about-vim">
+     <recordtable>
+      <record id="1498838132lkp5nh001x" name="usevim" author="" url="https://medium.com/usevim" tags="" ctime="20170630185532" dir="14988381321ug0mma1ff" file="text.html"/>
      </recordtable>
     </node>
    </node>
