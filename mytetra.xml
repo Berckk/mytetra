@@ -729,6 +729,7 @@
     <node crypt="" id="14988356647zjv10q77h" name="neovim">
      <recordtable>
       <record id="14988356709kl2rbghm5" name="how-to-install" author="" url="https://github.com/neovim/neovim/wiki/Installing-Neovim" tags="" ctime="20170630181430" dir="14988356708yy3xp5eom" file="text.html"/>
+      <record id="1498835953m2bcvr9m8t" name="how-to-install-plug-vim" author="" url="" tags="" ctime="20170630181913" dir="1498835953iwlzcaetts" file="text.html"/>
      </recordtable>
     </node>
    </node>
