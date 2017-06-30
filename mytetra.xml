@@ -726,6 +726,11 @@
       <record id="1495603963x0l0vz7kaf" name="patojrk" author="" url="http://patorjk.com/software/taag/#p=display&amp;h=0&amp;v=0&amp;f=Star%20Wars&amp;t=Type%20Something%20" tags="vim.asciiArt" ctime="20170524083243" dir="1495603963w1bhwotd5f" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="14988356647zjv10q77h" name="neovim">
+     <recordtable>
+      <record id="14988356709kl2rbghm5" name="how-to-install" author="" url="https://github.com/neovim/neovim/wiki/Installing-Neovim" tags="" ctime="20170630181430" dir="14988356708yy3xp5eom" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
     <recordtable>
