@@ -1036,6 +1036,7 @@
    <node crypt="" id="1498746244z8wwmf8im8" name="online-cources">
     <recordtable>
      <record id="14987462843hyd06ncel" name="pluralsight" author="" url="https://www.pluralsight.com/browse" tags="" ctime="20170629172444" dir="1498746284jsj1fezudv" file="text.html"/>
+     <record id="1498840904y7w8ew5dc4" name="laracasts" author="" url="https://laracasts.com/" tags="" ctime="20170630194144" dir="14988409048w0qxremjp" file="text.html"/>
     </recordtable>
    </node>
   </node>
