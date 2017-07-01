@@ -612,6 +612,11 @@
        <record id="1498833189hvd709onbt" name="docs" author="" url="https://chocolatey.org/docs/commands-reference" tags="" ctime="20170630173309" dir="149883318988k2qslqif" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1498898934pjdrf8hvmy" name="bash in windows">
+      <recordtable>
+       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
