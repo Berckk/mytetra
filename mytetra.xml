@@ -619,7 +619,15 @@
        <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
       </recordtable>
      </node>
-     <node crypt="" id="1499162700w1303x4455" name="ecoding"/>
+     <node crypt="" id="1499162700w1303x4455" name="encoding">
+      <recordtable>
+       <record id="1499162728hb5emvxuue" name="Памятка для решения проблем с кодировками" author="" url="" tags="admin windows encoding" ctime="20170704130528" dir="1499162728bqhlhw2q02" file="text.html">
+        <files>
+         <file id="149916273614exnvobjy" fileName="Памятка для решения проблем с кодировкой.png" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
