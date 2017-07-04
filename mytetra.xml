@@ -1046,8 +1046,9 @@
    </node>
    <node crypt="" id="14987453891ww9ik1gkw" name="code-practice">
     <recordtable>
-     <record id="14987454030z17t36eke" name="codefights" author="" url="https://codefights.com/interview-practice" tags="" ctime="20170629171003" dir="1498745403uqqct0p1b6" file="text.html"/>
-     <record id="1498841030kie1gmg8y8" name="codewars" author="" url="https://www.codewars.com/join?language=javascript" tags="" ctime="20170630194350" dir="14988410309i8ngclb8r" file="text.html"/>
+     <record id="14987454030z17t36eke" name="codefights" author="" url="https://codefights.com/interview-practice" tags="code-practice" ctime="20170629171003" dir="1498745403uqqct0p1b6" file="text.html"/>
+     <record id="1498841030kie1gmg8y8" name="codewars" author="" url="https://www.codewars.com/join?language=javascript" tags="code-practice" ctime="20170630194350" dir="14988410309i8ngclb8r" file="text.html"/>
+     <record id="1499162839sshr9fagcp" name="Составление логических схем в игровой форме" author="" url="https://makingartstudios.itch.io/dls?utm_content=bufferba2f0&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="code-practice" ctime="20170704130719" dir="1499162839wxhzu3o35h" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1498746244z8wwmf8im8" name="online-cources">
