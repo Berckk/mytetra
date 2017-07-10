@@ -1066,11 +1066,9 @@
     </recordtable>
    </node>
    <node crypt="" id="1499683249bqdvmi24z0" name="patterns">
-    <node crypt="" id="1499683296iycred6c97" name="Шаблоны проектирования простым языком">
-     <recordtable>
-      <record id="1499683308a96hvut6vi" name="Часть1" author="" url="https://tproger.ru/translations/design-patterns-simple-words-1/amp/" tags="patterns" ctime="20170710134148" dir="1499683308gqpew8b01l" file="text.html"/>
-     </recordtable>
-    </node>
+    <recordtable>
+     <record id="1499683308a96hvut6vi" name="Шаблоны проектирования простым языком" author="" url="https://tproger.ru/translations/design-patterns-simple-words-1/amp/" tags="patterns" ctime="20170710134421" dir="1499683308gqpew8b01l" file="text.html"/>
+    </recordtable>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
