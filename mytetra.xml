@@ -636,6 +636,11 @@
        </record>
       </recordtable>
      </node>
+     <node crypt="" id="1500288694ry2j4xnxxp" name="powershell">
+      <recordtable>
+       <record id="1500288715jebd32xt0p" name="How to start a program on remote computer" author="" url="https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/" tags="" ctime="20170717135155" dir="15002887156xi0t9itai" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
