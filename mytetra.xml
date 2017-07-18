@@ -1182,7 +1182,12 @@
    <recordtable>
     <record id="1482935021xuxzgxxpoz" name="Как учиться новому после рабочего дня" author="Дмитрий @EvilsInterrupt" url="https://toster.ru/q/379946" tags="workProductivity" ctime="20161228172341" dir="1482935021krhqcmhbk5" file="text.html"/>
     <record id="1498574471rgmrouli1x" name="Советы по поддержанию продуктивности работы" author="tproger" url="https://tproger.ru/articles/9-productivity-advices/amp/" tags="workProductivity" ctime="20170627174111" dir="1498574471o9w844ulj3" file="text.html"/>
-    <record id="1500354639qkii4lv69c" name="Методы конспектирования" author="" url="https://4brain.ru/blog/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%BA%D0%BE%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/" tags="" ctime="20170718081039" dir="1500354639rjxx7thjik" file="text.html"/>
+    <record id="1500354639qkii4lv69c" name="Методы конспектирования" author="" url="https://4brain.ru/blog/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%BA%D0%BE%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/" tags="" ctime="20170718081039" dir="1500354639rjxx7thjik" file="text.html">
+     <files>
+      <file id="15003556530r6fxnt98n" fileName="Шаталов Опорные конспеткы по кинематике и динамике.pdf" type="file"/>
+     </files>
+    </record>
+    <record id="150035566624cfn8qwj9" name="Структурирование информации" author="" url="https://4brain.ru/memory/strukturirovanie.php" tags="" ctime="20170718082746" dir="1500355666mllliureh1" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1487661197ak8vrw084v" name="Cooking">
