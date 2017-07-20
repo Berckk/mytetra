@@ -645,6 +645,13 @@
      </node>
     </node>
    </node>
+   <node crypt="" id="1500527232dmgbk1dt7w" name="algorithms">
+    <node crypt="" id="1500527248p3gv8imyxq" name="data structures">
+     <recordtable>
+      <record id="15005272620d4ylpyaxs" name="10 структур данных, которые должен знать программист" author="" url="https://proglib.io/p/data-structures/" tags="" ctime="20170720080742" dir="1500527262zgr2699en7" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
    <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
     <recordtable>
      <record id="1486886918s52m9z210p" name="vim help" author="" url="" tags="" ctime="20170212110838" dir="14868869180a9p0s4vso" file="text.html"/>
