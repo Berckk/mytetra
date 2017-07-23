@@ -642,7 +642,8 @@
        <record id="1500288715jebd32xt0p" name="How to start a program on remote computer" author="" url="https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/" tags="" ctime="20170717135155" dir="15002887156xi0t9itai" file="text.html"/>
        <record id="1500289096di1579ig9s" name="To start remote-session" author="" url="" tags="" ctime="20170717135816" dir="150028909608wbmdsir0" file="text.html"/>
        <record id="15008057129f9ye83rtu" name="Как передать в переменную параметры авторизации" author="" url="" tags="" ctime="20170723132832" dir="1500805712dufo9bk29d" file="text.html"/>
-       <record id="15008062679aciau5myz" name="set-alias" author="" url="" tags="" ctime="20170723133747" dir="1500806267643vwl0vr8" file="text.html"/>
+       <record id="15008062679aciau5myz" name="How to set alias" author="" url="" tags="" ctime="20170723133747" dir="1500806267643vwl0vr8" file="text.html"/>
+       <record id="15008068236tknrasoum" name="How to remove alias" author="" url="" tags="" ctime="20170723134703" dir="1500806823ss1iezup0i" file="text.html"/>
       </recordtable>
      </node>
     </node>
