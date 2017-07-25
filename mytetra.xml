@@ -376,20 +376,20 @@
     </node>
     <node crypt="0" icon="" id="1473840626v9jn3tant3" name="forms">
      <recordtable>
-      <record id="1473840654lj78brkb6b" name="Управляемое приложение: правильное программное открытие форм" author="Андрей Волин (kser87)" url="http://infostart.ru/public/236382/" tags="1c forms" ctime="20160914111054" dir="1473840654c682w9qkbx" file="text.html" crypt="0"/>
-      <record id="147384067715kwwlkvy4" name="Формы для обычного клиента и для управляемого клиента" author="pola" url="" tags="1c forms" ctime="20160914111117" dir="1473840677fltb0nk22c" file="text.html" crypt="0"/>
-      <record id="1473840714rl3frwe0gg" name="Получить из формы объекта другую форму объекта" author="Sergey aka Porutchik" url="http://forum.aeroion.ru/topic625.html" tags="1c forms" ctime="20160914111154" dir="14738407142c5rr3ah19" file="text.html" crypt="0"/>
-      <record id="1473854678t30xy9h3yu" name="Создать таблицу на форме" author="pola" url="" tags="1c forms" ctime="20160914150438" dir="14738546788ienz8uwa7" file="text.html" crypt="0"/>
-      <record id="1475055872kr9tse0dte" name="Произвольный список выбора поля ввода в управляемой форме" author="" url="" tags="1c forms" ctime="20160928124432" dir="1475055872f4y714u7bv" file="text.html" crypt="0"/>
-      <record id="1486557680wct0o4lmtk" name="Только просмотр значения поля таблицы в управляемой форме" author="" url="" tags="1c forms" ctime="20170208154120" dir="1486557680m6tbxegda7" file="text.html"/>
-      <record id="1487599456qmz243v8i8" name="Программно установить текущую страницу управляемой формы" author="" url="" tags="1c forms" ctime="20170220170416" dir="1487599456hpmvcp04j1" file="text.html"/>
-      <record id="1491921981jgucwh50rb" name="Программное создание реквизита в управляемом приложении 1С" author="" url="http://forum1s.ru/read/programmnoe-sozdanie-rekvizita-v-upravliaemom-prilozhenii-1s/" tags="1c forms" ctime="20170411174621" dir="1491921981e96s0ezh9z" file="text.html"/>
-      <record id="1495088373prniv7eklx" name="Индикация процесса" author="" url="http://infostart.ru/public/71407/?detail=Y" tags="1c forms indicator" ctime="20170518091933" dir="14950883734lnpm55z3s" file="text.html"/>
-      <record id="1495188538v5w4nb6ex2" name="Обработчики элементов формы" author="" url="" tags="1c forms обработчики" ctime="20170519130858" dir="1495188538knlvd9tfwh" file="text.html"/>
-      <record id="14956201040t70g4ic4j" name="Растянуть поле по всей управляемой форме" author="" url="" tags="1c forms elements" ctime="20170524130144" dir="1495620104qfr19qqy53" file="text.html"/>
-      <record id="14992628631ng64mm3xq" name="Установить программно условное оформление" author="" url="https://infostart.ru/public/181336/" tags="1c forms" ctime="20170705165423" dir="1499262863aeomt48e90" file="text.html"/>
-      <record id="14994118580pkhpbgjzl" name="Автообновление" author="" url="" tags="1c-forms-autoupdate" ctime="20170707101738" dir="1499411858w1n6hqy0a2" file="text.html"/>
-      <record id="150098878803siavo8o0" name="Использовать значение поля динамического списка не выведенного на форму" author="" url="" tags="1c-forms" ctime="20170725161948" dir="1500988788820sjbxw6k" file="text.html"/>
+      <record id="1473840654lj78brkb6b" name="Управляемое приложение: правильное программное открытие форм" author="Андрей Волин (kser87)" url="http://infostart.ru/public/236382/" tags="1c_forms" ctime="20160914111054" dir="1473840654c682w9qkbx" file="text.html" crypt="0"/>
+      <record id="147384067715kwwlkvy4" name="Формы для обычного клиента и для управляемого клиента" author="pola" url="" tags="1c_forms" ctime="20160914111117" dir="1473840677fltb0nk22c" file="text.html" crypt="0"/>
+      <record id="1473840714rl3frwe0gg" name="Получить из формы объекта другую форму объекта" author="Sergey aka Porutchik" url="http://forum.aeroion.ru/topic625.html" tags="1c_forms" ctime="20160914111154" dir="14738407142c5rr3ah19" file="text.html" crypt="0"/>
+      <record id="1473854678t30xy9h3yu" name="Создать таблицу на форме" author="pola" url="" tags="1c_forms" ctime="20160914150438" dir="14738546788ienz8uwa7" file="text.html" crypt="0"/>
+      <record id="1475055872kr9tse0dte" name="Произвольный список выбора поля ввода в управляемой форме" author="" url="" tags="1c_forms" ctime="20160928124432" dir="1475055872f4y714u7bv" file="text.html" crypt="0"/>
+      <record id="1486557680wct0o4lmtk" name="Только просмотр значения поля таблицы в управляемой форме" author="" url="" tags="1c_forms" ctime="20170208154120" dir="1486557680m6tbxegda7" file="text.html"/>
+      <record id="1487599456qmz243v8i8" name="Программно установить текущую страницу управляемой формы" author="" url="" tags="1c_forms" ctime="20170220170416" dir="1487599456hpmvcp04j1" file="text.html"/>
+      <record id="1491921981jgucwh50rb" name="Программное создание реквизита в управляемом приложении 1С" author="" url="http://forum1s.ru/read/programmnoe-sozdanie-rekvizita-v-upravliaemom-prilozhenii-1s/" tags="1c_forms" ctime="20170411174621" dir="1491921981e96s0ezh9z" file="text.html"/>
+      <record id="1495088373prniv7eklx" name="Индикация процесса" author="" url="http://infostart.ru/public/71407/?detail=Y" tags="1c_forms" ctime="20170518091933" dir="14950883734lnpm55z3s" file="text.html"/>
+      <record id="1495188538v5w4nb6ex2" name="Обработчики элементов формы" author="" url="" tags="1c_forms" ctime="20170519130858" dir="1495188538knlvd9tfwh" file="text.html"/>
+      <record id="14956201040t70g4ic4j" name="Растянуть поле по всей управляемой форме" author="" url="" tags="1c_forms" ctime="20170524130144" dir="1495620104qfr19qqy53" file="text.html"/>
+      <record id="14992628631ng64mm3xq" name="Установить программно условное оформление" author="" url="https://infostart.ru/public/181336/" tags="1c_forms" ctime="20170705165423" dir="1499262863aeomt48e90" file="text.html"/>
+      <record id="14994118580pkhpbgjzl" name="Автообновление" author="" url="" tags="1c_forms" ctime="20170707101738" dir="1499411858w1n6hqy0a2" file="text.html"/>
+      <record id="150098878803siavo8o0" name="Использовать значение поля динамического списка не выведенного на форму" author="" url="" tags="1c_forms" ctime="20170725161948" dir="1500988788820sjbxw6k" file="text.html"/>
      </recordtable>
      <node crypt="" id="14964108005aoiv9fz86" name="Обработчики событий формы">
       <recordtable>
