@@ -4,6 +4,547 @@
  <format version="1" subversion="2"/>
  <content>
   <node crypt="0" icon="" id="1472471267l6nwgfjpj1" name="Программирование">
+   <node crypt="" id="1501081513tp0cqdt3ls" name="education">
+    <node crypt="" id="1501081539bmtd0k4di0" name="video-courses">
+     <recordtable>
+      <record id="1501081584lu8yrjsxe6" name="Учимся бесплатно на Pluralsight" author="Sergey Gorky" url="https://sergeygorky.me/free-pluralsight" tags="" ctime="20170726180624" dir="15010815846mtrv9p2kp" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
+    <node crypt="" id="14973309648znj8ddwmr" name="linux">
+     <node crypt="" id="1497330969yhw9ao48d2" name="bash">
+      <recordtable>
+       <record id="1497330976rus132ahgc" name="the-art-of-command-line" author="" url="https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md?utm_source=plus.google.com&amp;utm_medium=social&amp;utm_campaign=otlichnyy-gayd-po-komandnoy-stroke-unix&amp;utm_content=7281236" tags="admin linux bash" ctime="20170613081616" dir="1497330976jfgn6sgjpi" file="text.html"/>
+       <record id="1472805548oaul3glio8" name="bash how-to" author="pola" url="" tags="admin linux bash" ctime="20170613082440" dir="1472805548fm2rynlqub" file="text.html" crypt="0"/>
+       <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="admin linux bash" ctime="20170613082519" dir="1482325863o221q05q52" file="text.html"/>
+       <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="admin linux bash" ctime="20170613082524" dir="14840424562yfjhc2ys5" file="text.html">
+        <files>
+         <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
+        </files>
+       </record>
+       <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="admin linux bash" ctime="20170613082529" dir="1484042574fztnd9k26m" file="text.html"/>
+       <record id="1495471446256fyhx6yj" name="Основные команды Linux или шпаргалка начинающего линуксойда" author="" url="http://www.k-max.name/linux/osnovnye-komandy-linux-ili-shpargalka-nachinayushhego-linuksojda/" tags="admin linux bash" ctime="20170613082533" dir="1495471446j91dchtu3d" file="text.html"/>
+       <record id="1497729501dtxa27bzyi" name="explainshell" author="Idan Kamara" url="https://explainshell.com/" tags="admin linux shell" ctime="20170617225821" dir="149772950175pp1yv1or" file="text.html"/>
+      </recordtable>
+      <node crypt="" id="1497729453dpo03r80qd" name="explainshell"/>
+     </node>
+     <node crypt="" id="1497331158233vhmatet" name="Шрифты">
+      <recordtable>
+       <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="admin linux" ctime="20170613081918" dir="1482471313bwz9sckdnw" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1497331177augy2vsjf2" name="remapping">
+      <recordtable>
+       <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="admin linux" ctime="20170613081937" dir="1484041555b1ka00yt6g" file="text.html"/>
+       <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="admin linux" ctime="20170613081937" dir="14840416041xz30cgnsu" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1500966899648e67z5gv" name="ubuntu user">
+      <recordtable>
+       <record id="1500966909vzwovvo41h" name="How to remap capslock to ctrl" author="" url="" tags="" ctime="20170725101509" dir="15009669092r8ghdceze" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="" id="1497331124z9wcw8ey68" name="windows">
+     <node crypt="" icon="" id="1497331251ax4gmpxf15" name="bat-файлы">
+      <recordtable>
+       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="admin windows bat" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
+       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="admin windows bat" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
+       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="admin windows bat" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" icon="" id="1497331262o96cwewq27" name="работа с реестром windows">
+      <recordtable>
+       <record id="1473087681o2kdhmw91m" name="Автоматическое завершение программ при выключении компьютера" author="pola" url="" tags="admin windows" ctime="20170613082102" dir="1473087681sn59ocjx1c" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1497331278hjfw5inn4x" name="commands">
+      <recordtable>
+       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin windows" ctime="20170613082145" dir="1484891380zebmse2r0o" file="text.html"/>
+       <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="admin windows" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1498832695t9dvawx6uf" name="choco">
+      <recordtable>
+       <record id="1498832793buexn4rpqi" name="installation" author="" url="https://chocolatey.org/install#install-with-cmdexe" tags="programming-admin-windows-choco" ctime="20170630172633" dir="1498832793vxk6jnm7a2" file="text.html"/>
+       <record id="1498833189hvd709onbt" name="docs" author="" url="https://chocolatey.org/docs/commands-reference" tags="" ctime="20170630173309" dir="149883318988k2qslqif" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1498898934pjdrf8hvmy" name="bash in windows">
+      <recordtable>
+       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1499162700w1303x4455" name="encoding">
+      <recordtable>
+       <record id="1499162728hb5emvxuue" name="Памятка для решения проблем с кодировками" author="" url="" tags="admin windows encoding" ctime="20170704130528" dir="1499162728bqhlhw2q02" file="text.html">
+        <files>
+         <file id="149916273614exnvobjy" fileName="Памятка для решения проблем с кодировкой.png" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+     <node crypt="" id="1500288694ry2j4xnxxp" name="powershell">
+      <recordtable>
+       <record id="1500288715jebd32xt0p" name="How to start a program on remote computer" author="" url="https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/" tags="" ctime="20170717135155" dir="15002887156xi0t9itai" file="text.html"/>
+       <record id="1500289096di1579ig9s" name="To start remote-session" author="" url="" tags="" ctime="20170717135816" dir="150028909608wbmdsir0" file="text.html"/>
+       <record id="15008057129f9ye83rtu" name="Как передать в переменную параметры авторизации" author="" url="" tags="" ctime="20170723132832" dir="1500805712dufo9bk29d" file="text.html"/>
+       <record id="15008062679aciau5myz" name="How to set alias" author="" url="" tags="" ctime="20170723133747" dir="1500806267643vwl0vr8" file="text.html"/>
+       <record id="15008068236tknrasoum" name="How to remove alias" author="" url="" tags="" ctime="20170723134703" dir="1500806823ss1iezup0i" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
+   <node crypt="" id="1500527232dmgbk1dt7w" name="algorithms">
+    <node crypt="" id="1500527248p3gv8imyxq" name="data structures">
+     <recordtable>
+      <record id="15005272620d4ylpyaxs" name="10 структур данных, которые должен знать программист" author="" url="https://proglib.io/p/data-structures/" tags="" ctime="20170720080742" dir="1500527262zgr2699en7" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
+    <recordtable>
+     <record id="1486886918s52m9z210p" name="vim help" author="" url="" tags="" ctime="20170212110838" dir="14868869180a9p0s4vso" file="text.html"/>
+     <record id="1498744318lbycmvhos1" name="Установить  vim на windows" author="" url="" tags="" ctime="20170629165158" dir="1498744318p82mnns6vr" file="text.html"/>
+    </recordtable>
+    <node crypt="0" icon="" id="14728050934nvukmwnsy" name="plugins">
+     <node crypt="0" icon="" id="1472805099g8kfr847pf" name="NerdTree">
+      <recordtable>
+       <record id="1472805133fi351qy9tm" name="Hotkeys" author="pola" url="" tags="vim.nerdtree" ctime="20160902113213" dir="1472805133s9ctn5jl8e" file="text.html" crypt="0"/>
+       <record id="1473249744825stkgrt0" name="Работа с метками" author="pola" url="" tags="vim.nerdtree" ctime="20160907150224" dir="14732497446md6620yib" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1481802371f612f9hxyn" name="vundle">
+      <recordtable>
+       <record id="1481802497tq4j3yp97y" name="Основные команды" author="" url="http://jenyay.net/Programming/VimPlugins2" tags="vim.vundl" ctime="20161215144817" dir="14818024971oflxgev8f" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1481802940elxddv2169" name="snippet">
+      <recordtable>
+       <record id="1481802954byzklbn9sv" name="Плагины для сниппетов" author="" url="http://jenyay.net/Programming/VimPlugins2" tags="" ctime="20161215145554" dir="148180295427so2u35o2" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="14868833297atv51waa8" name="tagbar">
+      <recordtable>
+       <record id="1486883389c7mk17htyn" name="Просмотр списка процедур модуля и перехода к нужной" author="andreevlex" url="" tags="" ctime="20170212100949" dir="1486883389a03i75bf2k" file="text.html">
+        <files>
+         <file id="1486884873wsyn94i8ub" fileName="ctags58.zip" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+     <node crypt="" id="14939756974ujvvcpts1" name="vimtex">
+      <recordtable>
+       <record id="14939757053abfvebxwt" name="readme" author="" url="https://github.com/lervag/vimtex" tags="" ctime="20170505121505" dir="14939757059h9zvr07z3" file="text.html"/>
+       <record id="14939757144uz88jy3dc" name="_vimrc" author="" url="" tags="" ctime="20170505121514" dir="149397571485pzthr7iu" file="text.html"/>
+       <record id="1493978683hea6mkt1or" name="template" author="" url="" tags="" ctime="20170505130443" dir="1493978683jwfpd2kdr6" file="text.html">
+        <files>
+         <file id="14939789469nebgxpzuo" fileName="teX.rar" type="file"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+     <node crypt="" id="1495605772csr7miuo30" name="DrawIt">
+      <recordtable>
+       <record id="14956058124lqtppz7au" name="help" author="" url="http://www.drchip.org/astronaut/vim/doc/DrawIt.txt.html" tags="" ctime="20170524090332" dir="1495605812v68voa89hr" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1498452251c5qtprzig5" name="plug">
+      <recordtable>
+       <record id="149845226539quwahuoe" name="vim-plug" author="" url="https://github.com/junegunn/vim-plug" tags="" ctime="20170626074425" dir="1498452265y40ety026j" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="0" icon="" id="1473312718za41avn2bz" name="scripts">
+     <node crypt="0" icon="" id="1473312728r2kl9ncw6w" name="maping">
+      <recordtable>
+       <record id="14733136483gg2sr9os9" name="Копирование имени и пути файла" author="pola" url="" tags="vim.scripts.maping" ctime="20160908084728" dir="1473313648tih44vkabn" file="text.html" crypt="0"/>
+       <record id="1473314585bg81s9kfbc" name="На клавишу F3 назначить вставку пути директории, содержащей файл" author="pola" url="" tags="vim.scripts.maping" ctime="20160908090305" dir="1473314585zz85ualtft" file="text.html" crypt="0"/>
+       <record id="147331534569b01v5wgw" name="На комбинацию &lt;C-Insert&gt; назначить вставку имени файла" author="pola" url="" tags="" ctime="20160908091545" dir="1473315345nl9uh4qjdo" file="text.html" crypt="0"/>
+       <record id="1473315833csytarek0z" name="На комбинацию &lt;C-Insert&gt; назначить копирование имени файла" author="pola" url="" tags="" ctime="20160908092353" dir="1473315833x575xm5iif" file="text.html" crypt="0"/>
+       <record id="1473315905vrkxpsn3o9" name="На комбинацию &lt;C-A-Insert&gt; назначить копирование в буфер полного имени файла" author="pola" url="" tags="" ctime="20160908092505" dir="1473315905gg2syq33bw" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+     <node crypt="0" icon="" id="1475607792fhqzmf1r1j" name="script-writing">
+      <recordtable>
+       <record id="1475607842macyokcd39" name="Как я классы в Vim писал" author="Delphinum" url="https://habrahabr.ru/post/210930/" tags="" ctime="20161004220402" dir="1475607842lojpygokvq" file="text.html" crypt="0"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="0" icon="" id="1481720875q6gqif7z4h" name="tricks">
+     <recordtable>
+      <record id="1473312562nd4tvbl2m5" name="Получить пути файла" author="pola" url="" tags="vim.scripts.tricks" ctime="20161214160755" dir="14733125629vfcx8n4fs" file="text.html" crypt="0"/>
+      <record id="1473337659yevlhg2hrr" name="Изменить фон html-документа с черного на белый" author="pola" url="" tags="vim.tricks" ctime="20161214160755" dir="1473337659c93xrr2yp8" file="text.html" crypt="0"/>
+      <record id="1474196189nt3bjvza4b" name="Поиск по слову под курсором" author="pola" url="" tags="vim.tricks" ctime="20161214160755" dir="147419618958fklgbnwp" file="text.html" crypt="0"/>
+      <record id="1475478766qw8ef14vzn" name="Напечатать часть текста" author="" url="" tags="vim.tricks" ctime="20161214160755" dir="1475478766uzejbll1fm" file="text.html" crypt="0"/>
+      <record id="1486899557ym5fhwuebf" name="Выделение блоком" author="" url="" tags="vim.tricks" ctime="20170212143917" dir="14868995577x4mvd8kwk" file="text.html"/>
+      <record id="1489842858eaa11hakwk" name="Быстрый поиск слова под курсором" author="" url="" tags="vim.tricks" ctime="20170318161418" dir="1489842858diljj146j0" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" icon="" id="1481784637s1m4psfv8e" name="common info">
+     <recordtable>
+      <record id="1473311047isukp32sni" name="Аналоги стандартных клавиш" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047qmt0zx9q0j" file="text.html" crypt="0"/>
+      <record id="1473311047ibg0seonib" name="Визуальный режим" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="147331104713s7oekwi7" file="text.html" crypt="0"/>
+      <record id="14733110477hziomts6l" name="Навигация в vim" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047ytiv60o92h" file="text.html" crypt="0"/>
+      <record id="1473311047j5lto3u9ip" name="Поиск, замена" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110475dhr5bz0mo" file="text.html" crypt="0"/>
+      <record id="1473311047i7u7w1uo52" name="Работа с вкладками и окнами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047mcvwe7xlcm" file="text.html" crypt="0"/>
+      <record id="1473311047z4twjnmvzd" name="Работа с макросами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110478ge3yegt3i" file="text.html" crypt="0"/>
+      <record id="147331104744bdqvgxat" name="Работа с метками" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047960rih2ny2" file="text.html" crypt="0"/>
+      <record id="1473311047funucldby3" name="Работа с плагинами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110470gkige3e20" file="text.html" crypt="0"/>
+      <record id="14733110472bjlrqzpzh" name="Работа с регистрами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047txvez1rz0w" file="text.html" crypt="0"/>
+      <record id="1473311047q2tmyb37k4" name="Навигация в файле" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047jonz72qxim" file="text.html" crypt="0"/>
+      <record id="1473311047b7kz06gp3y" name="Работа с свертками текста" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047pi9vsz1atd" file="text.html" crypt="0"/>
+      <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
+      <record id="1493965507tprk7ttpnz" name="Просмотр значений переменных" author="" url="" tags="vim.variables" ctime="20170505092507" dir="1493965507t4oknsxy1f" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1486900070zg3dl30n3p" name="blogs">
+     <recordtable>
+      <record id="14869001039cj2q0pj8p" name="vimcasts.org" author="" url="http://vimcasts.org/" tags="vim.blog" ctime="20170212144823" dir="14869001038bpzep7xdr" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1493965536l4fqcqy7a9" name="links">
+     <recordtable>
+      <record id="14939655637smhel6t8q" name="vim tips and tricks" author="" url="https://www.cs.swarthmore.edu/help/vim/home.html" tags="vim.tips" ctime="20170505092603" dir="1493965563oc3bt6862w" file="text.html"/>
+      <record id="1494509299x1v1cizme8" name="mapping keys tutorial" author="" url="http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)" tags="vim.mappingkeys" ctime="20170511162819" dir="1494509299cbtlito6m7" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1495603872a6ycv1y081" name="asciiArt">
+     <recordtable>
+      <record id="1495603963x0l0vz7kaf" name="patojrk" author="" url="http://patorjk.com/software/taag/#p=display&amp;h=0&amp;v=0&amp;f=Star%20Wars&amp;t=Type%20Something%20" tags="vim.asciiArt" ctime="20170524083243" dir="1495603963w1bhwotd5f" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="14988356647zjv10q77h" name="neovim">
+     <recordtable>
+      <record id="14988356709kl2rbghm5" name="how-to-install" author="" url="https://github.com/neovim/neovim/wiki/Installing-Neovim" tags="" ctime="20170630181430" dir="14988356708yy3xp5eom" file="text.html"/>
+      <record id="1498835953m2bcvr9m8t" name="how-to-install-plug-vim" author="" url="" tags="" ctime="20170630181913" dir="1498835953iwlzcaetts" file="text.html"/>
+      <record id="14988378449h53eb676x" name="russion-language" author="" url="https://github.com/neovim/neovim/blob/master/runtime/doc/russian.txt" tags="" ctime="20170630185044" dir="149883784433fvzau4ed" file="text.html"/>
+      <record id="14988380139emgxtb3ml" name="faq" author="" url="https://github.com/neovim/neovim/wiki/FAQ" tags="" ctime="20170630185333" dir="1498838013jfgx5lyp16" file="text.html"/>
+      <record id="1498838055zpjsuu8w6x" name="Building Neovim" author="" url="https://github.com/neovim/neovim/wiki/Building-Neovim" tags="" ctime="20170630185415" dir="14988380555nakese4hu" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1498838123dopw601ulq" name="blogs-about-vim">
+     <recordtable>
+      <record id="1498838132lkp5nh001x" name="usevim" author="" url="https://medium.com/usevim" tags="" ctime="20170630185532" dir="14988381321ug0mma1ff" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
+    <recordtable>
+     <record id="1482248403xi7cei8x0w" name="Тестирование. Фундаментальная теория" author="Геннадий Мищевский @Gennadii_M&#10;Пользователь&#10;" url="https://habrahabr.ru/post/279535/" tags="" ctime="20161220184003" dir="14822484032ghyatfgvn" file="text.html"/>
+     <record id="1494568075ms1dlqggp8" name="Автоматическое тестирование (php)" author="codedokode" url="https://gist.github.com/codedokode/a455bde7d0748c0a351a" tags="testing.automating" ctime="20170512084755" dir="14945680756celo16eq5" file="text.html"/>
+     <record id="14976047100mb7vpm92d" name="83 бесплатных материала по грамотному тестированию" author="Tproger" url="https://tproger.ru/digest/free-software-testing-books/" tags="testing" ctime="20170616121830" dir="1497604710aozjxgljoe" file="text.html"/>
+    </recordtable>
+    <node crypt="0" icon="" id="1473396856s4fq4krin2" name="Blogs">
+     <recordtable>
+      <record id="1473396891yo6hn6r54v" name="Хроники тестировщика" author="Йети подземелья" url="http://wolonter.blogspot.ru/" tags="testing.blogs" ctime="20160909075451" dir="1473396891r1dard10dz" file="text.html" crypt="0"/>
+      <record id="14737570516ohlcrxx8d" name="Блог Назиной Ольги" author="" url="http://okiseleva.blogspot.ru" tags="testing.blogs" ctime="20160913115731" dir="1473757051a2sqfhoibb" file="text.html" crypt="0"/>
+      <record id="1481719944hir014tlfk" name="Блог Артема Кошелева" author="" url="http://artkoshelev.github.io" tags="testing.blogs" ctime="20161214155224" dir="14817199447p9mczoeot" file="text.html" crypt="0"/>
+      <record id="1486532314aimtsll8pm" name="Блог Максима Шульги" author="Максим Шульга" url="http://www.maxshulga.ru" tags="testing.blogs" ctime="20170208083834" dir="1486532314xwuysohzbz" file="text.html"/>
+      <record id="1486532484jjvdpespyz" name="255 ступеней" author="Сергей Мартыненко" url="http://blog.shumoos.com" tags="testing.blogs" ctime="20170208084124" dir="1486532484iai43fjpgn" file="text.html"/>
+      <record id="1486532570ect4f8knuc" name="Разрабатываем, тестируем, наблюдаем" author="Nikita Makarov" url="http://test-failed.blogspot.ru" tags="testing.blogs" ctime="20170208084250" dir="1486532570mxm9czf6tc" file="text.html"/>
+      <record id="1486533939jxfiuk1c3l" name="QA-грамотно" author="Алексей Лупан" url="https://testitquickly.com" tags="testing.blogs" ctime="20170208090539" dir="14865339398x7zc9zoa6" file="text.html"/>
+      <record id="1494569090u00lw556vk" name="at.info-knowledge-base" author="" url="http://atinfo.github.io/at.info-knowledge-base/" tags="" ctime="20170512090450" dir="1494569090sz1mx7chjh" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="0" icon="" id="14733972404ihsjkpi9d" name="Courses">
+     <recordtable>
+      <record id="14733972711be2q4tnv5" name="Software Testing Tutorial: Free Course" author="guru99" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" ctime="20160909080111" dir="147339727138q15li5a0" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+    <node crypt="0" icon="" id="1473429495idh1qq36pi" name="books (notes)">
+     <recordtable>
+      <record id="147342954585alptr30r" name="Шаблоны тестирования" author="" url="" tags="testing.books" ctime="20160909165905" dir="14734295455gz6xvx51h" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+    <node crypt="0" icon="" id="1473760107t8dll9jdm8" name="articles">
+     <recordtable>
+      <record id="1473760225miyw4zn40i" name="Основные принципы тестирования ПО" author="studopedia" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" ctime="20160913125025" dir="1473760225te2c4h76wz" file="text.html" crypt="0"/>
+      <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
+      <record id="1484211633ulocm8zg5b" name="Как внедрить у себя back-to-back-тестирование. Опыт Яндекса" author="Яндекс" url="https://habrahabr.ru/company/yandex/blog/233455/" tags="" ctime="20170112120033" dir="14842116331q0mx2xem2" file="text.html"/>
+      <record id="1486532165qa4sjso0ds" name="Пример автоматизации тестирования большой системы" author="Максим Шульга" url="http://www.slideshare.net/MaximShulga/ss-66919790" tags="testing.examples" ctime="20170208083605" dir="14865321654gpnz0nogk" file="text.html"/>
+      <record id="1493833876sve1alc6ii" name="Подход UniTesK к разработке тестов: достижения и перспективы" author="А.В. Баранцев и компания" url="http://citforum.ru/SE/testing/unitesk/" tags="" ctime="20170503205116" dir="1493833876dg772fjvk7" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1482763183913pqmw4tp" name="gherkin">
+     <recordtable>
+      <record id="14827632035v55by7nrn" name="Кто вы, пишущие на Gherkin?" author="&#10;Evgeniy Pavlyuk @wizi4d" url="https://habrahabr.ru/post/275013/" tags="" ctime="20161226174003" dir="1482763203b3b39g2igz" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="14865644694jc5o603lu" name="To find books">
+     <recordtable>
+      <record id="1486564495wwyrymb09l" name="A Tester's Syllabus" author="" url="http://www.satisfice.com/bibliography.shtml" tags="testing.books" ctime="20170208173455" dir="1486564495vf27m7tlur" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1494509493m1vg104vol" name="tools">
+     <node crypt="" id="1494509499ah1zboh749" name="sikuli">
+      <recordtable>
+       <record id="1494509527mfcxq7lqcr" name="Метода" author="" url="http://automated-testing.info/t/sikuli-vs-eggplant/2057/4" tags="testing.tools.sikuli" ctime="20170511163207" dir="14945095275jrfj7eau8" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="" id="1495518289eqwr6f29se" name="video">
+     <node crypt="" id="1495518293nnf75n7hk5" name="UI">
+      <recordtable>
+       <record id="1495518363y7rfkz10s9" name="The fast and the continuous" author="Андрей Солнцев" url="https://www.youtube.com/watch?v=bXlK680E3zQ" tags="testing.video.UI" ctime="20170523084603" dir="1495518363bmcr20qquq" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1495519791p45yinefqc" name="BDD">
+      <recordtable>
+       <record id="14955198844k229ctybr" name="BullShit driven development" author="Андрей Солнцев" url="https://www.youtube.com/watch?v=JnoZbbYZeeI" tags="testing.video.bdd" ctime="20170523091124" dir="14955198847hck75otrc" file="text.html"/>
+       <record id="1495520109ut6vocz0jj" name="10 years of Doing Behaviour-Driven Development All Wrong (part 1) by Liz Keogh" author="Liz Keogh" url="https://www.youtube.com/watch?v=2EM4itu7j7I" tags="testing.video.bdd" ctime="20170523091509" dir="1495520109ec2fugyccr" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="14955209714g4mq4z6l1" name="automating testing">
+      <recordtable>
+       <record id="14955210295u1ixejanv" name="ROI от автоматизации тестирования" author="Сергей Мартыненко" url="https://www.youtube.com/watch?v=-hH93nJq49Y&amp;feature=youtu.be" tags="" ctime="20170523093029" dir="1495521029jkg2l3wsmt" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="" id="14966406495ms7purift" name="WhatIsGoodWhatIsBad">
+     <recordtable>
+      <record id="14966406662qvbxfgb1p" name="GoodTests" author="" url="" tags="" ctime="20170605083106" dir="1496640666gstxmhgic9" file="text.html"/>
+      <record id="1496640690mdp0gzo8zg" name="BadTests" author="" url="" tags="" ctime="20170605083130" dir="14966406902okn2ny6cm" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="149664115095ybffd7lo" name="tdd">
+     <node crypt="" id="14966411562ihpjw8xlx" name="guides">
+      <recordtable>
+       <record id="1496641167j86fipw7kj" name="Practicing TDD using the Roman Numerals kata" author="" url="" tags="" ctime="20170605083927" dir="14966411673j9agawhbi" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
+   <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
+    <recordtable>
+     <record id="1473403075dlzbd6ntqc" name="Настройка SSH для bitbucket" author="pola" url="https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html" tags="git" ctime="20160909093755" dir="1473403075dl9x9jokz9" file="text.html" crypt="0"/>
+     <record id="1481697576ovk6ov41mw" name="Настройка alias удобного лога" author="" url="" tags="git" ctime="20161214093936" dir="148169757621v1itbawm" file="text.html" crypt="0"/>
+     <record id="1482477229dp0m22bz5b" name="Настройка alias статуса" author="" url="" tags="git" ctime="20161223101349" dir="14824772292b1dxt35ep" file="text.html" crypt="0"/>
+     <record id="1482478191emmmbpln2b" name="GITips &amp; GITricks" author="User Unknown @UUSER" url="https://habrahabr.ru/post/78058/" tags="git" ctime="20161223102951" dir="1482478191xlteuz5ctz" file="text.html"/>
+     <record id="1492670053i2s64jh7q5" name="git и кириллица" author="" url="" tags="git" ctime="20170420093413" dir="1492670053gi1fs0gfhc" file="text.html"/>
+     <record id="1493992926ha0tn7e1dv" name="Просмотреть изменения в файле между ветками" author="" url="" tags="git" ctime="20170505170206" dir="1493992926ng6shi29i5" file="text.html"/>
+     <record id="1494619706u96h7xn3kw" name="Удалить submodule" author="" url="" tags="git" ctime="20170512230826" dir="1494619706vgjntjyqwn" file="text.html"/>
+    </recordtable>
+    <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
+     <recordtable>
+      <record id="1474353676ptmb1kz6qj" name="Undoing Things" author="proGit" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git" ctime="20160920094116" dir="1474353676z58rwaryyr" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1482331578jbn49tpxe6" name="git-сервисы">
+     <recordtable>
+      <record id="1482332068bnl8nnucfw" name="Gogs: легковесный git-сервис" author="&#10;Селектел" url="https://habrahabr.ru/company/selectel/blog/305422/" tags="git" ctime="20161221175428" dir="1482332068frfssgi177" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="14938755219btbq2n4q6" name="errors&amp;resolves">
+     <recordtable>
+      <record id="1493875576fgpfho1vhs" name="Git Push error: refusing to update checked out branch" author="" url="http://stackoverflow.com/questions/11117823/git-push-error-refusing-to-update-checked-out-branch" tags="git" ctime="20170504082616" dir="1493875576ll9pmhs0kn" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1494836026ig41ogfn27" name="links">
+     <recordtable>
+      <record id="1494836070e8ciwpzze6" name="Вводная по работе с git" author="" url="http://www.improgrammer.net/git-commands-best-practices-cheat-sheet/" tags="git" ctime="20170515111430" dir="14948360705z980xoanq" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1501081336s7no9yyvx8" name="Как писать коммиты">
+     <recordtable>
+      <record id="1501081359mvwuivih6q" name="Как писать сообщения коммитов" author="" url="http://frontiermag.ru/commit-message.html" tags="git" ctime="20170726180239" dir="1501081359rfg9x5gdbm" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="0" icon="" id="1474433447rs65x5ttzg" name="deploy">
+    <node crypt="0" icon="" id="1474433452uyfciyhu0j" name="docker">
+     <recordtable>
+      <record id="1474433830q7zn4jsb1t" name="Полное практическое руководство по Docker: с нуля до кластера на AWS" author="Рахим Довлеткаев перевел" url="https://habrahabr.ru/post/310460/?utm_content=buffer693a9&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="program.deploy.docker" ctime="20160921075710" dir="14744338300puw7u0pl2" file="text.html" crypt="0"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="0" icon="" id="1474434490qezdvad6ml" name="translates">
+    <recordtable>
+     <record id="1474434631cfpvlu7s0f" name="THREE PILLARS OF UNIT TESTS" author="Pawel Olesiejuk from Goyello Blog" url="https://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests/" tags="program.translates" ctime="20160921081031" dir="1474434631flh0jy7szs" file="text.html" crypt="0"/>
+     <record id="1481892334grugr4krmn" name="Living in the Age of Software Fuckery" author="" url="https://medium.com/@bryanedds/living-in-the-age-of-software-fuckery-8859f81ca877#.5no35kmkj" tags="todo" ctime="20161216154534" dir="1481892334pbw3t7wgqb" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="0" icon="" id="1475603248lfx7tr1i39" name="electronics">
+    <recordtable>
+     <record id="1475603283psyoutjzzg" name="Circuit board etching" author="http://narbotic.com/video/MakePresents/MakePresents.html" url="" tags="Circuit Skills" ctime="20161004204803" dir="1475603283xuqzblsqyo" file="text.html" crypt="0"/>
+    </recordtable>
+   </node>
+   <node crypt="0" icon="" id="1481717037gvjptn6vq6" name="code complite">
+    <recordtable>
+     <record id="1481717157anjoz9m2wb" name="Метрики кода программного обеспечения" author="Anton Milutin " url="http://www.viva64.com/ru/a/0045/" tags="codecomplite" ctime="20161214150557" dir="148171715793ug9d9hqd" file="text.html" crypt="0"/>
+    </recordtable>
+   </node>
+   <node crypt="0" icon="" id="1481720937hhthmguxg2" name="Cheat Sheets">
+    <recordtable>
+     <record id="1481721001g82kwv62xc" name="The Developer Cheat Sheet Compilation" author="stark" url="http://www.fuzzyopinions.com/article/technology/the-developer-cheat-sheet-compilation/" tags="programming.cheatsheet" ctime="20161214161001" dir="1481721001lwjs3dxual" file="text.html" crypt="0"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="14817820728sq77y5yr8" name="Языки разметки">
+    <node crypt="" id="1481782081xrle8zamkt" name="markdown">
+     <recordtable>
+      <record id="1481782144s01kimnt5k" name="Вопросы и ответы в формате Маркдаун" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/hexlet/theory_unit" tags="markdown" ctime="20161215090904" dir="1481782144qv2ixuocni" file="text.html"/>
+      <record id="14938794817x6c9c6uv6" name="links" author="" url="" tags="markdown" ctime="20170504093121" dir="1493879481pju3ep5y0g" file="text.html"/>
+      <record id="1493979454219z7ozx7n" name="Сделать конспект" author="" url="" tags="markdown" ctime="20170505131734" dir="1493979454uhimwc0col" file="text.html"/>
+      <record id="1493979840p07pyjm1ne" name="Краткая справка по разметке" author="" url="" tags="markdown" ctime="20170505132400" dir="1493979840a4xu5rbh9g" file="text.html"/>
+      <record id="1494003326arzjkyjgvu" name="online tuturial" author="" url="http://www.markdowntutorial.com/" tags="markdown.tuturial" ctime="20170505195526" dir="1494003326nle7jz077l" file="text.html"/>
+      <record id="1494004070vu31qu8nss" name="examples" author="" url="" tags="markdown.examples" ctime="20170505200750" dir="1494004070qaqh8oquyk" file="text.html"/>
+      <record id="1494503931th43qqh6zx" name="Онлайн генератор таблиц" author="" url="http://www.tablesgenerator.com/markdown_tables" tags="markdown.tablegenerator" ctime="20170511145851" dir="1494503931ixqk5kcrv7" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1494569884119m0vlpmf" name="html">
+     <recordtable>
+      <record id="1494569902f1yetdtgj6" name="Шаблоны" author="" url="" tags="html.templates" ctime="20170512091822" dir="1494569902171z4iqegv" file="text.html"/>
+      <record id="1496382778joilm6lddk" name="minilal html" author="" url="" tags="html.templates" ctime="20170602085258" dir="149638277854o2k25ujh" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1481801284oqiyonx8ux" name="online editors">
+    <recordtable>
+     <record id="14818014784o53wrydvr" name="Динамический конвертор из C в ассебмлер" author="" url="http://godbolt.org/?utm_content=bufferd021f&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="" ctime="20161215143118" dir="1481801478kj5xy4s54z" file="text.html"/>
+     <record id="1481866784yws0m639zy" name="repl.it" author="" url="https://repl.it/languages/javascript" tags="" ctime="20161216083944" dir="1481866784zz7vqbvuo0" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1481865439k9n9r419c1" name="Сбор требований">
+    <recordtable>
+     <record id="14818655007q4v4t8rld" name="Пример написания функциональных требований к Enterprise-системе" author="&#10;@anton_stasevic" url="https://habrahabr.ru/post/245625/" tags="requiments" ctime="20161216081820" dir="1481865500zylx6g31v4" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="148189367882fvtu14pl" name="game coding">
+    <recordtable>
+     <record id="1481893691yeegllctdh" name="План обучения" author="" url="https://github.com/miloyip/game-programmer" tags="" ctime="20161216160811" dir="1481893691ef4mym5381" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="14818958125623ojvnfh" name="sql">
+    <recordtable>
+     <record id="1481895853mge3ek4335" name="Иерархические (рекурсивные) запросы" author="&#10;maovrn @maovrn" url="https://habrahabr.ru/post/43955/" tags="" ctime="20161216164413" dir="1481895853hlg3d92chf" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1482248559e7ivft0oje" name="develop">
+    <recordtable>
+     <record id="1482248608iqrtjajykw" name="Подборка бесплатных инструментов для разработчиков" author="ИТ-ГРАД&#10;vmware iaas provider" url="https://habrahabr.ru/company/it-grad/blog/270589/" tags="programing-develop" ctime="20161220184328" dir="14822486083yax4erwb1" file="text.html"/>
+     <record id="14827632913rn814pnvr" name="Как научиться оценивать задачи, если не умеешь: 4 фактора сложности" author="&#10;Юрий Румега @Rumega" url="https://habrahabr.ru/post/307820/" tags="programing-develop" ctime="20161226174131" dir="1482763291gee4vwn6w4" file="text.html"/>
+     <record id="1482763374el8ae29xnt" name="Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живёте" author="Евгений Врублевский @VEG" url="https://habrahabr.ru/post/302570/" tags="programing-develop" ctime="20161226174254" dir="1482763374hxufcnw9na" file="text.html"/>
+     <record id="1498830796tnrn5bpxkl" name="Изучите все языки программирования" author="Ozan Onay" url="https://m.habrahabr.ru/company/infopulse/blog/331934/" tags="programing-develop" ctime="20170630165316" dir="1498830796r1ch3n7dou" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1493815680q0o17ljkk5" name="cheatsheets">
+    <recordtable>
+     <record id="1493815684so7t76g96c" name="cvim" author="" url="" tags="" ctime="20170503154804" dir="1493815684qj50v7zbvi" file="text.html">
+      <files>
+       <file id="14938157249arm1e31cn" fileName="cvim cheatsheet.pdf" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
+   <node crypt="" id="1493995462w6lc3gri6t" name="hotkeys">
+    <recordtable>
+     <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys.1c" ctime="20170505174422" dir="14842263057dh0kxmy5e" file="text.html">
+      <files>
+       <file id="148422668161nbizpy75" fileName="HOT KEYS 1C.txt" type="file"/>
+       <file id="1484226686svqx5l8wdb" fileName="Hotkeys41C.md" type="file"/>
+      </files>
+     </record>
+     <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170505174422" dir="1484229982009breobxk" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="14940467418ow7j3x9iu" name="chrome">
+    <node crypt="" id="1494046747ae0xk8ycha" name="plugins">
+     <recordtable>
+      <record id="1494046794uzee0horo0" name="cVim" author="" url="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" tags="chrome.plugins.cvim" ctime="20170506075954" dir="1494046794lso3j5nnqu" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1494568394b1nlmk9six" name="JS">
+    <node crypt="" id="1494568412khstnshrx7" name="Задачи для обучения">
+     <recordtable>
+      <record id="14945684881cfyhx1u4c" name="Простые задачи на js" author="" url="https://gist.github.com/codedokode/ce30e7a036f18f416ae0" tags="js.edu.tasks" ctime="20170512085448" dir="1494568488kiqhy7unbe" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1494568557ecpncbot02" name="Учебники">
+     <recordtable>
+      <record id="1494568581ru40khpn4z" name="http://learn.javascript.ru/" author="" url="http://learn.javascript.ru/" tags="js.manuals" ctime="20170512085621" dir="1494568581zejuz96d6t" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="14979716936f7hm1w7gv" name="Статьи">
+     <recordtable>
+      <record id="1497971731gdsi8e3f6e" name="Эволюция асинхронного JavaScript" author="" url="https://tproger.ru/translations/asynchronous-javascript/" tags="" ctime="20170620181531" dir="1497971731xyy0znnj60" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1494568716b4b95ujygh" name="web-programming">
+    <node crypt="" id="14945687364tyymfmisx" name="lessons">
+     <recordtable>
+      <record id="1494568673nr5uu87rsy" name="http://archive-ipq-co.narod.ru/" author="" url="http://archive-ipq-co.narod.ru/" tags="web manuals" ctime="20170512085904" dir="1494568673duby68z1s2" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1499683088gozh7spf9y" name="work interview">
+     <recordtable>
+      <record id="1499683102fwg3ts740s" name="22 самых распространенных вопроса на собеседованиях на должность веб-разработчика" author="" url="https://tproger.ru/digest/most-common-questions-of-web-developer-interview/amp/" tags="web interview" ctime="20170710133822" dir="1499683102sjwtr87708" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1494569564onp5b8f38a" name="python">
+    <recordtable>
+     <record id="1494569579pfn79ujzrz" name="python on dmoz" author="" url="https://dmoztools.net/Computers/Programming/Languages/Python/" tags="python" ctime="20170512091259" dir="1494569579gyqpwyqmbc" file="text.html"/>
+     <record id="1494569717ytgv35gosq" name="official website" author="" url="https://www.python.org/" tags="" ctime="20170512091517" dir="1494569717ruk7u8tbb8" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1494927217sv2ozr8znn" name="web">
+    <node crypt="" id="1494927220ai6vogr3yj" name="libs">
+     <recordtable>
+      <record id="1494927552n6qlhm8x42" name="mdn Mozzila Developer Network" author="" url="https://developer.mozilla.org/ru/" tags="" ctime="20170516123912" dir="1494927552qsy9o3uc5n" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1495557254whpbbh1ifg" name="ГОСТ">
+    <recordtable>
+     <record id="14955573033b12zjwtnt" name="Виды испытаний автоматизированных систем" author="" url="" tags="gost" ctime="20170523193503" dir="1495557303hepffffkrf" file="text.html">
+      <files>
+       <file id="1495557311dxnn985ut5" fileName="gost 34.603.pdf" type="file"/>
+      </files>
+     </record>
+    </recordtable>
+   </node>
+   <node crypt="" id="1495778693ihp7k4711h" name="to read in web">
+    <recordtable>
+     <record id="149577875528msh45ruo" name="ImProgrammer" author="" url="http://www.improgrammer.net/" tags="programming read in web" ctime="20170526090555" dir="1495778755v97jvnx3y8" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1497730778p5bfd4lpvv" name="quality assurance">
+    <recordtable>
+     <record id="1497730785y0e978a4r5" name="Продуманная оптимизация" author="" url="http://optimization.guide/" tags="" ctime="20170617231945" dir="1497730785gge8njgkml" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="14978083179urrlu2uph" name="tasks">
+    <recordtable>
+     <record id="1497808330ikzuijhhu9" name="108 задач с IT-собеседований с разбором решений" author="" url="https://tproger.ru/articles/problems/" tags="" ctime="20170618205210" dir="14978083308zp366glrs" file="text.html"/>
+     <record id="1498125069rq1qf8m8h9" name="27 сайтов с задачками для оттачивания навыков программирования" author="" url="https://proglib.io/p/27-puzzle-websites-to-sharpen-your-skills/" tags="" ctime="20170622125109" dir="1498125069vb3bqof17g" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1498564888y0lr8rch06" name="projects">
+    <recordtable>
+     <record id="1498564901vuc8wll3kr" name="Snaptoken" author="" url="http://viewsourcecode.org/snaptoken/" tags="" ctime="20170627150141" dir="1498564901n6f239mx6x" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="14987453891ww9ik1gkw" name="code-practice">
+    <recordtable>
+     <record id="14987454030z17t36eke" name="codefights" author="" url="https://codefights.com/interview-practice" tags="code-practice" ctime="20170629171003" dir="1498745403uqqct0p1b6" file="text.html"/>
+     <record id="1498841030kie1gmg8y8" name="codewars" author="" url="https://www.codewars.com/join?language=javascript" tags="code-practice" ctime="20170630194350" dir="14988410309i8ngclb8r" file="text.html"/>
+     <record id="1499162839sshr9fagcp" name="Составление логических схем в игровой форме" author="" url="https://makingartstudios.itch.io/dls?utm_content=bufferba2f0&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="code-practice" ctime="20170704130719" dir="1499162839wxhzu3o35h" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1498746244z8wwmf8im8" name="online-cources">
+    <recordtable>
+     <record id="14987462843hyd06ncel" name="pluralsight" author="" url="https://www.pluralsight.com/browse" tags="" ctime="20170629172444" dir="1498746284jsj1fezudv" file="text.html"/>
+     <record id="1498840904y7w8ew5dc4" name="laracasts" author="" url="https://laracasts.com/" tags="" ctime="20170630194144" dir="14988409048w0qxremjp" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1499683249bqdvmi24z0" name="patterns">
+    <recordtable>
+     <record id="1499683308a96hvut6vi" name="Шаблоны проектирования простым языком" author="" url="https://tproger.ru/translations/design-patterns-simple-words-1/amp/" tags="patterns" ctime="20170710134421" dir="1499683308gqpew8b01l" file="text.html"/>
+    </recordtable>
+   </node>
    <node crypt="0" icon="/Flat/color_icons8_flat_briefcase.svg" id="1472471271ozfrf63iib" name="1с">
     <node crypt="" id="1497597302z8mh9fi9pl" name="admin">
      <node crypt="" icon="" id="1497597330wrkxlq0fui" name="Articles">
@@ -568,540 +1109,6 @@
       </recordtable>
      </node>
     </node>
-   </node>
-   <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
-    <node crypt="" id="14973309648znj8ddwmr" name="linux">
-     <node crypt="" id="1497330969yhw9ao48d2" name="bash">
-      <recordtable>
-       <record id="1497330976rus132ahgc" name="the-art-of-command-line" author="" url="https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md?utm_source=plus.google.com&amp;utm_medium=social&amp;utm_campaign=otlichnyy-gayd-po-komandnoy-stroke-unix&amp;utm_content=7281236" tags="admin linux bash" ctime="20170613081616" dir="1497330976jfgn6sgjpi" file="text.html"/>
-       <record id="1472805548oaul3glio8" name="bash how-to" author="pola" url="" tags="admin linux bash" ctime="20170613082440" dir="1472805548fm2rynlqub" file="text.html" crypt="0"/>
-       <record id="14823258630bwfn5havw" name="Команды для работы с архивами tar.gz, tar.bz2, tar.zx" author="Xintrea" url="http://webhamster.ru/mytetrashare/index/mtb0/907" tags="admin linux bash" ctime="20170613082519" dir="1482325863o221q05q52" file="text.html"/>
-       <record id="1484042456aovn91pzbk" name="Шпаргалка по командам" author="" url="http://forum.ubuntu.ru/index.php?topic=14535.15" tags="admin linux bash" ctime="20170613082524" dir="14840424562yfjhc2ys5" file="text.html">
-        <files>
-         <file id="1484042468fjzl5x7ke0" fileName="Команды.pdf" type="file"/>
-        </files>
-       </record>
-       <record id="1484042574tg76ea5xoj" name="Основные команды" author="Jacob Peddicord" url=" fosswire.com" tags="admin linux bash" ctime="20170613082529" dir="1484042574fztnd9k26m" file="text.html"/>
-       <record id="1495471446256fyhx6yj" name="Основные команды Linux или шпаргалка начинающего линуксойда" author="" url="http://www.k-max.name/linux/osnovnye-komandy-linux-ili-shpargalka-nachinayushhego-linuksojda/" tags="admin linux bash" ctime="20170613082533" dir="1495471446j91dchtu3d" file="text.html"/>
-       <record id="1497729501dtxa27bzyi" name="explainshell" author="Idan Kamara" url="https://explainshell.com/" tags="admin linux shell" ctime="20170617225821" dir="149772950175pp1yv1or" file="text.html"/>
-      </recordtable>
-      <node crypt="" id="1497729453dpo03r80qd" name="explainshell"/>
-     </node>
-     <node crypt="" id="1497331158233vhmatet" name="Шрифты">
-      <recordtable>
-       <record id="1482471313m3bx3blhy6" name="Шрифты в Ubuntu" author="" url="http://help.ubuntu.ru/wiki/шрифты" tags="admin linux" ctime="20170613081918" dir="1482471313bwz9sckdnw" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1497331177augy2vsjf2" name="remapping">
-      <recordtable>
-       <record id="1484041555b6iz1oq07n" name="На один сеанс" author="pola" url="" tags="admin linux" ctime="20170613081937" dir="1484041555b1ka00yt6g" file="text.html"/>
-       <record id="1484041604cfl57aj35a" name=" XKB: перенастроим клавиши под себя любимого" author="&#10;Phil Pirozhkov @philpirj&#10;Пользователь&#10;" url="https://habrahabr.ru/post/222285/" tags="admin linux" ctime="20170613081937" dir="14840416041xz30cgnsu" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1500966899648e67z5gv" name="ubuntu user">
-      <recordtable>
-       <record id="1500966909vzwovvo41h" name="How to remap capslock to ctrl" author="" url="" tags="" ctime="20170725101509" dir="15009669092r8ghdceze" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="1497331124z9wcw8ey68" name="windows">
-     <node crypt="" icon="" id="1497331251ax4gmpxf15" name="bat-файлы">
-      <recordtable>
-       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="admin windows bat" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
-       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="admin windows bat" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
-       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="admin windows bat" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" icon="" id="1497331262o96cwewq27" name="работа с реестром windows">
-      <recordtable>
-       <record id="1473087681o2kdhmw91m" name="Автоматическое завершение программ при выключении компьютера" author="pola" url="" tags="admin windows" ctime="20170613082102" dir="1473087681sn59ocjx1c" file="text.html" crypt="0"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1497331278hjfw5inn4x" name="commands">
-      <recordtable>
-       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin windows" ctime="20170613082145" dir="1484891380zebmse2r0o" file="text.html"/>
-       <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="admin windows" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1498832695t9dvawx6uf" name="choco">
-      <recordtable>
-       <record id="1498832793buexn4rpqi" name="installation" author="" url="https://chocolatey.org/install#install-with-cmdexe" tags="programming-admin-windows-choco" ctime="20170630172633" dir="1498832793vxk6jnm7a2" file="text.html"/>
-       <record id="1498833189hvd709onbt" name="docs" author="" url="https://chocolatey.org/docs/commands-reference" tags="" ctime="20170630173309" dir="149883318988k2qslqif" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1498898934pjdrf8hvmy" name="bash in windows">
-      <recordtable>
-       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1499162700w1303x4455" name="encoding">
-      <recordtable>
-       <record id="1499162728hb5emvxuue" name="Памятка для решения проблем с кодировками" author="" url="" tags="admin windows encoding" ctime="20170704130528" dir="1499162728bqhlhw2q02" file="text.html">
-        <files>
-         <file id="149916273614exnvobjy" fileName="Памятка для решения проблем с кодировкой.png" type="file"/>
-        </files>
-       </record>
-      </recordtable>
-     </node>
-     <node crypt="" id="1500288694ry2j4xnxxp" name="powershell">
-      <recordtable>
-       <record id="1500288715jebd32xt0p" name="How to start a program on remote computer" author="" url="https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/" tags="" ctime="20170717135155" dir="15002887156xi0t9itai" file="text.html"/>
-       <record id="1500289096di1579ig9s" name="To start remote-session" author="" url="" tags="" ctime="20170717135816" dir="150028909608wbmdsir0" file="text.html"/>
-       <record id="15008057129f9ye83rtu" name="Как передать в переменную параметры авторизации" author="" url="" tags="" ctime="20170723132832" dir="1500805712dufo9bk29d" file="text.html"/>
-       <record id="15008062679aciau5myz" name="How to set alias" author="" url="" tags="" ctime="20170723133747" dir="1500806267643vwl0vr8" file="text.html"/>
-       <record id="15008068236tknrasoum" name="How to remove alias" author="" url="" tags="" ctime="20170723134703" dir="1500806823ss1iezup0i" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-   </node>
-   <node crypt="" id="1500527232dmgbk1dt7w" name="algorithms">
-    <node crypt="" id="1500527248p3gv8imyxq" name="data structures">
-     <recordtable>
-      <record id="15005272620d4ylpyaxs" name="10 структур данных, которые должен знать программист" author="" url="https://proglib.io/p/data-structures/" tags="" ctime="20170720080742" dir="1500527262zgr2699en7" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="0" icon="" id="14728050856fzhn10avh" name="vim">
-    <recordtable>
-     <record id="1486886918s52m9z210p" name="vim help" author="" url="" tags="" ctime="20170212110838" dir="14868869180a9p0s4vso" file="text.html"/>
-     <record id="1498744318lbycmvhos1" name="Установить  vim на windows" author="" url="" tags="" ctime="20170629165158" dir="1498744318p82mnns6vr" file="text.html"/>
-    </recordtable>
-    <node crypt="0" icon="" id="14728050934nvukmwnsy" name="plugins">
-     <node crypt="0" icon="" id="1472805099g8kfr847pf" name="NerdTree">
-      <recordtable>
-       <record id="1472805133fi351qy9tm" name="Hotkeys" author="pola" url="" tags="vim.nerdtree" ctime="20160902113213" dir="1472805133s9ctn5jl8e" file="text.html" crypt="0"/>
-       <record id="1473249744825stkgrt0" name="Работа с метками" author="pola" url="" tags="vim.nerdtree" ctime="20160907150224" dir="14732497446md6620yib" file="text.html" crypt="0"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1481802371f612f9hxyn" name="vundle">
-      <recordtable>
-       <record id="1481802497tq4j3yp97y" name="Основные команды" author="" url="http://jenyay.net/Programming/VimPlugins2" tags="vim.vundl" ctime="20161215144817" dir="14818024971oflxgev8f" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1481802940elxddv2169" name="snippet">
-      <recordtable>
-       <record id="1481802954byzklbn9sv" name="Плагины для сниппетов" author="" url="http://jenyay.net/Programming/VimPlugins2" tags="" ctime="20161215145554" dir="148180295427so2u35o2" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="14868833297atv51waa8" name="tagbar">
-      <recordtable>
-       <record id="1486883389c7mk17htyn" name="Просмотр списка процедур модуля и перехода к нужной" author="andreevlex" url="" tags="" ctime="20170212100949" dir="1486883389a03i75bf2k" file="text.html">
-        <files>
-         <file id="1486884873wsyn94i8ub" fileName="ctags58.zip" type="file"/>
-        </files>
-       </record>
-      </recordtable>
-     </node>
-     <node crypt="" id="14939756974ujvvcpts1" name="vimtex">
-      <recordtable>
-       <record id="14939757053abfvebxwt" name="readme" author="" url="https://github.com/lervag/vimtex" tags="" ctime="20170505121505" dir="14939757059h9zvr07z3" file="text.html"/>
-       <record id="14939757144uz88jy3dc" name="_vimrc" author="" url="" tags="" ctime="20170505121514" dir="149397571485pzthr7iu" file="text.html"/>
-       <record id="1493978683hea6mkt1or" name="template" author="" url="" tags="" ctime="20170505130443" dir="1493978683jwfpd2kdr6" file="text.html">
-        <files>
-         <file id="14939789469nebgxpzuo" fileName="teX.rar" type="file"/>
-        </files>
-       </record>
-      </recordtable>
-     </node>
-     <node crypt="" id="1495605772csr7miuo30" name="DrawIt">
-      <recordtable>
-       <record id="14956058124lqtppz7au" name="help" author="" url="http://www.drchip.org/astronaut/vim/doc/DrawIt.txt.html" tags="" ctime="20170524090332" dir="1495605812v68voa89hr" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1498452251c5qtprzig5" name="plug">
-      <recordtable>
-       <record id="149845226539quwahuoe" name="vim-plug" author="" url="https://github.com/junegunn/vim-plug" tags="" ctime="20170626074425" dir="1498452265y40ety026j" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="0" icon="" id="1473312718za41avn2bz" name="scripts">
-     <node crypt="0" icon="" id="1473312728r2kl9ncw6w" name="maping">
-      <recordtable>
-       <record id="14733136483gg2sr9os9" name="Копирование имени и пути файла" author="pola" url="" tags="vim.scripts.maping" ctime="20160908084728" dir="1473313648tih44vkabn" file="text.html" crypt="0"/>
-       <record id="1473314585bg81s9kfbc" name="На клавишу F3 назначить вставку пути директории, содержащей файл" author="pola" url="" tags="vim.scripts.maping" ctime="20160908090305" dir="1473314585zz85ualtft" file="text.html" crypt="0"/>
-       <record id="147331534569b01v5wgw" name="На комбинацию &lt;C-Insert&gt; назначить вставку имени файла" author="pola" url="" tags="" ctime="20160908091545" dir="1473315345nl9uh4qjdo" file="text.html" crypt="0"/>
-       <record id="1473315833csytarek0z" name="На комбинацию &lt;C-Insert&gt; назначить копирование имени файла" author="pola" url="" tags="" ctime="20160908092353" dir="1473315833x575xm5iif" file="text.html" crypt="0"/>
-       <record id="1473315905vrkxpsn3o9" name="На комбинацию &lt;C-A-Insert&gt; назначить копирование в буфер полного имени файла" author="pola" url="" tags="" ctime="20160908092505" dir="1473315905gg2syq33bw" file="text.html" crypt="0"/>
-      </recordtable>
-     </node>
-     <node crypt="0" icon="" id="1475607792fhqzmf1r1j" name="script-writing">
-      <recordtable>
-       <record id="1475607842macyokcd39" name="Как я классы в Vim писал" author="Delphinum" url="https://habrahabr.ru/post/210930/" tags="" ctime="20161004220402" dir="1475607842lojpygokvq" file="text.html" crypt="0"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="0" icon="" id="1481720875q6gqif7z4h" name="tricks">
-     <recordtable>
-      <record id="1473312562nd4tvbl2m5" name="Получить пути файла" author="pola" url="" tags="vim.scripts.tricks" ctime="20161214160755" dir="14733125629vfcx8n4fs" file="text.html" crypt="0"/>
-      <record id="1473337659yevlhg2hrr" name="Изменить фон html-документа с черного на белый" author="pola" url="" tags="vim.tricks" ctime="20161214160755" dir="1473337659c93xrr2yp8" file="text.html" crypt="0"/>
-      <record id="1474196189nt3bjvza4b" name="Поиск по слову под курсором" author="pola" url="" tags="vim.tricks" ctime="20161214160755" dir="147419618958fklgbnwp" file="text.html" crypt="0"/>
-      <record id="1475478766qw8ef14vzn" name="Напечатать часть текста" author="" url="" tags="vim.tricks" ctime="20161214160755" dir="1475478766uzejbll1fm" file="text.html" crypt="0"/>
-      <record id="1486899557ym5fhwuebf" name="Выделение блоком" author="" url="" tags="vim.tricks" ctime="20170212143917" dir="14868995577x4mvd8kwk" file="text.html"/>
-      <record id="1489842858eaa11hakwk" name="Быстрый поиск слова под курсором" author="" url="" tags="vim.tricks" ctime="20170318161418" dir="1489842858diljj146j0" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" icon="" id="1481784637s1m4psfv8e" name="common info">
-     <recordtable>
-      <record id="1473311047isukp32sni" name="Аналоги стандартных клавиш" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047qmt0zx9q0j" file="text.html" crypt="0"/>
-      <record id="1473311047ibg0seonib" name="Визуальный режим" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="147331104713s7oekwi7" file="text.html" crypt="0"/>
-      <record id="14733110477hziomts6l" name="Навигация в vim" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047ytiv60o92h" file="text.html" crypt="0"/>
-      <record id="1473311047j5lto3u9ip" name="Поиск, замена" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110475dhr5bz0mo" file="text.html" crypt="0"/>
-      <record id="1473311047i7u7w1uo52" name="Работа с вкладками и окнами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047mcvwe7xlcm" file="text.html" crypt="0"/>
-      <record id="1473311047z4twjnmvzd" name="Работа с макросами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110478ge3yegt3i" file="text.html" crypt="0"/>
-      <record id="147331104744bdqvgxat" name="Работа с метками" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047960rih2ny2" file="text.html" crypt="0"/>
-      <record id="1473311047funucldby3" name="Работа с плагинами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="14733110470gkige3e20" file="text.html" crypt="0"/>
-      <record id="14733110472bjlrqzpzh" name="Работа с регистрами" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047txvez1rz0w" file="text.html" crypt="0"/>
-      <record id="1473311047q2tmyb37k4" name="Навигация в файле" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047jonz72qxim" file="text.html" crypt="0"/>
-      <record id="1473311047b7kz06gp3y" name="Работа с свертками текста" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047pi9vsz1atd" file="text.html" crypt="0"/>
-      <record id="1473311047racz14o6jo" name="Навигация в справке" author="pola" url="" tags="vim.info" ctime="20161215095037" dir="1473311047atx4g3xxos" file="text.html" crypt="0"/>
-      <record id="1493965507tprk7ttpnz" name="Просмотр значений переменных" author="" url="" tags="vim.variables" ctime="20170505092507" dir="1493965507t4oknsxy1f" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1486900070zg3dl30n3p" name="blogs">
-     <recordtable>
-      <record id="14869001039cj2q0pj8p" name="vimcasts.org" author="" url="http://vimcasts.org/" tags="vim.blog" ctime="20170212144823" dir="14869001038bpzep7xdr" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1493965536l4fqcqy7a9" name="links">
-     <recordtable>
-      <record id="14939655637smhel6t8q" name="vim tips and tricks" author="" url="https://www.cs.swarthmore.edu/help/vim/home.html" tags="vim.tips" ctime="20170505092603" dir="1493965563oc3bt6862w" file="text.html"/>
-      <record id="1494509299x1v1cizme8" name="mapping keys tutorial" author="" url="http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)" tags="vim.mappingkeys" ctime="20170511162819" dir="1494509299cbtlito6m7" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1495603872a6ycv1y081" name="asciiArt">
-     <recordtable>
-      <record id="1495603963x0l0vz7kaf" name="patojrk" author="" url="http://patorjk.com/software/taag/#p=display&amp;h=0&amp;v=0&amp;f=Star%20Wars&amp;t=Type%20Something%20" tags="vim.asciiArt" ctime="20170524083243" dir="1495603963w1bhwotd5f" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="14988356647zjv10q77h" name="neovim">
-     <recordtable>
-      <record id="14988356709kl2rbghm5" name="how-to-install" author="" url="https://github.com/neovim/neovim/wiki/Installing-Neovim" tags="" ctime="20170630181430" dir="14988356708yy3xp5eom" file="text.html"/>
-      <record id="1498835953m2bcvr9m8t" name="how-to-install-plug-vim" author="" url="" tags="" ctime="20170630181913" dir="1498835953iwlzcaetts" file="text.html"/>
-      <record id="14988378449h53eb676x" name="russion-language" author="" url="https://github.com/neovim/neovim/blob/master/runtime/doc/russian.txt" tags="" ctime="20170630185044" dir="149883784433fvzau4ed" file="text.html"/>
-      <record id="14988380139emgxtb3ml" name="faq" author="" url="https://github.com/neovim/neovim/wiki/FAQ" tags="" ctime="20170630185333" dir="1498838013jfgx5lyp16" file="text.html"/>
-      <record id="1498838055zpjsuu8w6x" name="Building Neovim" author="" url="https://github.com/neovim/neovim/wiki/Building-Neovim" tags="" ctime="20170630185415" dir="14988380555nakese4hu" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1498838123dopw601ulq" name="blogs-about-vim">
-     <recordtable>
-      <record id="1498838132lkp5nh001x" name="usevim" author="" url="https://medium.com/usevim" tags="" ctime="20170630185532" dir="14988381321ug0mma1ff" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
-    <recordtable>
-     <record id="1482248403xi7cei8x0w" name="Тестирование. Фундаментальная теория" author="Геннадий Мищевский @Gennadii_M&#10;Пользователь&#10;" url="https://habrahabr.ru/post/279535/" tags="" ctime="20161220184003" dir="14822484032ghyatfgvn" file="text.html"/>
-     <record id="1494568075ms1dlqggp8" name="Автоматическое тестирование (php)" author="codedokode" url="https://gist.github.com/codedokode/a455bde7d0748c0a351a" tags="testing.automating" ctime="20170512084755" dir="14945680756celo16eq5" file="text.html"/>
-     <record id="14976047100mb7vpm92d" name="83 бесплатных материала по грамотному тестированию" author="Tproger" url="https://tproger.ru/digest/free-software-testing-books/" tags="testing" ctime="20170616121830" dir="1497604710aozjxgljoe" file="text.html"/>
-    </recordtable>
-    <node crypt="0" icon="" id="1473396856s4fq4krin2" name="Blogs">
-     <recordtable>
-      <record id="1473396891yo6hn6r54v" name="Хроники тестировщика" author="Йети подземелья" url="http://wolonter.blogspot.ru/" tags="testing.blogs" ctime="20160909075451" dir="1473396891r1dard10dz" file="text.html" crypt="0"/>
-      <record id="14737570516ohlcrxx8d" name="Блог Назиной Ольги" author="" url="http://okiseleva.blogspot.ru" tags="testing.blogs" ctime="20160913115731" dir="1473757051a2sqfhoibb" file="text.html" crypt="0"/>
-      <record id="1481719944hir014tlfk" name="Блог Артема Кошелева" author="" url="http://artkoshelev.github.io" tags="testing.blogs" ctime="20161214155224" dir="14817199447p9mczoeot" file="text.html" crypt="0"/>
-      <record id="1486532314aimtsll8pm" name="Блог Максима Шульги" author="Максим Шульга" url="http://www.maxshulga.ru" tags="testing.blogs" ctime="20170208083834" dir="1486532314xwuysohzbz" file="text.html"/>
-      <record id="1486532484jjvdpespyz" name="255 ступеней" author="Сергей Мартыненко" url="http://blog.shumoos.com" tags="testing.blogs" ctime="20170208084124" dir="1486532484iai43fjpgn" file="text.html"/>
-      <record id="1486532570ect4f8knuc" name="Разрабатываем, тестируем, наблюдаем" author="Nikita Makarov" url="http://test-failed.blogspot.ru" tags="testing.blogs" ctime="20170208084250" dir="1486532570mxm9czf6tc" file="text.html"/>
-      <record id="1486533939jxfiuk1c3l" name="QA-грамотно" author="Алексей Лупан" url="https://testitquickly.com" tags="testing.blogs" ctime="20170208090539" dir="14865339398x7zc9zoa6" file="text.html"/>
-      <record id="1494569090u00lw556vk" name="at.info-knowledge-base" author="" url="http://atinfo.github.io/at.info-knowledge-base/" tags="" ctime="20170512090450" dir="1494569090sz1mx7chjh" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="0" icon="" id="14733972404ihsjkpi9d" name="Courses">
-     <recordtable>
-      <record id="14733972711be2q4tnv5" name="Software Testing Tutorial: Free Course" author="guru99" url="http://www.guru99.com/software-testing.html" tags="program.testing.courses" ctime="20160909080111" dir="147339727138q15li5a0" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
-    <node crypt="0" icon="" id="1473429495idh1qq36pi" name="books (notes)">
-     <recordtable>
-      <record id="147342954585alptr30r" name="Шаблоны тестирования" author="" url="" tags="testing.books" ctime="20160909165905" dir="14734295455gz6xvx51h" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
-    <node crypt="0" icon="" id="1473760107t8dll9jdm8" name="articles">
-     <recordtable>
-      <record id="1473760225miyw4zn40i" name="Основные принципы тестирования ПО" author="studopedia" url="http://studopedia.ru/3_115225_osnovnie-printsipi-testirovaniya-po.html" tags="program.testing.articles" ctime="20160913125025" dir="1473760225te2c4h76wz" file="text.html" crypt="0"/>
-      <record id="14737603563b7goi7k13" name="Алгоритм тестирования базового пути." author="studopedia" url="http://studopedia.ru/3_115226_algoritm-testirovaniya-bazovogo-puti.html" tags="program.testing.articles" ctime="20160913125236" dir="1473760356n8us1v1p7z" file="text.html" crypt="0"/>
-      <record id="1484211633ulocm8zg5b" name="Как внедрить у себя back-to-back-тестирование. Опыт Яндекса" author="Яндекс" url="https://habrahabr.ru/company/yandex/blog/233455/" tags="" ctime="20170112120033" dir="14842116331q0mx2xem2" file="text.html"/>
-      <record id="1486532165qa4sjso0ds" name="Пример автоматизации тестирования большой системы" author="Максим Шульга" url="http://www.slideshare.net/MaximShulga/ss-66919790" tags="testing.examples" ctime="20170208083605" dir="14865321654gpnz0nogk" file="text.html"/>
-      <record id="1493833876sve1alc6ii" name="Подход UniTesK к разработке тестов: достижения и перспективы" author="А.В. Баранцев и компания" url="http://citforum.ru/SE/testing/unitesk/" tags="" ctime="20170503205116" dir="1493833876dg772fjvk7" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1482763183913pqmw4tp" name="gherkin">
-     <recordtable>
-      <record id="14827632035v55by7nrn" name="Кто вы, пишущие на Gherkin?" author="&#10;Evgeniy Pavlyuk @wizi4d" url="https://habrahabr.ru/post/275013/" tags="" ctime="20161226174003" dir="1482763203b3b39g2igz" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="14865644694jc5o603lu" name="To find books">
-     <recordtable>
-      <record id="1486564495wwyrymb09l" name="A Tester's Syllabus" author="" url="http://www.satisfice.com/bibliography.shtml" tags="testing.books" ctime="20170208173455" dir="1486564495vf27m7tlur" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1494509493m1vg104vol" name="tools">
-     <node crypt="" id="1494509499ah1zboh749" name="sikuli">
-      <recordtable>
-       <record id="1494509527mfcxq7lqcr" name="Метода" author="" url="http://automated-testing.info/t/sikuli-vs-eggplant/2057/4" tags="testing.tools.sikuli" ctime="20170511163207" dir="14945095275jrfj7eau8" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="1495518289eqwr6f29se" name="video">
-     <node crypt="" id="1495518293nnf75n7hk5" name="UI">
-      <recordtable>
-       <record id="1495518363y7rfkz10s9" name="The fast and the continuous" author="Андрей Солнцев" url="https://www.youtube.com/watch?v=bXlK680E3zQ" tags="testing.video.UI" ctime="20170523084603" dir="1495518363bmcr20qquq" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1495519791p45yinefqc" name="BDD">
-      <recordtable>
-       <record id="14955198844k229ctybr" name="BullShit driven development" author="Андрей Солнцев" url="https://www.youtube.com/watch?v=JnoZbbYZeeI" tags="testing.video.bdd" ctime="20170523091124" dir="14955198847hck75otrc" file="text.html"/>
-       <record id="1495520109ut6vocz0jj" name="10 years of Doing Behaviour-Driven Development All Wrong (part 1) by Liz Keogh" author="Liz Keogh" url="https://www.youtube.com/watch?v=2EM4itu7j7I" tags="testing.video.bdd" ctime="20170523091509" dir="1495520109ec2fugyccr" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="14955209714g4mq4z6l1" name="automating testing">
-      <recordtable>
-       <record id="14955210295u1ixejanv" name="ROI от автоматизации тестирования" author="Сергей Мартыненко" url="https://www.youtube.com/watch?v=-hH93nJq49Y&amp;feature=youtu.be" tags="" ctime="20170523093029" dir="1495521029jkg2l3wsmt" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="14966406495ms7purift" name="WhatIsGoodWhatIsBad">
-     <recordtable>
-      <record id="14966406662qvbxfgb1p" name="GoodTests" author="" url="" tags="" ctime="20170605083106" dir="1496640666gstxmhgic9" file="text.html"/>
-      <record id="1496640690mdp0gzo8zg" name="BadTests" author="" url="" tags="" ctime="20170605083130" dir="14966406902okn2ny6cm" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="149664115095ybffd7lo" name="tdd">
-     <node crypt="" id="14966411562ihpjw8xlx" name="guides">
-      <recordtable>
-       <record id="1496641167j86fipw7kj" name="Practicing TDD using the Roman Numerals kata" author="" url="" tags="" ctime="20170605083927" dir="14966411673j9agawhbi" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-   </node>
-   <node crypt="0" icon="" id="14734030081jgkf265ud" name="git">
-    <recordtable>
-     <record id="1473403075dlzbd6ntqc" name="Настройка SSH для bitbucket" author="pola" url="https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html" tags="git" ctime="20160909093755" dir="1473403075dl9x9jokz9" file="text.html" crypt="0"/>
-     <record id="1481697576ovk6ov41mw" name="Настройка alias удобного лога" author="" url="" tags="git" ctime="20161214093936" dir="148169757621v1itbawm" file="text.html" crypt="0"/>
-     <record id="1482477229dp0m22bz5b" name="Настройка alias статуса" author="" url="" tags="git" ctime="20161223101349" dir="14824772292b1dxt35ep" file="text.html" crypt="0"/>
-     <record id="1482478191emmmbpln2b" name="GITips &amp; GITricks" author="User Unknown @UUSER" url="https://habrahabr.ru/post/78058/" tags="git" ctime="20161223102951" dir="1482478191xlteuz5ctz" file="text.html"/>
-     <record id="1492670053i2s64jh7q5" name="git и кириллица" author="" url="" tags="git" ctime="20170420093413" dir="1492670053gi1fs0gfhc" file="text.html"/>
-     <record id="1493992926ha0tn7e1dv" name="Просмотреть изменения в файле между ветками" author="" url="" tags="git" ctime="20170505170206" dir="1493992926ng6shi29i5" file="text.html"/>
-     <record id="1494619706u96h7xn3kw" name="Удалить submodule" author="" url="" tags="git" ctime="20170512230826" dir="1494619706vgjntjyqwn" file="text.html"/>
-    </recordtable>
-    <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
-     <recordtable>
-      <record id="1474353676ptmb1kz6qj" name="Undoing Things" author="proGit" url="https://git-scm.com/book/ru/v1/Основы-Git-Отмена-изменений" tags="git" ctime="20160920094116" dir="1474353676z58rwaryyr" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1482331578jbn49tpxe6" name="git-сервисы">
-     <recordtable>
-      <record id="1482332068bnl8nnucfw" name="Gogs: легковесный git-сервис" author="&#10;Селектел" url="https://habrahabr.ru/company/selectel/blog/305422/" tags="git" ctime="20161221175428" dir="1482332068frfssgi177" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="14938755219btbq2n4q6" name="errors&amp;resolves">
-     <recordtable>
-      <record id="1493875576fgpfho1vhs" name="Git Push error: refusing to update checked out branch" author="" url="http://stackoverflow.com/questions/11117823/git-push-error-refusing-to-update-checked-out-branch" tags="git" ctime="20170504082616" dir="1493875576ll9pmhs0kn" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1494836026ig41ogfn27" name="links">
-     <recordtable>
-      <record id="1494836070e8ciwpzze6" name="Вводная по работе с git" author="" url="http://www.improgrammer.net/git-commands-best-practices-cheat-sheet/" tags="git" ctime="20170515111430" dir="14948360705z980xoanq" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1501081336s7no9yyvx8" name="Как писать коммиты">
-     <recordtable>
-      <record id="1501081359mvwuivih6q" name="Как писать сообщения коммитов" author="" url="http://frontiermag.ru/commit-message.html" tags="git" ctime="20170726180239" dir="1501081359rfg9x5gdbm" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="0" icon="" id="1474433447rs65x5ttzg" name="deploy">
-    <node crypt="0" icon="" id="1474433452uyfciyhu0j" name="docker">
-     <recordtable>
-      <record id="1474433830q7zn4jsb1t" name="Полное практическое руководство по Docker: с нуля до кластера на AWS" author="Рахим Довлеткаев перевел" url="https://habrahabr.ru/post/310460/?utm_content=buffer693a9&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="program.deploy.docker" ctime="20160921075710" dir="14744338300puw7u0pl2" file="text.html" crypt="0"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="0" icon="" id="1474434490qezdvad6ml" name="translates">
-    <recordtable>
-     <record id="1474434631cfpvlu7s0f" name="THREE PILLARS OF UNIT TESTS" author="Pawel Olesiejuk from Goyello Blog" url="https://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests/" tags="program.translates" ctime="20160921081031" dir="1474434631flh0jy7szs" file="text.html" crypt="0"/>
-     <record id="1481892334grugr4krmn" name="Living in the Age of Software Fuckery" author="" url="https://medium.com/@bryanedds/living-in-the-age-of-software-fuckery-8859f81ca877#.5no35kmkj" tags="todo" ctime="20161216154534" dir="1481892334pbw3t7wgqb" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="0" icon="" id="1475603248lfx7tr1i39" name="electronics">
-    <recordtable>
-     <record id="1475603283psyoutjzzg" name="Circuit board etching" author="http://narbotic.com/video/MakePresents/MakePresents.html" url="" tags="Circuit Skills" ctime="20161004204803" dir="1475603283xuqzblsqyo" file="text.html" crypt="0"/>
-    </recordtable>
-   </node>
-   <node crypt="0" icon="" id="1481717037gvjptn6vq6" name="code complite">
-    <recordtable>
-     <record id="1481717157anjoz9m2wb" name="Метрики кода программного обеспечения" author="Anton Milutin " url="http://www.viva64.com/ru/a/0045/" tags="codecomplite" ctime="20161214150557" dir="148171715793ug9d9hqd" file="text.html" crypt="0"/>
-    </recordtable>
-   </node>
-   <node crypt="0" icon="" id="1481720937hhthmguxg2" name="Cheat Sheets">
-    <recordtable>
-     <record id="1481721001g82kwv62xc" name="The Developer Cheat Sheet Compilation" author="stark" url="http://www.fuzzyopinions.com/article/technology/the-developer-cheat-sheet-compilation/" tags="programming.cheatsheet" ctime="20161214161001" dir="1481721001lwjs3dxual" file="text.html" crypt="0"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14817820728sq77y5yr8" name="Языки разметки">
-    <node crypt="" id="1481782081xrle8zamkt" name="markdown">
-     <recordtable>
-      <record id="1481782144s01kimnt5k" name="Вопросы и ответы в формате Маркдаун" author="hexlet" url="https://ru.hexlet.io/courses/programming-basics/lessons/hexlet/theory_unit" tags="markdown" ctime="20161215090904" dir="1481782144qv2ixuocni" file="text.html"/>
-      <record id="14938794817x6c9c6uv6" name="links" author="" url="" tags="markdown" ctime="20170504093121" dir="1493879481pju3ep5y0g" file="text.html"/>
-      <record id="1493979454219z7ozx7n" name="Сделать конспект" author="" url="" tags="markdown" ctime="20170505131734" dir="1493979454uhimwc0col" file="text.html"/>
-      <record id="1493979840p07pyjm1ne" name="Краткая справка по разметке" author="" url="" tags="markdown" ctime="20170505132400" dir="1493979840a4xu5rbh9g" file="text.html"/>
-      <record id="1494003326arzjkyjgvu" name="online tuturial" author="" url="http://www.markdowntutorial.com/" tags="markdown.tuturial" ctime="20170505195526" dir="1494003326nle7jz077l" file="text.html"/>
-      <record id="1494004070vu31qu8nss" name="examples" author="" url="" tags="markdown.examples" ctime="20170505200750" dir="1494004070qaqh8oquyk" file="text.html"/>
-      <record id="1494503931th43qqh6zx" name="Онлайн генератор таблиц" author="" url="http://www.tablesgenerator.com/markdown_tables" tags="markdown.tablegenerator" ctime="20170511145851" dir="1494503931ixqk5kcrv7" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1494569884119m0vlpmf" name="html">
-     <recordtable>
-      <record id="1494569902f1yetdtgj6" name="Шаблоны" author="" url="" tags="html.templates" ctime="20170512091822" dir="1494569902171z4iqegv" file="text.html"/>
-      <record id="1496382778joilm6lddk" name="minilal html" author="" url="" tags="html.templates" ctime="20170602085258" dir="149638277854o2k25ujh" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1481801284oqiyonx8ux" name="online editors">
-    <recordtable>
-     <record id="14818014784o53wrydvr" name="Динамический конвертор из C в ассебмлер" author="" url="http://godbolt.org/?utm_content=bufferd021f&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="" ctime="20161215143118" dir="1481801478kj5xy4s54z" file="text.html"/>
-     <record id="1481866784yws0m639zy" name="repl.it" author="" url="https://repl.it/languages/javascript" tags="" ctime="20161216083944" dir="1481866784zz7vqbvuo0" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1481865439k9n9r419c1" name="Сбор требований">
-    <recordtable>
-     <record id="14818655007q4v4t8rld" name="Пример написания функциональных требований к Enterprise-системе" author="&#10;@anton_stasevic" url="https://habrahabr.ru/post/245625/" tags="requiments" ctime="20161216081820" dir="1481865500zylx6g31v4" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="148189367882fvtu14pl" name="game coding">
-    <recordtable>
-     <record id="1481893691yeegllctdh" name="План обучения" author="" url="https://github.com/miloyip/game-programmer" tags="" ctime="20161216160811" dir="1481893691ef4mym5381" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14818958125623ojvnfh" name="sql">
-    <recordtable>
-     <record id="1481895853mge3ek4335" name="Иерархические (рекурсивные) запросы" author="&#10;maovrn @maovrn" url="https://habrahabr.ru/post/43955/" tags="" ctime="20161216164413" dir="1481895853hlg3d92chf" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1482248559e7ivft0oje" name="develop">
-    <recordtable>
-     <record id="1482248608iqrtjajykw" name="Подборка бесплатных инструментов для разработчиков" author="ИТ-ГРАД&#10;vmware iaas provider" url="https://habrahabr.ru/company/it-grad/blog/270589/" tags="programing-develop" ctime="20161220184328" dir="14822486083yax4erwb1" file="text.html"/>
-     <record id="14827632913rn814pnvr" name="Как научиться оценивать задачи, если не умеешь: 4 фактора сложности" author="&#10;Юрий Румега @Rumega" url="https://habrahabr.ru/post/307820/" tags="programing-develop" ctime="20161226174131" dir="1482763291gee4vwn6w4" file="text.html"/>
-     <record id="1482763374el8ae29xnt" name="Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живёте" author="Евгений Врублевский @VEG" url="https://habrahabr.ru/post/302570/" tags="programing-develop" ctime="20161226174254" dir="1482763374hxufcnw9na" file="text.html"/>
-     <record id="1498830796tnrn5bpxkl" name="Изучите все языки программирования" author="Ozan Onay" url="https://m.habrahabr.ru/company/infopulse/blog/331934/" tags="programing-develop" ctime="20170630165316" dir="1498830796r1ch3n7dou" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1493815680q0o17ljkk5" name="cheatsheets">
-    <recordtable>
-     <record id="1493815684so7t76g96c" name="cvim" author="" url="" tags="" ctime="20170503154804" dir="1493815684qj50v7zbvi" file="text.html">
-      <files>
-       <file id="14938157249arm1e31cn" fileName="cvim cheatsheet.pdf" type="file"/>
-      </files>
-     </record>
-    </recordtable>
-   </node>
-   <node crypt="" id="1493995462w6lc3gri6t" name="hotkeys">
-    <recordtable>
-     <record id="1484226305j6hwpv8uhy" name="Горячие клавиши 1С 8" author=" Иван Петров (nzass)" url="http://infostart.ru/public/82432/" tags="hotkeys.1c" ctime="20170505174422" dir="14842263057dh0kxmy5e" file="text.html">
-      <files>
-       <file id="148422668161nbizpy75" fileName="HOT KEYS 1C.txt" type="file"/>
-       <file id="1484226686svqx5l8wdb" fileName="Hotkeys41C.md" type="file"/>
-      </files>
-     </record>
-     <record id="14842299824uwwowi97u" name="Firefox" author="" url="" tags="hotkeys.firefox" ctime="20170505174422" dir="1484229982009breobxk" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14940467418ow7j3x9iu" name="chrome">
-    <node crypt="" id="1494046747ae0xk8ycha" name="plugins">
-     <recordtable>
-      <record id="1494046794uzee0horo0" name="cVim" author="" url="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" tags="chrome.plugins.cvim" ctime="20170506075954" dir="1494046794lso3j5nnqu" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1494568394b1nlmk9six" name="JS">
-    <node crypt="" id="1494568412khstnshrx7" name="Задачи для обучения">
-     <recordtable>
-      <record id="14945684881cfyhx1u4c" name="Простые задачи на js" author="" url="https://gist.github.com/codedokode/ce30e7a036f18f416ae0" tags="js.edu.tasks" ctime="20170512085448" dir="1494568488kiqhy7unbe" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1494568557ecpncbot02" name="Учебники">
-     <recordtable>
-      <record id="1494568581ru40khpn4z" name="http://learn.javascript.ru/" author="" url="http://learn.javascript.ru/" tags="js.manuals" ctime="20170512085621" dir="1494568581zejuz96d6t" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="14979716936f7hm1w7gv" name="Статьи">
-     <recordtable>
-      <record id="1497971731gdsi8e3f6e" name="Эволюция асинхронного JavaScript" author="" url="https://tproger.ru/translations/asynchronous-javascript/" tags="" ctime="20170620181531" dir="1497971731xyy0znnj60" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1494568716b4b95ujygh" name="web-programming">
-    <node crypt="" id="14945687364tyymfmisx" name="lessons">
-     <recordtable>
-      <record id="1494568673nr5uu87rsy" name="http://archive-ipq-co.narod.ru/" author="" url="http://archive-ipq-co.narod.ru/" tags="web manuals" ctime="20170512085904" dir="1494568673duby68z1s2" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1499683088gozh7spf9y" name="work interview">
-     <recordtable>
-      <record id="1499683102fwg3ts740s" name="22 самых распространенных вопроса на собеседованиях на должность веб-разработчика" author="" url="https://tproger.ru/digest/most-common-questions-of-web-developer-interview/amp/" tags="web interview" ctime="20170710133822" dir="1499683102sjwtr87708" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1494569564onp5b8f38a" name="python">
-    <recordtable>
-     <record id="1494569579pfn79ujzrz" name="python on dmoz" author="" url="https://dmoztools.net/Computers/Programming/Languages/Python/" tags="python" ctime="20170512091259" dir="1494569579gyqpwyqmbc" file="text.html"/>
-     <record id="1494569717ytgv35gosq" name="official website" author="" url="https://www.python.org/" tags="" ctime="20170512091517" dir="1494569717ruk7u8tbb8" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1494927217sv2ozr8znn" name="web">
-    <node crypt="" id="1494927220ai6vogr3yj" name="libs">
-     <recordtable>
-      <record id="1494927552n6qlhm8x42" name="mdn Mozzila Developer Network" author="" url="https://developer.mozilla.org/ru/" tags="" ctime="20170516123912" dir="1494927552qsy9o3uc5n" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1495557254whpbbh1ifg" name="ГОСТ">
-    <recordtable>
-     <record id="14955573033b12zjwtnt" name="Виды испытаний автоматизированных систем" author="" url="" tags="gost" ctime="20170523193503" dir="1495557303hepffffkrf" file="text.html">
-      <files>
-       <file id="1495557311dxnn985ut5" fileName="gost 34.603.pdf" type="file"/>
-      </files>
-     </record>
-    </recordtable>
-   </node>
-   <node crypt="" id="1495778693ihp7k4711h" name="to read in web">
-    <recordtable>
-     <record id="149577875528msh45ruo" name="ImProgrammer" author="" url="http://www.improgrammer.net/" tags="programming read in web" ctime="20170526090555" dir="1495778755v97jvnx3y8" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1497730778p5bfd4lpvv" name="quality assurance">
-    <recordtable>
-     <record id="1497730785y0e978a4r5" name="Продуманная оптимизация" author="" url="http://optimization.guide/" tags="" ctime="20170617231945" dir="1497730785gge8njgkml" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14978083179urrlu2uph" name="tasks">
-    <recordtable>
-     <record id="1497808330ikzuijhhu9" name="108 задач с IT-собеседований с разбором решений" author="" url="https://tproger.ru/articles/problems/" tags="" ctime="20170618205210" dir="14978083308zp366glrs" file="text.html"/>
-     <record id="1498125069rq1qf8m8h9" name="27 сайтов с задачками для оттачивания навыков программирования" author="" url="https://proglib.io/p/27-puzzle-websites-to-sharpen-your-skills/" tags="" ctime="20170622125109" dir="1498125069vb3bqof17g" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1498564888y0lr8rch06" name="projects">
-    <recordtable>
-     <record id="1498564901vuc8wll3kr" name="Snaptoken" author="" url="http://viewsourcecode.org/snaptoken/" tags="" ctime="20170627150141" dir="1498564901n6f239mx6x" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="14987453891ww9ik1gkw" name="code-practice">
-    <recordtable>
-     <record id="14987454030z17t36eke" name="codefights" author="" url="https://codefights.com/interview-practice" tags="code-practice" ctime="20170629171003" dir="1498745403uqqct0p1b6" file="text.html"/>
-     <record id="1498841030kie1gmg8y8" name="codewars" author="" url="https://www.codewars.com/join?language=javascript" tags="code-practice" ctime="20170630194350" dir="14988410309i8ngclb8r" file="text.html"/>
-     <record id="1499162839sshr9fagcp" name="Составление логических схем в игровой форме" author="" url="https://makingartstudios.itch.io/dls?utm_content=bufferba2f0&amp;utm_medium=social&amp;utm_source=plus.google.com&amp;utm_campaign=buffer" tags="code-practice" ctime="20170704130719" dir="1499162839wxhzu3o35h" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1498746244z8wwmf8im8" name="online-cources">
-    <recordtable>
-     <record id="14987462843hyd06ncel" name="pluralsight" author="" url="https://www.pluralsight.com/browse" tags="" ctime="20170629172444" dir="1498746284jsj1fezudv" file="text.html"/>
-     <record id="1498840904y7w8ew5dc4" name="laracasts" author="" url="https://laracasts.com/" tags="" ctime="20170630194144" dir="14988409048w0qxremjp" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1499683249bqdvmi24z0" name="patterns">
-    <recordtable>
-     <record id="1499683308a96hvut6vi" name="Шаблоны проектирования простым языком" author="" url="https://tproger.ru/translations/design-patterns-simple-words-1/amp/" tags="patterns" ctime="20170710134421" dir="1499683308gqpew8b01l" file="text.html"/>
-    </recordtable>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
