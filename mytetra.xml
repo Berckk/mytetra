@@ -550,17 +550,17 @@
     <node crypt="" id="1497597302z8mh9fi9pl" name="admin">
      <node crypt="" icon="" id="1497597330wrkxlq0fui" name="Articles">
       <recordtable>
-       <record id="1473343351wz5wss9abe" name="Использование service discovery в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/327893/" tags="1c.admin.info" ctime="20170616101530" dir="1473343351yi693f67s1" file="text.html" crypt="0"/>
+       <record id="1473343351wz5wss9abe" name="Использование service discovery в 1С" author="Евгений Сосна aka pumbaE" url="http://infostart.ru/public/327893/" tags="1с_админ" ctime="20170616101530" dir="1473343351yi693f67s1" file="text.html" crypt="0"/>
       </recordtable>
      </node>
      <node crypt="" id="1497597334p9wzjw6dwa" name="tools">
       <recordtable>
-       <record id="1497597349qw3t45ntuc" name="Базапузомер" author="" url="" tags="1c admin tools" ctime="20170616101549" dir="1497597349usvnhv4c21" file="text.html">
+       <record id="1497597349qw3t45ntuc" name="Базапузомер" author="" url="" tags="1с_админ" ctime="20170616101549" dir="1497597349usvnhv4c21" file="text.html">
         <files>
          <file id="1497597362wmrjaa8xim" fileName="БазаПузомер2016.erf" type="file"/>
         </files>
        </record>
-       <record id="1499764347vx8uw3ple2" name="Обновлятор 1с" author="" url="http://helpme1c.ru/stati-po-ispolzovaniyu-programmy-obnovlyator-1s" tags="1c admin tools" ctime="20170711121227" dir="1499764347zyfq10dqjs" file="text.html">
+       <record id="1499764347vx8uw3ple2" name="Обновлятор 1с" author="" url="http://helpme1c.ru/stati-po-ispolzovaniyu-programmy-obnovlyator-1s" tags="1с_админ" ctime="20170711121227" dir="1499764347zyfq10dqjs" file="text.html">
         <files>
          <file id="14997643587u40qnvuis" fileName="Obnovljator-1s.zip" type="file"/>
         </files>
@@ -574,7 +574,7 @@
      </recordtable>
      <node crypt="" id="1495122516khj1lrnbv8" name="Работа с файлами">
       <recordtable>
-       <record id="14951225550zwyp21bbz" name="Механизм временного хранилища, работа с файлами и картинками " author="" url="https://its.1c.ru/db/v8doc#content:74:1" tags="1с.РуководствоРазработчика.ВременноеХранилище.РаботаСФайлами" ctime="20170518184915" dir="1495122555oossxl8c5y" file="text.html">
+       <record id="14951225550zwyp21bbz" name="Механизм временного хранилища, работа с файлами и картинками " author="" url="https://its.1c.ru/db/v8doc#content:74:1" tags="1с_файлы" ctime="20170518184915" dir="1495122555oossxl8c5y" file="text.html">
         <files>
          <file id="1495122901agfoyckiyt" fileName="ФайлыЗаказа.epf" type="file"/>
         </files>
@@ -584,58 +584,58 @@
     </node>
     <node crypt="0" icon="" id="1472471279cv1o2pnzuk" name="oscript">
      <recordtable>
-      <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="1c.oscript" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html" crypt="0"/>
+      <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="1с_oscript" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html" crypt="0"/>
      </recordtable>
      <node crypt="0" icon="" id="147247129148akcqgdx8" name="libraries">
       <node crypt="0" icon="" id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
-        <record id="1472471343bdlvg8ukdz" name="readme" author="Andrei Ovsiankin aka EvilBeaver" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="1c.oscript" ctime="20160829144903" dir="1472471343r7jbd4vcvf" file="text.html" crypt="0"/>
-        <record id="1472721070vgsmmml2lg" name="Пример работы с библиотекой" author="pola" url="" tags="1c.oscript" ctime="20160901121110" dir="1472721070snol5zfef2" file="text.html" crypt="0"/>
+        <record id="1472471343bdlvg8ukdz" name="readme" author="Andrei Ovsiankin aka EvilBeaver" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="1с_oscript" ctime="20160829144903" dir="1472471343r7jbd4vcvf" file="text.html" crypt="0"/>
+        <record id="1472721070vgsmmml2lg" name="Пример работы с библиотекой" author="pola" url="" tags="1с_oscript" ctime="20160901121110" dir="1472721070snol5zfef2" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node crypt="0" icon="" id="1473157395uex8cmrex3" name="Готовые решения">
        <recordtable>
-        <record id="1473157573her9q3g1g1" name="Работа с logos" author="pola" url="" tags="1c.oscript.templates" ctime="20160906132613" dir="14731575737onitu7pl8" file="text.html" crypt="0"/>
-        <record id="1473157687kp6tfxrl07" name="Работа с парсером командной строки" author="pola" url="" tags="1c.oscript.templates" ctime="20160906132807" dir="14731576870bcke216y9" file="text.html" crypt="0"/>
-        <record id="1473158407ixtx50k1sg" name="Работа с временными файлами" author="pola" url="" tags="1c.oscript.templates" ctime="20160906134007" dir="147315840758lfq4rkxb" file="text.html" crypt="0"/>
-        <record id="14731594385lj47fckni" name="Шаблон script-test.os" author="pola" url="" tags="1c.oscript.templates" ctime="20160906135718" dir="147315943857q9guunaa" file="text.html" crypt="0"/>
-        <record id="14732358971m0ezqqhuu" name="Шаблон скрипта" author="pola" url="" tags="1c.oscript.templates" ctime="20160907111137" dir="1473235897e2lple1yxv" file="text.html" crypt="0"/>
+        <record id="1473157573her9q3g1g1" name="Работа с logos" author="pola" url="" tags="1с_oscript" ctime="20160906132613" dir="14731575737onitu7pl8" file="text.html" crypt="0"/>
+        <record id="1473157687kp6tfxrl07" name="Работа с парсером командной строки" author="pola" url="" tags="1с_oscript" ctime="20160906132807" dir="14731576870bcke216y9" file="text.html" crypt="0"/>
+        <record id="1473158407ixtx50k1sg" name="Работа с временными файлами" author="pola" url="" tags="1с_oscript" ctime="20160906134007" dir="147315840758lfq4rkxb" file="text.html" crypt="0"/>
+        <record id="14731594385lj47fckni" name="Шаблон script-test.os" author="pola" url="" tags="1с_oscript" ctime="20160906135718" dir="147315943857q9guunaa" file="text.html" crypt="0"/>
+        <record id="14732358971m0ezqqhuu" name="Шаблон скрипта" author="pola" url="" tags="1с_oscript" ctime="20160907111137" dir="1473235897e2lple1yxv" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node crypt="0" icon="" id="1473339768r5dq5ypygo" name="oscript-simple-gui">
        <recordtable>
-        <record id="1473339927i93aipblju" name="readme" author="ret-Phoenix" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1c.oscript.ui" ctime="20160908160527" dir="1473339927508iroyopn" file="text.html" crypt="0"/>
+        <record id="1473339927i93aipblju" name="readme" author="ret-Phoenix" url="https://github.com/ret-Phoenix/oscript-simple-gui" tags="1с_oscript" ctime="20160908160527" dir="1473339927508iroyopn" file="text.html" crypt="0"/>
        </recordtable>
       </node>
       <node crypt="" id="1493289393m8u67ues20" name="deployka">
        <recordtable>
-        <record id="1493289422hq4ilqltq6" name="ci" author="" url="" tags="deployka" ctime="20170427133702" dir="1493289422n6j65n1aw8" file="text.html"/>
+        <record id="1493289422hq4ilqltq6" name="ci" author="" url="" tags="1с_oscript" ctime="20170427133702" dir="1493289422n6j65n1aw8" file="text.html"/>
        </recordtable>
       </node>
      </node>
     </node>
     <node crypt="0" icon="" id="1472537328mep6zcykbw" name="Интерфейс">
      <recordtable>
-      <record id="14725375252xkvkgz2ww" name="Как вместить большое количество команд" author="its" url="http://its.1c.ru/db/v8std#content:2149184364:hdoc" tags="1c.ui" ctime="20160830091205" dir="1472537525y2lswh1ltb" file="text.html" crypt="0"/>
-      <record id="1473338714kc4b958yk3" name="Правильная индикация прогресса цикла на клиенте" author="Сергей Старых aka tormozit" url="http://infostart.ru/public/57223/" tags="1c.ui" ctime="20160908154514" dir="14733387140p6wbsa5w0" file="text.html" crypt="0"/>
-      <record id="1473788479dfe3rdnl7q" name="Работа с файлами (картинками) в интерфейсе Такси" author="Чистов Павел aka GROOVY" url="http://infostart.ru/public/195003/" tags="1c.ui" ctime="20160913204119" dir="1473788479zhjyive85e" file="text.html" crypt="0"/>
+      <record id="14725375252xkvkgz2ww" name="Как вместить большое количество команд" author="its" url="http://its.1c.ru/db/v8std#content:2149184364:hdoc" tags="1с_интерфейс" ctime="20160830091205" dir="1472537525y2lswh1ltb" file="text.html" crypt="0"/>
+      <record id="1473338714kc4b958yk3" name="Правильная индикация прогресса цикла на клиенте" author="Сергей Старых aka tormozit" url="http://infostart.ru/public/57223/" tags="1с_интерфейс" ctime="20160908154514" dir="14733387140p6wbsa5w0" file="text.html" crypt="0"/>
+      <record id="1473788479dfe3rdnl7q" name="Работа с файлами (картинками) в интерфейсе Такси" author="Чистов Павел aka GROOVY" url="http://infostart.ru/public/195003/" tags="1с_интерфейс" ctime="20160913204119" dir="1473788479zhjyive85e" file="text.html" crypt="0"/>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1472562701f22c6zxned" name="Тестирование">
      <node crypt="0" icon="" id="147256271464zni355qo" name="Функциональное">
       <recordtable>
-       <record id="1472562912dcfv53zfoc" name="Подключение тестового приложения" author="artbear" url="" tags="testing" ctime="20160830161512" dir="1472562912wsaoxytpjp" file="text.html" crypt="0"/>
-       <record id="14725629910f8w4nve5t" name="Завершить все сеансы работы с тестовыми приложениями" author="artbear" url="" tags="testing" ctime="20160830161631" dir="1472562991ov9ck7mjf3" file="text.html" crypt="0"/>
-       <record id="1472563075suzt2ag0ge" name="Открыть список задач исполнителя" author="pola" url="" tags="testing" ctime="20160830161755" dir="1472563075o3o9z6z5m1" file="text.html" crypt="0"/>
-       <record id="147256315129jwzwbfh0" name="Найти по наименованию и открыть задачу исполнителя" author="pola" url="" tags="testing" ctime="20160830161911" dir="1472563151urgyyeic03" file="text.html" crypt="0"/>
+       <record id="1472562912dcfv53zfoc" name="Подключение тестового приложения" author="artbear" url="" tags="1с_тестирование" ctime="20160830161512" dir="1472562912wsaoxytpjp" file="text.html" crypt="0"/>
+       <record id="14725629910f8w4nve5t" name="Завершить все сеансы работы с тестовыми приложениями" author="artbear" url="" tags="1с_тестирование" ctime="20160830161631" dir="1472562991ov9ck7mjf3" file="text.html" crypt="0"/>
+       <record id="1472563075suzt2ag0ge" name="Открыть список задач исполнителя" author="pola" url="" tags="1с_тестирование" ctime="20160830161755" dir="1472563075o3o9z6z5m1" file="text.html" crypt="0"/>
+       <record id="147256315129jwzwbfh0" name="Найти по наименованию и открыть задачу исполнителя" author="pola" url="" tags="1с_тестирование" ctime="20160830161911" dir="1472563151urgyyeic03" file="text.html" crypt="0"/>
       </recordtable>
       <node crypt="0" icon="" id="1472797247x06uoeg5u6" name="AutoIt">
        <recordtable>
-        <record id="1472797292hyndmlhgtm" name="Запустить bat-файл" author="pola" url="" tags="1c.testing.autoit" ctime="20160902092132" dir="14727972928dz87s0qur" file="text.html" crypt="0"/>
-        <record id="1472801107s1wcjx1206" name="Проверить, что окно активно" author="pola" url="help AutoIt" tags="1c.testing.autoit" ctime="20160902102507" dir="1472801107shtu9te9js" file="text.html" crypt="0"/>
-        <record id="1472801703d3014c0hti" name="Активировать указанное окно" author="pola" url="help AutoIt" tags="1c.testing.autoit" ctime="20160902103503" dir="1472801703bdinuiniin" file="text.html" crypt="0"/>
-        <record id="1472802998k4cmfo5yv4" name="links" author="pola" url="" tags="1c.testing.autoit" ctime="20160902105638" dir="147280299813hhs5of15" file="text.html" crypt="0"/>
-        <record id="1494480215f8runhucn7" name="Справка на русском" author="" url="" tags="autoit.help" ctime="20170511082335" dir="1494480215nfblont6u2" file="text.html">
+        <record id="1472797292hyndmlhgtm" name="Запустить bat-файл" author="pola" url="" tags="1с_тестирование_autoit" ctime="20160902092132" dir="14727972928dz87s0qur" file="text.html" crypt="0"/>
+        <record id="1472801107s1wcjx1206" name="Проверить, что окно активно" author="pola" url="help AutoIt" tags="1с_тестирование_autoit" ctime="20160902102507" dir="1472801107shtu9te9js" file="text.html" crypt="0"/>
+        <record id="1472801703d3014c0hti" name="Активировать указанное окно" author="pola" url="help AutoIt" tags="1с_тестирование_autoit" ctime="20160902103503" dir="1472801703bdinuiniin" file="text.html" crypt="0"/>
+        <record id="1472802998k4cmfo5yv4" name="links" author="pola" url="" tags="1с_тестирование_autoit" ctime="20160902105638" dir="147280299813hhs5of15" file="text.html" crypt="0"/>
+        <record id="1494480215f8runhucn7" name="Справка на русском" author="" url="" tags="1с_тестирование_autoit" ctime="20170511082335" dir="1494480215nfblont6u2" file="text.html">
          <files>
           <file id="1494480221ec0xwcs4so" fileName="AutoIt3.chm" type="file"/>
           <file id="1494480224px48b6lwza" fileName="CustomUDFs.chm" type="file"/>
@@ -646,12 +646,12 @@
       </node>
       <node crypt="0" icon="" id="1473158861mn5ati3hwf" name="features">
        <recordtable>
-        <record id="1473159015xe83vfstot" name="Шаблон фича-файла" author="Nikita Gryzlov &lt;nixel2007@gmail.com" url="" tags="1c.testing.features" ctime="20160906135015" dir="1473159015b44ywrw3zk" file="text.html" crypt="0"/>
-        <record id="14740062159ckc2ud4ly" name="Получение состояния формы на языке gherkin" author="" url="" tags="1c.testing.features" ctime="20160916091015" dir="1474006215in107bgmxb" file="text.html" crypt="0"/>
+        <record id="1473159015xe83vfstot" name="Шаблон фича-файла" author="Nikita Gryzlov &lt;nixel2007@gmail.com" url="" tags="1с_тестирование_bdd" ctime="20160906135015" dir="1473159015b44ywrw3zk" file="text.html" crypt="0"/>
+        <record id="14740062159ckc2ud4ly" name="Получение состояния формы на языке gherkin" author="" url="" tags="1с_тестирование_bdd" ctime="20160916091015" dir="1474006215in107bgmxb" file="text.html" crypt="0"/>
        </recordtable>
        <node crypt="" id="1492069391rke9eiz8pg" name="problems">
         <recordtable>
-         <record id="1492069563jnlesc6jjr" name="При подлкючении к тест-клиенту под конкретным пользователем" author="" url="" tags="" ctime="20170413104603" dir="1492069563cgvrbtykr2" file="text.html">
+         <record id="1492069563jnlesc6jjr" name="При подлкючении к тест-клиенту под конкретным пользователем" author="" url="" tags="1с_тестирование_bdd" ctime="20170413104603" dir="1492069563cgvrbtykr2" file="text.html">
           <files>
            <file id="1492069573gogxvv4576" fileName="test.feature" type="file"/>
           </files>
@@ -661,24 +661,19 @@
       </node>
       <node crypt="" id="1484889901b87kx2jdnn" name="ТЕСТЕР">
        <recordtable>
-        <record id="1484893804ysk9m97oaq" name="Общее описание" author="Решитко Дмитрий (grumagargler)" url="https://habrahabr.ru/post/307808/" tags="1c.tester" ctime="20170120093004" dir="1484893804y5j8aazc8o" file="text.html"/>
-        <record id="1484889910dejf0o5rr8" name="Справка" author="Решитко Дмитрий (grumagargler)" url="" tags="1c.tester" ctime="20170120082510" dir="1484889910bewyp9zi2d" file="text.html">
+        <record id="1484893804ysk9m97oaq" name="Общее описание" author="Решитко Дмитрий (grumagargler)" url="https://habrahabr.ru/post/307808/" tags="1с_тестирование_tools" ctime="20170120093004" dir="1484893804y5j8aazc8o" file="text.html"/>
+        <record id="1484889910dejf0o5rr8" name="Справка" author="Решитко Дмитрий (grumagargler)" url="" tags="1с_тестирование_tools" ctime="20170120082510" dir="1484889910bewyp9zi2d" file="text.html">
          <files>
           <file id="14848903911ujd5fbq68" fileName="helpTester.rar" type="file"/>
          </files>
         </record>
-        <record id="1484893901ztl7sq2afq" name="Репозитории" author="Решитко Дмитрий @grumegargler" url="" tags="" ctime="20170120093141" dir="1484893901ealyc97j84" file="text.html"/>
+        <record id="1484893901ztl7sq2afq" name="Репозитории" author="Решитко Дмитрий @grumegargler" url="" tags="1с_тестирование_tools" ctime="20170120093141" dir="1484893901ealyc97j84" file="text.html"/>
        </recordtable>
       </node>
       <node crypt="" id="1486128691hlq8wt4znz" name="xUnit">
        <recordtable>
-        <record id="1486128763c4ceaibqzu" name="Получить тестируемую форму" author="" url="" tags="1c.testing.func.xUnit" ctime="20170203163243" dir="1486128763mzc570ty74" file="text.html"/>
-        <record id="14888689431bb3xk5fl8" name="Пример тестовой обработки с созданием и удалением тестовых данных в форме" author="А.Аюханов aka artbear" url="" tags="" ctime="20170307094223" dir="1488868943tc88zg3cxu" file="text.html"/>
-       </recordtable>
-      </node>
-      <node crypt="" id="14938749551zao9layez" name="Технология UniTESK">
-       <recordtable>
-        <record id="14938749897t6bnyitf8" name="links" author="" url="" tags="" ctime="20170504081629" dir="14938749891cb09f7hwm" file="text.html"/>
+        <record id="1486128763c4ceaibqzu" name="Получить тестируемую форму" author="" url="" tags="1с_тестирование_xUnitFor1C" ctime="20170203163243" dir="1486128763mzc570ty74" file="text.html"/>
+        <record id="14888689431bb3xk5fl8" name="Пример тестовой обработки с созданием и удалением тестовых данных в форме" author="А.Аюханов aka artbear" url="" tags="1с_тестирование_xUnitFor1C" ctime="20170307094223" dir="1488868943tc88zg3cxu" file="text.html"/>
        </recordtable>
       </node>
      </node>
@@ -1112,7 +1107,7 @@
      <recordtable>
       <record id="1482248184mgw75o80n3" name="Концепция асинхронного программирования" author="Чистов Павел" url="http://expert.chistov.pro/print/341698/" tags="1с_индикатор" ctime="20170727175040" dir="1482248184vxue1yup4d" file="text.html"/>
       <record id="1475685699092khklerq" name="УПП Асинхронное выполнение кода" author="" url="" tags="1с_индикатор" ctime="20170727175142" dir="1475685699exji8yi83q" file="text.html" crypt="0"/>
-      <record id="1501167128jln62wogib" name="Обработка с индикацией процесса на сервере" author="" url="" tags="" ctime="20170727175208" dir="1501167128gpn0bw4l0s" file="text.html">
+      <record id="1501167128jln62wogib" name="Обработка с индикацией процесса на сервере" author="Анатолий Ситников" url="http://infostart.ru/public/76309/" tags="1с_индикатор" ctime="20170727175208" dir="1501167128gpn0bw4l0s" file="text.html">
        <files>
         <file id="15011671342c6j9q7o8g" fileName="ОбработкаНаСервереСИндикатором.epf" type="file"/>
        </files>
