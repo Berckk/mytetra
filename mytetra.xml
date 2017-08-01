@@ -940,6 +940,11 @@
      <recordtable>
       <record id="1474348435licl95lgve" name="Как ускорить 1С – Многопоточная обработка данных" author="Бурмистров Андрей" url="" tags="1c.multitasking" ctime="20160920081355" dir="1474348435gpmj7esjv6" file="text.html" crypt="0"/>
       <record id="1474349286wgxbe2u4h7" name="Приемы обработки больших данных в 1С. На пути к big data" author="Старых Сергей aka tormozit" url="" tags="1c.multitasking" ctime="20160920082806" dir="1474349286ejmjhcdp5z" file="text.html" crypt="0"/>
+      <record id="15015966734h1rduplor" name="Решение Павлюка Евгения" author="Павлюк Евгений" url="" tags="" ctime="20170801171113" dir="1501596673ybysgyuzwb" file="text.html">
+       <files>
+        <file id="1501596700nrahdg7v1w" fileName="TaskManagerFor1C-1.4.5.7z" type="file"/>
+       </files>
+      </record>
      </recordtable>
     </node>
     <node crypt="0" icon="" id="1474905128ow90ksgjuk" name="roles"/>
