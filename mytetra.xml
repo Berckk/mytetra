@@ -1125,7 +1125,7 @@
       <record id="1501600968r3xson04y5" name="Пример вывода состояния из фонового задания" author="" url="" tags="1с_индикатор" ctime="20170801182248" dir="1501600968nlget2l6ib" file="text.html"/>
       <record id="1501677039fkf6n341c7" name="Шаблон обработки с идикатором выполнения на сервере в фоновом задании" author="pola" url="" tags="" ctime="20170802153039" dir="1501677039ptftluwc3y" file="text.html">
        <files>
-        <file id="15016770985o4sccxsm9" fileName="ВыполнениеДлительнойОперацииВФоновомРежиме.epf" type="file"/>
+        <file id="1501677874ok36hpxt75" fileName="ВыполнениеДлительнойОперацииВФоновомРежиме.epf" type="file"/>
        </files>
       </record>
      </recordtable>
