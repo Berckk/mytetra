@@ -743,20 +743,21 @@
      </recordtable>
      <node crypt="0" icon="" id="14731692907jqq1dqf86" name="com">
       <recordtable>
-       <record id="1496732856zaopr6bm1u" name="Зарегистрировать компоненту comcntr.dll" author="" url="" tags="1c.com" ctime="20170606100736" dir="1496732856aupvouu0vw" file="text.html"/>
+       <record id="1496732856zaopr6bm1u" name="Зарегистрировать компоненту comcntr.dll" author="" url="" tags="1с_com" ctime="20170606100736" dir="1496732856aupvouu0vw" file="text.html"/>
       </recordtable>
       <node crypt="0" icon="" id="1473169290gmx84kxu2a" name="Готовые решения">
        <recordtable>
-        <record id="1473169290up6j8ect7r" name="Получить соединение с базой" author="pola" url="" tags="1c.integration.templates" ctime="20160906164130" dir="1473169290kjgy88s4dh" file="text.html" crypt="0"/>
-        <record id="1474879763v61grp8dt8" name="Получить уникальный идентификатор строкой" author="" url="" tags="1c.integration.templates" ctime="20160926114923" dir="1474879763jlupbziozb" file="text.html" crypt="0"/>
+        <record id="1473169290up6j8ect7r" name="Получить соединение с базой" author="pola" url="" tags="1с_com" ctime="20160906164130" dir="1473169290kjgy88s4dh" file="text.html" crypt="0"/>
+        <record id="1474879763v61grp8dt8" name="Получить уникальный идентификатор строкой" author="" url="" tags="1с_com" ctime="20160926114923" dir="1474879763jlupbziozb" file="text.html" crypt="0"/>
+        <record id="1501834052fc5bemzyn4" name="Передать внешнюю обработку в com-соединение" author="" url="" tags="1с_com" ctime="20170804110732" dir="1501834052ae93cf5u16" file="text.html"/>
        </recordtable>
       </node>
       <node crypt="0" icon="" id="14733369470ye6ehaps5" name="Статьи">
        <recordtable>
-        <record id="14733373478n8a5mc054" name="Взаимодействие между базами 1С через COM" author="Старых Сергей aka tormozit " url="http://infostart.ru/public/387577/" tags="1c.integration.com.info" ctime="20160908152227" dir="1473337347r1lmt386ov" file="text.html" crypt="0"/>
-        <record id="14733388369e182956rc" name="Особенности использования COM-объектов" author="its" url="http://its.1c.ru/db/metod8dev/content/2263/hdoc" tags="" ctime="20160908154716" dir="1473338836urgaze3dl3" file="text.html" crypt="0"/>
-        <record id="1473339195k2ehyiaky6" name="Получение значений перечислений через внешнее соединение или Automation сервер" author="its" url="http://its.1c.ru/db/metod8dev/content/2261/hdoc" tags="" ctime="20160908155315" dir="1473339195xzxen8rn6d" file="text.html" crypt="0"/>
-        <record id="1473339238svbyljfvgb" name="Передача объектов 1С:Предприятия через COM" author="its" url="http://its.1c.ru/db/metod8dev/content/2262/hdoc" tags="" ctime="20160908155358" dir="1473339238xoaq6y0a6r" file="text.html" crypt="0"/>
+        <record id="14733373478n8a5mc054" name="Взаимодействие между базами 1С через COM" author="Старых Сергей aka tormozit " url="http://infostart.ru/public/387577/" tags="1с_com" ctime="20160908152227" dir="1473337347r1lmt386ov" file="text.html" crypt="0"/>
+        <record id="14733388369e182956rc" name="Особенности использования COM-объектов" author="its" url="http://its.1c.ru/db/metod8dev/content/2263/hdoc" tags="1с_com" ctime="20160908154716" dir="1473338836urgaze3dl3" file="text.html" crypt="0"/>
+        <record id="1473339195k2ehyiaky6" name="Получение значений перечислений через внешнее соединение или Automation сервер" author="its" url="http://its.1c.ru/db/metod8dev/content/2261/hdoc" tags="1с_com" ctime="20160908155315" dir="1473339195xzxen8rn6d" file="text.html" crypt="0"/>
+        <record id="1473339238svbyljfvgb" name="Передача объектов 1С:Предприятия через COM" author="its" url="http://its.1c.ru/db/metod8dev/content/2262/hdoc" tags="1с_com" ctime="20160908155358" dir="1473339238xoaq6y0a6r" file="text.html" crypt="0"/>
        </recordtable>
       </node>
      </node>
