@@ -680,38 +680,38 @@
      <node crypt="0" icon="" id="14726575359q9go55ytg" name="Модульное">
       <node crypt="0" icon="" id="1473159069qebb5fiiij" name="xUnit">
        <recordtable>
-        <record id="14731590877r95snukst" name="Код модуля обычной формы тестовой обработки для отладки" author="pola" url="" tags="1с_тестирование_xUnitFor1C_tdd" ctime="20160906135127" dir="1473159087cxqehl36uk" file="text.html" crypt="0"/>
-        <record id="14732526873nwr94k5v1" name="Удалить тестовые данные" author="artbear" url="" tags="1с_тестирование_xUnitFor1C_tdd" ctime="20160907155127" dir="1473252687mij89ehpcm" file="text.html" crypt="0"/>
+        <record id="14731590877r95snukst" name="Код модуля обычной формы тестовой обработки для отладки" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160906135127" dir="1473159087cxqehl36uk" file="text.html" crypt="0"/>
+        <record id="14732526873nwr94k5v1" name="Удалить тестовые данные" author="artbear" url="" tags="1с_xUnitFor1C" ctime="20160907155127" dir="1473252687mij89ehpcm" file="text.html" crypt="0"/>
        </recordtable>
        <node crypt="0" icon="" id="14738424680dkf3fibel" name="plugins">
         <recordtable>
-         <record id="1473843761j4qxe1dnu4" name="Утверждения проверки таблиц" author="Аюханов Артур aka artbear" url="" tags="1с_тестирование_xUnitFor1C_tdd" ctime="20160914120241" dir="1473843761zm6ibreqtp" file="text.html" crypt="0"/>
-         <record id="148186434198y9oa7re0" name="Сверка таблиц при разработке через тестирование" author=" Пишу код как картины (yurii_host)" url="http://infostart.ru/public/553837/" tags="1с_тестирование_xUnitFor1C_tdd" ctime="20161216075901" dir="1481864341er13cej0i7" file="text.html"/>
+         <record id="1473843761j4qxe1dnu4" name="Утверждения проверки таблиц" author="Аюханов Артур aka artbear" url="" tags="1с_xUnitFor1C" ctime="20160914120241" dir="1473843761zm6ibreqtp" file="text.html" crypt="0"/>
+         <record id="148186434198y9oa7re0" name="Сверка таблиц при разработке через тестирование" author=" Пишу код как картины (yurii_host)" url="http://infostart.ru/public/553837/" tags="1с_xUnitFor1C" ctime="20161216075901" dir="1481864341er13cej0i7" file="text.html"/>
         </recordtable>
        </node>
        <node crypt="0" icon="" id="1473852521rfrafz307t" name="my lib">
         <recordtable>
-         <record id="1473852543hervzwo89u" name="Получить данные из тестового макета" author="pola" url="" tags="1с_тестирование_xUnitFor1C_tdd_mylib" ctime="20160914142903" dir="14738525439jeh71y5po" file="text.html" crypt="0"/>
-         <record id="1473852549vxn4nohy1y" name="Получить таблицу значений из макета" author="pola" url="" tags="1с_тестирование_xUnitFor1C_tdd_mylib" ctime="20160914142909" dir="14738525494j03jk4cgi" file="text.html" crypt="0"/>
-         <record id="1473852556zr1d1txqiw" name="Получить тестовый объект" author="pola" url="" tags="1с_тестирование_xUnitFor1C_tdd_mylib" ctime="20160914142916" dir="1473852556ppfftykqz9" file="text.html" crypt="0"/>
-         <record id="1473853731u6fih73kbp" name="Подключить плагин на сервере" author="pola" url="" tags="1с_тестирование_xUnitFor1C_tdd_mylib" ctime="20160914144851" dir="1473853731bjliyupry1" file="text.html" crypt="0"/>
-         <record id="1474039269lfpqo6pg17" name="Изменить свойство регистра сведений и откатиться" author="pola" url="" tags="1с_тестирование_xUnitFor1C_tdd_mylib" ctime="20160916182109" dir="1474039269dzxdif2yu9" file="text.html" crypt="0"/>
+         <record id="1473852543hervzwo89u" name="Получить данные из тестового макета" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160914142903" dir="14738525439jeh71y5po" file="text.html" crypt="0"/>
+         <record id="1473852549vxn4nohy1y" name="Получить таблицу значений из макета" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160914142909" dir="14738525494j03jk4cgi" file="text.html" crypt="0"/>
+         <record id="1473852556zr1d1txqiw" name="Получить тестовый объект" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160914142916" dir="1473852556ppfftykqz9" file="text.html" crypt="0"/>
+         <record id="1473853731u6fih73kbp" name="Подключить плагин на сервере" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160914144851" dir="1473853731bjliyupry1" file="text.html" crypt="0"/>
+         <record id="1474039269lfpqo6pg17" name="Изменить свойство регистра сведений и откатиться" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160916182109" dir="1474039269dzxdif2yu9" file="text.html" crypt="0"/>
         </recordtable>
        </node>
        <node crypt="0" icon="" id="147400862012a19jui7f" name="Мои изменения в обработке xUnitFor1c">
         <recordtable>
-         <record id="14740086703zdfjccsp2" name="Не открыть отчет о тестировании" author="" url="" tags="" ctime="20160916095110" dir="1474008670mmspvsoeyr" file="text.html" crypt="0"/>
-         <record id="1474008746rdn6dr4zmx" name="Установка своих комбинаций клавиш" author="" url="" tags="" ctime="20160916095226" dir="1474008746hu118we666" file="text.html" crypt="0"/>
-         <record id="1474044561hc4j6d3opk" name="Индикация упавшего по неизвестной причине тест" author="" url="" tags="" ctime="20160916194921" dir="1474044561fvtm0xfghg" file="text.html" crypt="0"/>
-         <record id="1488870885plszwdbquc" name="Инидикатор красный при неизвестной ошибке" author="pola" url="" tags="" ctime="20170307101445" dir="14888708850y1e29jpgx" file="text.html"/>
-         <record id="1488876039t9zycr7020" name="Краткая информация об ошибке" author="pola" url="" tags="" ctime="20170307114039" dir="1488876039ang0t95mfb" file="text.html"/>
+         <record id="14740086703zdfjccsp2" name="Не открыть отчет о тестировании" author="" url="" tags="1с_xUnitFor1C" ctime="20160916095110" dir="1474008670mmspvsoeyr" file="text.html" crypt="0"/>
+         <record id="1474008746rdn6dr4zmx" name="Установка своих комбинаций клавиш" author="" url="" tags="1с_xUnitFor1C" ctime="20160916095226" dir="1474008746hu118we666" file="text.html" crypt="0"/>
+         <record id="1474044561hc4j6d3opk" name="Индикация упавшего по неизвестной причине тест" author="" url="" tags="1с_xUnitFor1C" ctime="20160916194921" dir="1474044561fvtm0xfghg" file="text.html" crypt="0"/>
+         <record id="1488870885plszwdbquc" name="Инидикатор красный при неизвестной ошибке" author="pola" url="" tags="1с_xUnitFor1C" ctime="20170307101445" dir="14888708850y1e29jpgx" file="text.html"/>
+         <record id="1488876039t9zycr7020" name="Краткая информация об ошибке" author="pola" url="" tags="1с_xUnitFor1C" ctime="20170307114039" dir="1488876039ang0t95mfb" file="text.html"/>
         </recordtable>
        </node>
        <node crypt="0" icon="" id="14745292182vu2udq258" name="code">
         <recordtable>
-         <record id="1474529334o47kxkwle8" name="Создать тестируемую обработку на сервере" author="pola" url="" tags="1c.xunit.code" ctime="20160922102854" dir="1474529334jemzwfa6nh" file="text.html" crypt="0"/>
-         <record id="1481723784vrie2ilffl" name="Проверка среды выполнения" author="pola" url="" tags="1c.xunit.code" ctime="20161214165624" dir="1481723784lst39po59m" file="text.html" crypt="0"/>
-         <record id="1491992325in8c7z4kqn" name="Создать тестовые данные" author="" url="" tags="" ctime="20170412131845" dir="1491992325npmdjncccz" file="text.html"/>
+         <record id="1474529334o47kxkwle8" name="Создать тестируемую обработку на сервере" author="pola" url="" tags="1с_xUnitFor1C" ctime="20160922102854" dir="1474529334jemzwfa6nh" file="text.html" crypt="0"/>
+         <record id="1481723784vrie2ilffl" name="Проверка среды выполнения" author="pola" url="" tags="1с_xUnitFor1C" ctime="20161214165624" dir="1481723784lst39po59m" file="text.html" crypt="0"/>
+         <record id="1491992325in8c7z4kqn" name="Создать тестовые данные" author="" url="" tags="1с_xUnitFor1C" ctime="20170412131845" dir="1491992325npmdjncccz" file="text.html"/>
         </recordtable>
        </node>
        <node crypt="" id="14822469123gpsrg691r" name="Генерация данных">
@@ -726,6 +726,11 @@
            <file id="1498899347jgdazf6u29" fileName="ПримерТеста_02.epf" type="file"/>
           </files>
          </record>
+        </recordtable>
+       </node>
+       <node crypt="" id="1501838367vohtzrahje" name="develop">
+        <recordtable>
+         <record id="1501838390lfpn9jtboo" name="Как сделать pull request в xUnitFor1C" author="" url="" tags="1с_xUnitFor1C" ctime="20170804121950" dir="15018383906rgswec9kl" file="text.html"/>
         </recordtable>
        </node>
       </node>
