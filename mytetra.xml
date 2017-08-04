@@ -50,9 +50,9 @@
     <node crypt="" id="1497331124z9wcw8ey68" name="windows">
      <node crypt="" icon="" id="1497331251ax4gmpxf15" name="bat-файлы">
       <recordtable>
-       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="admin windows bat" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
-       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="admin windows bat" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
-       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="admin windows bat" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
+       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="cmd" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
+       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="cmd" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
+       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="cmd" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" icon="" id="1497331262o96cwewq27" name="работа с реестром windows">
@@ -62,8 +62,8 @@
      </node>
      <node crypt="" id="1497331278hjfw5inn4x" name="commands">
       <recordtable>
-       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="admin windows" ctime="20170613082145" dir="1484891380zebmse2r0o" file="text.html"/>
-       <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="admin windows" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
+       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="cmd" ctime="20170613082145" dir="1484891380zebmse2r0o" file="text.html"/>
+       <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="cmd" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1498832695t9dvawx6uf" name="choco">
@@ -74,12 +74,12 @@
      </node>
      <node crypt="" id="1498898934pjdrf8hvmy" name="bash in windows">
       <recordtable>
-       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
+       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="cmd" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1499162700w1303x4455" name="encoding">
       <recordtable>
-       <record id="1499162728hb5emvxuue" name="Памятка для решения проблем с кодировками" author="" url="" tags="admin windows encoding" ctime="20170704130528" dir="1499162728bqhlhw2q02" file="text.html">
+       <record id="1499162728hb5emvxuue" name="Памятка для решения проблем с кодировками" author="" url="" tags="cmd" ctime="20170704130528" dir="1499162728bqhlhw2q02" file="text.html">
         <files>
          <file id="149916273614exnvobjy" fileName="Памятка для решения проблем с кодировкой.png" type="file"/>
         </files>
