@@ -932,6 +932,7 @@
       <record id="14992628631ng64mm3xq" name="Установить программно условное оформление" author="" url="https://infostart.ru/public/181336/" tags="1c_forms" ctime="20170705165423" dir="1499262863aeomt48e90" file="text.html"/>
       <record id="14994118580pkhpbgjzl" name="Автообновление" author="" url="" tags="1c_forms" ctime="20170707101738" dir="1499411858w1n6hqy0a2" file="text.html"/>
       <record id="150098878803siavo8o0" name="Использовать значение поля динамического списка не выведенного на форму" author="" url="" tags="1c_forms" ctime="20170725161948" dir="1500988788820sjbxw6k" file="text.html"/>
+      <record id="150287272863cpxlio4p" name="Определить, что динамический список не пустой" author="" url="" tags="1c_forms" ctime="20170816113848" dir="1502872728lpoyd7ajvf" file="text.html"/>
      </recordtable>
      <node crypt="" id="14964108005aoiv9fz86" name="Обработчики событий формы">
       <recordtable>
