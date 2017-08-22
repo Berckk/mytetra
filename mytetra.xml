@@ -214,7 +214,7 @@
     </node>
     <node crypt="" id="1495603872a6ycv1y081" name="asciiArt">
      <recordtable>
-      <record id="1495603963x0l0vz7kaf" name="patojrk" author="" url="http://patorjk.com/software/taag/#p=display&amp;h=0&amp;v=0&amp;f=Star%20Wars&amp;t=Type%20Something%20" tags="vim.asciiArt" ctime="20170524083243" dir="1495603963w1bhwotd5f" file="text.html"/>
+      <record id="1495603963x0l0vz7kaf" name="patojrk" author="" url="http://patorjk.com/software/taag/#p=display&amp;h=0&amp;v=0&amp;f=Star%20Wars&amp;t=Type%20Something%20" tags="vim_asciiArt" ctime="20170524083243" dir="1495603963w1bhwotd5f" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="14988356647zjv10q77h" name="neovim">
