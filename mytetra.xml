@@ -1146,6 +1146,8 @@
     <node crypt="" id="15034695965lmrhhu3hj" name="docs">
      <recordtable>
       <record id="150346961889avbsxnoy" name="RackUnit: Unit Testing" author="" url="https://docs.racket-lang.org/rackunit/index.html" tags="racket" ctime="20170823092658" dir="1503469618hismp0p7oo" file="text.html"/>
+      <record id="15034696445sh80vja7b" name="Racket Documentation" author="" url="https://docs.racket-lang.org/" tags="racket" ctime="20170823092724" dir="15034696444j965tt6w3" file="text.html"/>
+      <record id="1503469808m84ekpxiwn" name="how to design programs" author="" url="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html" tags="racket" ctime="20170823093008" dir="1503469808kbma1sikxm" file="text.html"/>
      </recordtable>
     </node>
    </node>
