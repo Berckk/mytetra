@@ -1907,7 +1907,13 @@
      <record id="1503050987i1lscgtb3q" name="Проект Гавриловой Юлии" author="Гаврилова Юлия" url="http://www.junior.ru/students/gavrilova/main.htm" tags="" ctime="20170818131316" dir="15030509872e7ty3p0gz" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1504153954fcp7ucgrv8" name="eng"/>
+   <node crypt="" id="1504153954fcp7ucgrv8" name="eng">
+    <node crypt="" id="15041539669wecprhbc0" name="articles">
+     <recordtable>
+      <record id="1504153989xve7d8rp3j" name="Very interesting from medium" author="" url="https://medium.com/" tags="" ctime="20170831073309" dir="15041539898jtr7rk9wu" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
  </content>
 </root>
