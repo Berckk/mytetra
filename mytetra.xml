@@ -46,6 +46,11 @@
        <record id="1500966909vzwovvo41h" name="How to remap capslock to ctrl" author="" url="" tags="" ctime="20170725101509" dir="15009669092r8ghdceze" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="15044230735h1gla364e" name="edu">
+      <recordtable>
+       <record id="1504423124l5r22as02d" name="Видеокурс «[UNИX]» по GNU/Linux" author="" url="https://www.youtube.com/playlist?list=PL387B38E91536055B" tags="" ctime="20170903101844" dir="15044231243hcpblrnb8" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1497331124z9wcw8ey68" name="windows">
      <node crypt="" icon="" id="1497331251ax4gmpxf15" name="bat-файлы">
