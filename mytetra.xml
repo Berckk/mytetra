@@ -333,6 +333,8 @@
      <record id="1492670053i2s64jh7q5" name="git и кириллица" author="" url="" tags="git" ctime="20170420093413" dir="1492670053gi1fs0gfhc" file="text.html"/>
      <record id="1493992926ha0tn7e1dv" name="Просмотреть изменения в файле между ветками" author="" url="" tags="git" ctime="20170505170206" dir="1493992926ng6shi29i5" file="text.html"/>
      <record id="1494619706u96h7xn3kw" name="Удалить submodule" author="" url="" tags="git" ctime="20170512230826" dir="1494619706vgjntjyqwn" file="text.html"/>
+     <record id="15045399288wwtflql8y" name="GitLab Flow" author="" url="https://habrahabr.ru/company/softmart/blog/316686/" tags="git-flow" ctime="20170904184528" dir="15045399284qpbpgtzh3" file="text.html"/>
+     <record id="1504540042fju60qtrin" name="GitLab CI" author="" url="https://habrahabr.ru/company/flant/blog/332712/" tags="git-gitlab" ctime="20170904184722" dir="15045400423tkswj7ckz" file="text.html"/>
     </recordtable>
     <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
      <recordtable>
@@ -1168,6 +1170,13 @@
     <recordtable>
      <record id="1504243730uu3sowu26o" name="skype-online-editor" author="" url="https://www.skype.com/en/interviews/" tags="" ctime="20170901082850" dir="1504243730i2gkrhugbj" file="text.html"/>
     </recordtable>
+   </node>
+   <node crypt="" id="1504539980ibjxmzn46u" name="devops">
+    <node crypt="" id="1504539985e5pk9k1ves" name="articles">
+     <recordtable>
+      <record id="1504539997ctkol7bwv8" name="Как создать современную CI/CD-цепочку с помощью бесплатных облачных сервисов" author="" url="https://habrahabr.ru/company/southbridge/blog/329262/" tags="devops" ctime="20170904184637" dir="15045399977e3ymvbwvf" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
