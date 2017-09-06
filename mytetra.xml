@@ -479,6 +479,7 @@
     <node crypt="" id="14979716936f7hm1w7gv" name="Статьи">
      <recordtable>
       <record id="1497971731gdsi8e3f6e" name="Эволюция асинхронного JavaScript" author="" url="https://tproger.ru/translations/asynchronous-javascript/" tags="" ctime="20170620181531" dir="1497971731xyy0znnj60" file="text.html"/>
+      <record id="15046731092dmj40yhjc" name="How to write your first React.js component" author="" url="https://medium.freecodecamp.org/how-to-write-your-first-react-js-component-d728d759cabc" tags="" ctime="20170906074509" dir="1504673109on33fjjfmv" file="text.html"/>
      </recordtable>
     </node>
    </node>
