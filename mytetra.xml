@@ -926,6 +926,11 @@
        <record id="14994364230tmmeqwg73" name="Стартовать процессы в очереди" author="" url="" tags="1c code do" ctime="20170707170703" dir="149943642364f31bre4k" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1505480932x42emza7jp" name="Динамический список">
+      <recordtable>
+       <record id="150548094493l9li37sv" name="Получить данные динамического списка" author="" url="" tags="1c.code" ctime="20170915160904" dir="1505480944mh0uq900vj" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473840626v9jn3tant3" name="forms">
      <recordtable>
