@@ -540,16 +540,21 @@
     <node crypt="" id="1493818878uh5qczguxs" name="СКД">
      <node crypt="" id="1493818883xv6mjgmr35" name="Функции">
       <recordtable>
-       <record id="1493818926f5kwu1ergm" name="Накопительный итог по группировке с конца" author="" url="" tags="" ctime="20170503164206" dir="1493818926c2hli4b3e8" file="text.html">
+       <record id="1493818926f5kwu1ergm" name="Накопительный итог по группировке с конца" author="" url="" tags="1c.skd" ctime="20170503164206" dir="1493818926c2hli4b3e8" file="text.html">
         <files>
          <file id="1493907932qm51od94z8" fileName="Функции языка выражений системы компоновки данных.pdf" type="file"/>
         </files>
        </record>
-       <record id="15015962434zhk9pxbkv" name="Вывод строк из табличной части в одной ячейке строки" author="ivanov 660" url="https://infostart.ru/public/326358/" tags="" ctime="20170801170403" dir="1501596243bm0qfag91o" file="text.html">
+       <record id="15015962434zhk9pxbkv" name="Вывод строк из табличной части в одной ячейке строки" author="ivanov 660" url="https://infostart.ru/public/326358/" tags="1c.skd" ctime="20170801170403" dir="1501596243bm0qfag91o" file="text.html">
         <files>
          <file id="1501596250xcop67jooj" fileName="ВнешнийОтчет1.erf" type="file"/>
         </files>
        </record>
+      </recordtable>
+     </node>
+     <node crypt="" id="1505991317les8t8438l" name="Примеры кода">
+      <recordtable>
+       <record id="1505991347z6nmkjaftp" name="Создать табличный документ из таблицы значений " author="" url="" tags="1c.skd" ctime="20170921135547" dir="1505991347mnxy2nwhrx" file="text.html"/>
       </recordtable>
      </node>
     </node>
