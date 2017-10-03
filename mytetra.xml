@@ -334,7 +334,11 @@
        <recordtable>
         <record id="15069551239x3aghkyqi" name="How to istall apache for 1C" author="" url="https://infostart.ru/public/646384/" tags="1c_apache" ctime="20171002173843" dir="150695512345yfwujlw4" file="text.html"/>
         <record id="1506956145ed6nol6hp8" name="1С + Apache + SSL" author="" url="https://infostart.ru/public/146288/" tags="1c_apache" ctime="20171002175545" dir="1506956145qaqjwcxnoc" file="text.html"/>
-        <record id="1507016057oyorqjbor9" name="Publication and debugging web-servises 1c on file bases" author="Anton Shtyrliaev" url="http://shtyrlyaev.ru/all/publikaciya-i-otladka-veb-servisov-1s-na-faylovoy-baze/" tags="1c_apache" ctime="20171003103417" dir="150701605700hok7sxzv" file="text.html"/>
+        <record id="1507016057oyorqjbor9" name="Publication and debugging web-servises 1c on file bases" author="Anton Shtyrliaev" url="http://shtyrlyaev.ru/all/publikaciya-i-otladka-veb-servisov-1s-na-faylovoy-baze/" tags="1c_apache" ctime="20171003103417" dir="150701605700hok7sxzv" file="text.html">
+         <files>
+          <file id="1507020380ni7mb7ngjx" fileName="comcntrcfg.xml" type="file"/>
+         </files>
+        </record>
        </recordtable>
       </node>
      </node>

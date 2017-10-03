@@ -1,0 +1,3 @@
+<config xmlns="http://v8.1c.ru/v8/comcntrcfg"> 
+    <debugconfig debug="true" debuggerURL="tcp://localhost:1560" />
+</config>
