@@ -1307,6 +1307,12 @@
      </record>
     </recordtable>
    </node>
+   <node crypt="" id="1507116478zvj8frfpkc" name="sourses">
+    <recordtable>
+     <record id="1507116493q6stdya0z7" name="Sites for english studing" author="" url="" tags="" ctime="20171004142813" dir="1507116493w68vhf1s48" file="text.html"/>
+     <record id="1507116652dcrmv9fef0" name="English for it-specialists" author="" url="" tags="" ctime="20171004143052" dir="15071166529xywwcafgs" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="0" icon="" id="1481722010j3fxf7lv6f" name="Прочитать">
    <recordtable>
