@@ -106,11 +106,18 @@
      </node>
     </node>
     <node crypt="" id="1507185353rzig4w4svq" name="confs">
-     <node crypt="" id="15071853672hhk6p0qhu" name="uh">
+     <node crypt="" id="15071853672hhk6p0qhu" name="cpm">
       <node crypt="" id="1507185371byuu6an50s" name="sourses">
        <recordtable>
-        <record id="1507185394xv62j6rw6t" name="Презентации и видеоматериалы по «1С:Управление холдингом 8»" author="" url="http://v8.1c.ru/cpm/webinar.htm" tags="1c_conf_uh" ctime="20171005093634" dir="1507185394k4m7fccuq9" file="text.html"/>
+        <record id="1507185394xv62j6rw6t" name="Презентации и видеоматериалы по «1С:Управление холдингом 8»" author="" url="http://v8.1c.ru/cpm/webinar.htm" tags="1c_confs_cpm" ctime="20171005093634" dir="1507185394k4m7fccuq9" file="text.html"/>
+        <record id="1507185503nj3trujehh" name="Common info on v8.1c" author="" url="http://v8.1c.ru/cpm/" tags="1c_confs_cpm" ctime="20171005093823" dir="1507185503qunpqr5bmq" file="text.html"/>
        </recordtable>
+       <node crypt="" id="1507185669f1ha9xt5rb" name="youtube">
+        <recordtable>
+         <record id="1507185681bib4blsm1m" name="msfo" author="" url="https://www.youtube.com/watch?v=Q6EFl9zjWd0" tags="1c_confs_cpm" ctime="20171005094121" dir="1507185681ffh0ptp6ff" file="text.html"/>
+         <record id="1507185737jxaewu29r7" name="courses from razdolie" author="" url="https://www.youtube.com/watch?v=Q6EFl9zjWd0" tags="1c_cours_cpm" ctime="20171005094217" dir="1507185737mysj0q472r" file="text.html"/>
+        </recordtable>
+       </node>
       </node>
      </node>
     </node>
