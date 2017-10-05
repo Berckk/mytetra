@@ -105,6 +105,15 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1507185353rzig4w4svq" name="confs">
+     <node crypt="" id="15071853672hhk6p0qhu" name="uh">
+      <node crypt="" id="1507185371byuu6an50s" name="sourses">
+       <recordtable>
+        <record id="1507185394xv62j6rw6t" name="Презентации и видеоматериалы по «1С:Управление холдингом 8»" author="" url="http://v8.1c.ru/cpm/webinar.htm" tags="1c_conf_uh" ctime="20171005093634" dir="1507185394k4m7fccuq9" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
+    </node>
     <node crypt="0" icon="" id="1473345925ji2r7rpdtx" name="edt">
      <recordtable>
       <record id="1505636683z3c06pla0g" name="documentation" author="" url="https://its.1c.ru/db/edt16doc#content:314:hdoc" tags="" ctime="20170917112443" dir="1505636683u16l3eeu3q" file="text.html"/>
