@@ -1464,9 +1464,6 @@
    </node>
   </node>
   <node crypt="" id="1491458266ifw04hck4d" name="health">
-   <recordtable>
-    <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20170505174215" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
-   </recordtable>
    <node crypt="" id="1491458359w7ry7ji1ef" name="ticks">
     <recordtable>
      <record id="1491458716v24b7uoiv9" name="Как правильно выбирать и применять репелленты" author="" url="http://www.niid.ru/s/210/files/info/kleschi/129904_482.pdf" tags="" ctime="20170406090516" dir="1491458716eb8mcvvatw" file="text.html">
@@ -1537,6 +1534,7 @@
    <node crypt="" id="1507291413g75h5iaz8e" name="helth">
     <recordtable>
      <record id="1507291471j008vtvq9t" name="Быстрые методы для улучшения настроения" author="" url="http://telegra.ph/Bystrye-metody-dlya-uluchsheniya-nastroeniya-10-06" tags="helth" ctime="20171006150431" dir="150729147174cs3ybcz2" file="text.html"/>
+     <record id="14742183488ukcn1a123" name="Формула здоровья" author="Загатина А.В." url="https://www.youtube.com/watch?v=Pulgg3eO8l4" tags="health" ctime="20171006155750" dir="14742183486vqz73mson" file="text.html" crypt="0"/>
     </recordtable>
    </node>
   </node>
