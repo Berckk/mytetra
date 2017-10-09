@@ -338,6 +338,11 @@
        <record id="1472575220fau4094mxc" name="7 причин, почему интеграция стала приятной" author="pbazeliuk" url="https://pbazeliuk.com/2015/10/01/1c-enterprise-odata/" tags="1c.integration.OData" ctime="20160830194020" dir="1472575220cnrln09un7" file="text.html" crypt="0"/>
        <record id="1472577217o3jfv2ydn4" name="HTTP-сервисы" author="its" url="http://its.1c.ru/db/v837doc#bookmark:dev:TI000001357" tags="1c.integration.http" ctime="20160830201337" dir="1472577217beowhh74u8" file="text.html" crypt="0"/>
        <record id="14733365023j2k3bej2v" name="Cоздание и отладка HTTP-сервиса" author="serg_infostart" url="http://infostart.ru/public/538808/" tags="1c.integration.http" ctime="20160908150822" dir="1473336502tb564mxt8u" file="text.html" crypt="0"/>
+       <record id="1507551006rne5xeqwpx" name="1Cv8: Работа с HTTPСоединение, HTTPЗапрос" author="" url="http://itpath.ru/1cv8-les-20-work-with-httpconnection-httpquery/" tags="" ctime="20171009151006" dir="1507551006qvhrw66tg3" file="text.html">
+        <files>
+         <file id="1507551141w01d881m3y" fileName="les-20.zip" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
      <node crypt="0" icon="" id="1473340435rhd1pwr7tx" name="WEB-сервисы">
