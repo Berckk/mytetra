@@ -655,6 +655,11 @@
       <record id="1501081859lzl76dmbxq" name="Основы веб-разработки на Технотрек Mail.ru Group" author="" url="https://www.youtube.com/playlist?list=PLrCZzMib1e9pg7ZLIOhmGSlmkMf8yEOLZ" tags="" ctime="20170726181059" dir="1501081859jew0jgllha" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="15075408942swb18xlzv" name="articles">
+     <recordtable>
+      <record id="1507540910cnvjobc0ow" name="Модели приобретения навыков" author="" url="http://telegra.ph/Modeli-priobreteniya-navykov-10-07" tags="education" ctime="20171009122150" dir="1507540910t3r6qju5th" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
@@ -883,8 +888,8 @@
     </node>
     <node crypt="" id="1507540190h7s3bpnkh6" name="education">
      <recordtable>
-      <record id="1507540231pa95r836jb" name="sourses" author="" url="https://proglib.io/p/vim-what-i-wish-i-knew/" tags="" ctime="20171009121031" dir="1507540231c7ria8maxx" file="text.html"/>
-      <record id="1507540559ks5tqzo9zk" name="Seven habits of effective text editing" author="" url="http://www.moolenaar.net/habits.html" tags="vim" ctime="20171009121559" dir="1507540559va8ek4ljb3" file="text.html"/>
+      <record id="1507540231pa95r836jb" name="sourses" author="" url="https://proglib.io/p/vim-what-i-wish-i-knew/" tags="vim_edu" ctime="20171009121031" dir="1507540231c7ria8maxx" file="text.html"/>
+      <record id="1507540559ks5tqzo9zk" name="Seven habits of effective text editing" author="" url="http://www.moolenaar.net/habits.html" tags="vim_edu" ctime="20171009121559" dir="1507540559va8ek4ljb3" file="text.html"/>
      </recordtable>
     </node>
    </node>
