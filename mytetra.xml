@@ -881,6 +881,11 @@
       <record id="1498838132lkp5nh001x" name="usevim" author="" url="https://medium.com/usevim" tags="" ctime="20170630185532" dir="14988381321ug0mma1ff" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1507540190h7s3bpnkh6" name="education">
+     <recordtable>
+      <record id="1507540231pa95r836jb" name="sourses" author="" url="https://proglib.io/p/vim-what-i-wish-i-knew/" tags="" ctime="20171009121031" dir="1507540231c7ria8maxx" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="14733968501cjyxh41ll" name="Testing">
     <recordtable>
