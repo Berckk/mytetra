@@ -884,6 +884,7 @@
     <node crypt="" id="1507540190h7s3bpnkh6" name="education">
      <recordtable>
       <record id="1507540231pa95r836jb" name="sourses" author="" url="https://proglib.io/p/vim-what-i-wish-i-knew/" tags="" ctime="20171009121031" dir="1507540231c7ria8maxx" file="text.html"/>
+      <record id="1507540559ks5tqzo9zk" name="Seven habits of effective text editing" author="" url="http://www.moolenaar.net/habits.html" tags="vim" ctime="20171009121559" dir="1507540559va8ek4ljb3" file="text.html"/>
      </recordtable>
     </node>
    </node>
