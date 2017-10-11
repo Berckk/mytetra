@@ -1023,6 +1023,11 @@
       <record id="1501081359mvwuivih6q" name="Как писать сообщения коммитов" author="" url="http://frontiermag.ru/commit-message.html" tags="git" ctime="20170726180239" dir="1501081359rfg9x5gdbm" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1507711375ulxg9hnavf" name="commands">
+     <recordtable>
+      <record id="1507711381cw1z6cg6p5" name="remove" author="" url="" tags="git_commands" ctime="20171011114301" dir="15077113810nhuxaruz9" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1474433447rs65x5ttzg" name="deploy">
     <node crypt="0" icon="" id="1474433452uyfciyhu0j" name="docker">
