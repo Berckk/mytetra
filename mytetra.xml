@@ -1402,6 +1402,11 @@
    <node crypt="" id="1507786836250wh8gt0r" name="g">
     <recordtable>
      <record id="1507786853qc0i8htxoa" name="g" author="" url="" tags="" ctime="20171012084053" dir="1507786853xwc0sdlc9j" file="text.html"/>
+     <record id="1507789771kq9hv0zbqe" name="calc" author="" url="" tags="" ctime="20171012092931" dir="1507789771scyprr3mct" file="text.html">
+      <files>
+       <file id="1507789777zikwa6tpee" fileName="Расчет калорий.xlsx" type="file"/>
+      </files>
+     </record>
     </recordtable>
    </node>
   </node>
