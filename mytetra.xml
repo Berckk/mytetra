@@ -51,12 +51,17 @@
      </recordtable>
      <node crypt="0" icon="" id="14756856493h3kr4vwte" name="upp">
       <recordtable>
-       <record id="1475685672w953n3gxft" name="Получение данных из макета объекта" author="pola" url="" tags="1c code upp" ctime="20161005194112" dir="1475685672v5lp4978ki" file="text.html" crypt="0"/>
-       <record id="1475685684i9py27yslf" name="Прибавить период" author="" url="upp" tags="1c code upp" ctime="20161005194124" dir="1475685684cc5g10byeq" file="text.html" crypt="0"/>
-       <record id="1475685690dt7cn0i79q" name="Получить таблицу значений из макета" author="" url="" tags="1c code upp" ctime="20161005194130" dir="1475685690kk47egsw4w" file="text.html" crypt="0"/>
-       <record id="1482333918xgj4aqrivs" name="Отключить проверку границ закрытого периода" author="" url="" tags="1c code upp" ctime="20161221182518" dir="1482333918dacam5sl1d" file="text.html"/>
-       <record id="1487576115981sgku0vl" name="Перейти по ссылке в web-клиент" author="" url="" tags="1c code upp" ctime="20170220103515" dir="1487576115fcf960c6tn" file="text.html"/>
-       <record id="1491565378pw4lk4bbdo" name="Связи ДО с подсистемой интеграции в УПП 1.3" author="" url="" tags="1c code upp" ctime="20170707170816" dir="1491565378g7s3l7ubml" file="text.html"/>
+       <record id="1475685672w953n3gxft" name="Получение данных из макета объекта" author="pola" url="" tags="1c_code_upp" ctime="20161005194112" dir="1475685672v5lp4978ki" file="text.html" crypt="0"/>
+       <record id="1475685684i9py27yslf" name="Прибавить период" author="" url="upp" tags="1c_code_upp" ctime="20161005194124" dir="1475685684cc5g10byeq" file="text.html" crypt="0"/>
+       <record id="1475685690dt7cn0i79q" name="Получить таблицу значений из макета" author="" url="" tags="1c_code_upp" ctime="20161005194130" dir="1475685690kk47egsw4w" file="text.html" crypt="0"/>
+       <record id="1482333918xgj4aqrivs" name="Отключить проверку границ закрытого периода" author="" url="" tags="1c_code_upp" ctime="20161221182518" dir="1482333918dacam5sl1d" file="text.html"/>
+       <record id="1487576115981sgku0vl" name="Перейти по ссылке в web-клиент" author="" url="" tags="1c_code_upp" ctime="20170220103515" dir="1487576115fcf960c6tn" file="text.html"/>
+       <record id="1491565378pw4lk4bbdo" name="Связи ДО с подсистемой интеграции в УПП 1.3" author="" url="" tags="1c_code_upp" ctime="20170707170816" dir="1491565378g7s3l7ubml" file="text.html"/>
+       <record id="1508141973qyd9pygq0d" name="Пример хранения настроек отчета для всех пользователей" author="" url="" tags="1c_code_upp" ctime="20171016111933" dir="1508141973ygkg8628fs" file="text.html">
+        <files>
+         <file id="1508141980s0ndq7bv5b" fileName="Отчет для целей контроля FR_C_020_b.erf" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
      <node crypt="0" icon="" id="14817205812jeu4zwue1" name="examples">
