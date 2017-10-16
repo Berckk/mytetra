@@ -666,6 +666,11 @@
       <record id="1507542344iz40vizz9p" name="После того, как книга прочитана" author="" url="http://telegra.ph/Zachem-i-kak-sozdavat-knigu-dlya-prochitannyh-knig-09-30" tags="education" ctime="20171009124544" dir="15075423444b27e9b82s" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1508134086rtniy7o832" name="telegram sourses">
+     <recordtable>
+      <record id="15081340935b6k6vvmv8" name="sourse list" author="" url="" tags="" ctime="20171016090813" dir="1508134093kvsqnd3z9t" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
