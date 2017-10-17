@@ -109,6 +109,11 @@
        <record id="150548094493l9li37sv" name="Получить данные динамического списка" author="" url="" tags="1c.code" ctime="20170915160904" dir="1505480944mh0uq900vj" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1508227773wwkx2hqsgc" name="Расширения">
+      <recordtable>
+       <record id="1508227783s8kuobq93u" name="Инициализация расширения" author="" url="" tags="1c_code_ext" ctime="20171017110943" dir="15082277834cwdhf0d09" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1507185353rzig4w4svq" name="confs">
      <node crypt="" id="15071853672hhk6p0qhu" name="cpm">
