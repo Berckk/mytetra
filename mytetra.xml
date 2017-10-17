@@ -114,6 +114,11 @@
        <record id="1508227783s8kuobq93u" name="Инициализация расширения" author="" url="" tags="1c_code_ext" ctime="20171017110943" dir="15082277834cwdhf0d09" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1508229069a2stl4mnvu" name="СКД">
+      <recordtable>
+       <record id="1508229083k3bp2cxxlf" name="Устновить отбор программно" author="" url="" tags="1c_code_skd" ctime="20171017113123" dir="1508229083vtnvgmkyyw" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1507185353rzig4w4svq" name="confs">
      <node crypt="" id="15071853672hhk6p0qhu" name="cpm">
