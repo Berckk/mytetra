@@ -1088,6 +1088,11 @@
       <record id="1494004070vu31qu8nss" name="examples" author="" url="" tags="markdown.examples" ctime="20170505200750" dir="1494004070qaqh8oquyk" file="text.html"/>
       <record id="1494503931th43qqh6zx" name="Онлайн генератор таблиц" author="" url="http://www.tablesgenerator.com/markdown_tables" tags="markdown.tablegenerator" ctime="20170511145851" dir="1494503931ixqk5kcrv7" file="text.html"/>
      </recordtable>
+     <node crypt="" id="1508339327mekzhu2dsb" name="editors">
+      <recordtable>
+       <record id="1508339333pxhw6cukds" name="writing" author="" url="https://github.com/josephernest/writing?utm_source=telegram.me&amp;utm_medium=social&amp;utm_campaign=writing-legkovesnyy-brauzernyy-redaktor&amp;utm_content=11344250" tags="" ctime="20171018180853" dir="1508339333fa1ov4tn8h" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1494569884119m0vlpmf" name="html">
      <recordtable>
