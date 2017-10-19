@@ -1368,7 +1368,15 @@
    <node crypt="" id="15031356519pby4tfti3" name="reading">
     <recordtable>
      <record id="15031356985u4la7iaef" name="How to improve your reading skills?" author="JamesESL" url="https://www.youtube.com/watch?v=FI58xq9oP7g" tags="eng" ctime="20170819124138" dir="1503135698ila4yv18b2" file="text.html"/>
-     <record id="1508391474gszp97rsv5" name="Rendering" author="" url="" tags="eng" ctime="20171019083754" dir="1508391474vvkef2h6hb" file="text.html"/>
+     <record id="1508391474gszp97rsv5" name="Rendering" author="" url="" tags="eng" ctime="20171019083754" dir="1508391474vvkef2h6hb" file="text.html">
+      <files>
+       <file id="15083921363nlbiqxqo2" fileName="100_тем_английского_устного_Каверина.pdf" type="file"/>
+       <file id="1508392138fmiy50a8w6" fileName="Hot Topics 1. Cheryl Pavlik  .pdf" type="file"/>
+       <file id="1508392140mnbs5jibvv" fileName="Hot Topics 2.  Cheryl Pavlik  .pdf" type="file"/>
+       <file id="1508392142pun1v08wgt" fileName="Hot Topics 3. Cheryl Pavlik .pdf" type="file"/>
+       <file id="1508392171ksv4t8zvys" fileName="TOEFL Writing (TWE) Topics and Model Essays.pdf" type="file"/>
+      </files>
+     </record>
     </recordtable>
    </node>
    <node crypt="" id="15045036561hxpz3gmbk" name="grammar">
