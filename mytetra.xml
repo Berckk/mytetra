@@ -2109,5 +2109,17 @@
     </node>
    </node>
   </node>
+  <node crypt="" id="15089094775p0p9iknq3" name="comp_user">
+   <node crypt="" id="1508909482sginozgrff" name="win">
+    <node crypt="" id="15089094953htcaoa8tz" name="win7">
+     <node crypt="" id="15089095008asljw97g5" name="combo">
+      <recordtable>
+       <record id="1508909517xu51mpgu2u" name="Горячие клавиши в windows 7" author="" url="" tags="" ctime="20171025083157" dir="1508909517a88g6rug9t" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
+   <node crypt="" id="1508909489g56riuegp9" name="linux"/>
+  </node>
  </content>
 </root>
