@@ -687,6 +687,12 @@
       <record id="15081340935b6k6vvmv8" name="sourse list" author="" url="" tags="" ctime="20171016090813" dir="1508134093kvsqnd3z9t" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="15094246297kne7eqkli" name="practice">
+     <recordtable>
+      <record id="1509424643dq6dy9jy26" name="exercizm" author="" url="http://exercism.io" tags="" ctime="20171031073723" dir="1509424643cs9p05el1w" file="text.html"/>
+      <record id="15094247777gy0mb3p48" name="leetcode" author="" url="https://leetcode.com/" tags="" ctime="20171031073937" dir="1509424777qb7rw7ylpd" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
