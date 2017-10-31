@@ -397,7 +397,11 @@
      </node>
      <node crypt="" id="1509454225zgtowh7g9r" name="xml">
       <recordtable>
-       <record id="15094544554k31785rxa" name="Разбор XML документа - почти все возможные способы" author="svenderevsky" url="https://infostart.ru/public/311011/" tags="1c_xml" ctime="20171031155415" dir="1509454455zsnbwjvtcl" file="text.html"/>
+       <record id="15094544554k31785rxa" name="Разбор XML документа - почти все возможные способы" author="svenderevsky" url="https://infostart.ru/public/311011/" tags="1c_xml" ctime="20171031155415" dir="1509454455zsnbwjvtcl" file="text.html">
+        <files>
+         <file id="1509454816wekkoyl6lw" fileName="РазборXML.cf" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
     </node>
