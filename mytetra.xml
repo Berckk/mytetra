@@ -395,7 +395,11 @@
        <record id="1482248327ndbj9vqv1c" name="1С магия XDTO-пакетов на примере интеграций с ГИС ЖКХ" author="ejsmile @ejsmile" url="https://habrahabr.ru/post/313910/" tags="" ctime="20161220183847" dir="1482248327uvtdkq84tb" file="text.html"/>
       </recordtable>
      </node>
-     <node crypt="" id="1509454225zgtowh7g9r" name="xml"/>
+     <node crypt="" id="1509454225zgtowh7g9r" name="xml">
+      <recordtable>
+       <record id="15094544554k31785rxa" name="Разбор XML документа - почти все возможные способы" author="svenderevsky" url="https://infostart.ru/public/311011/" tags="1c_xml" ctime="20171031155415" dir="1509454455zsnbwjvtcl" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="0" icon="" id="1473346509iw114wc907" name="Documentation">
      <recordtable>
