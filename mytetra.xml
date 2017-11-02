@@ -101,6 +101,7 @@
        <record id="148302444117cbn6xqfx" name="Процедуры чтения журнала регистрации" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229181401" dir="1483024441xim4rvr5n4" file="text.html"/>
        <record id="1483024227m9p0p89tkx" name="Получить таблицу из журнала регистрации" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229181420" dir="1483024227jfkug5s7c3" file="text.html"/>
        <record id="1483025628i718zpvitj" name="Записать и прочитать из ЖР" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229183348" dir="1483025628igvh7bwhvw" file="text.html"/>
+       <record id="15096085324tzds95a5v" name="Удалить записи" author="" url="" tags="" ctime="20171102104212" dir="1509608532l9mlht8s6i" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="14915652910q6x36eit0" name="do">
