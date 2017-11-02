@@ -1322,6 +1322,7 @@
     <node crypt="" id="1509624406nyuanzzciw" name="net sdk">
      <recordtable>
       <record id="1509624417z9yr0q9ja2" name=".net sdk in 10 min" author="" url="https://www.microsoft.com/net/learn/get-started/windows#windowscmd" tags="" ctime="20171102150657" dir="1509624417cuila9tcxu" file="text.html"/>
+      <record id="1509624875ns8iz1g5cg" name="quick starts" author="" url="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/" tags="" ctime="20171102151435" dir="15096248753nqovgoh75" file="text.html"/>
      </recordtable>
     </node>
    </node>
