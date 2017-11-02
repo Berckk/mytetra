@@ -1325,6 +1325,11 @@
       <record id="1509624875ns8iz1g5cg" name="quick starts" author="" url="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/" tags="" ctime="20171102151435" dir="15096248753nqovgoh75" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1509635326yy07yfso2c" name="dotnet">
+     <recordtable>
+      <record id="1509635329czjtr00bew" name="docs" author="" url="https://code.visualstudio.com/docs/other/dotnet" tags="" ctime="20171102180849" dir="1509635329iokfbfbf54" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
