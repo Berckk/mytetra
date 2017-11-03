@@ -1330,6 +1330,11 @@
       <record id="1509635329czjtr00bew" name="docs" author="" url="https://code.visualstudio.com/docs/other/dotnet" tags="" ctime="20171102180849" dir="1509635329iokfbfbf54" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="15096874742p1tg9b6kc" name="docs">
+     <recordtable>
+      <record id="1509687490bbsw9oiw9f" name=".NET Framework Class Library" author="" url="https://msdn.microsoft.com/en-us/library/gg145045.aspx" tags="" ctime="20171103083810" dir="1509687490iqe25iohoz" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
