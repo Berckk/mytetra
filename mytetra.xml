@@ -1341,6 +1341,13 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="1510204830hzy60bk7a3" name="functional">
+    <node crypt="" id="1510204848ch57mq483m" name="clojure">
+     <recordtable>
+      <record id="1510204873y3310ctwwu" name="Инструмент для full-stack разработки на Clojure и ClojureScript" author="" url="https://sekao.net/lightmod/?utm_source=telegram.me&amp;utm_medium=social&amp;utm_campaign=integrirovannyy--polnostyu-samostoyateln&amp;utm_content=12092387" tags="" ctime="20171109082113" dir="1510204873010cuc7o0w" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
    <node crypt="" id="1492057200loz35y5d83" name="every day">
