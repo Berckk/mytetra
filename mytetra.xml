@@ -261,6 +261,11 @@
        <recordtable>
         <record id="1486128763c4ceaibqzu" name="Получить тестируемую форму" author="" url="" tags="1с_тестирование_xUnitFor1C_ui" ctime="20170203163243" dir="1486128763mzc570ty74" file="text.html"/>
         <record id="14888689431bb3xk5fl8" name="Пример тестовой обработки с созданием и удалением тестовых данных в форме" author="А.Аюханов aka artbear" url="" tags="1с_тестирование_xUnitFor1C_ui" ctime="20170307094223" dir="1488868943tc88zg3cxu" file="text.html"/>
+        <record id="1510234282i2iryxvhr7" name="Пример регрессионного тестирования печатной формы" author="" url="" tags="" ctime="20171109163122" dir="1510234282x2regoz08z" file="text.html">
+         <files>
+          <file id="1510234294atjxlcunbk" fileName="f_РегрессионноеТестированиеФормированияПечатнойФормы.epf" type="file"/>
+         </files>
+        </record>
        </recordtable>
       </node>
      </node>
