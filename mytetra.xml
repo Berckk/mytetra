@@ -90,12 +90,18 @@
        <record id="149191526609797erxdh" name="Настройки внешней обработки" author="" url="" tags="" ctime="20170411155426" dir="1491915266h4edm9527u" file="text.html"/>
        <record id="1496724836eckatbn1cn" name="Пауза" author="" url="" tags="1с" ctime="20170606075356" dir="1496724836ma3q9r2pb2" file="text.html"/>
       </recordtable>
+      <node crypt="" id="15094650852fful9tmun" name="xml">
+       <recordtable>
+        <record id="15094651137385hjmbtx" name="Разбор xml с помощью ФабрикаXDTO" author="" url="" tags="1c_code_xml" ctime="20171031185153" dir="1509465113blmhaaxepd" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" id="1483024412px1k4190mf" name="ЖурналРегистрации">
       <recordtable>
        <record id="148302444117cbn6xqfx" name="Процедуры чтения журнала регистрации" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229181401" dir="1483024441xim4rvr5n4" file="text.html"/>
        <record id="1483024227m9p0p89tkx" name="Получить таблицу из журнала регистрации" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229181420" dir="1483024227jfkug5s7c3" file="text.html"/>
        <record id="1483025628i718zpvitj" name="Записать и прочитать из ЖР" author="" url="" tags="1c.ЖурналРегистрации" ctime="20161229183348" dir="1483025628igvh7bwhvw" file="text.html"/>
+       <record id="15096085324tzds95a5v" name="Удалить записи" author="" url="" tags="" ctime="20171102104212" dir="1509608532l9mlht8s6i" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="14915652910q6x36eit0" name="do">
@@ -255,6 +261,11 @@
        <recordtable>
         <record id="1486128763c4ceaibqzu" name="Получить тестируемую форму" author="" url="" tags="1с_тестирование_xUnitFor1C_ui" ctime="20170203163243" dir="1486128763mzc570ty74" file="text.html"/>
         <record id="14888689431bb3xk5fl8" name="Пример тестовой обработки с созданием и удалением тестовых данных в форме" author="А.Аюханов aka artbear" url="" tags="1с_тестирование_xUnitFor1C_ui" ctime="20170307094223" dir="1488868943tc88zg3cxu" file="text.html"/>
+        <record id="1510234282i2iryxvhr7" name="Пример регрессионного тестирования печатной формы" author="" url="" tags="" ctime="20171109163122" dir="1510234282x2regoz08z" file="text.html">
+         <files>
+          <file id="1510234294atjxlcunbk" fileName="f_РегрессионноеТестированиеФормированияПечатнойФормы.epf" type="file"/>
+         </files>
+        </record>
        </recordtable>
       </node>
      </node>
@@ -307,6 +318,7 @@
            <file id="1498899347jgdazf6u29" fileName="ПримерТеста_02.epf" type="file"/>
           </files>
          </record>
+         <record id="1509366680j4xb6m825f" name="ЗагрузитьЗначениеИзФайлаVT_" author="" url="" tags="" ctime="20171030153120" dir="1509366680jzhump73vp" file="text.html"/>
         </recordtable>
        </node>
        <node crypt="" id="1501838367vohtzrahje" name="develop">
@@ -392,6 +404,15 @@
      <node crypt="" id="1482248290nnere360oj" name="XDTO">
       <recordtable>
        <record id="1482248327ndbj9vqv1c" name="1С магия XDTO-пакетов на примере интеграций с ГИС ЖКХ" author="ejsmile @ejsmile" url="https://habrahabr.ru/post/313910/" tags="" ctime="20161220183847" dir="1482248327uvtdkq84tb" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1509454225zgtowh7g9r" name="xml">
+      <recordtable>
+       <record id="15094544554k31785rxa" name="Разбор XML документа - почти все возможные способы" author="svenderevsky" url="https://infostart.ru/public/311011/" tags="1c_xml" ctime="20171031155415" dir="1509454455zsnbwjvtcl" file="text.html">
+        <files>
+         <file id="1509454816wekkoyl6lw" fileName="РазборXML.cf" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
     </node>
@@ -686,6 +707,12 @@
       <record id="15081340935b6k6vvmv8" name="sourse list" author="" url="" tags="" ctime="20171016090813" dir="1508134093kvsqnd3z9t" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="15094246297kne7eqkli" name="practice">
+     <recordtable>
+      <record id="1509424643dq6dy9jy26" name="exercizm" author="" url="http://exercism.io" tags="" ctime="20171031073723" dir="1509424643cs9p05el1w" file="text.html"/>
+      <record id="15094247777gy0mb3p48" name="leetcode" author="" url="https://leetcode.com/" tags="" ctime="20171031073937" dir="1509424777qb7rw7ylpd" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
@@ -774,11 +801,22 @@
        <record id="15008057129f9ye83rtu" name="Как передать в переменную параметры авторизации" author="" url="" tags="" ctime="20170723132832" dir="1500805712dufo9bk29d" file="text.html"/>
        <record id="15008062679aciau5myz" name="How to set alias" author="" url="" tags="" ctime="20170723133747" dir="1500806267643vwl0vr8" file="text.html"/>
        <record id="15008068236tknrasoum" name="How to remove alias" author="" url="" tags="" ctime="20170723134703" dir="1500806823ss1iezup0i" file="text.html"/>
+       <record id="1509429957xs0g44p091" name="How to set alias for directory" author="" url="" tags="" ctime="20171031090557" dir="1509429957qw5kkfamy4" file="text.html"/>
       </recordtable>
+      <node crypt="" id="1509614717bvli9fs2iv" name="user settings">
+       <recordtable>
+        <record id="1509614791kx4psu2viz" name="profile1.psl" author="" url="https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases" tags="" ctime="20171102122631" dir="150961479192gqjcvup1" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" id="150890976553x7uzd5ic" name="utils">
       <recordtable>
        <record id="15089098021kgvw2028h" name="Средство записи действий по воспроизведении неполадок" author="" url="" tags="" ctime="20171025083642" dir="1508909802c6lebyty4i" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1509895159y8we2s836z" name="key combos">
+      <recordtable>
+       <record id="1509895167w8r1kj6dpn" name="commands" author="" url="" tags="" ctime="20171105181927" dir="1509895167ghns3zl0d8" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -1290,6 +1328,31 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="1509624400k3i1io0yrs" name="c#">
+    <node crypt="" id="1509624406nyuanzzciw" name="net sdk">
+     <recordtable>
+      <record id="1509624417z9yr0q9ja2" name=".net sdk in 10 min" author="" url="https://www.microsoft.com/net/learn/get-started/windows#windowscmd" tags="" ctime="20171102150657" dir="1509624417cuila9tcxu" file="text.html"/>
+      <record id="1509624875ns8iz1g5cg" name="quick starts" author="" url="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/" tags="" ctime="20171102151435" dir="15096248753nqovgoh75" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1509635326yy07yfso2c" name="dotnet">
+     <recordtable>
+      <record id="1509635329czjtr00bew" name="docs" author="" url="https://code.visualstudio.com/docs/other/dotnet" tags="" ctime="20171102180849" dir="1509635329iokfbfbf54" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="15096874742p1tg9b6kc" name="docs">
+     <recordtable>
+      <record id="1509687490bbsw9oiw9f" name=".NET Framework Class Library" author="" url="https://msdn.microsoft.com/en-us/library/gg145045.aspx" tags="" ctime="20171103083810" dir="1509687490iqe25iohoz" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1510204830hzy60bk7a3" name="functional">
+    <node crypt="" id="1510204848ch57mq483m" name="clojure">
+     <recordtable>
+      <record id="1510204873y3310ctwwu" name="Инструмент для full-stack разработки на Clojure и ClojureScript" author="" url="https://sekao.net/lightmod/?utm_source=telegram.me&amp;utm_medium=social&amp;utm_campaign=integrirovannyy--polnostyu-samostoyateln&amp;utm_content=12092387" tags="" ctime="20171109082113" dir="1510204873010cuc7o0w" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
    <node crypt="" id="1492057200loz35y5d83" name="every day">
@@ -1409,6 +1472,7 @@
    <node crypt="" id="1508393295kxltbpqlb8" name="toefl">
     <recordtable>
      <record id="1508393303d637zkz3n4" name="Common information" author="" url="http://toefl-test.ru/" tags="" ctime="20171019090823" dir="1508393303fxfatsg0az" file="text.html"/>
+     <record id="15096908632mxqwuakga" name="courses" author="" url="https://lifehacker.ru/2014/07/03/12-resursov-dlya-toefl/" tags="" ctime="20171103093423" dir="15096908633rnw05xqv3" file="text.html"/>
     </recordtable>
    </node>
   </node>
@@ -2024,6 +2088,8 @@
       <record id="15002889125tq9y9ad16" name="UkM1U0lNUAPU6wIXfFLwIYz08Ds3MX/WVs4H3XihwsGuEJZ+WZJNW/F2cE+tB2vYYW+xKP7tk4MQz21/k0lXFpfGXYQ90uygZDJ76x8nkcEkG/7rMMFhoTh2D6axE05tDnCpcBXmW3FMwAVGnA81cMeHJXWUcjoFqQ6mbH7eQDY=" author="" url="" tags="UkM1U0lNUAOXVXsbc3VAmYYe193yOT+inACiYq//gR4uZjP75nsRNOX1qQWhLGn13CoWSplkeNI=" ctime="20170717135512" dir="1500288912i5bt9xfsen" file="text.html" crypt="1"/>
       <record id="1500455508ad8mc3kcxn" name="UkM1U0lNUAPYOs0dhfWh2eUzEgV/iE+SNKLuMeDBVkNZr6Iqv9Suwm++ZYy+yrjYpM4nrCMEy77hTELI4d/0w1LiEkPQ2mewCR+efn9HOHywhEzJOlQxB3g/1axh6O+EFI5arI1eq8GoKV0hAVjfpjnISpbwZNZlpDHfpMUHDRg=" author="" url="" tags="" ctime="20170719121148" dir="1500455508x29kg5c3sg" file="text.html" crypt="1"/>
       <record id="1505136138dhnuyedvpy" name="UkM1U0lNUANwYzcmxoqGJ6cqDBWSR6mXKml5wzksZV3j/OQu/X9VXfP1obXYD6rS" author="" url="" tags="" ctime="20170911162218" dir="1505136138nv8yelqvai" file="text.html" crypt="1"/>
+      <record id="15096055712c3bdsbh8h" name="UkM1U0lNUAOAP0PhthtvXf66gqe8U5WSFYM6IpjgO8vHjBrHKBm22pCKcEqOUocfcde6XqDh4zY=" author="" url="" tags="" ctime="20171102095251" dir="1509605571cgiclwl3jk" file="text.html" crypt="1"/>
+      <record id="1509691359upr3gvgfq1" name="UkM1U0lNUANZqHIhXYCFXEGLhSGSd08IZUaoTpbzrj3czzW/UAXF/XcBKfgpoRXI9z+oHuKAim7l3edbnl5Agw==" author="" url="UkM1U0lNUANm5p68xPNCsaTFSV7zsJB/EZlySk7zNSfLWIbFydesAl8V8pQKN8LELP8eVP4Ztf1/m/3ugzEFmeco9H8fa9m8/cS8bAlK+vM=" tags="" ctime="20171103094239" dir="15096913593et19kg6ld" file="text.html" crypt="1"/>
      </recordtable>
      <node crypt="1" icon="" id="1504538918cq2spx8ab3" name="UkM1U0lNUAN6sShhC32FROBmQZ18yATG/zYZB6KBHwn6yKOu/YHgkQQGKvNuR8aK">
       <recordtable>
@@ -2032,6 +2098,11 @@
          <file id="1504538985epsvf5n7mt" fileName="UkM1U0lNUAMuRKOVvrM1gn8ZL+z68IgPa0pStgU0KA3HpISDYHc4lpcNkcq0tQLTLd3Zka80SvBYfFy5VnuuFzJIi9joVJujUnOoEU+SPbeDkO9/2jv7S8bshMNM5eSO" type="file" crypt="1"/>
         </files>
        </record>
+      </recordtable>
+     </node>
+     <node crypt="1" icon="" id="1509690301ahxja646xb" name="UkM1U0lNUANfsBystttOP81hzq7rwWj+C0h6zv+4s8tLrfyvUkOd9Jft3GGhuEML7qy2DICRwpg=">
+      <recordtable>
+       <record id="1509690316tvpumomteu" name="UkM1U0lNUANsbIbZKsvfqUvNJpsY0ERMUBCOYZ7XleswibODZ4aaY1Yo3Ybgcvrp" author="" url="UkM1U0lNUAOlFpZTVNcpVJcGTNvJQJwIm0qfEMCszxQi7au1q03DCWE8Rz+N7Ke8t0uGf8fLNcpMjDqiH6inWw==" tags="" ctime="20171103092516" dir="1509690316l8ymp6rx19" file="text.html" crypt="1"/>
       </recordtable>
      </node>
     </node>
@@ -2090,6 +2161,17 @@
       </files>
      </record>
     </recordtable>
+   </node>
+   <node crypt="1" icon="" id="1509780356u2oencnaq3" name="UkM1U0lNUANnJlOE9/ahnJWa26jY8xCX+dv56iEdyx4ZTB3uVUT148mmlzur7nkN">
+    <node crypt="1" icon="" id="150978035620l6whm5kx" name="UkM1U0lNUAPzEmzruZ9mW8AET3LqCH3tnlX6lUNkdr+smKz42hSBRGFpm7z3IDCo/zfrx1q6El45vXiJzwZ/Mw==">
+     <recordtable>
+      <record id="1509780366ll05a1lmj1" name="UkM1U0lNUANdJyrrf68JL9mj2UzDoRoc2s13JjFGegW/koO1B++AkVOCwCJJ2/pRjOJDme0wqDaBfT5gLUfG/A==" author="" url="" tags="" ctime="20171104102606" dir="1509780366wvvclwr3s6" file="text.html" crypt="1">
+       <files>
+        <file id="15097803970fyvmpd45s" fileName="UkM1U0lNUAOF0Zb7nH/06sNngHAtqnc1M1Qrsf2VgaQcOg16lkQCsKzVDQ8j5yX8MyvOvlYmhR0=" type="file" crypt="1"/>
+       </files>
+      </record>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="14957783648773gpkicy" name="convert files">
