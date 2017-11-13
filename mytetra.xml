@@ -840,6 +840,7 @@
      <record id="1498744318lbycmvhos1" name="Установить  vim на windows" author="" url="" tags="" ctime="20170629165158" dir="1498744318p82mnns6vr" file="text.html"/>
      <record id="1503742089i7wmchvr0w" name="Interactive resourses" author="" url="" tags="vim" ctime="20170826130809" dir="1503742089tv62iujbdv" file="text.html"/>
      <record id="150839119238i7vgl9es" name="moving around" author="" url="" tags="vim_moving" ctime="20171019083312" dir="1508391192seq135r2oz" file="text.html"/>
+     <record id="1510574231d1g1as9dxl" name="reread vimrc" author="" url="" tags="" ctime="20171113145711" dir="1510574231zf1rxg21kp" file="text.html"/>
     </recordtable>
     <node crypt="0" icon="" id="14728050934nvukmwnsy" name="plugins">
      <node crypt="0" icon="" id="1472805099g8kfr847pf" name="NerdTree">
