@@ -1485,11 +1485,7 @@
      <record id="14817221473xy379muf6" name="Современные методы описания функциональных требований к системам" author="Алистер Коберн" url="http://wolonter.blogspot.ru/2016/11/blog-post_10.html" tags="read.testing" ctime="20161214162907" dir="1481722147644s0qihgf" file="text.html" crypt="0"/>
     </recordtable>
    </node>
-   <node crypt="" id="14818966443kwxxsqr7d" name="blogs">
-    <recordtable>
-     <record id="1481896688eyeioue4y1" name="blogitator" author="Игорь Блогератор" url="http://blogerator.ru/" tags="blogs" ctime="20161216165808" dir="1481896688d3mwih6kvh" file="text.html"/>
-    </recordtable>
-   </node>
+   <node crypt="" id="14818966443kwxxsqr7d" name="blogs"/>
   </node>
   <node crypt="0" icon="" id="1481722160ohhcof85x3" name="Прочитано"/>
   <node crypt="" id="1482934895e4psvdq6hh" name="Культура работы">
@@ -1685,11 +1681,6 @@
      <record id="148670599773j223rwzn" name="UkM1U0lNUAO5Crg30LUm5bx0nzIFXriwYXASpSvH1GPy82j3qrKU4BYZnGhYiIO2P+67iNKM0Qs=" author="" url="" tags="" ctime="20170318111144" dir="14867059972egwu4l5mg" file="text.html" crypt="1"/>
      <record id="1505719311n7hfdbrnie" name="UkM1U0lNUANSUo0V/jJ56nPBAiw8Xu7gQDZ9jkIhFMNKMQxiIv6RsTm3ezPUPHDSZl9MkgcZmxqtaGlHu/P3yzxbodSU5o66" author="" url="" tags="" ctime="20170918102151" dir="1505719311zzd8xbyj1b" file="text.html" crypt="1"/>
     </recordtable>
-    <node crypt="1" icon="" id="1489824704gtxuvaqram" name="UkM1U0lNUAMWYy7l6RnHMeI5wv4/tvoExuUGgpNREDjg+AArK1ZdOIkrVY+HJf1U">
-     <recordtable>
-      <record id="14888645856bj0a9y9wb" name="UkM1U0lNUAMrTKjIfQ2CJ8XEAhDywSowqtxGEbQvzci+z3nXrOZict9Gce4X6izCO7aFrXZ85iQ=" author="" url="" tags="" ctime="20170318111144" dir="1488864585a7ge5dvcqk" file="text.html" crypt="1"/>
-     </recordtable>
-    </node>
     <node crypt="1" icon="" id="1491038056vlxq3j8np5" name="UkM1U0lNUAPynYlwZm7NwXgMQBUGGCHFjVO0mJK5Cn1pZZWBCTfxcDQifwAE2xbs">
      <recordtable>
       <record id="1491040048hnttupfisp" name="UkM1U0lNUANAub5Q5rJVSVjGQtXaurhQsTq/6UtkNZeA8M9DWL/5d/ZDJNg3Utdb" author="UkM1U0lNUAMB/SRPHi41by+K+U+iRn9LVhBm6lIgeiMiZw4jUZcv+4W3So1nfQNOUA/fasnLKgs=" url="" tags="" ctime="20170401124728" dir="14910400484uwnb5ledx" file="text.html" crypt="1"/>
