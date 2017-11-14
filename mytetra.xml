@@ -825,6 +825,12 @@
        <record id="1510564882utmp8us69v" name="how to manage" author="" url="" tags="" ctime="20171113122122" dir="15105648829o7f9ojltm" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="15106428373tbqif350z" name="conemu">
+      <recordtable>
+       <record id="1510642845d1fvjeuasx" name="dosc" author="" url="https://conemu.github.io/" tags="" ctime="20171114100045" dir="1510642845bftorqt7k8" file="text.html"/>
+       <record id="15106429352rd7zyokhj" name="set cyrillic" author="" url="" tags="" ctime="20171114100215" dir="1510642935j2qwg3ulkk" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="" id="1500527232dmgbk1dt7w" name="algorithms">
