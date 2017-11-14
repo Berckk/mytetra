@@ -1080,6 +1080,7 @@
      <record id="15045399288wwtflql8y" name="GitLab Flow" author="" url="https://habrahabr.ru/company/softmart/blog/316686/" tags="git-flow" ctime="20170904184528" dir="15045399284qpbpgtzh3" file="text.html"/>
      <record id="1504540042fju60qtrin" name="GitLab CI" author="" url="https://habrahabr.ru/company/flant/blog/332712/" tags="git-gitlab" ctime="20170904184722" dir="15045400423tkswj7ckz" file="text.html"/>
      <record id="1507710150s0kjz3lx67" name="gitignore" author="" url="" tags="" ctime="20171011112230" dir="1507710150v9mrmr566s" file="text.html"/>
+     <record id="1510663454v98hvpl347" name="Настройка кириллических наименований" author="" url="" tags="git" ctime="20171114154414" dir="1510663454q714srnv1b" file="text.html"/>
     </recordtable>
     <node crypt="0" icon="" id="1474353313d4i2eymvmf" name="Отмена изменений">
      <recordtable>
