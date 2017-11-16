@@ -1479,6 +1479,7 @@
   <node crypt="0" icon="" id="1481722010j3fxf7lv6f" name="Прочитать">
    <recordtable>
     <record id="14818964302p7u63j5cy" name="Общее про программирование" author="" url="http://blogerator.ru/page/evangelie-ot-myshhha-kris-kasperski-intervju-1" tags="" ctime="20161216165350" dir="14818964309h4pmkqq5z" file="text.html"/>
+    <record id="1510511561skmelq0h3g" name="happiness" author="" url="https://longhappylifeblog.wordpress.com/category/%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D1%8B/" tags="" ctime="20171112213241" dir="1510511561w5dzcmsr82" file="text.html"/>
    </recordtable>
    <node crypt="0" icon="" id="1481722019b4byz3ytys" name="Про тестирование">
     <recordtable>
