@@ -297,6 +297,9 @@
       <record id="1481716143e6zimg3xvy" name="Вводная статья" author="Андрей Овсянкин (Evil Beaver)" url="http://infostart.ru/public/548028/" tags="1с_oscript" ctime="20161214144903" dir="1481716143xi9y6uz7fe" file="text.html" crypt="0"/>
      </recordtable>
      <node crypt="0" icon="" id="147247129148akcqgdx8" name="libraries">
+      <recordtable>
+       <record id="15108130457d36yfz0g6" name="Обзор имеющихся библиотек OneScript" author="" url="https://infostart.ru/public/699642/" tags="" ctime="20171116091725" dir="15108130455qs4gpxcl4" file="text.html"/>
+      </recordtable>
       <node crypt="0" icon="" id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
         <record id="1472471343bdlvg8ukdz" name="readme" author="Andrei Ovsiankin aka EvilBeaver" url="https://github.com/oscript-library/cmdline/tree/33051f58abb131ac27a4f86fb129b50adf7d27ae" tags="1с_oscript" ctime="20160829144903" dir="1472471343r7jbd4vcvf" file="text.html" crypt="0"/>
