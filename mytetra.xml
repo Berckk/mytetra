@@ -298,7 +298,11 @@
      </recordtable>
      <node crypt="0" icon="" id="147247129148akcqgdx8" name="libraries">
       <recordtable>
-       <record id="15108130457d36yfz0g6" name="Обзор имеющихся библиотек OneScript" author="" url="https://infostart.ru/public/699642/" tags="" ctime="20171116091725" dir="15108130455qs4gpxcl4" file="text.html"/>
+       <record id="15108130457d36yfz0g6" name="Обзор имеющихся библиотек OneScript" author="Никита Грызлов" url="https://infostart.ru/public/699642/" tags="onescript" ctime="20171116091725" dir="15108130455qs4gpxcl4" file="text.html">
+        <files>
+         <file id="1510813126hlabr0et46" fileName="Обзор имеющихся библиотек OneScript.pdf" type="file"/>
+        </files>
+       </record>
       </recordtable>
       <node crypt="0" icon="" id="1472471296z7zyyw7pyd" name="cmdline">
        <recordtable>
