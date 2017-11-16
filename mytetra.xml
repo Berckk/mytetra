@@ -788,7 +788,11 @@
          <file id="1497596782mzd2uu1ems" fileName="Конвертация данных и GIT.7z" type="file"/>
         </files>
        </record>
-       <record id="15108136898uh5msibq7" name="Обмен между базами 1С 8.3. Доработка типового плана обмена" author="Алена Лавренко" url="https://infostart.ru/public/697808/" tags="1c_convertation" ctime="20171116092809" dir="1510813689dijyaeamud" file="text.html"/>
+       <record id="15108136898uh5msibq7" name="Обмен между базами 1С 8.3. Доработка типового плана обмена" author="Алена Лавренко" url="https://infostart.ru/public/697808/" tags="1c_convertation" ctime="20171116092809" dir="1510813689dijyaeamud" file="text.html">
+        <files>
+         <file id="1510813777b0zeg26tdv" fileName="Обмен между базами 1С 8.3.pdf" type="file"/>
+        </files>
+       </record>
       </recordtable>
      </node>
     </node>
