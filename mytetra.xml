@@ -780,14 +780,15 @@
       <record id="1496658731ty64i7i589" name="Редактирование" author="" url="" tags="" ctime="20170605133211" dir="1496658731tlskec4cpi" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="" id="1497596749ekhlxf9m7b" name="Конвертация данных">
+    <node crypt="" id="1497596749ekhlxf9m7b" name="convertation">
      <node crypt="" id="1497596760j3dw4lqoyk" name="Инструменты">
       <recordtable>
-       <record id="1497596777qfjihfsgkz" name="&quot;Конвертация данных&quot; + Git. Решение проблемы различий в файлах" author="" url="" tags="" ctime="20170616100617" dir="1497596777pkxo520xgv" file="text.html">
+       <record id="1497596777qfjihfsgkz" name="&quot;Конвертация данных&quot; + Git. Решение проблемы различий в файлах" author="" url="" tags="1c_convertation" ctime="20170616100617" dir="1497596777pkxo520xgv" file="text.html">
         <files>
          <file id="1497596782mzd2uu1ems" fileName="Конвертация данных и GIT.7z" type="file"/>
         </files>
        </record>
+       <record id="15108136898uh5msibq7" name="Обмен между базами 1С 8.3. Доработка типового плана обмена" author="Алена Лавренко" url="https://infostart.ru/public/697808/" tags="1c_convertation" ctime="20171116092809" dir="1510813689dijyaeamud" file="text.html"/>
       </recordtable>
      </node>
     </node>
