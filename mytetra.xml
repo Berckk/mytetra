@@ -107,6 +107,7 @@
      <node crypt="" id="1509895159y8we2s836z" name="key combos">
       <recordtable>
        <record id="1509895167w8r1kj6dpn" name="commands" author="" url="" tags="" ctime="20171105181927" dir="1509895167ghns3zl0d8" file="text.html"/>
+       <record id="15109468109zlbrf1loq" name="remap keys" author="" url="" tags="" ctime="20171117222650" dir="151094681013zxaz4j61" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1510564823a6xixfize0" name="autoload">
@@ -326,8 +327,7 @@
       </node>
       <node crypt="" id="1493289393m8u67ues20" name="deployka">
        <recordtable>
-        <record id="1493289422hq4ilqltq6" name="ci" author="" url="" tags="onescript" ctime="20170427133702" dir="1493289422n6j65n1aw8" file="text.html"/>
-        <record id="1510905288qp5bhe2yxg" name="How to install" author="" url="" tags="onescript" ctime="20171117105448" dir="1510905288yz7s4bials" file="text.html"/>
+        <record id="1493289422hq4ilqltq6" name="ci" author="" url="" tags="1с_oscript" ctime="20170427133702" dir="1493289422n6j65n1aw8" file="text.html"/>
        </recordtable>
       </node>
      </node>
