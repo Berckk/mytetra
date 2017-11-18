@@ -117,7 +117,7 @@
      </node>
      <node crypt="" id="15106428373tbqif350z" name="conemu">
       <recordtable>
-       <record id="1510642845d1fvjeuasx" name="dosc" author="" url="https://conemu.github.io/" tags="" ctime="20171114100045" dir="1510642845bftorqt7k8" file="text.html"/>
+       <record id="1510642845d1fvjeuasx" name="docs" author="" url="https://conemu.github.io/" tags="" ctime="20171114100045" dir="1510642845bftorqt7k8" file="text.html"/>
        <record id="15106429352rd7zyokhj" name="set cyrillic" author="" url="" tags="" ctime="20171114100215" dir="1510642935j2qwg3ulkk" file="text.html"/>
       </recordtable>
      </node>
