@@ -6,6 +6,9 @@
   <node crypt="0" icon="" id="1472471267l6nwgfjpj1" name="Программирование">
    <node crypt="0" icon="" id="1472796198f3eale0cin" name="admin">
     <node crypt="" id="14973309648znj8ddwmr" name="linux">
+     <recordtable>
+      <record id="15113811368s6vumwzs1" name="root_passwd" author="" url="" tags="" ctime="20171122230536" dir="151138113647pbukhq7m" file="text.html"/>
+     </recordtable>
      <node crypt="" id="1497330969yhw9ao48d2" name="bash">
       <recordtable>
        <record id="1497330976rus132ahgc" name="the-art-of-command-line" author="" url="https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md?utm_source=plus.google.com&amp;utm_medium=social&amp;utm_campaign=otlichnyy-gayd-po-komandnoy-stroke-unix&amp;utm_content=7281236" tags="admin linux bash" ctime="20170613081616" dir="1497330976jfgn6sgjpi" file="text.html"/>
@@ -42,6 +45,11 @@
      <node crypt="" id="15044230735h1gla364e" name="edu">
       <recordtable>
        <record id="1504423124l5r22as02d" name="Видеокурс «[UNИX]» по GNU/Linux" author="" url="https://www.youtube.com/playlist?list=PL387B38E91536055B" tags="" ctime="20170903101844" dir="15044231243hcpblrnb8" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1511381154jv3p3oo78d" name="linux_win">
+      <recordtable>
+       <record id="15113812281n7lktaf2e" name="How to uninstall &amp; install" author="" url="" tags="" ctime="20171122230708" dir="1511381228s3ui2cpesl" file="text.html"/>
       </recordtable>
      </node>
     </node>
