@@ -1390,6 +1390,13 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="15120454513a55kw83pg" name="sql">
+    <node crypt="" id="1512045455zlh536r5bq" name="oracle">
+     <recordtable>
+      <record id="1512045488akqtqv01nh" name="How to get structure of table?" author="" url="" tags="sql_oracle" ctime="20171130153808" dir="1512045488m3wy5gsih5" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="14920571921h3v34kksw" name="soft">
    <node crypt="" id="1492057200loz35y5d83" name="every day">
