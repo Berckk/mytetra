@@ -131,6 +131,17 @@
        <record id="15106429352rd7zyokhj" name="set cyrillic" author="" url="" tags="" ctime="20171114100215" dir="1510642935j2qwg3ulkk" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1512566779f5ochwhtet" name="win10">
+      <node crypt="" id="1512566785k45pm2cd95" name="tricks">
+       <recordtable>
+        <record id="15125668141lt25hpp01" name="how to delete 3DObjects" author="" url="" tags="" ctime="20171206162654" dir="1512566814vtcqbsc3nr" file="text.html">
+         <files>
+          <file id="1512566821sjlhhyxnjd" fileName="How to delete 3d objects from win explorer.pdf" type="file"/>
+         </files>
+        </record>
+       </recordtable>
+      </node>
+     </node>
     </node>
    </node>
    <node crypt="" id="1500527232dmgbk1dt7w" name="algorithms">
