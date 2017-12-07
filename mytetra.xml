@@ -377,7 +377,7 @@
           <file id="1494480225vbvbubt1f0" fileName="UDFs3.chm" type="file"/>
          </files>
         </record>
-        <record id="15126420214dl81fpmjo" name="Send command" author="" url="" tags="" ctime="20171207132021" dir="1512642021fgrygoszwu" file="text.html"/>
+        <record id="15126420214dl81fpmjo" name="Send command" author="" url="" tags="autoit" ctime="20171207132021" dir="1512642021fgrygoszwu" file="text.html"/>
        </recordtable>
        <node crypt="" id="1512643019ccteiusyyb" name="functions">
         <recordtable>
