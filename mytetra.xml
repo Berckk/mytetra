@@ -366,11 +366,11 @@
       </recordtable>
       <node crypt="0" icon="" id="1472797247x06uoeg5u6" name="AutoIt">
        <recordtable>
-        <record id="1472797292hyndmlhgtm" name="Запустить bat-файл" author="pola" url="" tags="1с_тестирование_autoit" ctime="20160902092132" dir="14727972928dz87s0qur" file="text.html" crypt="0"/>
-        <record id="1472801107s1wcjx1206" name="Проверить, что окно активно" author="pola" url="help AutoIt" tags="1с_тестирование_autoit" ctime="20160902102507" dir="1472801107shtu9te9js" file="text.html" crypt="0"/>
-        <record id="1472801703d3014c0hti" name="Активировать указанное окно" author="pola" url="help AutoIt" tags="1с_тестирование_autoit" ctime="20160902103503" dir="1472801703bdinuiniin" file="text.html" crypt="0"/>
+        <record id="1472797292hyndmlhgtm" name="Запустить bat-файл" author="pola" url="" tags="autoit" ctime="20160902092132" dir="14727972928dz87s0qur" file="text.html" crypt="0"/>
+        <record id="1472801107s1wcjx1206" name="Проверить, что окно активно" author="pola" url="help AutoIt" tags="autoit" ctime="20160902102507" dir="1472801107shtu9te9js" file="text.html" crypt="0"/>
+        <record id="1472801703d3014c0hti" name="Активировать указанное окно" author="pola" url="help AutoIt" tags="autoit" ctime="20160902103503" dir="1472801703bdinuiniin" file="text.html" crypt="0"/>
         <record id="1472802998k4cmfo5yv4" name="links" author="pola" url="" tags="1с_тестирование_autoit" ctime="20160902105638" dir="147280299813hhs5of15" file="text.html" crypt="0"/>
-        <record id="1494480215f8runhucn7" name="Справка на русском" author="" url="" tags="1с_тестирование_autoit" ctime="20170511082335" dir="1494480215nfblont6u2" file="text.html">
+        <record id="1494480215f8runhucn7" name="Справка на русском" author="" url="" tags="autoit" ctime="20170511082335" dir="1494480215nfblont6u2" file="text.html">
          <files>
           <file id="1494480221ec0xwcs4so" fileName="AutoIt3.chm" type="file"/>
           <file id="1494480224px48b6lwza" fileName="CustomUDFs.chm" type="file"/>
@@ -379,6 +379,11 @@
         </record>
         <record id="15126420214dl81fpmjo" name="Send command" author="" url="" tags="" ctime="20171207132021" dir="1512642021fgrygoszwu" file="text.html"/>
        </recordtable>
+       <node crypt="" id="1512643019ccteiusyyb" name="functions">
+        <recordtable>
+         <record id="1512643032ote4lrt546" name="typeWithPause" author="" url="" tags="" ctime="20171207133712" dir="1512643032vpz2ez1uj8" file="text.html"/>
+        </recordtable>
+       </node>
       </node>
       <node crypt="0" icon="" id="1473158861mn5ati3hwf" name="features">
        <recordtable>
