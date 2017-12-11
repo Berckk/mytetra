@@ -1248,6 +1248,11 @@
     <recordtable>
      <record id="1481895853mge3ek4335" name="Иерархические (рекурсивные) запросы" author="&#10;maovrn @maovrn" url="https://habrahabr.ru/post/43955/" tags="" ctime="20161216164413" dir="1481895853hlg3d92chf" file="text.html"/>
     </recordtable>
+    <node crypt="" id="1512998801b7ygyv6svm" name="postgres">
+     <recordtable>
+      <record id="151299881616h6mslx2t" name="Интерактивные упражнения по PostgreSQL" author="https://pgexercises.com/" url="" tags="" ctime="20171211162656" dir="1512998816ya8owvlk7f" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1493815680q0o17ljkk5" name="cheatsheets">
     <recordtable>
@@ -1675,6 +1680,11 @@
    <node crypt="" id="1503823366soxaw2dvkl" name="to listen">
     <recordtable>
      <record id="150382338508a8hh9cfp" name="blues" author="" url="" tags="music_listen" ctime="20170827114305" dir="1503823385ambbehh4rd" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="15129989672hkv2h3zpz" name="classic">
+    <recordtable>
+     <record id="15129989732sgfkehx00" name="https://classicalmusiconly.com/" author="https://classicalmusiconly.com/" url="" tags="" ctime="20171211162933" dir="1512998973th0n4czced" file="text.html"/>
     </recordtable>
    </node>
   </node>
