@@ -83,8 +83,8 @@
      </node>
      <node crypt="" id="1498898934pjdrf8hvmy" name="bash in windows">
       <recordtable>
-       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="cmd" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
-       <record id="1513148887vw8ikqst38" name="Changing directory to a network share using Bash on Windows 10" author="" url="https://social.technet.microsoft.com/Forums/windows/en-US/6535501e-220d-43d5-b954-e5679ccb0875/changing-directory-to-a-network-share-using-bash-on-windows-10?forum=win10itproapps" tags="todo" ctime="20171213100807" dir="1513148887tl3jopu7h7" file="text.html"/>
+       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="win.bash" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
+       <record id="1513148887vw8ikqst38" name="Changing directory to a network share using Bash on Windows 10" author="" url="https://social.technet.microsoft.com/Forums/windows/en-US/6535501e-220d-43d5-b954-e5679ccb0875/changing-directory-to-a-network-share-using-bash-on-windows-10?forum=win10itproapps" tags="win.bash" ctime="20171213100807" dir="1513148887tl3jopu7h7" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1499162700w1303x4455" name="encoding">
