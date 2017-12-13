@@ -58,21 +58,21 @@
     <node crypt="" id="1497331124z9wcw8ey68" name="windows">
      <node crypt="" icon="" id="1497331251ax4gmpxf15" name="bat-файлы">
       <recordtable>
-       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="cmd" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
-       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="cmd" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
-       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="cmd" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
-       <record id="1501839209erpb3ivylj" name="Создать symbolic link" author="" url="https://ss64.com/nt/mklink.html" tags="" ctime="20170804123329" dir="1501839209e7rrb6fi8v" file="text.html"/>
+       <record id="1472796601bpyd74djeq" name="Создание bat-файла с чтением кириллических символов" author="pola" url="http://beginpc.ru/windows/chto-takoe-bat-fail" tags="win_cmd" ctime="20170613082051" dir="1472796601l5dp9vgj61" file="text.html" crypt="0"/>
+       <record id="1473077862yh40grb61b" name="Изменение кодировки" author="pola" url="http://www.masterlin.ru/2011/02/15/nastrojka-kodirovki-shriftov-v-cmd-exe/" tags="win_cmd" ctime="20170613082051" dir="1473077862yrbpi9rro6" file="text.html" crypt="0"/>
+       <record id="1497523088s0fyfhxm5s" name="Выполнение нескольких команд в консоли Windows" author="" url="" tags="win_cmd" ctime="20170615133808" dir="1497523088d1y50j2u0u" file="text.html"/>
+       <record id="1501839209erpb3ivylj" name="Создать symbolic link" author="" url="https://ss64.com/nt/mklink.html" tags="win_cmd" ctime="20170804123329" dir="1501839209e7rrb6fi8v" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" icon="" id="1497331262o96cwewq27" name="работа с реестром windows">
       <recordtable>
-       <record id="1473087681o2kdhmw91m" name="Автоматическое завершение программ при выключении компьютера" author="pola" url="" tags="admin windows" ctime="20170613082102" dir="1473087681sn59ocjx1c" file="text.html" crypt="0"/>
+       <record id="1473087681o2kdhmw91m" name="Автоматическое завершение программ при выключении компьютера" author="pola" url="" tags="win_regedit" ctime="20170613082102" dir="1473087681sn59ocjx1c" file="text.html" crypt="0"/>
       </recordtable>
      </node>
      <node crypt="" id="1497331278hjfw5inn4x" name="commands">
       <recordtable>
-       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="cmd" ctime="20170613082145" dir="1484891380zebmse2r0o" file="text.html"/>
-       <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="cmd" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
+       <record id="14848913808rxwoszpur" name="Анализ портов" author="" url="" tags="win_cmd" ctime="20170613082145" dir="1484891380zebmse2r0o" file="text.html"/>
+       <record id="1495549039z5tfyyvmih" name="Обновление групповых политик" author="" url="" tags="win_cmd" ctime="20170613082149" dir="1495549039wpszwfnq46" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1498832695t9dvawx6uf" name="choco">
@@ -83,8 +83,8 @@
      </node>
      <node crypt="" id="1498898934pjdrf8hvmy" name="bash in windows">
       <recordtable>
-       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="win.bash" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
-       <record id="1513148887vw8ikqst38" name="Changing directory to a network share using Bash on Windows 10" author="" url="https://social.technet.microsoft.com/Forums/windows/en-US/6535501e-220d-43d5-b954-e5679ccb0875/changing-directory-to-a-network-share-using-bash-on-windows-10?forum=win10itproapps" tags="win.bash" ctime="20171213100807" dir="1513148887tl3jopu7h7" file="text.html"/>
+       <record id="1498898943qqdx1ta4ea" name="docs" author="" url="https://msdn.microsoft.com/commandline/wsl/about" tags="win_bash" ctime="20170701114903" dir="1498898943yxj7e64rsj" file="text.html"/>
+       <record id="1513148887vw8ikqst38" name="Changing directory to a network share using Bash on Windows 10" author="" url="https://social.technet.microsoft.com/Forums/windows/en-US/6535501e-220d-43d5-b954-e5679ccb0875/changing-directory-to-a-network-share-using-bash-on-windows-10?forum=win10itproapps" tags="win_bash" ctime="20171213100807" dir="1513148887tl3jopu7h7" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1499162700w1303x4455" name="encoding">
@@ -928,6 +928,7 @@
     <node crypt="" id="1507711375ulxg9hnavf" name="commands">
      <recordtable>
       <record id="1507711381cw1z6cg6p5" name="remove" author="" url="" tags="git_commands" ctime="20171011114301" dir="15077113810nhuxaruz9" file="text.html"/>
+      <record id="15131498060y90mddkul" name="How to pull force with overwriting local files?" author="" url="" tags="git_commands" ctime="20171213102326" dir="15131498061sv7ntpa27" file="text.html"/>
      </recordtable>
     </node>
    </node>
