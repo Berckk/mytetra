@@ -1152,6 +1152,11 @@
       <recordtable>
        <record id="1494509527mfcxq7lqcr" name="Метода" author="" url="http://automated-testing.info/t/sikuli-vs-eggplant/2057/4" tags="testing.tools.sikuli" ctime="20170511163207" dir="14945095275jrfj7eau8" file="text.html"/>
       </recordtable>
+      <node crypt="" id="15131861470srbtdgi02" name="steps">
+       <recordtable>
+        <record id="1513186160q207iu2wnz" name="Открыть тестовый сеанс предприятия 1с" author="" url="" tags="" ctime="20171213202920" dir="15131861602q2fdufrt3" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node crypt="" id="1495518289eqwr6f29se" name="video">
