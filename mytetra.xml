@@ -1195,6 +1195,13 @@
       <node crypt="" id="1513609326v1joh36ksu" name="docs sourses">
        <recordtable>
         <record id="15136093464fh91i5uig" name="Robot Framework Tutorial 201" author="https://blog.codecentric.de/en/2016/01/robot-framework-tutorial-2016-installation/" url="" tags="" ctime="20171218180226" dir="15136093469vu88yjy0e" file="text.html"/>
+        <record id="15136104815ae831lywi" name="Robot Framework Quick Start Guide" author="" url="https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst" tags="" ctime="20171218182121" dir="1513610481y5c3phkd0s" file="text.html"/>
+        <record id="1513610664r6xojn3agc" name="How to write good test cases using Robot Framework" author="" url="https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst" tags="" ctime="20171218182424" dir="151361066428y39dlmuv" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1513610537gj6p80chkj" name="tools">
+       <recordtable>
+        <record id="1513610551jd75zpoe6j" name="robotframework-lint" author="" url="https://github.com/boakley/robotframework-lint" tags="" ctime="20171218182231" dir="1513610551nuk52hil5w" file="text.html"/>
        </recordtable>
       </node>
      </node>
