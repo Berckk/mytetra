@@ -1190,6 +1190,15 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1513609308cknz2e1s68" name="frameworks">
+     <node crypt="" id="15136093160o37absli3" name="robot framework">
+      <node crypt="" id="1513609326v1joh36ksu" name="docs sourses">
+       <recordtable>
+        <record id="15136093464fh91i5uig" name="Robot Framework Tutorial 201" author="https://blog.codecentric.de/en/2016/01/robot-framework-tutorial-2016-installation/" url="" tags="" ctime="20171218180226" dir="15136093469vu88yjy0e" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1474434490qezdvad6ml" name="translates">
     <recordtable>
