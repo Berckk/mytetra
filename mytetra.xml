@@ -429,7 +429,7 @@
       </node>
       <node crypt="" id="1513749109b6kjhnbsz1" name="platform built-in">
        <recordtable>
-        <record id="1513749116vi03zfw5ei" name="example" author="" url="" tags="" ctime="20171220085156" dir="1513749116amv5ydo9q2" file="text.html">
+        <record id="1513749116vi03zfw5ei" name="UI testing example" author="" url="" tags="" ctime="20171220085156" dir="1513749116amv5ydo9q2" file="text.html">
          <files>
           <file id="1513749122fdzvoaw13r" fileName="Тест.epf" type="file"/>
          </files>
