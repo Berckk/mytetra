@@ -1216,6 +1216,13 @@
       </node>
      </node>
     </node>
+    <node crypt="" id="1513750410177g8cugp7" name="tdd">
+     <node crypt="" id="1513750417ymttpfrrue" name="articles">
+      <recordtable>
+       <record id="1513750434lkad38ck7t" name="TDD Your UI Layer" author="" url="http://www.donnfelker.com/tdd-your-ui-layer/" tags="" ctime="20171220091354" dir="15137504349jjv130u4q" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="0" icon="" id="1474434490qezdvad6ml" name="translates">
     <recordtable>
