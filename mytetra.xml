@@ -427,6 +427,15 @@
         </record>
        </recordtable>
       </node>
+      <node crypt="" id="1513749109b6kjhnbsz1" name="platform built-in">
+       <recordtable>
+        <record id="1513749116vi03zfw5ei" name="example" author="" url="" tags="" ctime="20171220085156" dir="1513749116amv5ydo9q2" file="text.html">
+         <files>
+          <file id="1513749122fdzvoaw13r" fileName="Тест.epf" type="file"/>
+         </files>
+        </record>
+       </recordtable>
+      </node>
      </node>
      <node crypt="0" icon="" id="14726575359q9go55ytg" name="Модульное">
       <node crypt="0" icon="" id="1473159069qebb5fiiij" name="xUnit">
