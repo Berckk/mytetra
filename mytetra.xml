@@ -390,6 +390,12 @@
        <node crypt="" id="151383789421lbst0uir" name="tdd">
         <recordtable>
          <record id="151383790140d4d0aevg" name="links" author="" url="" tags="" ctime="20171221093141" dir="1513837901uptccxen6l" file="text.html"/>
+         <record id="1513838176stxwam5p6e" name="tdd sorta" author="" url="https://www.autoitscript.com/forum/topic/46909-unit-testing-in-autoitsorta/" tags="" ctime="20171221093616" dir="1513838176gy5ttywv9o" file="text.html">
+          <files>
+           <file id="1513838215i23iszc3ff" fileName="Testing.au3" type="file"/>
+           <file id="15138382183yuxfcyhvx" fileName="CalcCore.zip" type="file"/>
+          </files>
+         </record>
         </recordtable>
        </node>
       </node>
