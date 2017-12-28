@@ -100,14 +100,21 @@
       <recordtable>
        <record id="1500288715jebd32xt0p" name="How to start a program on remote computer" author="" url="https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/" tags="" ctime="20170717135155" dir="15002887156xi0t9itai" file="text.html"/>
        <record id="1500289096di1579ig9s" name="To start remote-session" author="" url="" tags="" ctime="20170717135816" dir="150028909608wbmdsir0" file="text.html"/>
-       <record id="15008057129f9ye83rtu" name="Как передать в переменную параметры авторизации" author="" url="" tags="" ctime="20170723132832" dir="1500805712dufo9bk29d" file="text.html"/>
-       <record id="15008062679aciau5myz" name="How to set alias" author="" url="" tags="" ctime="20170723133747" dir="1500806267643vwl0vr8" file="text.html"/>
-       <record id="15008068236tknrasoum" name="How to remove alias" author="" url="" tags="" ctime="20170723134703" dir="1500806823ss1iezup0i" file="text.html"/>
-       <record id="1509429957xs0g44p091" name="How to set alias for directory" author="" url="" tags="" ctime="20171031090557" dir="1509429957qw5kkfamy4" file="text.html"/>
       </recordtable>
       <node crypt="" id="1509614717bvli9fs2iv" name="user settings">
        <recordtable>
         <record id="1509614791kx4psu2viz" name="profile1.psl" author="" url="https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases" tags="" ctime="20171102122631" dir="150961479192gqjcvup1" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="15144444364la3yb1h4s" name="how to">
+       <recordtable>
+        <record id="1514444481n6sl1f3p1n" name="How to delete all files in directory" author="" url="" tags="" ctime="20171228100121" dir="1514444481tzm4ibd8hh" file="text.html"/>
+        <record id="15008057129f9ye83rtu" name="Как передать в переменную параметры авторизации" author="" url="" tags="" ctime="20171228100144" dir="1500805712dufo9bk29d" file="text.html"/>
+        <record id="15008062679aciau5myz" name="How to set alias" author="" url="" tags="" ctime="20171228100155" dir="1500806267643vwl0vr8" file="text.html"/>
+        <record id="15144445206ewkcux2td" name="How to set alias" author="" url="" tags="" ctime="20171228100200" dir="1514444520yutmwife7b" file="text.html"/>
+        <record id="15008068236tknrasoum" name="How to remove alias" author="" url="" tags="" ctime="20171228100218" dir="1500806823ss1iezup0i" file="text.html"/>
+        <record id="1509429957xs0g44p091" name="How to set alias for directory" author="" url="" tags="" ctime="20171228100226" dir="1509429957qw5kkfamy4" file="text.html"/>
+        <record id="15144445183rdx1euat5" name="How to set alias" author="" url="" tags="" ctime="20171228100232" dir="1514444518tk0651dwwu" file="text.html"/>
        </recordtable>
       </node>
      </node>
