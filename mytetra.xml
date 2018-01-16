@@ -1268,9 +1268,10 @@
       <record id="14938794817x6c9c6uv6" name="links" author="" url="" tags="markdown" ctime="20170504093121" dir="1493879481pju3ep5y0g" file="text.html"/>
       <record id="1493979454219z7ozx7n" name="Сделать конспект" author="" url="" tags="markdown" ctime="20170505131734" dir="1493979454uhimwc0col" file="text.html"/>
       <record id="1493979840p07pyjm1ne" name="Краткая справка по разметке" author="" url="" tags="markdown" ctime="20170505132400" dir="1493979840a4xu5rbh9g" file="text.html"/>
-      <record id="1494003326arzjkyjgvu" name="online tuturial" author="" url="http://www.markdowntutorial.com/" tags="markdown.tuturial" ctime="20170505195526" dir="1494003326nle7jz077l" file="text.html"/>
-      <record id="1494004070vu31qu8nss" name="examples" author="" url="" tags="markdown.examples" ctime="20170505200750" dir="1494004070qaqh8oquyk" file="text.html"/>
-      <record id="1494503931th43qqh6zx" name="Онлайн генератор таблиц" author="" url="http://www.tablesgenerator.com/markdown_tables" tags="markdown.tablegenerator" ctime="20170511145851" dir="1494503931ixqk5kcrv7" file="text.html"/>
+      <record id="1494003326arzjkyjgvu" name="online tuturial" author="" url="http://www.markdowntutorial.com/" tags="markdown" ctime="20170505195526" dir="1494003326nle7jz077l" file="text.html"/>
+      <record id="1494004070vu31qu8nss" name="examples" author="" url="" tags="markdown" ctime="20170505200750" dir="1494004070qaqh8oquyk" file="text.html"/>
+      <record id="1494503931th43qqh6zx" name="Онлайн генератор таблиц" author="" url="http://www.tablesgenerator.com/markdown_tables" tags="markdown" ctime="20170511145851" dir="1494503931ixqk5kcrv7" file="text.html"/>
+      <record id="1516109459k4fw20z7rq" name="Кросс-платформенный минималистичный Markdown-редактор," author="" url="https://tamlok.github.io/vnote/?utm_source=telegram.me&amp;utm_medium=social&amp;utm_campaign=esche-odin-kross-platformennyy-minimalisti&amp;utm_content=15457496" tags="markdown" ctime="20180116163059" dir="1516109459colfawd9dl" file="text.html"/>
      </recordtable>
      <node crypt="" id="1508339327mekzhu2dsb" name="editors">
       <recordtable>
